@@ -5,7 +5,7 @@ A tool that suggests updates to the official wiki based on the current game file
 The following assumes a Windows Steam installation of AtS:
 1. Ensure you have `node` installed and `npm install` is run.
 2. Unpack the latest release of [AssetRipper](https://github.com/AssetRipper/AssetRipper/releases) into `/tools/AssetRipper`.
-3. Use `npm run extract` to unpack the game files into `/input/game`.
+3. Use `npm run datamine` to unpack the game files into `/input/game`.
 4. Use `npm run download` to update the local snapshot of the online wiki into `/input/wiki`.
 5. Use `npm run suggest` to spawn a fresh wiki into `/output`, along with a report html file.
 
