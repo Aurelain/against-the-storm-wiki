@@ -1,0 +1,10 @@
+Roads increase the speed of all villagers traveling on it. Each square requires 2 seconds to be built.
+{| class="wikitable"
+! Road !! Cost !! Speed increase !! Description
+|-
+| [[File:Path icon.png|60px]] Path || Free || 5% || ''A simple path.''
+|-
+| [[File:paved Road icon.png|60px]] Paved Road || 1 Stone || 15% || ''A road made out of stone.''
+|-
+| [[File:reinforced Road icon.png|60px]] Reinforced Road || 1 Copper Ore || 25% || ''A road reinforced with copper.''
+|}

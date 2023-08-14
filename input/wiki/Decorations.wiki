@@ -1,0 +1,116 @@
+= Decorations =
+
+Decorations are used to advance [[Hearth#Hearth Upgrades | Hearths]]. All Decorations take 10 seconds to be constructed. You can unlock more Decorations via [[Smoldering City#Deeds | Deeds]]. You can also Convert certain [[Glade Events]] into unique Decorations with special effects.
+
+There are three different kinds of Decorations:
+* '''Comfort''': Even the most rudimentary encampment needs distractions.
+* '''Aesthetics''': The more a settlement grows, the more demand there is for beauty.
+* '''Harmony''': Peace of mind can be as important as shelter and food in these harsh lands.
+
+== Starting Decorations ==
+
+{| class="wikitable"
+! Decoration !! Type !! Value !! Cost
+|-
+| [[File:Bank icon.png|60px]] Bench || rowspan=5 | Comfort || rowspan=4 | Counts as 1 Decoration || rowspan=4 | [[File:Wood.png|25px]] 2 Wood
+|-
+| [[File:Barrels icon.png|60px]] Barrels
+|-
+| [[File:Fence icon.png|60px]] Fence
+|-
+| [[File:CornerFence icon.png|60px]] Fence Corner
+|-
+| [[File:Park.png|60px]] Park || Counts as 4 Decorations || [[File:Wood.png|25px]] 8 Wood
+|-
+| [[File:Bush icon.png|60px]] Bush || rowspan=3 | Aesthetics || rowspan=2 | Counts as 1 Decoration || rowspan=2 | [[File:Planks.png|25px]] 1 Planks
+|-
+| [[File:Flower Bed icon.png|60px]] Flower Bed
+|-
+| [[File:Garden.png|60px]] Garden || Counts as 4 Decorations || [[File:Planks.png|25px]] 4 Planks
+|-
+| [[File:Fire Shrine icon.png|60px]] Fire Shrine || rowspan=2 | Harmony || rowspan=2 | Counts as 1 Decoration || rowspan=2 | [[File:Planks.png|25px]] 1 Planks<br>[[File:Fabric.png|25px]] 1 Fabric<br>[[File:Bricks.png|25px]] 1 Bricks
+|-
+| [[File:Lizard Post icon.png|60px]] Lizard Post
+|}
+
+== Decorations from Deeds ==
+
+Some [[Smoldering City#Deeds | Deeds]] will reward you with additional Decorations.
+
+{| class="wikitable"
+! Decoration !! Type !! Value !! Cost !! Earned From
+|-
+| Crates || rowspan=13 | Comfort || rowspan=12 | Counts as 1 Decoration ||  || Trade Connections
+|-
+| Water Barrels ||  || Rare Technology
+|-
+| Rainpunk Barrels ||  || Into The Forest
+|-
+| Valve ||  || Flooded Mines
+|-
+| Pipes ||  || Overcoming Difficulty
+|-
+| Pipe Cross ||  || Sparkdew Crystals
+|-
+| Pipe T-Connector ||  || Beaver Utopia
+|-
+| Pipe Elbow ||  || Prestigious Expedition 1
+|-
+| Pipe Ending ||  || A Real Challenge
+|-
+| Wall ||  || Thick Clouds
+|-
+| Wall Corner ||  || Lost Colonies
+|-
+| Wall Crossing ||  || Cursed Lands
+|-
+| Gate || Counts as 3 Decorations ||  || Barren Lands
+|-
+| Road Sign || rowspan=8 | Aesthetics || rowspan=8 | Counts as 1 Decoration ||  || Victory Through Resolve
+|-
+| Lamp ||  || Big Settlement 1
+|-
+| Signboard ||  || Homesick 1
+|-
+| Anvil ||  || Ruined Armory
+|-
+| Night Fern ||  || Cycle of the Wilds
+|-
+| Golden Leaf Plant ||  || Thorough Exploration
+|-
+| Coral Growth ||  || The Reef
+|-
+| Decorative Fungus ||  || Deadly Spores
+|-
+| Umbrella || rowspan=3 | Harmony || Counts as 1 Decoration ||  || Harpy Utopia
+|-
+| Ancient Tombstone || Counts as 2 Decorations ||  || Orders From The Queen
+|-
+| Ancient Arch || Counts as 3 Decorations ||  || A True Leader
+|}
+
+== Decorations from Glade Events ==
+
+{| class="wikitable"
+! Decoration !! Type !! Value !! Effect !! Flavor Text
+|-
+| Inscribed Monolith: Lore Tablet I || rowspan=10 | Harmony || Counts as 2 Decorations || ''none'' || ''Born in the Blightstorm, she will climb the Red Mountain.  The fires beneath her feet shall hiss her name.''
+|-
+| Inscribed Monolith: Lore Tablet II || Counts as 2 Decorations || ''none'' || ''Though sealed beneath the muddy ground, their voices ring loud and clear. Maddening, alluring.''
+|-
+| Inscribed Monolith: Lore Tablet V || Counts as 2 Decorations || ''none'' || ''It pours, yet it does not flood. As if the earth itself greedily drinks every last drop of this eternal curse.''
+|-
+| Inscribed Monolith: Lore Tablet VI || Counts as 2 Decorations || ''none'' || ''Embrace the Eternal Rain, for it powers the engine of progress.''
+|-
+| Inscribed Monolith: Lore Tablet VII || Counts as 2 Decorations || ''none'' || ''Don't let the pleasant sparking of the raindrops fool you. This is just the first sign of your flesh rotting.''
+|-
+| Termite Nest || Counts as 4 Decorations || Gain +5 [[Insects]]/min || ''A contained stonetooth termite burrow. It now serves as a source of edible insects.''
+|-
+| Converted Totem of Denial || Counts as 4 Decorations || +3 to Global Resolve || ''A Totem of Denial cleansed by the Holy Flame.''
+|-
+| Converted Rain Totem || Counts as 4 Decorations || -50 to Hostility || ''A Rain Spirit Totem, cleansed by the Holy Flame.''
+|-
+| Converted Harmony Spirit Altar || Counts as 9 Decorations || +2 Global Resolve per Service Building || ''When your villagers' needs are met, Harmony is fostered.''
+|-
+| Converted Fishmen Lighthouse || Counts as 9 Decorations || Gain +5 [[Sea Marrow]]/min || ''A tall bone structure built by the Fishmen. It has been repurposed and now serves as a source of Sea Marrow.''
+|}

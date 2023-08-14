@@ -1,0 +1,81 @@
+[[File:PickledGoods.png|border|right|link=]]
+<blockquote>A Beaver specialty. Produced by: Field Kitchen, Granary, Cellar, Brewery, Flawless Brewery.</blockquote>
+
+Pickled Goods are [[Resources#Complex_Food|Complex Food]] preferred by [[Beavers]] and [[Lizards]]. Each of your [[Villagers]] that [[Complex Food Need|fulfills their need for Pickled Goods]] receives a bonus to their [[Resolve]].
+
+
+== Produced in ==
+
+Pickled Goods are produced in the following [[Buildings]]:
+
+Three-star Buildings
+* [[Brewery#Flawless Brewery|Flawless Brewery]] ({{3Star}})
+Two-star Buildings
+* [[Granary]] ({{2Star}})
+One-star Buildings
+* [[Brewery]] ({{1Star}}) (available at early [[Level]]s)
+* [[Celllar]] ({{1Star}})
+Zero-star Buildings
+* [[Field Kitchen]] ({{0Star}})
+
+
+
+== Recipes ==
+
+Before any [[Perks]] are applied, the [[Recipe]] for Pickled Goods in most [[Buildings]] yields 10. However if you find and can rebuild a [[Flawless Brewery]], its Recipe ({{3Star}}) yields 15 Pickled Goods. In the Granary ({{2Star}}), the Recipe requires 5 food ingredients and 2 or 3 of the storage ingredients. In the one-star ({{1Star}}) Buildings, the Recipe requires 6 food ingredients and 3 storage ingredients. In the zero-star Field Kitchen ({{0Star}}), the Recipe requires 7 food ingredients and 3 storage ingredients.
+
+{|style="border-style:solid; border-color:BurlyWood; border-width:2px; border-spacing:8px"
+| [[File:Granary icon.png|86px]]
+| [[Granary]] <br /> {{2Star}} <br /> 1:30 <br /> {{Blight1}}
+| 5 [[File:Vegetables.png|32px]] [[Vegetables]] <br /> 5 [[File:Mushrooms.png|32px]] [[Mushrooms]] <br /> 5 [[File:Roots.png|32px]] [[Roots]] <br /> 5 [[File:Berries.png|32px]] [[Berries]] <br /> 5 [[File:Eggs.png|32px]] [[Eggs]]
+| +
+| 3 [[File:Pottery.png|32px]] [[Pottery]] <br /> 3 [[File:Barrels.png|32px]] [[Barrels]] <br /> 2 [[File:Waterskins.png|32px]] [[Waterskins]]
+| =
+| 10 [[File:PickledGoods.png|64px]] [[PickledGoods]]
+|}
+
+== Sources and Strategies ==
+
+Pickled Goods are a typical reward from [[Orders]], especially ones involving the [[Beavers]], which can reward 40 Pickled Goods.
+
+There is an Order that requires you to [[Complex Food Need|fulfill the need for Pickled Goods]] in a certain number of your [[Villagers]]. Take note that this means that that many need to simultaneously have the need fulfilled and then held at that level for the duration of the timer. Therefore, you cannot complete this Order until you have at least that many combined [[Beavers]] and [[Lizards]] in your settlement. Further, if your production is slow or you can only afford to buy a few from the [[Trade]]r, consider [[Consumption Control|disabling consumption for Pickled Goods]] until you can be certain that it will be used quickly and can sustain the duration of the timer for the Order.
+
+Pickled Goods can be acquired from a [[Trade]]r. They have a value of 0.20 {{Amber}} [[Amber]], therefore a stack of 40 is worth 8.0 {{Amber}} to the Trader.
+
+If you have an automatic and regular source of the container ingredient, for example, [[Over-Diligent Woodworkers]] (free Barrels when producing Planks) or [[Pottery Deliver Line]] (5 Pottery/min), then Pickled Goods can be one of the first Complex Foods you can produce in your settlement. Unlike other Complex Foods, however, before you're high enough level to unlock the [[Granary]], you only have access to [[Blueprints]] of Buildings with one-star ({{1Star}}) [[Recipes]] for Pickled Goods.
+
+=== Production Chain ===
+
+The production chain for Pickled Goods looks like this.
+
+==== First Ingredient: Food ====
+
+Options:
+
+* [[Fertile Soil]] is improved to a [[Farm Field]], which when worked by a [[Plantation]] produces [[Berries]] ({{2Star}}).
+* [[Fertile Soil]] is improved to a [[Farm Field]], which when worked by a [[Small Farm]] produces [[Vegetables]] ({{1Star}}).
+* A [[Root Deposit]] worked by a [[Scavengers' Camp]] produces [[Roots]] ({{1Star}}).
+* A [[Dewberry Bush]] or [[Bleeding Tooth Mushroom]] worked by a [[Herbalists' Camp]] produces [[Berries]] ({{1Star}}) or [[Mushrooms]] ({{1Star}}), respectively.
+* A [[Moss Broccoli Patch]] worked by a [[Foragers' Camp]] produces [[Vegetables]] ({{1Star}}).
+
+==== Second Ingredient: Container ====
+
+Pottery Option:
+
+# A [[Clay Deposit]] worked by a [[Stonecutters' Camp]] produces [[Clay]] ({{1Star}}).
+# A [[Bakery]] ({{2Star}}) or [[Brickyard]] ({{2Star}}) takes the [[Clay]] and uses [[Wood]] (or another [[Fuel]]) to produce [[Pottery]].
+
+Waterskins Option:
+
+# A [[Slickshell Broodmother]] worked by a [[Trappers' Camp]] produces both [[Leather]] ({{1Star}}) and [[Meat]] ({{1Star}}).
+# A [[Leatherworker]] ({{3Star}}) uses both the [[Leather]] and [[Meat]] to produce [[Waterskins]].
+
+
+== Related and Supporting Perks ==
+
+* [[Archaeological Tools]]: Gain 20 [[Pottery]] every time you discover a new [[Glade]].
+* [[Family Gratitude]]: Get 40 [[Waterskins]] for every full [[Reputation]] Point obtained through high [[Resolve]]. 
+* [[Over-Diligent Woodworkers]]: Gain 3 [[Barrels]] for every 10 [[Planks]] produced. 
+* [[Pottery Delivery Line]]: 5 [[Pottery]] per minute.
+* [[Root Delivery Line]]: 3 [[Roots]] per minute.
+* [[Vegetable Delivery Line]]: 3 [[Vegetables]] per minute.

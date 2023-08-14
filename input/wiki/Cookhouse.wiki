@@ -1,0 +1,60 @@
+[[File:Cookhouse icon.png|border|right|link=]]
+<blockquote>Can produce [[File:Skewers.png|x16px|link=]] Skewers (★★), [[File:Biscuits.png|x16px|link=]] Biscuits (★★), [[File:Pigment.png|x16px|link=]] Pigment (★★). Can't be moved. Size: 4x3.</blockquote>
+
+
+The Cookhouse is a [[Building|Food Production Building]] that is available from the beginning of the game as a [[Blueprint]] you can choose on each mission. It has a larger footprint than the other Buildings that make similar products.
+
+== Construction ==
+
+The Cookhouse's footprint is 4x3, which is bigger than most other Buildings. It takes 00:50 to build.
+
+Construction requires:
+* 8 [[File:Planks.png|32px]] [[Planks]]
+* 4 [[File:Bricks.png|32px]] [[Bricks]]
+
+
+== Workers ==
+
+[[File:Worker Circle Widget.png|64px|link=]] [[File:Worker Circle Widget.png|64px|link=]] [[File:Worker Circle Widget.png|64px|link=]] [[File:Worker Circle Widget.png|64px|link=]]
+
+The Cookhouse has space for 4 [[Workers]], which is more than most other Buildings.
+
+The Cookhouse's [[Specialization]] is [[File:Icon Spec Fire 64x64.png|16px|link=]] [[Warmth Specialization|Warmth]]. This is a '''Comfortable''' Specialization type, so the [[Lizards]] that work in the Cookhouse will gain +5 to their [[Resolve]].
+
+== Recipes ==
+
+The Cookhouse produces two [[Resources#Complex Food|Complex Foods]] and [[Pigment]], which is a [[Resources#Crafting Materials|Crafting Material]] used in [[Scrolls]] (for [[Education]]) and [[Cosmetics]] (for [[Cleanliness]]) or for producing [[Pack of Trade Goods|Packs of Trade Goods]].
+
+{{Recipe||Cookhouse}}
+
+
+== Strategy ==
+
+Being able to make both [[Skewers]] and [[Biscuits]] in one Building means the Cookhouse can satisfy at least one [[Complex Food Need]] from any [[Species]] in your settlement. It is especially great for [[Harpies]], who only need [[Jerky]] from elsewhere to have all their Complex Food Needs met.
+
+If you don't have [[Beavers]] in your map, then [[Jerky]] is everyone's Complex Food. Be careful not to spend all of your Jerky as ingredients for [[Skewers]], despite the efficiency of using the Jerky as the Skewers ingredient.
+
+
+The Cookhouse is one of just a few [[Buildings]] that can produce two different [[Complex Food Need|Complex Foods]]. This short list includes:
+* [[Bakery]] produces [[Biscuits]] (★★) and [[Pie]] (★★)
+* [[Butcher]] produces [[Skewers]] (★★) and [[Jerky]] (★★), which leaves out [[Beavers]]' Complex Food Needs
+* [[Cellar]] produces [[Pickled Goods]] (★) and [[Jerky]] (★)
+* [[Cookhouse]] produces [[Skewers]] (★★) and [[Biscuits]] (★★)
+
+
+You can park extra [[Lizards]] in the Cookhouse if their Resolve is low. Having four Worker slots means a Cookhouse can make the difference between Lizards leaving or not.
+
+=== Production Chains ===
+
+''Main articles: [[Skewers#Production Chain|Skewers]], [[Biscuits#Production Chain|Biscuits]], and [[Pigment#Production Chain|Pigment]]''
+
+[[Berries]] are an important ingredient in the Cookhouse's [[Recipes]]. And [[Insects]] are in two of the three Recipes. If you have a sustainable supply of Berries, Insects, and [[Flour]], then you can make everything the Cookhouse offers.
+
+
+If your settlement produces excess [[Grain]] (or Flour from Grain), consider adding a [[Ranch]], which can use that Grain to produce both the [[Meat]] and [[Eggs]] that the Cookhouse can turn into Skewers.
+
+
+Unless you're getting the Cookhouse for Skewers, you will need a source of Flour before the Cookhouse can be most effective and make both its [[Complex Food]]s. Make sure you get a [[Provisioner]] (★★), [[Supplier]] (★★), or [[Rain Mill]] (★★★) going first, so your [[Workers]] can start making [[Biscuits]] right away.
+
+
+Making [[Jerky]] first is a big multiplier for turning [[Insects]] or [[Meat]] into Skewers. If you have the [[Smokehouse]] or [[Butcher]], for example, and can afford to spend [[Fuel]]-type Resources, you can multiply the number of Skewers you get from Insects or Meat by more than 3x by first making them into Jerky.

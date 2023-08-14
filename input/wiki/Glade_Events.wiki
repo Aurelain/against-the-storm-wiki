@@ -1,0 +1,13 @@
+[[File:ATSgladeevent.PNG|thumb|A Glade Event is encountered after exploring a glade]]
+
+When exploring [[Glades]], a player may often encounter structures or creatures within the glades, called '''Glade Events'''. These events are recognizable by an overhead exclamation mark, and often take the appearance of a ruined building, a survivor encampment, abandoned caches, etc. Events found in [[Dangerous Glades]] or [[Forbidden Glades]] are paramount to be handled quickly, as they often may pose a threat to your settlement if leaving unattended for too long.
+
+Each kind of Glade Events always offers an option of two choices, which (depending on the event) most of the time could be deconstructing them for [[Resources]], repairing the building or recruiting the survivors to expand your settlement, or to send all results to the Citadel in exchange for [[Amber]], and sometimes [[Reputation]]. Investigating a Glade Event always comes paired with a cost. Either with a payment of certain resources, a temporary effect affecting your settlement, or both. Each are explained in depth on the specific events below.
+
+== Glade Event Types ==
+There are five types of Glade Events:
+* [[Abandoned Caches]]
+* [[Survivor Camps]]
+* [[Ruined Buildings]]
+* [[Dangerous Events]]
+* [[Forbidden Events]]

@@ -1,0 +1,405 @@
+
+<!-- Since this is designed to be a transclusion to [[Buildings]], the heading levels are all one level lower than normal, so that this can fit under the L2 heading on Buildings#List_of_Buildings. -->
+<noinclude>
+
+This is a list of all [[Buildings]] in the game. See the main article on [[Buildings]] for strategies and descriptions of how to use them in the game.
+</noinclude>
+=== Starting Buildings ===
+
+Every settlement starts with an [[Ancient Hearth]] and [[Main Warehouse]].
+
+{|class="wikitable"
+|+Buildings every settlement starts with
+! Building !! Purpose !! Number of Workers !! Specialization
+|-
+| [[File:Small Hearth icon.png|128px]] [[Ancient Hearth]]
+| Heats nearby [[Housing]]. [[Villagers]] gather here to [[Resting|Rest]], eat, and receive [[Clothing]].
+| 1
+| [[File:Icon_Spec_Fire_64x64.png|16px]] [[Warmth]]
+|-
+| [[File:Main_Storage_icon.png|128px]] [[Main Warehouse]]
+| Stores [[Resources]]. [[Workers]] deliver and take goods from the [[Warehouse]] nearest to them.
+| ''none''
+| ''none''
+|}
+
+
+=== Camps ===
+
+''Main article: [[Camps]]''
+
+[[File:Construct Camps.png|x32px|Camps|link=]]
+
+[[Camps]] are starting points for your settlement to go out into the wild to gather [[Resources]] from the map in a small area around them with an efficiency of one star ({{1Star}}). Selecting a Camp from the construction menu will highlight this collection [[Buildings#Range|range]] and the Resource Deposits or [[Trees]] from which the Camp can gather.  All camps require [[Parts]] and some require [[Wood]] and take 14 or 15 seconds to be constructed. All Camps can be moved for free.
+
+{| class="wikitable sortable"
+|+ Gathering Camps and what they gather
+|-
+! Building !!class="unsortable"| Place near this !!class="unsortable"| Primary resource gathered !! Number<br />of<br /> Workers !! Specialization !!class="unsortable"| Cost to build
+|-
+| [[File:Forager's Camp icon.png|96px]] [[Foragers' Camp]]
+| [[File:DebugNode WormtongueNestSmall icon.png|32px]] [[Wormtongue Nest]] <br /> [[File:DebugNode SwampWheatSmall icon.png|32px]] [[Swamp Wheat Field]] <br /> [[File:DebugNode MossBroccoliSmall icon.png|32px]] [[Moss Broccoli Patch]]
+| [[File:Insects.png|32px]] [[Insects]] <br /> [[File:Grain.png|32px]] [[Grain]] <br /> [[File:Vegetables.png|32px]] [[Vegetables]]
+| 2
+| [[File:Icon Spec Farm 64x64.png|16px]] [[Farming]]
+| [[File:Wood.png|32px]] 10 [[Wood]] <br /> [[File:Parts.png|32px]] 3 [[Parts]]
+|-
+| [[File:Harvester Camp icon.png|96px]] [[Harvesters' Camp]]
+| [[File:DebugNode FlaxSmall icon.png|32px]] [[Flax Field]] <br /> [[File:DebugNode ReedSmall icon.png|32px]] [[Reed Field]]
+| [[File:PlantFiber.png|32px]] [[Plant Fiber]] <br /> [[File:Reeds.png|32px]] [[Reed]]
+| 2
+| ''none''
+| [[File:Wood.png|32px]] 10 [[Wood]] <br /> [[File:Parts.png|32px]] 3 [[Parts]]
+|-
+| [[File:Herbalist's_Camp_icon.png|96px]] [[Herbalists' Camp]]
+| [[File:DebugNode DewberryBushSmall icon.png|32px]] [[Dewberry Bush]] <br /> [[File:DebugNode HerbsSmall icon.png|32px]] [[Herb Deposit]] <br /> [[File:DebugNode MushroomSmall icon.png|32px]] [[Bleeding Tooth Mushroom]]
+| [[File:Berries.png|32px]] [[Berries]] <br /> [[File:Herbs.png|32px]] [[Herbs]] <br /> [[File:Mushrooms.png|32px]] [[Mushrooms]]
+| 2
+| [[File:Icon Spec Alchemy 64x64.png|16px]] [[Alchemy]]
+| [[File:Wood.png|32px]] 10 [[Wood]] <br /> [[File:Parts.png|32px]] 3 [[Parts]]
+|-
+| [[File:Scavenger Camp icon.png|96px]] [[Scavengers' Camp]]
+| [[File:DebugNode_SnakeNestSmall_icon.png|32px]] [[Snake Nest]] <br /> [[File:DebugNode StormbirdNestSmall icon.png|32px]] [[Stormbird Nest]] <br /> [[File:DebugNode RootsSmall icon.png|32px]] [[Roots Deposit]]
+| [[File:Eggs.png|32px]] [[Eggs]] <br /> [[File:Roots.png|32px]] [[Roots]]
+| 2
+| ''none''
+| [[File:Wood.png|32px]] 10 [[Wood]] <br /> [[File:Parts.png|32px]] 3 [[Parts]]
+|-
+| [[File:Stonecutter's Camp icon.png|96px]] [[Stonecutters' Camp]]
+| [[File:DebugNode ClaySmall icon.png|32px]] [[Clay Deposit]] <br /> [[File:DebugNode SeaMarrowSmall icon.png|32px]] [[Sea Marrow Deposit]] <br /> [[File:DebugNode StoneSmall icon.png|32px]] [[Stone Deposit]]
+| [[File:Clay.png|32px]] [[Clay]] <br /> [[File:SeaMarrow.png|32px]] [[Sea Marrow]] <br /> [[File:Stone.png|32px]] [[Stone]]
+| 2
+| ''none''
+| [[File:Wood.png|32px]] 10 [[Wood]] <br /> [[File:Parts.png|32px]] 3 [[Parts]]
+|-
+| [[File:Woodcutters Camp icon.png|96px]] [[Woodcutters' Camp]]
+| [[Tree]]s
+| [[File:Wood.png|32px]] [[Wood]]
+| 3
+| [[File:Icon Spec Wood 64x64.png|16px]] [[Wood Specialization|Wood]]
+| [[File:Parts.png|32px]] 2 [[Parts]]
+|-
+| [[File:Trapper's Camp icon.png|96px]] [[Trappers' Camp]]
+| [[File:DebugNode_SnakeNestSmall_icon.png|32px]] [[Snake Nest]] <br /> [[File:DebugNode StormbirdNestSmall icon.png|32px]] [[Stormbird Nest]] <br /> [[File:DebugNode SnailBroodmotherSmall icon.png|32px]] [[Slickshell Broodmother]]
+| [[File:Eggs.png|32px]] [[Eggs]] <br /> [[File:Meat.png|32px]] [[Meat]]
+| 2
+| [[File:Icon_Spec_Meat_64x64.png|16px]] [[Meat Production]]
+| [[File:Wood.png|32px]] 10 [[Wood]] <br /> [[File:Parts.png|32px]] 3 [[Parts]]
+|}
+
+
+=== Food Production ===
+
+Food production Buildings include [[Farms]] and Buildings whose primary purpose is [[Recipes]] for food. Many of these buildings also produce non-food items from farming or include non-food Recipes. This may give you more options or less in choosing your [[Blueprints]], depending on how strict your needs are. The [[Farm Field]] takes only 3 seconds to construct. The Farms take 30 seconds to build. The other food production Buildings take 30, 40, or 50 seconds to build, roughly corresponding to the Building's size.
+
+{| class="wikitable sortable"
+|+ Food production buildings and their products
+|-
+! Building !!class="unsortable"| Products !! Number<br />of<br />workers !! Specialization !!class="unsortable"| Cost to build
+|-
+| [[File:Farmfield_icon.png|96px]] [[Farm Field]]
+| Converts [[File:FertileSoil.png|32px]] [[Fertile Soil]] to [[File:Farmfield_icon.png|32px]] [[Farm Field]]s
+| ''none''
+| ''none''
+| ''none''
+|-
+| [[File:HerbGarden_icon.png|96px]] [[Herb Garden]]
+| From nearby [[File:Farmfield_icon.png|32px]] [[Farm Field]]s: <br /> [[File:Roots.png|32px]] [[Roots]] ({{1Star}}) <br/ > [[File:Herbs.png|32px]] [[Herbs]] ({{2Star}})
+| 2
+| [[File:Icon Spec Farm 64x64.png|16px]] [[Farming]]
+| [[File:Planks.png|32px]] 2 [[Planks]]
+|-
+| [[File:Plantation_icon.png|96px]] [[Plantation]]
+| From nearby [[File:Farmfield_icon.png|32px]] [[Farm Field]]s: <br /> [[File:Berries.png|32px]] [[Berries]] ({{2Star}}) <br /> [[File:PlantFiber.png|32px]] [[Plant Fiber]] ({{2Star}})
+| 2
+| [[File:Icon Spec Farm 64x64.png|16px]] [[Farming]]
+| [[File:Planks.png|32px]] 2 [[Planks]]
+|-
+| [[File:SmallFarm_icon.png|96px]] [[Small Farm]]
+| From nearby [[File:Farmfield_icon.png|32px]] [[Farm Field]]s: <br /> [[File:Vegetables.png|32px]] [[Vegetables]] ({{1Star}}) <br /> [[File:Grain.png|32px]] [[Grain]] ({{2Star}})
+| 2
+| [[File:Icon Spec Farm 64x64.png|16px]] [[Farming]]
+| [[File:Planks.png|32px]] 2 [[Planks]]
+|-
+| [[File:Bakery_icon.png|96px]] [[Bakery]] || [[File:Biscuits.png|32px]] [[Biscuits]] ({{2Star}}) <br /> [[File:Pie.png|32px]] [[Pie]] ({{2Star}}) <br /> [[File:Pottery.png|32px]] [[Pottery]] ({{2Star}})
+| 2
+| [[File:Icon_Spec_Fire_64x64.png|16px]] [[Warmth]]
+| [[File:Planks.png|32px]] 5 [[Planks]] <br /> [[File:Fabric.png|32px]] 2 [[Fabric]]
+|-
+| [[File:Cellar_icon.png|96px]] [[Cellar]]
+| [[File:Wine.png|32px]] [[Wine]] ({{3Star}}) <br /> [[File:PickledGoods.png|32px]] [[Pickled Goods]] ({{1Star}}) <Br /> [[File:Jerky.png|32px]] [[Jerky]] ({{1Star}})
+| 2
+| [[File:Icon_Spec_Brewing_64x64.png|16px]] [[Brewing]]
+| [[File:Bricks.png|32px]] 2 [[Bricks]] <br /> [[File:Fabric.png|32px]] 2 [[Fabric]]
+|-
+| [[File:Cookhouse_icon.png|96px]] [[Cookhouse]]
+| [[File:Skewers.png|32px]] [[Skewers]] ({{2Star}}) <br /> [[File:Biscuits.png|32px]] [[Biscuits]] ({{2Star}}) <br /> [[File:Pigment.png|32px]] [[Pigment]] ({{2Star}})
+| 4
+| [[File:Icon_Spec_Fire_64x64.png|16px]] [[Warmth]]
+| [[File:Planks.png|32px]] 8 [[Planks]] <br /> [[File:Bricks.png|32px]] 4 [[Bricks]]
+|-
+| [[File:Ranch_icon.png|96px]] [[Ranch]]
+| [[File:Meat.png|32px]] [[Meat]] ({{1Star}}) <br /> [[File:Leather.png|32px]] [[Leather]] ({{1Star}}) <br /> [[File:Eggs.png|32px]] [[Eggs]] ({{1Star}})
+| 2
+| [[File:Icon_Spec_Meat_64x64.png|16px]] [[Meat Production]]
+| [[File:Planks.png|32px]] 5 [[Planks]]
+|-
+| [[File:Smokehouse_icon.png|96px]] [[Smokehouse]]
+| [[File:Jerky.png|32px]] [[Jerky]] ({{3Star}}) <br /> [[File:Pottery.png|32px]] [[Pottery]] ({{1Star}}) <br /> [[File:Incense.png|32px]] [[Incense]] ({{1Star}})
+| 3
+| [[File:Icon_Spec_Fire_64x64.png|16px]] [[Warmth]] <br /> [[File:Icon_Spec_Meat_64x64.png|16px]] [[Meat Production]]
+| [[File:Planks.png|32px]] 5 [[Planks]] <br /> [[File:Fabric.png|32px]] 2 [[Fabric]]
+|}
+
+
+=== Housing ===
+
+Housing Buildings must be constructed within range of a [[Hearth]] to work. These Buildings satisfy [[Villagers]]' [[Shelter Need|need for Shelter]], and some also satisfy their [[Housing Need|need for their Species-specific Housing]]. All housing Buildings take 40 seconds to be constructed.
+
+{| class="wikitable sortable"
+|+ Housing buildings and their benefits 
+! Building !! Number of places<br />(before any Perks) !! Need Satisfied !! Specific Species !! Cost to Build
+|-
+| [[File:Shelter icon.png|96px]] [[Shelter]]
+| 3
+| [[Sheltered]]
+| ''none''
+| [[File:Wood.png|32px]] 10 [[Wood]]
+|-
+| [[File:Big Shelter icon.png|96px]] [[Big Shelter]]
+| 6
+| [[Sheltered]]
+| ''none''
+| [[File:Planks.png|32px]] 4 [[Planks]]
+|-
+| [[File:Human House icon.png|96px]] [[Human House]]
+| 2
+| [[Human Housing]]
+| [[File:Human circle.png|32px]] [[Humans]]
+| [[File:Planks.png|32px]] 4 [[Planks]] <br /> [[File:Bricks.png|32px]] 2 [[Bricks]]
+|-
+| [[File:Beaver House icon.png|96px]] [[Beaver House]]
+| 2
+| [[Beaver Housing]]
+| [[File:Beaver circle.png|32px]] [[Beavers]]
+| [[File:Planks.png|32px]] 8 [[Planks]]
+|-
+| [[File:Lizard House icon.png|96px]] [[Lizard House]]
+| 2
+| [[Lizard Housing]]
+| [[File:Lizard circle.png|32px]] [[Lizards]]
+| [[File:Fabric.png|32px]] 2 [[Fabric]] <br /> [[File:Bricks.png|32px]] 2 [[Bricks]]
+|-
+| [[File:Harpy House icon.png|96px]] [[Harpy House]]
+| 2
+| [[Harpy Housing]]
+| [[File:Harpy circle.png|32px]] [[Harpies]]
+| [[File:Fabric.png|32px]] 4 [[Fabric]]
+|}
+
+
+=== Industry Buildings ===
+
+Industry Buildings produce intermediate crafting and building [[Resources]], trade goods, and the finished goods used for [[Services]] and other effects.
+
+{| class="wikitable sortable"
+|+ Industry buildings and what they produce
+|-
+! Building !!class="unsortable"| Products !! Number of<br />workers !! Specialization !!class="unsortable"| Cost to build
+|-
+| [[File:Crude_Workstation_icon.png|96px]] [[Crude Workstation]]
+| [[File:Planks.png|32px]] [[Planks]] ({{0Star}}) <br /> [[File:Fabric.png|32px]] [[Fabric]] ({{0Star}}) <br /> [[File:Bricks.png|32px]] [[Bricks]] ({{0Star}})
+| 2
+| ''none''
+| [[File:Wood.png|32px]] 5 [[Wood]]
+|-
+| [[File:Makeshift_Post_icon.png|96px]] [[Makeshift Post]]
+| [[File:Crops.png|32px]] [[Pack of Crops]] ({{0Star}}) <br /> [[File:Provisions.png|32px]] [[Pack of Provisions]] ({{0Star}}) <br /> [[File:BuildingMaterials.png|32px]] [[Pack of Building Materials]] ({{0Star}})
+| 2
+| ''none''
+| [[File:Wood.png|32px]] 5 [[Wood]]
+|-
+| [[File:Rain_Collector_icon.png|96px]] [[Rain Collector]]
+| [[File:Sparkdew.png|32px]] [[Sparkdew]] ({{1Star}})
+| 2
+| [[File:Icon Spec Gear 64x64.png|x16px|link=Engineering]] [[Engineering]] <br /> [[File:Icon Spec Alchemy 64x64.png|x16px|link=Alchemy]] [[Alchemy]]
+| [[File:Planks.png|32px]] 2 [[Planks]] <br /> [[File:Parts.png|32px]] 1 [[Parts]]
+|-
+| [[File:Mine_icon.png|96px]] [[Mine]]
+| [[File:CopperOre.png|32px]] [[Copper Ore]] ({{1Star}}) <br /> [[File:Coal.png|32px]] [[Coal]]
+| 4
+| [[File:Icon Spec Gear 64x64.png|x16px|link=Engineering]] [[Engineering]]
+| [[File:Planks.png|32px]] 2 [[Planks]] <br /> [[File:Bricks.png|32px]] 4 [[Bricks]] <br /> [[File:Parts.png|32px]] 2 [[Parts]]
+|-
+| [[File:Carpenter_icon.png|96px]] [[Carpenter]] || [[File:Planks.png|32px]] [[Planks]] ({{2Star}}) <br /> [[File:SimpleTools.png|32px]] [[Simple Tools]] ({{2Star}}) <br /> [[File:Luxury.png|32px]] [[Pack of Luxury Goods]] ({{2Star}})
+| 3
+| [[File:Icon_Spec_Wood_64x64.png|x16px|link=Woodworking]] [[Woodworking]]
+| [[File:Planks.png|32px]] 5 [[Planks]] <br /> [[File:Fabric.png|32px]] 2 [[Fabric]]
+|-
+| [[File:Weaver_icon.png|96px]] [[Weaver]]
+| [[File:Fabric.png|32px]] [[Fabric]] ({{3Star}}) <br /> [[File:TrainingGear.png|32px]] [[Training Gear]] ({{1Star}}) <br /> [[File:TradeGoods.png|32px]] [[Pack of Trade Goods]] ({{1Star}})
+| 2
+| [[File:Icon Spec Cloth 64x64.png|x16px|link=Cloth]] [[Cloth]]
+| [[File:Planks.png|32px]] 8 [[Planks]]
+|-
+| [[File:Clothier_icon.png|96px]] [[Clothier]]
+| [[File:Coats.png|32px]] [[Coats]] ({{3Star}}) <br /> [[File:Waterskins.png|32px]] [[Waterskins]] ({{1Star}}) <br /> [[File:Scrolls.png|32px]] [[Scrolls]] ({{1Star}})
+| 2 || [[File:Icon Spec Cloth 64x64.png|x16px|link=Cloth]] [[Cloth]]
+| [[File:Planks.png|32px]] 5 [[Planks]] <br /> [[File:Fabric.png|32px]] 2 [[Fabric]]
+|-
+| [[File:Brickyard_icon.png|96px]] [[Brickyard]]
+| [[File:Bricks.png|32px]] [[Bricks]] ({{2Star}}) <br /> [[File:Pottery.png|32px]] [[Pottery]] ({{2Star}}) <br /> [[File:CrystalizedDew.png|32px]] [[Crystalized Dew]] ({{2Star}})
+| 2
+| ''none''
+| [[File:Planks.png|32px]] 8 [[Planks]]
+|-
+| [[File:Kiln_icon.png|96px]] [[Kiln]]
+| [[File:Coal.png|32px]] [[Coal]] ({{3Star}}) <br /> [[File:Bricks.png|32px]] [[Bricks]] ({{1Star}}) <br /> [[File:Jerky.png|32px]] [[Jerky]] ({{1Star}})
+| 3
+| [[File:Icon_Spec_Fire_64x64.png|x16px|link=Warmth]] [[Warmth]]
+| [[File:Bricks.png|32px]] 4 [[Bricks]]
+|-
+| [[File:Rain_Mill_icon.png|96px]] [[Rain Mill]]
+| [[File:Flour.png|32px]] [[Flour]] ({{3Star}}) <br /> [[File:Scrolls.png|32px]] [[Scrolls]] ({{1Star}}) <br /> [[File:BuildingMaterials.png|32px]] [[Pack of Building Materials]] ({{1Star}})
+| 3
+| [[File:Icon Spec Gear 64x64.png|x16px|link=Engineering]] [[Engineering]] <br /> [[File:Icon_Spec_Farm_64x64.png|x16px|link=Farming]] [[Farming]]
+| [[File:Planks.png|32px]] 5 [[Planks]] <br /> [[File:Fabric.png|32px]] 2 [[Fabric]]
+|-
+| [[File:Provisioner_icon.png|96px]] [[Provisioner]]
+| [[File:Provisions.png|32px]] [[Pack of Provisions]] ({{2Star}}) <br /> [[File:Flour.png|32px]] [[Flour]] ({{2Star}}) <br /> [[File:Barrels.png|32px]] [[Barrels]] ({{2Star}})
+| 2
+| ''none''
+| [[File:Planks.png|32px]] 8 [[Planks]] <br /> [[File:Fabric.png|32px]] 4 [[Fabric]]
+|-
+| [[File:Artisan_icon.png|96px]] [[Artisan]]
+| [[File:Coats.png|32px]] [[Coats]] ({{2Star}}) <br /> [[File:Pigment.png|32px]] [[Pigment]] ({{2Star}}) <br /> [[File:Barrels.png|32px]] [[Barrels]] ({{2Star}})
+| 3
+| [[File:Icon Spec Cloth 64x64.png|x16px|link=Cloth]] [[Cloth]]
+| [[File:Planks.png|32px]] 8 [[Planks]] <br /> [[File:Fabric.png|32px]] 4 [[Fabric]]
+|-
+| [[File:Brewery_icon.png|96px]] [[Brewery]]
+| [[File:Ale.png|32px]] [[Ale]] ({{3Star}}) <br /> [[File:PickledGoods.png|32px]] [[Pickled Goods]] ({{1Star}}) <br /> [[File:Crops.png|32px]] [[Pack of Crops]] ({{1Star}})
+| 2
+| [[File:Icon Spec Brewing 64x64.png|x16px|link=Brewing]] [[Brewing]]
+| [[File:Planks.png|32px]] 2 [[Planks]] <br /> [[File:Bricks.png|32px]] 2 [[Bricks]] <br /> [[File:Fabric.png|32px]] 2 [[Fabric]]
+|-
+| [[File:Cooperage_icon.png|96px]] [[Cooperage]] || [[File:Barrels.png|32px]] [[Barrels]] ({{3Star}}) <br /> [[File:TrainingGear.png|32px]] [[Training Gear]] ({{2Star}}) <br /> [[File:Cosmetics.png|32px]] [[Cosmetics]] ({{1Star}})
+| 2
+| [[File:Icon_Spec_Wood_64x64.png|x16px|link=Woodworking]] [[Woodworking]]
+| [[File:Planks.png|32px]] 5 [[Planks]] <br /> [[File:Bricks.png|32px]] 2 [[Bricks]]
+|-
+| [[File:Druid_icon.png|96px]] [[Druid's Hut]]
+| [[File:Oil.png|32px]] [[Oil]] ({{3Star}}) <br /> [[File:Incense.png|32px]] [[Incense]] ({{1Star}}) <br /> [[File:Coats.png|32px]] [[Coats]] ({{1Star}})
+| 3
+| [[File:Icon Spec Alchemy 64x64.png|x16px|link=Alchemy]] [[Alchemy]]
+| [[File:Planks.png|32px]] 5 [[Planks]] <br /> [[File:Fabric.png|32px]] 2 [[Fabric]]
+|-
+| [[File:Leatherworks_icon.png|96px]] [[Leatherworker]]
+| [[File:Waterskins.png|32px]] [[Waterskins]] ({{3Star}}) <br /> [[File:Fabric.png|32px]] [[Fabric]] ({{2Star}}) <br /> [[File:Luxury.png|32px]] [[Pack of Luxury Goods]] ({{1Star}})
+| 2
+| [[File:Icon Spec Cloth 64x64.png|x16px|link=Cloth]] [[Cloth]] <br /> [[File:Icon_Spec_Meat_64x64.png|x16px|link=Meat Production]] [[Meat Production]]
+| [[File:Bricks.png|32px]] 2 [[Bricks]] <br /> [[File:Fabric.png|32px]] 2 [[Fabric]]
+|-
+| [[File:Lumbermill_icon.png|96px]] [[Lumber Mill]]
+| [[File:Planks.png|32px]] [[Planks]] ({{3Star}}) <br /> [[File:Scrolls.png|32px]] [[Scrolls]] ({{1Star}}) <br /> [[File:TradeGoods.png|32px]] [[Pack of Trade Goods]] ({{1Star}})
+| 2
+| [[File:Icon_Spec_Wood_64x64.png|x16px|link=Woodworking]] [[Woodworking]]
+| [[File:Bricks.png|32px]] 2 [[Bricks]] <br /> [[File:Fabric.png|32px]] 2 [[Fabric]]
+|-
+| [[File:Press_icon.png|96px]] [[Press]] || [[File:Oil.png|32px]] [[Oil]] ({{3Star}}) <br /> [[File:Flour.png|32px]] [[Flour]] ({{1Star}}) <br /> [[File:Luxury.png|32px]] [[Pack of Luxury Goods]] ({{1Star}})
+| 3
+| [[File:Icon Spec Gear 64x64.png|x16px|link=Engineering]] [[Engineering]]
+| [[File:Planks.png|32px]] 5 [[Planks]] <br /> [[File:Bricks.png|32px]] 2 [[Bricks]]
+|-
+| [[File:Scribe_icon.png|96px]] [[Scribe]]
+| [[File:Scrolls.png|32px]] [[Scrolls]] ({{3Star}}) <br /> [[File:Ale.png|32px]] [[Ale]] ({{2Star}}) <br /> [[File:SimpleTools.png|32px]] [[Simple Tools]] ({{1Star}})
+| 3
+| [[File:Icon Spec Brewing 64x64.png|x16px|link=Brewing]] [[Brewing]]
+| [[File:Planks.png|32px]] 5 [[Planks]] <br /> [[File:Fabric.png|32px]] 2 [[Fabric]]
+|-
+| [[File:Smelter_icon.png|96px]] [[Smelter]]
+| [[File:CopperBar.png|32px]] [[Copper Bars]] ({{3Star}}) <br /> [[File:CrystalizedDew.png|32px]] [[Crystalized Dew]] ({{1Star}}) <br /> [[File:Biscuits.png|32px]] [[Biscuits]] ({{1Star}})
+| 3
+| [[File:Icon_Spec_Fire_64x64.png|x16px|link=Warmth]] [[Warmth]]
+| [[File:Bricks.png|32px]] 4 [[Bricks]]
+|}
+
+=== City Buildings ===
+City Buildings include Buildings that provide [[Services]] and [[Passive Effects]] and the Buildings that everyone starts out being able to access that provide essential settlement functions of [[Hearths]], [[Storage]], and [[Trade]]. Service Buildings can be quite expensive to build, costing upwards of several dozen building materials. The [[Blight Post]] and [[Forsaken Altar]] become available at different [[Difficulty]] levels: Veteran and Prestige 1, respectively.
+
+{| class="wikitable sortable"
+|+ City Buildings and what they are for
+|-
+! Building !! Number of Workers !!class="unsortable"| Purpose, service, or effects !!class="unsortable"| Cost to build
+|-
+| [[File:Temporary_Hearth_icon.png|96px]] [[Small Hearth]]
+| 1
+| [[Hearths]] expand settlements, and [[Villagers]] go there to rest.<br />[[File:Icon_Spec_Fire_64x64.png|16px]] [[Warmth]] Specialization bonus.
+| [[File:Planks.png|32px]] 5 [[Planks]] <br /> [[File:Bricks.png|32px]] 5 [[Bricks]] <br /> [[File:Wildfire_Essence.png|32px]] 1 [[Wildfire Essence]]
+|-
+| [[File:Storage_icon.png|96px]] [[Warehouse]]
+| ''none''
+| [[Workers]] deliver and take goods from the nearest [[Warehouse]]
+| [[File:Bricks.png|32px]] 2 [[Bricks]] <br /> [[File:Fabric.png|32px]] 2 [[Fabric]] <br /> [[File:Parts.png|32px]] 1 [[Parts]]
+|-
+| [[File:Trading_Post_icon.png|96px]] [[Trading Post]]
+| ''none''
+| Purchase [[Resources]] and [[Perks]] from [[Trade]]rs. Enables [[Trade Routes]].
+| [[File:Wood.png|32px]] 10 [[Wood]]
+|-
+| [[File:Blight_Post_icon.png|96px]] [[Blight Post]]
+| 3
+| [[File:PurgingFire.png|32px]] [[Purging Fire]]<br />Sends out [[Workers]] to destroy [[Blight Cysts]].<br />[[File:Icon Spec Alchemy 64x64.png|16px]] [[Alchemy]] and [[File:Icon_Spec_Fire_64x64.png|16px]] [[Warmth]] Specialization bonuses.
+| [[File:Planks.png|32px]] 4 [[Planks]] <br /> [[File:Bricks.png|32px]] 3 [[Bricks]] <br /> [[File:Parts.png|32px]] 2 [[Parts]]
+|-
+| [[File:Hydrant_icon.png|96px]] [[Hydrant]]
+| ''none''
+| Lets [[Workers]] from the [[Blight Post]] access [[Purging Fire]] without going all the way back to the Blight Post.
+| [[File:Bricks.png|32px]] 1 [[Bricks]] <br /> [[File:Planks.png|32px]] 3 [[Planks]]
+|-
+| [[File:Altar_icon.png|96px]] [[Forsaken Altar]]
+| ''none''
+| During the [[Storm]], spend [[Citadel Resources]] or [[Villagers]]' lives for powerful [[Perks]].
+| [[File:Wood.png|32px]] 40 [[Wood]] <br /> [[File:Bricks.png|32px]] 8 [[Bricks]]
+|}
+
+{|class="wikitable sortable"
+|+ Services Buildings and their effects
+|-
+! Building !! Number of Workers !!class="unsortable"| Purpose, service, or effects !!class="unsortable"| Cost to build
+|-
+| [[File:Bath_House_icon.png|96px]] [[Bath House]]
+| 3
+| [[File:Icon_Need_Cleanliness.png|32px]] [[Cleanliness]] <br /> Passive effects of [[Regular Baths]] for [[Leaving]] and [[Good Health]] for [[Global Production Rate]]
+| [[File:Planks.png|32px]] 10 [[Planks]] <br /> [[File:Bricks.png|32px]] 8 [[Bricks]] <br /> [[File:Fabric.png|32px]] 8 [[Fabric]]
+|-
+| [[File:Clan_Hall_icon.png|96px]] [[Clan Hall]]
+| 3
+| [[File:Icon_Need_Brawling.png|32px]] [[Brawling]] <br /> [[File:Icon_Need_Religion.png|32px]] [[Religion]] <br /> Passive effect of [[Ancient Ways]] for [[Camps]] production
+| [[File:Planks.png|32px ]] 20 [[Planks]] <br /> [[File:Bricks.png|32px]] 8 [[Bricks]] <br /> [[File:Fabric.png|32px]] 4 [[Fabric]]
+|-
+| [[File:Explorers_Lodge_icon.png|96px]] [[Explorers' Lodge]]
+| 3
+| [[File:Icon_Need_Brawling.png|32px]] [[Brawling]] <br /> [[File:Icon_Need_Education.png|32px]] [[Education]] <br /> Passive effect of [[The Crown Chronicles]] for [[Resolve]]
+| [[File:Planks.png|32px ]] 20 [[Planks]] <br /> [[File:Bricks.png|32px]] 4 [[Bricks]] <br /> [[File:Fabric.png|32px]] 8 [[Fabric]]
+|-
+| [[File:Guild_House_icon.png|96px]] [[Guild House]]
+| 3
+| [[File:Icon_Need_Luxury.png|32px]] [[Luxury]] <br /> Passive effects of [[Guild House]] for [[Trade]] and [[The Guild's Welfare]] for [[Resolve]]
+| [[File:Planks.png|32px ]] 40 [[Planks]] <br /> [[File:Fabric.png|32px]] 4 [[Fabric]]
+|-
+| [[File:Monastery_icon.png|96px]] [[Monastery]]
+| 3
+| [[File:Icon_Need_Religion.png|32px]] [[Religion]] <br /> [[File:Icon_Need_Leisure.png|32px]] [[Leisure]] <br /> Passive effect of [[The Green Brew]] for [[Hostility]]
+| [[File:Bricks.png|32px]] 20 [[Bricks]]
+|-
+| [[File:Tavern_icon.png|96px]] [[Tavern]]
+| 3
+| [[File:Icon_Need_Leisure.png|32px]] [[Leisure]] <br /> [[File:Icon_Need_Brawling.png|32px]] [[Brawling]] <br /> Passive effect of [[Gleeman's Tales]] for [[Resolve]]
+| [[File:Planks.png|32px ]] 20 [[Planks]] <br /> [[File:Bricks.png|32px]] 4 [[Bricks]] <br /> [[File:Fabric.png|32px]] 8 [[Fabric]]
+|-
+| [[File:Temple_icon.png|96px]] [[Temple]]
+| 3
+| [[File:Icon_Need_Religion.png|32px]] [[Religion]] <br /> [[File:Icon_Need_Education.png|32px]] [[Education]] <br /> Passive effect of [[Sacrament of the Flame]] for [[Sacrificing]]
+| [[File:Planks.png|32px ]] 10 [[Planks]] <br /> [[File:Bricks.png|32px]] 8 [[Bricks]] <br /> [[File:Fabric.png|32px]] 8 [[Fabric]]
+|}

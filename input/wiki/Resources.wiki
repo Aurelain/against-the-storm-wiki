@@ -1,0 +1,1069 @@
+{{Version|0.38.3}}
+
+= Resources =
+
+<blockquote>
+''Gather everything you can and fulfill your villagers needs.''
+</blockquote>
+
+Your [[Settlement]] revolves around your resources. Some are gathered from map tiles, some are produced in [[Buildings]], some are rewarded from [[Glade Events]], and all of them will move around your settlement by villagers to fill [[Storage]], satisfy [[Recipes]], build Buildings and [[Roads]], and complete Glade Events. Resources are also moved invisibly and instantly through [[Trade]], [[Sacrificing]], and [[Orders]].
+
+== Swapping Ingredients ==
+
+[[File:Recipes_example.png|thumb|Two recipes shown in the game]]
+[[File:Frame_UI_Swap_Ingredient.png|x58px|left|Look for this border around ingredients you can swap]] Whenever producing a new [[Recipe]], check to see which ingredients are allowed. If the Recipe accepts multiple ingredients, the resource icon will be round with rotating arrows around it. If the ingredient is required, for example Planks in the Barrels recipe, the icon will be square.
+
+In the example screenshot, the top recipe is for Barrels. This Building is currently using Crystalized Dew for this recipe, but the rotating arrows around the icon means you can swap the ingredient. This recipe also has a fixed ingredient of Planks; the square border around the ingredient icon means you cannot swap this ingredient. The bottom recipe for Packs of Provisions is currently using Eggs, but that can be changed, indicated by the rotating arrow circular frame around the Eggs icon.
+
+== Resources Panel ==
+
+[[File:Resources Panel UI.png|thumb|Resources panel in game]]
+[[File:Resources panel UI-crafting expanded.png|thumb|Showing '''Crafting Materials''' expanded]]
+At any time, you can see the totals of different categories of resources at the top of your screen, to the left of the primary time display and controls.
+
+The number on each category icon represents the total amount of those types of resources. Clicking on those icons reveals a grid below the panel showing icons for every resource from that category currently in [[Storage]]. The number below each of those icons is how many of that item your settlement has in Storage. It does not count items in Building inventories that are waiting to be consumed by Recipes or have been produced but not yet delivered to a Warehouse. The red or green arrow on each icon indicates whether the number of each category or resource has been trending up or down recently.
+
+From left to right, the categories are the following:
+# '''Food''' (Raw Foods like Berries and Roots and Complex Foods like Biscuits and Jerky)
+# '''Building Materials''' (the main three—Planks, Bricks, and Fabric—and also Parts and Wildfire Essence)
+# '''Consumable Items''' (for providing Services, such as Ale, Incense, and Scrolls)
+# '''Crafting Materials''' (everything else that's part of a Recipe—like Flour, Pottery, and Reeds—and also Stone and Clay that are used in both Recipes and for building Roads)
+# '''Trade Goods''' (Citadel resources, Amber, Packs of Goods, and Ancient Tablets)
+# '''Fuel & Exploration''' (Wood, Tools, and fuel items like Coal and Sea Marrow)
+
+== Recipes Panel ==
+
+[[File:Icon RecipesButton.png|x58px|left|Recipes button]]
+[[File:RecipesBookIcon.png|thumb|Recipes icon (fourth from left, like a book) in the top right of the screen]]
+You can also see your current Resource amounts from the Recipes Panel. You can browse the Recipes Panel by either end Product or Ingredient - allowing you to see which [[Recipes]] either produce or use that Resource. If you uncheck Show All, it will only display the Resources and Buildings you have available. You can also check Show All to explore the full list of Recipes.
+
+When browsing by Product, the left-hand side number indicates the current amount in Storage; and on the right-hand side you can set a Global Production Limit for that Resource. If you click on a Product, it will expand a menu showing which Buildings have Recipes for that Product - including which Ingredients can be used, how many Ingredients are required, and how many resulting Resources that Recipe will produce. It will also display all possible Resources which could be used to produce that Product in the bottom of the panel - including how many currently reside in your Storage.
+
+When browsing by Ingredient, the left-hand side number indicates the current amount in Storage. If you click on an Ingredient, it will expand a menu showing all the Recipes from all the Buildings which use that Ingredient. If you have unlocked a particular Building, you can adjust which Ingredients are being used and apply a Building-specific Production Limit that overrides the Global Production Limit.
+
+= Acquiring Resources =
+
+Resources can be acquired in three ways: Gathered from Trees and Resource Deposits, Farmed from [[Farm Fields]], or Produced by Buildings. Some Gathered resources can also be Produced, while all Farmed resources are also Gathered.
+
+== Trees ==
+
+''Main article: [[The Forest#Trees]]''
+
+Trees can be harvested by [[File:Woodcutters_Camp_icon.png|25px]] Woodcutters' Camp buildings to give [[File:Wood.png|25px]] Wood. They may also grant additional resources depending on the biome.
+{| class="wikitable"
+! Tree !! Biome !! Additional resources
+|-
+| '''Coppervein Tree''' 
+| Scarlet Orchard 
+| [[File:Wood.png|25px]] Wood (60%)<br>[[File:CopperOre.png|25px]] Copper Ore (10%)<br>[[File:Resin.png|25px]] Resin (5%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (5%)
+|-
+| '''Lush Tree''' 
+| Royal Woodlands 
+| [[File:Wood.png|25px]] Wood (100%)<br>[[File:Resin.png|25px]] Resin (15%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (10%)<br>[[File:Eggs.png|25px]] Eggs (5%)
+|-
+| '''Mushwood Tree''' 
+| The Marshlands 
+| [[File:Mushrooms.png|25px]] Mushrooms (15%)<br>[[File:Leather.png|25px]] Leather (5%)
+|-
+| '''Dying Tree'''
+| Cursed Royal Woodlands
+| [[File:Wood.png|25px]] Wood (60%)<br>[[File:Insects.png|25px]] Insects (10%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (10%)<br>[[File:Roots.png|25px]] Roots (10%)
+|-
+| '''Crimsonreach Tree''' 
+| Coral Forest 
+| [[File:Stone.png|25px]] Stone (40%)<br>[[File:Incense.png|25px]] Incense (20%)
+|-
+| '''Musselsprout Tree''' 
+| Coral Forest 
+| [[File:Meat.png|25px]] Meat (40%)<br>[[File:CrystalizedDew.png|25px]] Crystalized Dew (20%)
+|-
+| '''Plateleaf Tree''' 
+| Coral Forest 
+| [[File:PlantFiber.png|25px]] Plant Fiber (30%)
+|}
+
+== Resource Deposits ==
+
+''Main article: [[The Forest#Resource Deposits]]''
+
+Resource deposits are spots that allow villagers to gather resources. Each deposit can have its own priority set, when it is preferred to be harvested more or less often than other deposits.
+
+Resource deposits come in two sizes. With the exception of the tutorial, big resource deposits can only be found inside Dangerous Glades and Forbidden Glades.
+
+Each deposit has a number of Charges, representing the amount of times it can be harvested. Small resource deposits can be harvested '''15''' times if they provide raw food, and '''20''' times if they provide raw crafting materials. Large resource deposits can be harvested '''70''' times. The number of Charges can be increased by certain Smoldering City upgrades.
+
+{| class="wikitable"
+! Deposit !! Guaranteed resources !! Possible resources !! Gathered by !! Biome !! Description
+|-
+| [[File:DebugNode MushroomBig icon.png|50px]] Bleeding Tooth Mushroom (big)
+| rowspan=4 | [[File:Mushrooms.png|30px]] Mushrooms
+| [[File:Insects.png|25px]] Insects (40%)
+| rowspan=2 | [[File:Herbalist's Camp icon.png|25px]] Herbalists' Camp
+| rowspan=2 | Royal Woodlands<br>The Marshlands<br>Cursed Royal Woodlands
+| rowspan=2 | ''A resilient species that grows on marshy soil.''
+|-
+| [[File:DebugNode MushroomSmall icon.png|50px]] Bleeding Tooth Mushroom (small)
+| [[File:Insects.png|25px]] Insects (20%)
+|-
+| [[File:DebugNode MarshlandsMushroomBig icon.png|50px]] Grasscap Mushroom (big)
+| [[File:Insects.png|25px]] Insects (40%)
+| rowspan=2 | [[File:Herbalist's Camp icon.png|25px]] Herbalists' Camp
+| rowspan=2 | Royal Woodlands<br>The Marshlands<br>Cursed Royal Woodlands
+| rowspan=2 | ''A resilient species that grows on marshy soil.''
+|-
+| [[File:DebugNode MarshlandsMushroomSmall icon.png|50px]] Grasscap Mushroom (small)
+| [[File:Insects.png|25px]] Insects (20%)
+|-
+| [[File:DebugNode ClayBig icon.png|50px]] Clay Deposit (big)
+| rowspan=2 | [[File:Clay.png|30px]] Clay
+| [[File:CopperOre.png|25px]] Copper Ore (40%)<br>[[File:Roots.png|25px]] Roots (30%)
+| rowspan=2 | [[File:Stonecutter's Camp icon.png|25px]] Stonecutters' Camp
+| rowspan=2 | Royal Woodlands<br>Cursed Royal Woodlands
+| rowspan=2 | ''Soil infused with the essence of the rain.''
+|-
+| [[File:DebugNode ClaySmall icon.png|50px]] Clay Deposit (small)
+| [[File:CopperOre.png|25px]] Copper Ore (25%)<br>[[File:Roots.png|25px]] Roots (20%)
+|-
+| [[File:DebugNode DewberryBushBig icon.png|50px]] Dewberry Bush (big)
+| rowspan=2 | [[File:Berries.png|30px]] Berries
+| [[File:Berries.png|25px]] Berries (80%)
+| rowspan=2 | [[File:Herbalist's Camp icon.png|25px]] Herbalists' Camp
+| rowspan=2 | Royal Woodlands<br>Scarlet Orchard
+| rowspan=2 | ''Fresh and sweet berries infused by the Rain.''
+|-
+| [[File:DebugNode DewberryBushSmall icon.png|50px]] Dewberry Bush (small)
+| [[File:Berries.png|25px]] Berries (20%)
+|-
+| [[File:DebugNode FlaxBig icon.png|50px]] Flax Field (big)
+| rowspan=2 | [[File:PlantFiber.png|30px]] Plant Fiber
+| [[File:Clay.png|25px]] Clay (20%)<br>[[File:Insects.png|25px]] Insects (20%)
+| rowspan=2 | [[File:Harvester Camp icon.png|25px]] Harvesters' Camp
+| rowspan=2 | Royal Woodlands<br>Cursed Royal Woodlands
+| rowspan=2 | ''Resilient plants perfect for cloth-making.''
+|-
+| [[File:DebugNode FlaxSmall icon.png|50px]] Flax Field (small)
+| [[File:Clay.png|25px]] Clay (20%)<br>[[File:Insects.png|25px]] Insects (20%)
+|-
+| [[File:DebugNode HerbsBig icon.png|50px]] Herb Node (big)
+| rowspan=2 | [[File:Herbs.png|30px]] Herbs
+| [[File:Berries.png|25px]] Berries (40%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (20%)
+| rowspan=2 | [[File:Herbalist's Camp icon.png|25px]] Herbalists' Camp
+| rowspan=2 | Coral Forest<br>Scarlet Orchard<br>Cursed Royal Woodlands
+| rowspan=2 | ''A dense shrub full of many useful plant species.''
+|-
+| [[File:DebugNode HerbsSmall icon.png|50px]] Herb Node (small)
+| [[File:Berries.png|25px]] Berries (20%)
+|-
+| [[File:DebugNode MossBroccoliBig icon.png|50px]] Moss Broccoli Patch (big)
+| rowspan=2 | [[File:Vegetables.png|30px]] Vegetables
+| [[File:Insects.png|25px]] Insects (40%)<br>[[File:Roots.png|25px]] Roots (20%)
+| rowspan=2 | [[File:Forager's Camp icon.png|25px]] Foragers' Camp
+| rowspan=2 | Coral Forest<br>Royal Woodlands<br>Cursed Royal Woodlands
+| rowspan=2 | ''An edible and tasty type of moss.''
+|-
+| [[File:DebugNode MossBroccoliSmall icon.png|50px]] Moss Broccoli Patch (small)
+| [[File:Insects.png|25px]] Insects (30%)
+|-
+| [[File:DebugNode ReedBig icon.png|50px]] Reed Field (big)
+| rowspan=2 | [[File:Reeds.png|30px]] Reeds
+| [[File:Clay.png|25px]] Clay (40%)<br>[[File:Roots.png|25px]] Roots (40%)
+| rowspan=2 | [[File:Harvester Camp icon.png|25px]] Harvesters' Camp
+| rowspan=2 | Coral Forest<br>Scarlet Orchard
+| rowspan=2 | ''A very common plant, it thrives thanks to the magical rain.''
+|-
+| [[File:DebugNode ReedSmall icon.png|50px]] Reed Field (small)
+| [[File:Clay.png|25px]] Clay (20%)<br>[[File:Roots.png|25px]] Roots (20%)
+|-
+| [[File:DebugNode RootsBig icon.png|50px]] Root Deposit (big)
+| rowspan=2 | [[File:Roots.png|30px]] Roots
+| [[File:Herbs.png|25px]] Herbs (30%)<br>[[File:Resin.png|25px]] Resin (30%)
+| rowspan=2 | [[File:Forager's Camp icon.png|25px]] Foragers' Camp
+| rowspan=2 | Royal Woodlands<br>Scarlet Orchard
+| rowspan=2 | ''A tangled net of living vines.''
+|-
+| [[File:DebugNode RootsSmall icon.png|50px]] Root Deposit (small)
+| [[File:Herbs.png|25px]] Herbs (20%)
+|-
+| [[File:DebugNode SeaMarrowBig icon.png|50px]] Sea Marrow Deposit (big)
+| rowspan=2 | [[File:SeaMarrow.png|30px]] Sea Marrow
+| [[File:SeaMarrow.png|25px]] Sea Marrow (100%)<br>[[File:Stone.png|25px]] Stone (50%)<br>[[File:AncientTablet.png|25px]] Ancient Tablet (1%)
+| rowspan=2 | [[File:Stonecutter's Camp icon.png|25px]] Stonecutters' Camp
+| rowspan=2 | Royal Woodlands<br>Scarlet Orchard<br>Cursed Royal Woodlands
+| rowspan=2 | ''Ancient fossils rich in resources.''
+|-
+| [[File:DebugNode SeaMarrowSmall icon.png|50px]] Sea Marrow Deposit (small)
+| [[File:SeaMarrow.png|25px]] Sea Marrow (80%)<br>[[File:Stone.png|25px]] Stone (40%)
+|-
+| [[File:DebugNode SnailBroodmotherBig icon.png|50px]] Slickshell Broodmother (big)
+| rowspan=2 | [[File:Meat.png|30px]] Meat
+| [[File:Leather.png|25px]] Leather (100%)
+| rowspan=2 | [[File:Trapper's Camp icon.png|25px]] Trappers' Camp
+| rowspan=2 | Royal Woodlands<br>The Marshlands<br>Coral Forest
+| rowspan=2 | ''Small Slickshells are crawling out of the openings in the broodmother's shell. It's easy to collect them.''
+|-
+| [[File:DebugNode SnailBroodmotherSmall icon.png|50px]] Slickshell Broodmother (small)
+| [[File:Leather.png|25px]] Leather (20%)
+|-
+| [[File:DebugNode StoneBig icon.png|50px]] Stone Deposit (big)
+| rowspan=2 | [[File:Stone.png|30px]] Stone
+| [[File:Insects.png|25px]] Insects (30%)<br>[[File:Roots.png|25px]] Roots (30%)<br>[[File:CopperOre.png|25px]] Copper Ore (10%)
+| rowspan=2 | [[File:Stonecutter's Camp icon.png|25px]] Stonecutters' Camp
+| rowspan=2 | Coral Forest<br>Scarlet Orchard<br>The Marshlands
+| rowspan=2 | ''Stones weathered by the everlasting rain.''
+|-
+| [[File:DebugNode StoneSmall icon.png|50px]] Stone Deposit (small)
+| [[File:Insects.png|25px]] Insects (20%)<br>[[File:Roots.png|25px]] Roots (20%)
+|-
+| [[File:DebugNode StormbirdNestBig icon.png|50px]] Stormbird Nest (big)
+| rowspan=4 | [[File:Eggs.png|30px]] Eggs
+| [[File:Meat.png|25px]] Meat (40%)
+| rowspan=2 | <br>[[File:Trapper's Camp icon.png|25px]] Trappers' Camp
+| rowspan=2 | Royal Woodlands<br>Scarlet Orchard<br>The Marshlands
+| rowspan=2 | ''An abandoned nest. Let's hope the owner doesn't come back...''
+|-
+| [[File:DebugNode StormbirdNestSmall icon.png|50px]] Stormbird Nest (small)
+| [[File:Meat.png|25px]] Meat (20%)
+|-
+| [[File:DebugNode SnakeNestBig icon.png|50px]] Snake Nest (big)
+| [[File:Leather.png|25px]] Leather (40%)<br>[[File:Meat.png|25px]] Meat (20%)
+| rowspan=2 | [[File:Trapper's Camp icon.png|25px]] Trappers' Camp
+| rowspan=2 | Royal Woodlands<br>Scarlet Orchard<br>The Marshlands
+| rowspan=2 | ''An abandoned nest. Let's hope the owner doesn't come back...''
+|-
+| [[File:DebugNode SnakeNestSmall icon.png|50px]] Snake Nest (small)
+| [[File:Leather.png|25px]] Leather (20%)
+|-
+| [[File:DebugNode SwampWheatBig icon.png|50px]] Swamp Wheat Field (big)
+| rowspan=2 | [[File:Grain.png|30px]] Grain
+| [[File:PlantFiber.png|25px]] Plant Fiber (100%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (20%)
+| rowspan=2 | [[File:Forager's Camp icon.png|25px]] Foragers' Camp
+| rowspan=2 | Scarlet Orchard<br>The Marshlands<br>Cursed Royal Woodlands
+| rowspan=2 | ''A plant species at home in the swamp.''
+|-
+| [[File:DebugNode SwampWheatSmall icon.png|50px]] Swamp Wheat Field (small)
+| [[File:PlantFiber.png|25px]] Plant Fiber (20%)
+|-
+| [[File:DebugNode WormtongueNestBig icon.png|50px]] Wormtongue Nest (big)
+| rowspan=2 | [[File:Insects.png|30px]] Insects
+| [[File:Insects.png|25px]] Insects (60%)
+| rowspan=2 | <br>[[File:Trapper's Camp icon.png|25px]] Trappers' Camp
+| rowspan=2 | Coral Forest<br>Cursed Royal Woodlands
+| rowspan=2 | ''A nest full of tasty Wormtongues.''
+|-
+| [[File:DebugNode WormtongueNestSmall icon.png|50px]] Wormtongue Nest (small)
+| [[File:Insects.png|25px]] Insects (20%)
+|}
+
+== Farming ==
+
+{| class="wikitable sortable"
+|+ Farm production buildings and their products
+|-
+! Building !!class="unsortable"| Products !! Number<br />of<br />workers !! Specialization !!class="unsortable"| Cost to build
+|-
+| [[File:Farmfield_icon.png|96px]] [[Farm Field]]
+| Converts [[File:FertileSoil.png|32px]] [[Fertile Soil]] to [[File:Farmfield_icon.png|32px]] [[Farm Field]]s
+| ''none''
+| ''none''
+| ''none''
+|-
+| [[File:HerbGarden_icon.png|96px]] [[Herb Garden]]
+| From nearby [[File:Farmfield_icon.png|32px]] [[Farm Field]]s: <br /> [[File:Roots.png|32px]] [[Roots]] ({{1Star}}) <br/ > [[File:Herbs.png|32px]] [[Herbs]] ({{2Star}})
+| 2
+| [[File:Icon Spec Farm 64x64.png|16px]] [[Farming]]
+| [[File:Planks.png|32px]] 2 [[Planks]]
+|-
+| [[File:Plantation_icon.png|96px]] [[Plantation]]
+| From nearby [[File:Farmfield_icon.png|32px]] [[Farm Field]]s: <br /> [[File:Berries.png|32px]] [[Berries]] ({{2Star}}) <br /> [[File:PlantFiber.png|32px]] [[Plant Fiber]] ({{2Star}})
+| 2
+| [[File:Icon Spec Farm 64x64.png|16px]] [[Farming]]
+| [[File:Planks.png|32px]] 2 [[Planks]]
+|-
+| [[File:SmallFarm_icon.png|96px]] [[Small Farm]]
+| From nearby [[File:Farmfield_icon.png|32px]] [[Farm Field]]s: <br /> [[File:Vegetables.png|32px]] [[Vegetables]] ({{1Star}}) <br /> [[File:Grain.png|32px]] [[Grain]] ({{2Star}})
+| 2
+| [[File:Icon Spec Farm 64x64.png|16px]] [[Farming]]
+| [[File:Planks.png|32px]] 2 [[Planks]]
+|-
+| [[Forester's Hut]]
+| From nearby [[File:Farmfield_icon.png|32px]] [[Farm Field]]s: <br /> [[File:Resin.png|32px]] [[Resin]] ({{2Star}}) <br /> [[File:CrystalizedDew.png|32px]] [[Crystalized Dew]] ({{2Star}})
+| 4
+| [[File:Icon Spec Wood 64x64.png|16px]] [[Wood]]
+| [[File:Planks.png|32px]] 2 [[Planks]]
+|}
+
+= Food =
+
+''Main article: [[Food]]''
+
+Every few minutes, [[Villagers]] will go to rest at a [[Hearth]] and try to eat food from [[Storage]]. If they cannot eat, they will get a [[Resolve]] penalty. Alternatively, if [[Complex Food Need|Complex Food]] is available, villagers will eat that instead of raw food, rewarding a bonus to Resolve. Therefore, it is essential that your settlement have a steady income of food resources.
+
+== Raw Food ==
+
+Initially only Raw Food will be available around the beginning of each settlement. Raw Food prevents villagers from getting hungry, but will not satisfy their needs for [[#Complex_Food|Complex Food]]. Compared to the number and diversity of ingredients, Complex Food feeds more villagers than Raw Food. In general, plan ahead to convert Raw Food into Complex Food, so that you can feed more villagers sustainably and satisfy their needs for Complex Foods.
+
+You can prevent your villagers from eating one or more of these Raw Food resources via [[Consumption Control]], once the [[Upgrade]] [[Obsidian Archives Level 3]] is unlocked. For example, if you are running low on Roots and need Flour, you may want to disable Roots in the Consumption panel.
+
+{| class="wikitable"
+|+ Raw food resources and how to get them
+!rowspan="2"| Raw food item
+!rowspan="2"| Amber value
+!COLSPAN="2"| Gathered by
+!rowspan="2"| Farmed from [[Farm Field]]s by
+!rowspan="2"| Produced by
+|-
+! Camp !! Near resource deposit
+|-
+| [[File:Berries.png|64px]] [[Berries]]
+| 0.20 {{Amber}}
+| [[Herbalists' Camp]] (★) || [[File:DebugNode DewberryBushSmall icon.png|64px]] [[Dewberry Bush]]
+| [[Plantation]] (★★)
+| ''none''
+|-
+| [[File:Eggs.png|64px]] [[Eggs]]
+| 0.20 {{Amber}}
+| [[Scavengers' Camp]] (★) <br /> [[Trappers' Camp]] (★) || [[File:DebugNode StormbirdNestSmall icon.png|64px]] [[Stormbird Nest]] <br /> [[File:DebugNode_SnakeNestSmall_icon.png|64px]] [[Snake Nest]]
+| ''none''
+| [[Ranch]] (★)
+|-
+| [[File:Insects.png|64px]] [[Insects]]
+| 0.20 {{Amber}}
+| [[Trappers' Camp]] (★) || [[File:DebugNode WormtongueNestSmall icon.png|64px]] [[Wormtongue Nest]]
+| ''none''
+| ''none''
+|-
+| [[File:Meat.png|64px]] [[Meat]]
+| 0.20 {{Amber}}
+| [[Trappers' Camp]] (★) || [[File:DebugNode SnailBroodmotherSmall icon.png|64px]] [[Slickshell Broodmother]]
+| ''none''
+| [[Ranch]] (★)
+|-
+| [[File:Mushrooms.png|64px]] [[Mushrooms]]
+| 0.20 {{Amber}}
+| [[Herbalists' Camp]] (★) || [[File:DebugNode MushroomSmall icon.png|64px]] [[Bleeding Tooth Mushroom]] || [[Homestead]] (★★) || [[Greenhouse]] (★★)
+|-
+| [[File:Roots.png|64px]] [[Roots]]
+| 0.20 {{Amber}}
+| [[Foragers' Camp]] (★) <br /> [[Scavengers' Camp]] (★) || [[File:DebugNode RootsSmall icon.png|64px]] [[Roots Deposit]] || [[Herb Garden]] (★★) || ''none''
+|-
+| [[File:Vegetables.png|64px]] [[Vegetables]]
+| 0.20 {{Amber}}
+| [[Foragers' Camp]] (★) || [[File:DebugNode MossBroccoliSmall icon.png|64px]] [[Moss Broccoli Patch]]
+| [[Small Farm]] (★) <br /> [[Homestead]] (★★)
+| ''none''
+|}
+
+=== Produced Raw Food ===
+
+Meat and Eggs are the only Raw Foods that can be produced - by the [[Ranch]] (★).
+
+{| class="wikitable"
+|+ Produced Raw Food
+!rowspan=2| Complex Food
+!rowspan=2| Amber Value
+!rowspan=2| Produced in
+!COLSPAN=3| Recipe
+|-
+! 1st Ingredient !! 2nd Ingredient !! Blightrot Footprint
+|-
+| [[File:Eggs.png|64px]] [[Eggs]]
+| | 0.20 {{Amber}}
+| [[Ranch]] (★)
+<!-- Recipe -->
+| —<!--blank-->
+| [[File:Berries.png|32px]] [[Berries]] <br /> [[File:Grain.png|32px]] [[Grain]] <br /> [[File:Insects.png|32px]] [[Insects]] <br /> [[File:Reeds.png|32px]] [[Reed]]
+| 3% {{Blight2}}
+|-
+| [[File:Meat.png|64px]] [[Meat]]
+| 0.20 {{Amber}}
+| [[Ranch]] (★)
+<!-- Recipe -->
+| —<!--blank-->
+| [[File:Grain.png|32px]] [[Grain]] <br /> [[File:PlantFiber.png|32px]] [[Plant Fiber]] <br /> [[File:Reeds.png|32px]] [[Reed]] <br /> [[File:Vegetables.png|32px]] [[Vegetables]]
+| 3% {{Blight2}}
+|}
+
+== Complex Food ==
+
+''Main article: [[Complex Food Need]]''
+
+These food resources are produced from [[Recipes]] and will satisfy the villagers' needs for [[Complex Food Need|Complex Food]]. Villagers prefer these food items over [[#Raw_Food|Raw Food]] when resting at [[Hearths]]. Satisfying villagers with Complex Food is more efficient, because most Recipes yield more goods than the number of raw ingredients used to produce them.
+
+Note that the ingredients [[Flour]], [[Grain]], and [[Herbs]] are not edible, but are required in many Complex Food recipes.
+
+Also note that the amount of ingredients, the amount produced, and the time it takes to produce all vary depending on the Building in which the Recipe is working. Consult the [[Recipes Panel]] in the game or the specific, linked Building page or Resource page for these further details.
+
+{| class="wikitable"
+|+ Complex Food and how to get it
+!rowspan=2| Complex Food
+!rowspan=2| Amber Value
+!rowspan=2| Produced in
+!COLSPAN=3| Recipe
+|-
+! 1st Ingredient !! 2nd Ingredient !! Blightrot Footprint
+|-
+| [[File:Biscuits.png|64px]] [[Biscuits]]
+| 0.25 {{Amber}}
+| [[Apothecary]] (★★) <br /> [[Bakery]] (★★) <br /> [[Cookhouse]] (★★) <br /> [[Smelter]] (★) <br /> [[Field Kitchen]] (⊙)
+<!-- Recipe -->
+| [[File:Flour.png|32px]] [[Flour]]
+| [[File:Berries.png|32px]] [[Berries]] <br /> [[File:Herbs.png|32px]] [[Herbs]] <br /> [[File:Roots.png|32px]] [[Roots]]
+| 2% {{Blight1}}
+|-
+| [[File:Jerky.png|64px]] [[Jerky]]
+| 0.14 {{Amber}}
+| [[Smokehouse]] (★★★) <br /> [[Butcher]] (★★) <br /> [[Kiln]] (★) <br /> [[Field Kitchen]] (⊙)
+<!-- Recipe -->
+| [[File:Insects.png|32px]] [[Insects]] <br /> [[File:Meat.png|32px]] [[Meat]]
+| [[File:Coal.png|32px]] [[Coal]] <br /> [[File:Oil.png|32px]] [[Oil]] <br /> [[File:SeaMarrow.png|32px]] [[Sea Marrow]] <br /> [[File:Wood.png|32px]] [[Wood]]
+| 2% {{Blight1}}
+|-
+| [[File:PickledGoods.png|64px]] [[Pickled Goods]]
+| 0.20 {{Amber}}
+| [[Granary]] (★★) <br /> [[Brewery]] (★) <br /> [[Cellar]] (★) <br /> [[Field Kitchen]] (⊙)
+<!-- Recipe -->
+| [[File:Berries.png|32px]] [[Berries]] <br /> [[File:Mushrooms.png|32px]] [[Mushrooms]] <br /> [[File:Roots.png|32px]] [[Roots]] <br /> [[File:Vegetables.png|32px]] [[Vegetables]]
+| [[File:Barrels.png|32px]] [[Barrels]] <br /> [[File:Pottery.png|32px]] [[Pottery]] <br /> [[File:Waterskins.png|32px]] [[Waterskins]]
+| 2% {{Blight1}}
+|-
+| [[File:Pie.png|64px]] [[Pie]]
+| 0.25 {{Amber}}
+| [[Brick Oven]] (★★★) <br /> [[Bakery]] (★★) <br /> [[Furnace]] (★★)
+<!-- Recipe -->
+| [[File:Flour.png|32px]] [[Flour]]
+| [[File:Berries.png|32px]] [[Berries]] <br /> [[File:Eggs.png|32px]] [[Eggs]] <br /> [[File:Herbs.png|32px]] [[Herbs]] <br /> [[File:Insects.png|32px]] [[Insects]] <br /> [[File:Meat.png|32px]] [[Meat]]
+| 2% {{Blight1}}
+|-
+| [[File:Skewers.png|64px]] [[Skewers]]
+| 0.20 {{Amber}}
+| [[Grill]] (★★★) <br /> [[Butcher]] (★★) <br /> [[Cookhouse]] (★★)
+<!-- Recipe -->
+| [[File:Insects.png|32px]] [[Insects]] <br /> [[File:Jerky.png|32px]] [[Jerky]] <br /> [[File:Meat.png|32px]] [[Meat]] <br /> [[File:Mushrooms.png|32px]] [[Mushrooms]]
+| [[File:Berries.png|32px]] [[Berries]] <br /> [[File:Eggs.png|32px]] [[Eggs]] <br /> [[File:Roots.png|32px]] [[Roots]] <br /> [[File:Vegetables.png|32px]] [[Vegetables]]
+| 2% {{Blight1}}
+|-
+|}
+
+= Building Materials =
+
+Building Materials are mostly used for constructing new [[Buildings]], however there are [[Recipes]] that require these materials as ingredients. All materials are refunded if a Building is demolished.
+
+Note that the amount of ingredients, the amount produced, and the time it takes to produce all vary depending on the Building in which the Recipe is working. Consult the [[Recipes Panel]] in the game or the specific, linked Building page or Resource page for these further details.
+
+{| class="wikitable"
+|+ Building Materials and where to get them
+!rowspan=2| Building Material
+!rowspan=2| Amber value
+!rowspan=2| Produced in
+!COLSPAN=3| Recipe
+|-
+! 1st Ingredient !! 2nd Ingredient !! Blightrot Footprint
+|-
+| [[File:Bricks.png|64px]] [[Bricks]] 
+| 0.31 {{Amber}}
+| [[Brickyard]] (★★) <br /> [[Furnace]] (★★) <br /> [[Workshop]] (★★) <br /> [[Kiln]] (★) <br /> [[Crude Workstation]] (⊙)
+<!-- Recipe -->
+| —<!--blank-->
+| [[File:Clay.png|32px]] [[Clay]] <br /> [[File:Stone.png|32px]] [[Stone]]
+| 2% {{Blight1}}
+|-
+| [[File:Fabric.png|64px]] [[Fabric]]
+| 0.31 {{Amber}}
+| [[Weaver]] (★★★) <br /> [[Granary]] (★★) <br /> [[Leatherworker]] (★★) <br /> [[Workshop]] (★★) <br /> [[Crude Workstation]] (⊙)
+<!-- Recipe -->
+| —<!--blank-->
+| [[File:PlantFiber.png|32px]] [[Plant Fiber]] <br /> [[File:Leather.png|32px]] [[Leather]] <br /> [[File:Reeds.png|32px]] [[Reed]]
+| 2% {{Blight1}}
+|-
+| [[File:Planks.png|64px]] [[Planks]]
+| 0.18 {{Amber}}
+| [[Lumber Mill]] (★★★) <br /> [[Carpenter]] (★★) <br /> [[Supplier]] (★★) <br /> [[Workshop]] (★★) <br /> [[Crude Workstation]] (⊙)
+<!-- Recipe -->
+| —<!--blank-->
+| [[File:Wood.png|32px]] [[Wood]]
+| 2% {{Blight1}}
+|-
+| [[File:Parts.png|64px]] [[Parts]]
+| 2.39 {{Amber}}
+| [[Rainpunk Foundry]] (★★★)
+<!-- Recipe -->
+| [[File:Clay.png|32px]] [[Clay]] <br /> [[File:CopperBar.png|32px]] [[Copper Bars]] <br /> [[File:CrystalizedDew.png|32px]] [[Crystalized Dew]] <br /> [[File:Stone.png|32px]] [[Stone]]
+| [[File:Coal.png|32px]] [[Coal]] <br /> [[File:Oil.png|32px]] [[Oil]] <br /> [[File:Wood.png|32px]] [[Wood]]
+| 4% {{Blight3}}
+|-
+| [[File:Wildfire Essence.png|64px]] [[Wildfire Essence]]
+| 5.00 {{Amber}}
+|COLSPAN=4| ''Cannot be produced. Found from [[Trading]], solving [[Glade Events]], and fulfilling [[Orders]].''
+|}
+
+= Consumable Items =
+
+Consumable items include Clothing and Service Goods. Some of these items can also be used as ingredients when producing Trade Goods.
+
+Note that the amount of ingredients, the amount produced, and the time it takes to produce all vary depending on the Building in which the Recipe is working. Consult the [[Recipes Panel]] in the game or the specific, linked Building page or Resource page for these further details.
+
+== Clothing ==
+
+Humans and Beavers have a need for Clothing.
+
+{| class="wikitable"
+!rowspan=2| Consumable Item
+!rowspan=2| Used in Service
+!rowspan=2| Amber value
+!rowspan=2| Produced in
+!COLSPAN=3| Recipe
+|-
+! 1st Ingredient !! 2nd Ingredient !! Blightrot Footprint
+|-
+| [[File:Coats.png|64px]] [[Coats]]
+| [[Clothing]] (at [[Hearths]])
+| 0.10 {{Amber}}
+| [[Clothier]] (★★★) <br /> [[Artisan]] (★★) <br /> [[Smithy]] (★★) <br /> [[Druid's Hut]] (★)
+<!-- Recipe -->
+| —<!--blank-->
+| [[File:Fabric.png|32px]] [[Fabric]]
+| 2% {{Blight1}}
+|}
+
+== Service Goods ==
+
+Service Goods are used in [[Service Buildings]] to satisfy villagers' needs for [[Services]].
+
+{| class="wikitable"
+|+ Consumable Items and where to get them
+!rowspan=2| Consumable Item
+!rowspan=2| Used in Service
+!rowspan=2| Amber value
+!rowspan=2| Produced in
+!COLSPAN=3| Recipe
+|-
+! 1st Ingredient !! 2nd Ingredient !! Blightrot Footprint
+|-
+| [[File:Ale.png|64px]] [[Ale]]
+| [[Leisure]]
+| 0.17 {{Amber}}
+| [[Brewery]] (★★★) <br /> [[Tinctury]] (★★) <br /> [[Scribe]] (★★) <br /> [[Grill]] (★)
+<!-- Recipe -->
+| [[File:Grain.png|32px]] [[Grain]] <br /> [[File:Roots.png|32px]] [[Roots]]
+| [[File:Barrels.png|32px]] [[Barrels]] <br /> [[File:Pottery.png|32px]] [[Pottery]] <br /> [[File:Waterskins.png|32px]] [[Waterskins]]
+| 4% {{Blight3}}
+|-
+| [[File:Cosmetics.png|64px]] [[Cosmetics]]
+| [[Cleanliness]]
+| 0.14 {{Amber}}
+| [[Alchemist's Hut]] (★★) <br /> [[Apothecary]] (★★) <br /> [[Cooperage]] (★)
+<!-- Recipe -->
+| [[File:Eggs.png|32px]] [[Eggs]] <br /> [[File:Oil.png|32px]] [[Oil]]
+| [[File:Herbs.png|32px]] [[Herbs]] <br /> [[File:Pigment.png|32px]] [[Pigment]] <br /> [[File:Resin.png|32px]] [[Resin]]
+| 4% {{Blight3}}
+|-
+| [[File:Incense.png|64px]] [[Incense]]
+| [[Religion]]
+| 0.18 {{Amber}}
+| [[Apothecary]] (★★) <br /> [[Brick Oven]] (★) <br /> [[Druid's Hut]] (★) <br /> [[Smokehouse]] (★)
+<!-- Recipe -->
+| [[File:Herbs.png|32px]] [[Herbs]] <br /> [[File:Insects.png|32px]] [[Insects]] <br /> [[File:Resin.png|32px]] [[Resin]] <br /> [[File:Roots.png|32px]] [[Roots]]
+| [[File:Coal.png|32px]] [[Coal]] <br /> [[File:Oil.png|32px]] [[Oil]] <br /> [[File:SeaMarrow.png|32px]] [[Sea Marrow]] <br /> [[File:Wood.png|32px]] [[Wood]]
+| 4% {{Blight3}}
+|-
+| [[File:Scrolls.png|64px]] [[Scrolls]]
+| [[Education]]
+| 0.14 {{Amber}}
+| [[Scribe]] (★★★) <br /> [[Clothier]] (★) <br /> [[Lumber Mill]] (★) <br /> [[Rain Mill]] (★)
+<!-- Recipe -->
+| [[File:Leather.png|32px]] [[Leather]] <br /> [[File:PlantFiber.png|32px]] [[Plant Fiber]] <br /> [[File:Wood.png|32px]] [[Wood]]
+| [[File:Pigment.png|32px]] [[Pigment]] <br /> [[File:Wine.png|32px]] [[Wine]]
+| 4% {{Blight3}}
+|-
+| [[File:TrainingGear.png|64px]] [[Training Gear]]
+| [[Brawling]]
+| 0.21 {{Amber}}
+| [[Cooperage]] (★★) <br /> [[Manufactory]] (★★) <br /> [[Tinkerer]] (★★) <br /> [[Weaver]] (★)
+<!-- Recipe -->
+| [[File:CopperBar.png|32px]] [[Copper Bars]] <br /> [[File:CrystalizedDew.png|32px]] [[Crystalized Dew]] <br /> [[File:Stone.png|32px]] [[Stone]]
+| [[File:Planks.png|32px]] [[Planks]] <br /> [[File:Reeds.png|32px]] [[Reed]]
+| 4% {{Blight3}}
+|-
+| [[File:Wine.png|64px]] [[Wine]]
+| [[Luxury]]
+| 0.14 {{Amber}}
+| [[Cellar]] (★★★) <br /> [[Alchemist's Hut]] (★★) <br /> [[Tinctury]] (★★)
+<!-- Recipe -->
+| [[File:Berries.png|32px]] [[Berries]] <br /> [[File:Mushrooms.png|32px]] [[Mushrooms]] <br /> [[File:Reeds.png|32px]] [[Reed]]
+| [[File:Barrels.png|32px]] [[Barrels]] <br /> [[File:Pottery.png|32px]] [[Pottery]] <br /> [[File:Waterskins.png|32px]] [[Waterskins]]
+| 4% {{Blight3}}
+|}
+
+== Bonus Consumable Items ==
+
+Additionally, some of these resources are available as bonuses when villagers work deposits on map tiles. If you have no access to their main production methods, you will still find a few as bonuses. They are infrequent extra resources that happen during normal gathering (between 5% and 40% of the time, typically about 1-in-5 times). See [[Bonus Resources]] for more information.
+
+{| class="wikitable"
+|+ Bonus resources and where to find them
+! Consumable Item !! From resource deposit
+|-
+| [[File:Ale.png|32px]] [[Ale]] || ''none''
+|-
+| [[File:Cosmetics.png|32px]] [[Cosmetics]] || ''none''
+|-
+| [[File:Incense.png|32px]] [[Incense]] || [[Crimsonreach Tree]]s (Coral Forest)
+|-
+| [[File:Scrolls.png|32px]] [[Scrolls]] || ''none''
+|-
+| [[File:TrainingGear.png|32px]] [[Training Gear]] || ''none''
+|-
+| [[File:Wine.png|32px]] [[Wine]] || ''none''
+|}
+
+= Crafting Materials =
+
+Crafting Materials are goods used in Recipes, and most don't have another purpose except as intermediate products. These are the most diversely and frequently used resources, some being used in almost a dozen recipes. Materials for building [[Roads]] also falls into this broad category.
+
+Crafting Materials are split into roughly two groups, one raw from the map and one produced in [[Buildings]]. The exceptions that appear in both lists are [[Crystalized Dew]] and [[Leather]].
+
+Crafting Materials can frequently be found as rewards from [[Glade Events]] and [[Orders]].
+
+Note that the amount of ingredients, the amount produced, and the time it takes to produce all vary depending on the Building in which the Recipe is working. Consult the [[Recipes Panel]] in the game or the specific, linked Building page or Resource page for these further details.
+
+== Raw Crafting Materials ==
+
+These Crafting Materials are gathered or farmed from map tiles with resource deposits. Some only need a [[Camps|Camp]] or [[Mine]], while others need [[Fertile Soil]] to be improved to [[Farm Field]]s and a nearby farming building.
+
+Note that [[Crystalized Dew]] appears here because it can be farmed raw from the [[Grove]]. It is also produced in three buildings, listed here for quick reference, and its Recipe appears in the second table for Crafting Materials.
+
+{| class="wikitable"
+|+ Raw Crafting Materials and where to get them
+!rowspan=2| Raw Crafting Material
+!rowspan=2| Amber value
+!COLSPAN=2| Gathered by
+!rowspan=2| Farmed from [[Farm Field]]s by
+!rowspan=2| Produced by
+|-
+! Camp !! Near resource deposit
+|-
+| [[File:Clay.png|64px]] [[Clay]]
+| 0.14 {{Amber}}
+| [[Stonecutters' Camp]] (★) || [[File:DebugNode ClaySmall icon.png|64px]] [[Clay Deposit]]
+| ''none''
+| [[Clay Pit]] (★★)
+|-
+| [[File:CopperOre.png|64px]] [[Copper Ore]]
+| 0.12 {{Amber}}
+|COLSPAN=2| ''none''
+| ''none''
+| [[File:Mine icon.png|32px]] [[Mine]] (★) on a [[Copper Deposit]]
+|-
+| [[File:CrystalizedDew.png|64px]] [[Crystalized Dew]]
+| 0.59 {{Amber}}
+|COLSPAN=2| ''none''
+| [[Grove]] (★★)
+| [[Alchemist's Hut]] (★★) <br /> [[Brickyard]] (★★) <br /> [[Smelter]] (★)
+|-
+| [[File:Grain.png|64px]] [[Grain]]
+| 0.20 {{Amber}}
+| [[Foragers' Camp]] (★) || [[File:DebugNode SwampWheatSmall icon.png|64px]] [[Swamp Wheat Field]]
+| [[Homestead]] (★★) <br /> [[Small Farm]] (★★)
+| ''none''
+|-
+| [[File:Herbs.png|64px]] [[Herbs]]
+| 0.20 {{Amber}}
+| [[Herbalists' Camp]] (★) || [[File:DebugNode HerbsSmall icon.png|64px]] [[Herb Deposit]]
+| [[Greenhouse]] (★★) <br /> [[Herb Garden]] (★★)
+| ''none''
+|-
+| [[File:Leather.png|64px]] [[Leather]]
+| 0.14 {{Amber}}
+|COLSPAN=2| ''none''
+| ''none''
+| [[Ranch]] (★)
+|-
+| [[File:PlantFiber.png|64px]] [[Plant Fiber]]
+| 0.14 {{Amber}}
+| [[Harvesters' Camp]] (★) || [[File:DebugNode FlaxSmall icon.png|64px]] [[Flax Field]]
+| [[Plantation]] (★★)
+| ''none''
+|-
+| [[File:Reeds.png|64px]] [[Reed]]
+| 0.14 {{Amber}}
+| [[Harvesters' Camp]] (★) || [[File:DebugNode ReedSmall icon.png|64px]] [[Reed Field]]
+| ''none''
+| [[Clay Pit]] (★★)
+|-
+| [[File:Resin.png|64px]] [[Resin]]
+| 0.14 {{Amber}}
+|COLSPAN=2| ''none''
+| [[Grove]] (★★)
+| ''none''
+|-
+| [[File:Sparkdew.png|64px]] [[Sparkdew]]
+| 0.06 {{Amber}}
+|COLSPAN=2| ''none''
+| ''none''
+| [[Rain Collector]] (★)
+|-
+| [[File:Stone.png|64px]] [[Stone]]
+| 0.14 {{Amber}}
+| [[Stonecutters' Camp]] || [[File:DebugNode StoneSmall icon.png|64px]] [[Stone Deposit]]
+| ''none''
+| ''none''
+|}
+
+=== Bonus Raw Crafting Materials ===
+
+Additionally, some of these resources are available as bonuses when villagers work other deposits. If you have no access to their main gathering, farming, or production methods, you will still find a few as bonuses. They are infrequent extra resources that happen during normal gathering (between 5% and 40% of the time, typically about 1-in-5 times). See [[Bonus Resources]] for more information.
+
+{| class="wikitable"
+|+ Bonus resources and where to find them
+! Raw Crafting Material !! From resource deposit
+|-
+| [[File:Clay.png|32px]] [[Clay]]
+| [[File:DebugNode FlaxSmall icon.png|32px]] [[Flax Field]] <br /> [[File:DebugNode ReedSmall icon.png|32px]] [[Reed Field]] <br /> [[File:DebugNode StoneSmall icon.png|32px]] [[Stone Deposit]] <br /> [[File:Mine icon.png|32px]] [[Mine]] on a [[Copper Deposit]]
+|-
+| [[File:CopperOre.png|32px]] [[Copper Ore]]
+| [[File:DebugNode ClaySmall icon.png|32px]] [[Clay Deposit]] <br /> [[Coppervein Tree]]s (Scarlet Orchard)
+|-
+| [[File:CrystalizedDew.png|32px]] [[Crystalized Dew]]
+| [[Musselsprout Tree]]s (Coral Forest)
+|-
+| [[File:Grain.png|32px]] [[Grain]]
+| ''none''
+|-
+| [[File:Herbs.png|32px]] [[Herbs]]
+| [[File:DebugNode RootsSmall icon.png|32px]] [[Roots Deposit]]
+|-
+| [[File:Leather.png|32px]] [[Leather]]
+| [[Mushwood Tree]]s (The Marshlands) <br /> [[File:DebugNode SnailBroodmotherSmall icon.png|32px]] [[Slickshell Broodmother]] <br /> [[File:DebugNode_SnakeNestSmall_icon.png|32px]] [[Snake Nest]]
+|-
+| [[File:PlantFiber.png|32px]] [[Plant Fiber]]
+| [[Coppervein Tree]]s (Scarlet Orchard) <br/ > [[File:DebugNode HerbsSmall icon.png|32px]] [[Herb Deposit]] <br /> [[Lush Tree]]s (Royal Woodlands) <br /> [[Plateleaf Tree]]s (Coral Forest) <br /> [[File:DebugNode SwampWheatSmall icon.png|32px]] [[Swamp Wheat Field]]
+|-
+| [[File:Reeds.png|32px]] [[Reed]]
+| ''none''
+|-
+| [[File:Resin.png|32px]] [[Resin]]
+| [[Lush Tree]]s (Royal Woodlands) <br /> [[Plantleaf Tree]]s (Coral Forest)
+|-
+| [[File:Sparkdew.png|32px]] [[Sparkdew]]
+| ''none''
+|-
+| [[File:Stone.png|32px]] [[Stone]]
+| [[File:Mine icon.png|32px]] [[Mine]] on a [[Coal Deposit]] <br /> [[Crimsonreach Tree]]s (Coral Forest) <br /> [[File:DebugNode SeaMarrowSmall icon.png|32px]] [[Sea Marrow Deposit]]
+|}
+
+== Refined Crafting Materials ==
+
+These Crafting Materials are produced from [[Recipes]] in [[Buildings]]. They are not available from gathering, with the exception of [[Crystalized Dew]].
+
+Note that the amount of ingredients, the amount produced, and the time it takes to produce all vary depending on the Building in which the Recipe is working. Consult the [[Recipes Panel]] in the game or the specific, linked Building page or Resource page for these further details.
+
+{| class="wikitable"
+|+ Crafting Materials that are produced and how to get them
+!rowspan=2| Produced Crafting Material
+!rowspan=2| Amber value
+!rowspan=2| Produced in
+!COLSPAN=4| Recipe
+|-
+! 1st Ingredient !! 2nd Ingredient !! 3rd Ingredient !! Blightrot Footprint
+|-
+| [[File:Barrels.png|64px]] [[Barrels]]
+| 0.20 {{Amber}}
+| [[Cooperage]] ({{3Star}}) <br /> [[Artisan]] ({{2Star}}) <br /> [[Provisioner]] ({{2Star}}) <br /> [[Toolshop]] ({{1Star}})
+<!-- Recipe -->
+| —<!--blank-->
+| [[File:CopperBar.png|32px]] [[Copper Bars]] <br /> [[File:CrystalizedDew.png|32px]] [[Crystalized Dew]]
+| [[File:Planks.png|32px]] [[Planks]]
+| 3% {{Blight2}}
+|-
+| [[File:CopperBar.png|64px]] [[Copper Bars]]
+| 0.59 {{Amber}}
+| [[Smelter]] ({{3Star}}) <br /> [[Furnace]] ({{2Star}}) <br /> [[Grill]] ({{1Star}}) <br /> [[Stamping Mill]] ({{1Star}})
+<!-- Recipe -->
+| —<!--blank-->
+| [[File:CopperOre.png|32px]] [[Copper Ore]]
+| {{Wood}} <br /> {{Oil}} <br /> {{Coal}} <br /> {{Sea Marrow}}
+| 4% {{Blight3}}
+|-
+| [[File:CrystalizedDew.png|64px]] [[Crystalized Dew]]
+| 0.59 {{Amber}}
+| [[Alchemist's Hut]] ({{2Star}}) <br /> [[Brickyard]] ({{2Star}}) <br /> [[Smelter]] ({{1Star}})
+<!-- Recipe -->
+| [[File:Herbs.png|32px]] [[Herbs]] <br /> [[File:Insects.png|32px]] [[Insects]] <br /> [[File:Resin.png|32px]] [[Resin]] <br /> [[File:Vegetables.png|32px]] [[Vegetables]]
+| [[File:Clay.png|32px]] [[Clay]] <br /> [[File:Stone.png|32px]] [[Stone]]
+| [[File:Sparkdew.png|32px]] [[Sparkdew]]
+| 4% {{Blight3}}
+|-
+| [[File:Flour.png|64px]] [[Flour]]
+| 0.18 {{Amber}}
+| [[Rain Mill]] ({{3Star}}) <br /> [[Provisioner]] ({{2Star}}) <br /> [[Stamping Mill]] ({{2Star}}) <br /> [[Supplier]] ({{2Star}}) <br /> [[Press]] ({{1Star}})
+<!-- Recipe -->
+| —<!--blank-->
+| —<!--blank-->
+| [[File:Grain.png|32px]] [[Grain]] <br /> [[File:Mushrooms.png|32px]] [[Mushroom]] <br /> [[File:Roots.png|32px]] [[Roots]]
+| 3% {{Blight2}}
+|-
+| [[File:Leather.png|64px]] [[Leather]]
+| 0.14 {{Amber}}
+| [[Ranch]] ({{1Star}})
+<!-- Recipe -->
+| —<!--blank-->
+| —<!--blank-->
+| [[File:Grain.png|32px]] [[Grain]] <br /> [[File:PlantFiber.png|32px]] [[Plant Fiber]] <br /> [[File:Reeds.png|32px]] [[Reed]] <br /> [[File:Vegetables.png|32px]] [[Vegetables]]
+| 3% {{Blight2}}
+|-
+| [[File:Pigment.png|64px]] [[Pigment]]
+| 0.12 {{Amber}}
+| [[Artisan]] ({{2Star}}) <br /> [[Cookhouse]] ({{2Star}}) <br /> [[Manufactory]] ({{2Star}}) <br /> [[Tinctury]] ({{2Star}})
+<!-- Recipe -->
+| —<!--blank-->
+| —<!--blank-->
+| [[File:Berries.png|32px]] [[Berries]] <br /> [[File:Coal.png|32px]] [[Coal]] <br /> [[File:CopperOre.png|32px]] [[Copper Ore]] <br /> [[File:Insects.png|32px]] [[Insects]]
+| 3% {{Blight2}}
+|-
+| [[File:Pottery.png|64px]] [[Pottery]]
+| 0.18 {{Amber}}
+| [[Stamping Mill]] ({{3Star}}) <br /> [[Bakery]] ({{2Star}}) <br /> [[Brickyard]] ({{2Star}}) <br /> [[Smokehouse]] ({{1Star}})
+<!-- Recipe -->
+| —<!--blank-->
+| [[File:Clay.png|32px]] [[Clay]]
+| [[File:Coal.png|32px]] [[Coal]] <br /> [[File:Oil.png|32px]] [[Oil]] <br /> [[File:SeaMarrow.png|32px]] [[Sea Marrow]] <br /> [[File:Wood.png|32px]] [[Wood]]
+| 3% {{Blight2}}
+|-
+| [[File:Waterskins.png|64px]] [[Waterskins]]
+| 0.18 {{Amber}}
+| [[Leatherworker]] ({{3Star}}) <br /> [[Supplier]] ({{2Star}}) <br /> [[Clothier]] ({{1Star}}) <br /> [[Toolshop]] ({{1Star}})
+<!-- Recipe -->
+| —<!--blank-->
+| [[File:Leather.png|32px]] [[Leather]]
+| [[File:Meat.png|32px]] [[Meat]] <br /> [[File:Oil.png|32px]] [[Oil]]
+| 3% {{Blight2}}
+|}
+
+=== Bonus Refined Crafting Materials ===
+
+Additionally, some of these resources are available as bonuses when villagers work deposits on map tiles. If you have no access to their main production methods, you will still find a few as bonuses. They are infrequent extra resources that happen during normal gathering (between 5% and 40% of the time, typically about 1-in-5 times). See [[Bonus Resources]] for more information.
+
+[[Crystalized Dew]] and [[Leather]] are repeated here for quick reference; they are also in [[#Bonus Raw Crafting Materials]], above.
+
+{| class="wikitable"
+|+ Bonus refined Crafting Materials and where to find them
+! Crafting Material !! From resource deposit
+|-
+| [[File:Barrels.png|32px]] [[Barrels]]
+| ''none''
+|-
+| [[File:CopperBar.png|32px]] [[Copper Bars]]
+| ''none''
+|-
+| [[File:CrystalizedDew.png|32px]] [[Crystalized Dew]]
+| [[Musselsprout Tree]]s (Coral Forest)
+|-
+| [[File:Flour.png|32px]] [[Flour]]
+| ''none''
+|-
+| [[File:Leather.png|32px]] [[Leather]]
+| [[Mushwood Tree]]s (The Marshlands) <br /> [[File:DebugNode SnailBroodmotherSmall icon.png|32px]] [[Slickshell Broodmother]]
+|-
+| [[File:Pigment.png|32px]] [[Pigment]]
+| [[Coppervein Tree]]s (Scarlet Orchard)
+|-
+| [[File:Pottery.png|32px]] [[Pottery]]
+| ''none''
+|-
+| [[File:Waterskins.png|32px]] [[Waterskins]]
+| ''none''
+|}
+
+= Trade Goods =
+
+Trade Goods are used in [[Trade]] and [[Orders]]. Generally, these items have the highest value of [[Amber]] among all of the resources because they are at the end of the production chains.
+
+Producing these items consumes more ingredients than most other recipes, so be careful. When fulfilling Orders, setting limits is recommended, so you don't inadvertently use up all your building materials and food.
+
+[[Amber]] is in this section, which is the currency of settlements and [[Trade]].
+
+[[Citadel Resources]] are also in this section, which are awarded after completing [[Orders]] and from [[Glade Events]]. They are not producible by any Buildings.
+
+Note that the amount of ingredients, the amount produced, and the time it takes to produce all vary depending on the Building in which the Recipe is working. Consult the [[Recipes Panel]] in the game or the specific, linked Building page or Resource page for these further details.
+
+{| class="wikitable"
+|+ Trade Goods and how to make them
+!rowspan=2| Trade Goods
+!rowspan=2| Amber value
+!rowspan=2| Produced in
+!COLSPAN=3| Recipe
+|-
+! 1st Ingredient !! 2nd Ingredient !! Blightrot Footprint
+|-
+| [[File:BuildingMaterials.png|64px]] [[Pack of Building Materials]]
+| 0.87 {{Amber}}
+| [[Tinkerer]] (★★) <br /> [[Rain Mill]] (★) <br /> [[Makeshift Post]] (⊙)
+<!-- Recipe -->
+| —<!--blank-->
+| [[File:Bricks.png|32px]] [[Bricks]] <br /> [[File:CopperOre.png|32px]] [[Copper Ore]] <br /> [[File:Fabric.png|32px]] [[Fabric]] <br /> [[File:Planks.png|32px]] [[Planks]]
+| 2% {{Blight1}}
+|-
+| [[File:Crops.png|64px]] [[Pack of Crops]]
+| 0.59 {{Amber}}
+| [[Granary]] (★★) <br /> [[Brewery]] (★) <br /> [[Makeshift Post]] (⊙)
+<!-- Recipe -->
+| —<!--blank-->
+| [[File:Grain.png|32px]] [[Grain]] <br /> [[File:Mushrooms.png|32px]] [[Mushrooms]] <br /> [[File:Roots.png|32px]] [[Roots]] <br /> [[File:Vegetables.png|32px]] [[Vegetables]]
+| 2% {{Blight1}}
+|-
+| [[File:Luxury.png|64px]] [[Pack of Luxury Goods]]
+| 0.65 {{Amber}}
+| [[Carpenter]] (★★) <br /> [[Leatherworker]] (★) <br /> [[Press]] (★)
+<!-- Recipe -->
+| —<!--blank-->
+| [[File:Ale.png|32px]] [[Ale]] <br /> [[File:Cosmetics.png|32px]] [[Cosmetics]] <br /> [[File:Incense.png|32px]] [[Incense]] <br /> [[File:Scrolls.png|32px]] [[Scrolls]] <br /> [[File:TrainingGear.png|32px]] [[Training Gear]] <br /> [[File:Wine.png|32px]] [[Wine]]
+| 2% {{Blight1}}
+|-
+| [[File:Provisions.png|64px]] [[Pack of Provisions]]
+| 0.40 {{Amber}}
+| [[Provisioner]] (★★) <br /> [[Manufactory]] (★★) <br /> [[Makeshift Post]] (⊙)
+<!-- Recipe -->
+| —<!--blank-->
+| [[File:Berries.png|32px]] [[Berries]] <br /> [[File:Eggs.png|32px]] [[Eggs]] <br /> [[File:Herbs.png|32px]] [[Herbs]] <br /> [[File:Insects.png|32px]] [[Insects]] <br /> [[File:Meat.png|32px]] [[Meat]]
+| 2% {{Blight1}}
+|-
+| [[File:TradeGoods.png|64px]] [[Pack of Trade Goods]]
+| 0.80 {{Amber}}
+| [[Smithy]] (★★) <br /> [[Lumber Mill]] (★) <br /> [[Weaver]] (★)
+<!-- Recipe -->
+| —<!--blank-->
+| [[File:Barrels.png|32px]] [[Barrels]] <br /> [[File:Flour.png|32px]] [[Flour]] <br /> [[File:Oil.png|32px]] [[Oil]] <br /> [[File:Pigment.png|32px]] [[Pigment]] <br /> [[File:Pottery.png|32px]] [[Pottery]] <br /> [[File:Waterskins.png|32px]] [[Waterskins]]
+| 2% {{Blight1}}
+|-
+| [[File:Amber.png|64px]] [[Amber]]
+| 1.00 {{Amber}}
+| [[Finesmith]] (★★★)
+<!-- Recipe -->
+| [[File:Resin.png|32px]] [[Resin]]
+| [[File:Sparkdew.png|32px]] [[Sparkdew]] <br /> [[File:Oil.png|32px]] [[Oil]]
+| 4% {{Blight3}}
+|-
+| [[File:AncientTablet.png|64px]] [[Ancient Tablet]]
+| 8.00 {{Amber}}
+|COLSPAN=4| ''Cannot be produced. Found from solving [[Glade Events]].''
+|-
+|}
+
+== Citadel Resources ==
+
+Citadel Resources are special Trade Goods that are used to upgrade the Smoldering City.  Citadel Resources cannot be produced, instead you earn them by completing settlements on the [[World Map]].  You earn more if you complete a settlement next to a [[Modifier]].  You can also find them in [[The Forest]] by [[Trading]], solving [[Glade Events]], and completing [[Orders]].
+
+{| class="wikitable"
+|[[File:Icon MetaResource FoodStockpiles.png|64px]] [[Food Stockpiles]]
+|-
+| [[File:Icon MetaResource Machinery.png|64px]] [[Machinery]]
+|-
+| [[File:Icon MetaResource Artifact.png|64px]] [[Artifacts]]
+|}
+
+== Tips on Trade Goods ==
+
+Unlike Planks and Fabric, Bricks are not used in any Recipes except for Packs of Building Materials. Bricks are used in constructing buildings, but most buildings only require 2-4 Bricks. Service buildings tend to require more - usually 8 bricks (except for the Monastery which requires 20 Bricks). If you have a decent amount of Clay, it might be beneficial to primarily produce Packs of Building Materials using Bricks.
+
+Berries can be farmed at Plantations (★★), Herbs can be farmed at Herb Gardens (★★), and Meat and Eggs can be produced by the Ranch (★). When producing Packs of Provisions, if you have any of those Buildings it might be beneficial to use their ingredients instead of Insects - which can be used to produce Jerky, Skewers, Pie, Incense, and Pigments.
+
+Incense is probably the easiest ingredient to produce that is used in making Packs of Luxury Goods (just Wood and Herbs). Wine and Ale require vessels; Scrolls require Wine or Pigments; and Training Gear uses Stone, Copper Bars, or Crystalized Dew. Cosmetics is a close second (just Eggs and Herbs), but you may not run into the Buildings which produce it as easily as those for Incense.
+
+= Fuel & Exploration =
+
+This category includes the [[Fuel]] burned and [[Sacrificing|Sacrificed]] in [[Hearths]], the [[Wood]] obtained from opening [[Glades]], and the tools for opening [[Caches]] and solving [[Glade Events]].
+
+== Raw Fuel Resources ==
+
+The [[Fuel]] resources in this category can be gathered from resource deposits on the map tiles. There are [[Recipes]] for [[Coal]] and [[Oil]] in the next table of all Fuel & Exploration resources.
+
+{| class="wikitable"
+|+ Fuel and where to get it
+!rowspan=2| Resource
+!rowspan=2| Amber value
+!COLSPAN=2| Gathered by
+!rowspan=2| Farmed from [[Farm Field]]s
+!rowspan=2| Produced by
+|-
+! Camp !! Near resource deposit
+|-
+| [[File:Coal.png|64px]] [[Coal]]
+| 0.31 {{Amber}}
+|COLSPAN=2| ''none''
+| ''none''
+| [[File:Mine icon.png|32px]] [[Mine]] (★) on a [[Coal Deposit]]
+|-
+| [[File:SeaMarrow.png|64px]] [[Sea Marrow]]
+| 0.31 {{Amber}}
+| [[Stonecutters' Camp]] (★) || [[File:DebugNode SeaMarrowSmall icon.png|64px]] [[Sea Marrow Deposit]]
+| ''none''
+| ''none''
+|-
+| [[File:Wood.png|64px]] [[Wood]]
+| 0.06 {{Amber}}
+| [[Woodcutters' Camp]] (★) || [[Trees]]
+| ''none''
+| ''none''
+|-
+|}
+
+== Produced Fuel & Exploration Resources ==
+
+Some of the Fuel & Exploration Resources are produced in [[Buildings]] from [[Recipes]]. [[Coal]] is also gathered via the [[Mine]], shown in the previous section.
+
+Note that the amount of ingredients, the amount produced, and the time it takes to produce all vary depending on the Building in which the Recipe is working. Consult the [[Recipes Panel]] in the game or the specific, linked Building page or Resource page for these further details.
+
+{| class="wikitable"
+|+ Produced Fuel & Exploration Resources
+!rowspan=2| Fuel & Exploration Resource
+!rowspan=2| Amber value
+!rowspan=2| Produced in
+!colspan=4| Recipe
+|-
+! 1st Ingredient !! 2nd Ingredient !! 3rd Ingredient !! Blightrot Footprint
+|-
+| [[File:Coal.png|64px]] [[Coal]]
+| 0.31 {{Amber}}
+| [[Kiln]] (★★★) <br /> [[Brick Oven]] (★)
+<!-- Recipe -->
+| –<!--blank-->
+| –<!--blank-->
+| [[File:Wood.png|32px]] [[Wood]]
+| 2% {{Blight1}}
+|-
+| [[File:Oil.png|64px]] [[Oil]]
+| 0.16 {{Amber}}
+| [[Druid's Hut]] (★★★) <br /> [[Press]] (★★★) <br /> [[Butcher]] (★★)
+<!-- Recipe -->
+| –<!--blank-->
+| –<!--blank-->
+| [[File:Grain.png|32px]] [[Grain]] <br /> [[File:Meat.png|32px]] [[Meat]] <br /> [[File:PlantFiber.png|32px]] [[Plant Fiber]] <br /> [[File:Vegetables.png|32px]] [[Vegetables]]
+| 4% {{Blight3}}
+|-
+| [[File:SimpleTools.png|64px]] [[Simple Tools]]
+| 1.38 {{Amber}}
+| [[Toolshop]] (★★★) <br /> [[Carpenter]] (★★) <br /> [[Smithy]] (★★) <br /> [[Tinkerer]] (★★) <br /> [[Scribe]] (★)
+<!-- Recipe -->
+| –<!--blank-->
+| [[File:Planks.png|32px]] [[Planks]] <br /> [[File:Wood.png|32px]] [[Wood]]
+| [[File:CopperBar.png|32px]] [[Copper Bars]] <br /> [[File:CrystalizedDew.png|32px]] [[Crystalized Dew]]
+| 4% {{Blight3}}
+|-
+| [[File:InfusedTools.png|64px]] [[Infused Tools]]
+| 1.76 {{Amber}}
+| [[Finesmith]] (★★★) <br /> [[Rainpunk Foundry]] (★★★)
+<!-- Recipe -->
+| [[File:Planks.png|32px]] [[Planks]] <br /> [[File:Wood.png|32px]] [[Wood]]
+| [[File:CopperBar.png|32px]] [[Copper Bars]] <br /> [[File:CrystalizedDew.png|32px]] [[Crystalized Dew]]
+| [[File:Sparkdew.png|32px]] [[Sparkdew]]
+| 4% {{Blight3}}
+|-
+| [[File:PurgingFire.png|64px]] [[Purging Fire]]
+| 0.31 {{Amber}}
+| [[Blight Post]] (★)
+<!-- Recipe -->
+| –<!--blank-->
+| –<!--blank-->
+| [[File:Coal.png|32px]] [[Coal]] <br /> [[File:Oil.png|32px]] [[Oil]] <br /> [[File:SeaMarrow.png|32px]] [[Sea Marrow]] <br /> [[File:Wood.png|32px]] [[Wood]]
+| ''none''
+|-
+|}

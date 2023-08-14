@@ -1,0 +1,150 @@
+{{Version|0.37.3}}
+
+== Winning and Losing ==
+[[File:Wiki Winning.png|thumb|320px|The Reputations and Queen's Impatience bars]]
+A run is won when the entire blue [[Reputation]] Bar is filled.
+
+A run is lost when the entire red [[Queen's Impatience]] Bar is filled, or when all villagers leave or die.
+
+== Reputation Points ==
+You can gain Reputation Points in three different ways:
+* '''Completing Orders:''' Each completed order grants 1 Reputation.
+* '''Perks and Cornerstones:''' Some cornerstones can increase reputation by doing certain acts.
+* '''Beneficial Forest Modifiers:''' Limited m
+* '''Villagers Resolve:''' Once a villager's Resolve reaches a certain threshold (indicated by a blue line on the Resolve Bar) they will start to generate Reputation passively. With time, the villagers will become accustomed to their living conditions, raising the threshold and requiring more complex needs to be satisfied.
+* '''Glade Events:''' Give various amounts of Reputation, with Dangerous Glades and Forbidden Glades giving more.
+* '''Hideouts:''' Give various amounts of Reputation, with larger Hideouts giving more.
+
+Gaining a Reputation Point lowers the Queen's Impatience bar.
+
+== Orders ==
+Every 12 minutes (outside the tutorial) the Citadel will assign 3 new Orders, accessible from the envelope icon on the top-right.<br>
+At higher difficulties, less orders will be available.<br>
+Orders will grant 1 Reputation as well as additional rewards. Each pair of orders is more difficult than the previous one.
+
+== Hideouts ==
+
+== Glade Events ==
+Glade events are a wide range of events that are found in the glades uncovered by cutting through trees.
+They vary widely:
+* Caches of goods that require simple tools or infused tools to open.
+* Camps of villagers that require food to recruit the villagers or send them to the Citadel.
+* Abandoned buildings that can repaired to be used for yourself or salvaged for resources.
+* Larger events that can range from villager bodies to rainpunk machines which all have negative effects for leaving them too long.
+* The Cursed Royal Woodlands biome also includes ghosts that create opened caches if you fulfill their requests.
+
+== Seasonal Conditions ==
+Seasonal conditions are beneficial or harmful modifiers to the game. They are displayed in the top right of the screen. You'll face less beneficial and more harmful modifiers at higher difficulties.<br>
+Negative ones can reduce resolve based on the level of hostility and can be avoided entirely as long as the modifiers conditions are met or hostility is low enough for it to not activate.<br>
+Beneficial conditions are only active during the drizzle period while harmful ones only activate during the storm.
+
+== Difficulty ==
+{| class="wikitable" style="text-align:center;"
+! Difficulty !! Embarkation<br>Points !! Blightrot &<br>Corruption !! Seasonal<br>Conditions !! Max<br>Hostility !! Hostility<br>Multiplier !! Other<br>Effects !! Experience Per<br>Successful Settlement !! Base Reward<br>(6 Empty Tiles)
+|-
+| '''Settler'''
+| 3
+| <span style="color:green;">'''No'''</span>
+| 2 Positive<br>1 Negative
+| 6
+| 1x
+| 12 Reputation required to win. <br> Villagers eat 35% less food. <br> 12 Total Orders Available.
+| 30
+| 21 Food Stockpiles
+|-
+| '''Pioneer'''
+| 2
+| <span style="color:green;">'''No'''</span>
+| 2 Positive<br>3 Negative
+| 9
+| 1.5x
+| 14 Reputation required to win. <br> 11 Total Orders Available.
+| 70
+| 42 Food Stockpiles
+|-
+| '''Veteran'''
+| 1
+| <span style="color:red;">'''Yes'''</span>
+| 1 Positive<br>4 Negative
+| 16
+| 2x
+| 14 Reputation required to win. <br> 10 Total Orders Available.
+| 140
+| 70 Food Stockpiles
+|-
+| '''Viceroy'''
+| 1
+| <span style="color:red;">'''Yes'''</span>
+| 1 Positive<br>4 Negative
+| 31
+| 3x
+| 14 Reputation required to win. <br> 9 Total Orders Available.
+| 175
+| 91 Food Stockpiles
+|}
+
+== Hostility ==
+Hostility is displayed as a number in the top bar. For every 100 points it rises by one. It is affected by the following:
+
+*For every year passed (drizzle, clearance, storm).
+*For every villager
+*For every assigned woodcutter
+*For every opened glade (Small Glades, Dangerous Glades, Forbidden Glades)
+*Ongoing Glade events
+*Impatience decreases hostility, so getting alot of impatience early on can make future storms easier to weather. However, other than through gaining reputation, impatience never decreases
+*Some cornerstones decrease hostility
+*Additional hearths reduce hostility by a small amount, however they necessitate active fuel consumption. and they require fuel
+*Sacrificing fuel in the heart decreases hostility, this helps preserving resolve or avoiding negative modifiers as long as it's enough to reduce hostility to a lower level
+
+Since Hostility increases over time unless countered by player action, storms get more difficult to survive as the game goes on. By accepting more villagers, claiming cornerstones, and unlocking more building blueprints by reaching higher reputation threshholds (or with the smuggler cornerstone), you improve your ability to provide villagers with housing, and their needs for goods (complex food, clothing) and services. This increases their resolve.
+
+== Resolve ==
+A villagers resolve determines their willingness to stay in the village. Below the species portrait are two numbers, displaying the current resolve value and the target resolve that the villagers will end up with if current trends continue. Even though villagers have individual values for resolve, only the average shown in the UI is relevant. Once the storm approaches or when interacting with glade events players face penalties to resolve which may reach to or below zero, prompting villagers to leave. Once this point is reached, a pie chart appears above their portrait which displays the time until the next villager departs. If resolve stays at or below zero long enough, several villagers may leave. When villagers leave or die the player gets +0.3 impatience, further penalizing insufficient resolve management. Since the villagers resolve has to drop to 0 before villagers leave due to resolve, players who keep their villagers resolve high at the start of the storm have a longer grace period and may survive the storm without a single villager leaving, even though target resolve is negative. During a villagers break, a shortage of food (either due to a lack of food or restrictions in the consumptions tab) gives villagers a resolve penalty. This penalty remains in place until the next break, where it will be removed if the villager eats or increased if they skip their meal again. Should the hearth run out of fuel, all villagers will be hit with a massive resolve penalty aswell as lose their benefits from housing and species specific housing as their homes go cold. If resolve exceeds a certain positive value, the portrait lights up and the player gradually gets reputation based on the reputation and amount of members of said species.
+
+Resolve is affected by:
+
+*Housing need fullfilled (+3)
+*Species specific housing need fullfilled (+3)
+*Basic needs fullfilled
+*Services needs fullfiled
+*Cornerstones
+*Harmful Forest mysteries (Only active during the storm).
+*Glade events
+*Unfair Treatment (+5 to one preferred species, -5 to the other two species)
+*Hunger (-4 every time a villager misses food, stacking)
+*Fuel shortage (-20)
+
+== General Tips ==
+<b>These tips are from 0.37.3 and may be out of date with the newer version. These pre-date many features like World Map Modifiers, Rain Engines, Gathering Camp changes, massive Glade changes & logistics changes!(Nov 2022 Ver.)</B>
+*Most runs are ended due to negative resolve effects during the storm, a glade event, or both. Avoid dealing with glade events during the storm if possible.
+*Don't open too many glades at once, as this means hostility will rise sharply, increasing the difficulty of the next storm.
+**In general avoid opening small glades all together. They offer small amount of resources in exchange for permanent rise in hostility level. 
+*When the storm starts, you should in this order:
+#Decrease hostility without using resources (e.g. by unassigning woodcutters)
+#Increase resolve by assigning villagers to their desired jobs (e.g. heat for lizardmen, not to be confused with jobs they have a strong apititude for, e.g. meat for lizardmen)
+#Use resources to decrease hostility further (sacrifces) or enabling new consumption resources (e.g. allowing villagers to use a previously forbidden resource like cloaks in the consumption tab)
+#Use unfair treatment, you can increase one species resolve by +5 decreasing other species resolve by the same amount (-5). This has a cooldown of 60s once deactivated before it can be used again.
+*Stockpile resources. Collecting fuel before the storm starts allows you to unassign woodcutters during the storm. You may want to forbid your villagers from using consumable resources if they are not needed to keep resolve positive so that you may use them later.
+*Focus on permanent ways to increase your villagers resolve, such as housing and cornerstones. Consumable goods may also improve resolve, but once you run out your resolve drops again.
+*Resource recipes can "improve" the value of your goods. For example, by using a smokery, you can create 10 jerky from 4 meat and 5 wood. While you can run out of jerky and lose your resolve penalty, it takes you longer to run out of 10 jerky than you would run out of the 4 pieces of meat. So you solve hunger and complex food needs at once.
+*Service goods often require complex production chains (unless you have cornerstones that significantly shorten them, e.g. getting 3 barrels every time you produce 10 planks). Focus first on basic needs and produce service goods only when you know you have enough food/fuel to survive the next storm.
+*Service buildings provide powerful bonuses if they are fully staffed. It may be worth to construct them even if you are unable to provide the service goods they use. If you want to keep your service goods, you can use the consumption tab and still construct the building.
+*Resolve is a resource. You can intentionally restrict access to valuable goods or starve your villagers as long as it is positive so that you have more resources to keep for harsher times or to sell to the trader.
+
+== Standard Opening ==
+
+The writeup below aims to provide a skeleton of meta strategy for the first year of the game. While players are encouraged to develop their own strategies and adjust them to modifiers/cornerstones/available resources/etc, this is a good reference to learn what you should be doing at beginning of year. Last updated for version 0.37.3 <b>VERY OUT OF DATE (Nov 2022 Ver.)</B>
+
+* Disable coal consumption (so that it is available to solve first event)
+** Disable food consumption. This is slightly more advanced strategy, but allowing your villagers to starve a bit during first year is a good way to save resources. Reenable consumption once the next hunger stack pushes you to negative resolve
+* Place a Harpy in the Hearth, a Lizard if there is no Harpy available 
+* Build two Woodcutters' Camps and start digging in direction of dangerous glade; do not open it yet 
+* Depending on the resources, orders and blueprints you see do all/some of the following. Note that as you become more experienced with the game, you might want to delay your blueprint/order picks, but don't worry about that for now 
+** Build a basic road network
+** Build three shelters or two shelters and one species specific house. Build four decorations. This is to unlock upgrade of [[Hearth]] 
+** Build a [[Crude Workstation]]
+** Build gathering camps for your initial resources
+** Build one of your blueprints
+* Build a [[Trading Post]] during the first storm
+**Don't build it too early, your goal is to be able to use first trader to solve first event 
+* At the beginning of Year 2 open the first dangerous glade

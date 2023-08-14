@@ -1,0 +1,32 @@
+<blockquote>Increase the production speed of Copper Bars, Crystalized Dew, and all recipes that use metal ingots by +33%.</blockquote>
+
+Metallurgic Proficiency is a [[Perks|Perk]] that increases the speed of many [[Recipes]] and [[Buildings]]. 
+
+
+Metallurgic Proficiency works on the following [[Resources]]:
+* [[Barrels]]
+* [[Copper Bars]]
+* [[Crystalized Dew]]
+* [[Infused Tools]]
+* [[Parts]]
+* [[Pigment]] (check in latest build. In the older version quote, "It does appear with testing that Recipes that produce using metal or ore will get the speed increase if they use alternate materials. Therefore, if you run out of Copper Ore for Pigment, for example, you can use Coal with the production speed increase.")
+* [[Simple Tools]]
+* [[Training Gear]]
+
+The following do not appear to be considered metal or ore:
+* [[Clay]]
+* [[Coal]]
+* [[Pack of Building Materials]], despite using [[Copper Ore]] to produce
+
+
+The following [[Buildings]] benefit from the perk:
+* [[Forester's Hut]]
+* [[Mine]] (?)
+
+==See Also==
+
+[[Perks]]
+
+[[Resources]]
+
+Thanks to '''u/kaydenkross''' on Reddit for their [https://www.reddit.com/r/Against_the_Storm/comments/105vbao/metallurgic_proficiency_cornerstone_perk/?utm_source=share&utm_medium=ios_app&utm_name=iossmf|initial research].

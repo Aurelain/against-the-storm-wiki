@@ -1,0 +1,69 @@
+[[File:ATSgladeevent.PNG|thumb|A Rain Spirit Totem]]
+''The '''Rain Spirit Totem''', a totem built by the Fishmen. It seems to have affected the weather, making the rain heavier.''
+
+== Threats ==
+{| class="wikitable"
+|+ Time Between Effects: 10 minutes
+|-
+| [[File:Flooding.png|border|32px]] || Destroys all the roads in a settlement
+|-
+| [[File:CurseOfWeakness.png|border|32px]] || Villagers move 30% slower
+|}
+{| class="wikitable"
+|+ Choice of materials for investigation:
+! Resource Type !! Amount !! Amber Value
+|-
+| [[File:Resin.png|border|32px]] Resin || 13 || 1.82 {{amber}}
+|-
+| [[File:Oil.png|border|32px]] Oil || 13 || 2.08 {{amber}}
+|-
+| [[File:Coal.png|border|32px]] Coal || 13 || 4.03 {{amber}}
+|-
+| [[File:SeaMarrow.png|border|32px]] Sea Marrow || 13 || 4.03 {{amber}}
+|-
+| [[File:SimpleTools.png|border|32px]] Simple Tools || 6 || 8.28 {{amber}}
+|-
+| [[File:InfusedTools.png|border|32px]] Infused Tools || 3 || 5.28 {{amber}}
+|-
+| [[File:Planks.png|border|32px]] Planks || 16 || 2.88 {{amber}}
+|}
+
+{| class="wikitable
+|+ Effects only while investigating:
+| [[File:RageOfTheForest.png|border|32px]] || Increases the forest's [[Hostility]] by 150 points.
+|}
+{| class="wikitable
+|+ Working Time
+| 1 Villager || 4:00
+|-
+| 2 Villagers || 3:00
+|}
+== Possible Rewards ==
+=== Salvage ===
+{| class="wikitable"
+|-
+! Resource Type !! Amount !! Amber Value
+|-
+| [[File:SeaMarrow.png|border|32px]] Sea Marrow || 25 || 5 {{amber}}
+|-
+| [[File:Fabric.png|border|32px]] Fabric || 20 || 6.2 {{amber}}
+|}
+=== Conversion ===
+[[File:ConvertedRainTotem.png|thumb|256px|Converted Rain Totem]]
+Becomes a '''Converted Rain Totem''', providing 4 '''Harmony''' when placed within a Hearth's range.
+{| class="wikitable"
+|+ Provides passive buff:
+|-
+| [[File:ConvertedRainTotemEffect.png|border|64px]] || Decreases [[Hostility]] by 50 points.
+|}
+{| class="wikitable"
+|+ When destroyed, it returns:
+|-
+! Resource Type !! Amount !! Amber Value
+|-
+| [[File:Planks.png|border|32px]] Planks || 4 || 0.72 {{amber}}
+|-
+| [[File:Fabric.png|border|32px]] Fabric || 4 || 1.24 {{amber}}
+|-
+| [[File:Bricks.png|border|32px]] Bricks || 4 || 1.24 {{amber}}
+|}

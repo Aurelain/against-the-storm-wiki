@@ -1,0 +1,82 @@
+= Hearths =
+
+Hearths are the heart of the [[Settlement]].  Every Settlement starts with an [[#Ancient Hearth | Ancient Hearth]] and can construct other [[#Small Hearths | Small Hearths]] from the "City Buildings" menu.  Hearths are a Warmth specialization building that employs a single Firekeeper to keep the Hearth lit by burning [[Resources#Fuel & Exploration | Fuel]].  Every [[Villagers | Villager]] takes their breaks at the nearest lit Hearth to warm themselves, eat, and fulfill their needs.  By upgrading the community around each Hearth you can unlock up to 3 tiers of stackable benefits.
+
+== Fuel ==
+
+''Main page: [[Fuel]]''
+
+You can decide which type of Fuel will be burned in each Hearth by selecting it and using the checkboxes next to the fuel types in the selection UI.
+
+* [[File:Coal.png|25px]] Each coal burns for 0:40 seconds
+* [[File:SeaMarrow.png|25px]] Each Sea Marrow burns for 0:40 seconds
+* [[File:Oil.png|25px]] Each Oil burns for 0:25 seconds
+* [[File:Wood.png|25px]] Each Wood burns for 0:12 seconds
+
+== Villager Breaks ==
+
+Every few minutes, workers take breaks and return to a nearby Hearth to eat and rest. During a break, they consume at least one item of food and try to fulfill all their needs. If a Villager has multiple [[Complex Food Need | complex food]] needs enabled for consumption, they will consume more than one meal.  If a Villager is disallowed complex foods for consumption, or there are none available they will consume a basic food.  Villagers will also consume one [[Resources#Service Goods | Service Good]] for each allowed [[Services | Service]].
+
+== Hearth Upgrades ==
+
+Hearths automatically upgrade based on their surrounding community.  If you click on the Hearth, you can see the range of its community.  You can upgrade the Hearth by housing more villagers and constructing more Decorations within its range.  The bonus for each level is cumulative, and the bonuses from multiple Hearths stack.  Upgrading to level 2 and 3 requires you to [[Smoldering City#Upgrades | unlock]] levels of the Brass Forge.
+
+{| class="wikitable" style="text-align:center;"
+! Level !! Name !! Requirements !! Bonus !! Description
+|-
+| 0 || || || -30 to Hostility || 
+|-
+| 1 || Encampment || 8 Housed Villagers<br>4 Comfort Decorations || +2 to Global Resolve || ''Gathered around the blazing fire, folks keep each other's spirits high.''
+|-
+| 2 || Neighborhood || (Unlocked with Brass Forge 1)<br>14 Housed Villagers<br>8 Comfort Decorations<br>4 Aesthetics Decorations || +10% to global production || ''Some viceroys say aesthetics don't matter out in the wilds, but you know better than that.''
+|-
+| 3 || District || (Unlocked with Brass Forge 3)<br>? || +10% to global extra production chance || ''The town is booming with activity and industry thrives.''
+|}
+
+= Ancient Hearth =
+
+<blockquote>
+The heart of the colony is protected by the Holy Flame.  Villagers gather here to rest, eat, and receive clothing.  If the fire goes out, people will lose hope.
+</blockquote>
+
+Every Settlement starts with an Ancient Hearth which must '''always''' remain lit.  If the fire goes out, all Villagers will lose 20 Resolve. To keep the flame burning, a Firekeeper and a steady supply of Fuel are needed.   Your choice of Firekeeper in the Ancient Hearth will grant your Settlement a specific bonus.
+
+== Firekeeper Bonus ==
+
+{| class="wikitable" style="text-align:center;"
+! Species !! Bonus !! Effect !! Description
+|-
+| [[File:Human circle.png|60px]]<br>Human || Beacon || Queen's Impatience grows 25% slower || ''Human firekeepers create a special link with the Citadel.
+|-
+| [[File:Beaver circle.png|60px]]<br>Beaver || Pragmatic Frugality || Fuel burns 20% longer || ''Beaver firekeepers know a lot about burning techniques.''
+|-
+| [[File:Lizard circle.png|60px]]<br>Lizard || Sacred Pyre || +1 to global Resolve || ''Lizard firekeepers are very adept at ancient rites.''
+|-
+| [[File:Harpy circle.png|60px]]<br>Harpy || Light as a Feather || +5 to global carrying capacity || ''Harpy firekeepers can teach villagers how to be more nimble and agile.''
+|-
+| [[File:Fox circle.png|60px]]<br>Fox|| Forest Affinity || -2 hostility from opened groves || ''Fox firekeepers have an unusual ability to calm the forest.''
+|}
+
+== Sacrificing ==
+
+During especially hard times, you can sacrifice additional goods in the Ancient Hearth to temporarily gain positive effects.
+
+Each Fuel type grants different boons:
+* [[File:Wood.png|25px]] 40 Wood per minute can be sacrificed to give -50 Hostility
+* [[File:Coal.png|25px]] 20 Coal per minute can be sacrificed to give -80 Hostility
+* [[File:SeaMarrow.png|25px]] 20 Sea Marrow per minute can be sacrificed to give +25% Glade Event working speed
+* [[File:Oil.png|25px]] 15 Oil per minute can be sacrificed to give +25% global production speed
+
+You can have up to 3 ticks of each Fuel being sacrificed at a time.
+
+= Small Hearths =
+
+Small Hearths cannot be built to close to the Ancient Hearth or to each other - the ranges of your Hearths (approx. radius of 9 squares) may never overlap.
+
+Small Hearths are identical to Ancient Hearths, except you do not receive a Firekeeper bonus and you cannot sacrifice Fuel.  It is OK if Small Hearths go out, but Villagers will be unable to rest or fulfill their needs at an unlit Hearth and will instead travel to the nearest available lit Hearth.
+
+= Hearth Tips =
+
+Since Firekeepers in Small Hearths don't offer a species-specific bonus like they do in the Ancient Hearth, you can take advantage of its Warmth specialization synergy with Lizards.
+
+It is generally a good idea to have a Warehouse very near to each Hearth because Villagers on break will need to visit a Warehouse in order to gather food and service goods and then return to the Hearth to take their break.

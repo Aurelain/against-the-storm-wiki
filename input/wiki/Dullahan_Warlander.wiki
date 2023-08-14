@@ -1,0 +1,32 @@
+[[File:Trickster_Portrait.png|255px|thumb|right|Dullahan Warlander's in-game portrait]]Dullahan Warlander is a [[Trader]] and Hooded Trickster.
+
+He is the only Trader unlocked by a [[Deed]]. The Deed he is locked behind is Against All Odds, which requires you to win a game on Viceroy [[Difficulty]]. Dullahan Warlander can only come to your settlement once you hit 66 City score. At 8% visit chance at City score ≥66, he is the least likely Trader to visit your settlement.
+
+[[File:Mystery_boxes_example.png|thumb|Screenshot of mystery boxes for sale by Dullahan]]
+Dullahan is the only source of [[Mystery boxes]] in the game. They take up the bottom section of his inventory, where you would usually find [[Perks]], Reputation and [[Blueprints]]. Mystery boxes he sells contain at least one Perk of the same rarity as the Mystery box in addition to a variety of other goods. In more expensive boxes you will find more and higher quality Perks and goods. 
+
+{| class="wikitable"
+! City score !! Chance to get Dullahan Warlander *
+|-
+| 0 - 32
+| 0%
+|-
+| 33 - 65
+| 0%
+|-
+| 66+
+| 8%
+|-
+|}* provided all [[Traders]] are unlocked
+
+Dullahan Warlander sells:
+* crafting materials
+* fabrics
+* metal
+* mystery boxes
+
+Dullahan Warlander buys:
+* cooked food
+* luxury items
+* some raw resources
+* packs of goods

@@ -1,0 +1,1 @@
+For viewing and extracting game files: https://github.com/Perfare/AssetStudio

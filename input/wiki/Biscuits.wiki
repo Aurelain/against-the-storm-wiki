@@ -1,0 +1,102 @@
+[[File:Biscuits.png|border|right|link=]]
+<blockquote>Tasty and crunchy. Produced in: Field Kitchen, Bakery, Cookhouse, Smelter, Apothecary.</blockquote>
+
+Biscuits are [[Resources#Complex_Food|Complex Food]] preferred by [[Human]]s, [[Beaver]]s, and [[Harpies|Harpy]]. Each of your [[Villagers]] that [[Complex Food Need|fulfills their need for Biscuits]] receives a bonus to their [[Resolve]].
+
+
+== Produced in ==
+
+Biscuits are produced in the following [[Buildings]]:
+
+Three-star Buildings
+* ''none''
+Two-star Buildings
+* [[Apothecary]] ({{2Star}})
+* [[Bakery]] ({{2Star}}), available at early [[Level]]s
+* [[Cookhouse]] ({{2Star}}), available at early Levels
+One-star Buildings
+* [[Smelter]] ({{1Star}})
+Zero-star Buildings
+* [[Field Kitchen]] ({{0Star}})
+
+
+
+== Recipes ==
+
+Before any [[Perks]] are applied, the [[Recipe]] for Biscuits in all [[Buildings]] yields 10 Biscuits. In any of the 2-star ({{2Star}}) food-production Buildings, the Recipe requires 8 Flour and 3 of any of the flavor ingredients. In the zero-star ({{0Star}}) Field Kitchen, the Recipe requires 10 Flour and 4 flavor ingredients.
+
+{{Recipe|Biscuits}}
+
+
+For reference, this is the standard Recipe for [[Flour]] in a 3-star ({{3Star}}) production Building, like the [[Rain Mill]].
+
+{{Recipe|Flour|Rain Mill}}
+
+== Sources and Strategies ==
+
+Biscuits are typical rewards from [[Orders]], including [[Lost Knowledge]] which rewards 40 Biscuits, 40 [[Jerky]], 40 [[Pie]], and 1.0 [[Reputation]]. Also, there are Orders that '''require''' Biscuits, but in different ways. '''If you don't want the Order to take your Biscuits, be sure you carefully read the text and tooltip.'''
+* One Order requires Biscuits to be delivered from the settlement's inventory.
+* [[Folks Gotta Eat!]] requires that 16 [[Villagers]] be satisfied by their need for Biscuits and [[Jerky]] simultaneously for 120 seconds. This means that you must have the right number of the right [[Species]] of Villagers for there to be 16 fed at the same time. It also means that you need to start with more than 16 of each, since you have to sustain the fulfillment for the entire 120 seconds or the timer resets.
+
+Biscuits can be acquired from a [[Trade]]r. They have a value of 0.25 {{Amber}} [[Amber]], therefore a stack of 40 is worth 10.0 {{Amber}} to the Trader.
+
+Biscuits are common rewards from opening [[Caches]] found randomly in the forest. In the cache rewards tooltip, they are called a '''Basket of Biscuits'' and contain about 30 to 40 biscuits.
+
+Because the recipe for Biscuits contains [[Flour]], they will not be the first food available to your settlement.
+
+
+=== Production Chain ===
+
+The production chain for Biscuits looks like this.
+
+==== First Ingredient: [[Flour]] ====
+
+Step 1 options:
+* A [[Root Deposit]] worked by a [[Scavengers' Camp]] produces [[Roots]] ({{1Star}}).
+* A [[Swamp Wheat Field]] worked by a [[Foragers' Camp]] produces [[Grain]] ({{1Star}}).
+* [[Fertile Soil]] is improved to a [[Farm Field]].
+** [[Farm Field]]s worked by a [[Small Farm]] produce [[Grain]] ({{2Star}}).
+** [[Farm Field]]s worked by an [[Herb Garden]] produce [[Roots]] ({{1Star}}).
+Step 2 options:
+* A [[Rain Mill]] refines either or both of the [[Grain]] or [[Roots]] into [[Flour]] ({{3Star}}).
+* A [[Provisioner]], [[Stamping Mill]], or [[Supplier]] refine either or both of the [[Grain]] or [[Roots]] into [[Flour]] ({{2Star}}).
+* A [[Press]] refines either or both of the [[Grain]] or [[Roots]] into [[Flour]] ({{1Star}}).
+
+
+==== Second Ingredient: [[Herbs]], [[Berries]], or just more [[Roots]] ====
+
+Options:
+* A [[Root Deposit]] worked by a [[Scavengers' Camp]] produces [[Roots]] ({{1Star}}). This can be the same deposit and camp for the first ingredient.
+* An [[Herb Deposit]] worked by an [[Herbalists' Camp]] produces [[Herbs]] ({{1Star}}).
+* A [[Dewberry Bush]] worked by an [[Herbalists' Camp]] produces [[Berries]] ({{1Star}}).
+* [[Fertile Soil]] is improved to a [[Farm Field]], which when worked by an [[Herb Garden]] produces both [[Roots]] ({{1Star}}) and [[Herbs]] ({{2Star}}).
+
+
+==== Bare minimum production ====
+
+If you need Biscuits without a lot of investment, look here. The simplest and lowest-level access to Biscuits from among the ingredients and Buildings still requires two selected blueprints for production Buildings. Altogether, this setup requires 10 [[Wood]], 3 [[Parts]], 10 [[Planks]], and 4 [[Fabric]] for the Camps and Buildings.
+# A [[Root Deposit]] worked by a [[Scavengers' Camp]] '''AND'''
+# A [[Rain Mill]], which is slightly cheaper than a [[Provisioner]] '''AND'''
+# A [[Bakery]] which is cheaper than a [[Cookhouse]]
+
+==== Efficient sustainable production ====
+
+If you need to sustain Biscuits and want to feel efficient at doing so, look here.
+# [[Farm Field]]s worked by an [[Herb Garden]] producing both [[Roots]] and [[Herbs]].
+# The [[Roots]] are refined by a [[Rain Mill]] into [[Flour]].
+# A [[Cookhouse]] or [[Bakery]] combines the Flour and Herbs into Biscuits. Since both are two-star ({{2Star}}), you can choose based on which other products you need.
+
+
+== Related and Supporting Perks ==
+
+See also: [[Perks]].
+
+* [[Biscuit Diet]]: [[Farmers]] have a +75% chance of producing double yields when under the effect of Biscuits.
+* [[Bread Peels]]: [[Bakery]] production is 50% quicker.
+* [[Root Delivery Line]]: 3 [[Roots]] per minute.
+* [[Sharp Sickles]]: +2 to [[Herbs]] production. Gain additional Herbs every yield (from gathering, farming, or production). 
+* [[Spices]]: [[Herbs]] and [[Roots]] production is increased by +1 for every 75 Biscuits produced.
+
+
+[[Category:Complex Food]]
+[[Category:Recipe]]

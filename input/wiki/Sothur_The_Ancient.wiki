@@ -1,0 +1,29 @@
+[[File:Caravanner_Portrait.png|255px|thumb|right|Sothur The Ancient's in-game portrait]]Sothur The Ancient is a [[Trader]] and Mysterious Caravanner.
+
+He is the second Trader you can unlock by leveling, at [[Level]] 6. Sothur The Ancient can't come to your settlement before you hit 33 City score.
+
+{| class="wikitable"
+! City score !! Chance to get Sothur The Ancient *
+|-
+| 0 - 32
+| 0%
+|-
+| 33 - 65
+| 20%
+|-
+| 66+
+| 16%
+|-
+|}* provided all [[Traders]] are unlocked
+
+Sothur The Ancient sells:
+* alchemical [[Blueprints]]
+* crafting materials
+* luxury items
+* [[Perks]]
+
+Sothur The Ancient buys:
+* cooked food
+* fuel
+* luxury items
+* packs of goods

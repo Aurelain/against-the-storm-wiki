@@ -1,0 +1,1 @@
+'''Levels''' in Against the Storm are how the player progresses and unlocks new upgrades for the [[Smoldering City]]. Levels are granted as the player accrues experience points which can be gained from completing [[settlement]]s or completing [[Deeds]]. Each level unlocks new [[Smoldering City#Upgrades|Upgrades]] in the Smoldering City.

@@ -1,0 +1,4 @@
+'''Forbidden Events''' are a variant of [[Dangerous Events]], that house a unique level of threat. Most threats of these come in the shape of killing villagers and destroying buildings. They may end disastrous if left unattended, where few will even disappear if not solved, but all the while they offer phenomenal rewards when investigated.
+
+== Types of Forbidden Events ==
+* [[Drainage Mole]]

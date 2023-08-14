@@ -1,0 +1,85 @@
+= Seasons =
+
+<blockquote>
+''The only thing certain is the Storm.''
+</blockquote>
+
+Each [[Settlement]] must brave the three seasons of [[The Forest]]:
+
+# [[File:Drizzle.png|40px]] Drizzle lasts 6:00 minutes. Crops are planted and [[#Positive Forest Mysteries | positive Forest Mysteries]] are active.
+# [[File:Clearance.png|40px]] Clearance lasts 4:15 minutes. Crops are harvested.
+# [[File:Storm 2.png|40px]] Storm lasts 1:40 minutes. Crops that are not harvested die and negative [[#Negative Forest Mysteries | negative Forest Mysteries]] are active. Traders will not arrive. If Blightroot is present it will attempt to corrupt the Ancient Hearth.
+
+= Forest Mysteries =
+
+''Main article: [[Forest Mysteries]]
+
+Forest Mysteries are generated at the start of each game, based on the map’s difficulty and biome. Some effects are simple modifiers influencing production, lowering speed or destroying buildings, but some are based on your villagers' needs. For example: Hailstorm can kill villagers during the Storm, but if they have a home, they are safe.
+
+== Positive Forest Mysteries ==
+Positive Forest mysteries are active during the Drizzle season.
+{| class="wikitable"
+! Forest Mystery !! Effects
+|-
+| [[File:Addon 10.png|25px]] Aurora || +1 Resolve every minute from Service
+|-
+| [[File:B 25.png|25px]] Berry New Year || +3 Berry production
+|-
+| [[File:B 03 modified.png|25px]] Clear Skies || +300% Trade arrival speed
+|-
+| [[File:Insects.png|25px]] Cricket Mating Grounds || +30 Insects per discovered Glade
+|-
+| [[File:SpellBookPage09 81 modified.png|25px]] Euphoric Vapors || +1 Resolve from Complex Food
+|-
+| [[File:Addon 17.png|25px]] Fermented Rain || Rain Collector buildings produce Wine
+|-
+| [[File:Yellow 09.png|25px]] Fresh Breeze || Villagers with Complex Food and Housing move 20% faster
+|-
+| [[File:Violet 24 modified.png|25px]] Heavy Drops || +5 Sparkdew production
+|-
+| [[File:Blue 06 modified.png|25px]] Invigorating Winds || Villagers with Complex Food move 20% faster
+|-
+| [[File:07 b.png|25px]] Lightweight Wood || +10 Woodcutter carry capacity
+|-
+| [[File:M 03.png|25px]] Mushrooms After the Rain || +3 Mushroom Production
+|-
+| [[File:SpellBookPage09 70.png|25px]] Untapped Wealth || +50% Chance to collect additional resources from resource deposits
+|-
+| [[File:SGI 02.png|25px]] Warm Welcome || Double Reputation from Resolve
+|-
+| [[File:Gr 12.png|25px]] Worms After the Rain || Scavengers' Camp buildings can harvest Insect deposits
+|}
+
+== Negative Forest Mysteries ==
+Negazite Forest mysteries are active during the Storm season. Some of them require a certain Hostility level to become active.
+{| class="wikitable"
+! Forest Mystery !! Effects !! Hostility Level
+|-
+| [[File:Storm.png|25px]] Looming Darkness || -4 Global Resolve per Hostility level || 0
+|-
+| [[File:SpellBook01 47.png|25px]] Creeping Shadows || -10 Global Resolve for 3 minutes after discovering a Glade || 1
+|-
+| [[File:B 13.png|25px]] Fog || Villagers without Housing more 40% slower || 1
+|-
+| [[File:SpellBook01 62.png|25px]] Greater Threat || -2 Global Resolve for for each discovered Dangerous and Forbidden Glade (penalty is added retroactively) || 1
+|-
+| [[File:Green 30 modified.png|25px]] Muddy Ground || -30% Villager speed outside Roads || 1
+|-
+| [[File:SpellBook01 55.png|25px]] Regular Storm || Villagers without Shelter have a 10% chance to die every 60 seconds || 1
+|-
+| [[File:Blue 17.png|25px]] Under an Open Sky || Villagers without Housing have -5 Resolve || 1
+|-
+| [[File:P 17.png|25px]] Aura of Fear || Reolves drops twice faster || 2
+|-
+| [[File:P 01.png|25px]] No Contact || Reputation doesn't lower Queen's Impatience || 2
+|-
+| [[File:SpellBookPage09 35.png|25px]] Rotten Rain || Living Matters spawns on one farm field every 70 seconds || 2
+|-
+| [[File:B 16.png|25px]] Cloudburst || Villagers without Coats lose 10 Resolve for 10 minutes || 3
+|-
+| [[File:Blue 01.png|25px]] Faint Flame || -40% Sacrifice duration || 3
+|-
+| [[File:SpellBook01 07.png|25px]] Strange Lights ||  Villagers without Services have a 20% chance to destroy the yield || 4
+|-
+| [[File:SpellBookPage09 84.png|25px]] Eerie Song ||  Villagers without Services have a 5% chance to die every 15 seconds || 5
+|}

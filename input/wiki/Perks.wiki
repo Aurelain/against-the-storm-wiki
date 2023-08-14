@@ -1,0 +1,308 @@
+[[File:Perks tray emphasized.png|thumb|Screenshot of a grown settlement's Perks. Notice the different border colors, including a Grain bonus of +1 in blue (third row) and +2 in purple (fifth row). The Village has x4 stacks of the +1 Grain and one stack of the +2 Grain bonus.]]
+Perks cause a continuous effect on the settlement. They are obtained from [[Seasons]], [[The Forest]], [[Hearths]], [[Cornerstones]], [[Trade|Traders]], [[Glade Events]], some [[Buildings]], [[Biomes]], and [[World Map]] effects. A list of the current Perks to your settlement is visible in the bottom-left corner of the game window, arranged in a grid. Holding the mouse over these icons will show in a tooltip the name of the Perk, a description, and any additional details like multipliers or progress.
+
+Perks with the same name can appear twice in the grid as separate Perks, because some Perks award different numeric values (for example, decreasing Hostility or increasing production of Fabric) depending on the rarity of the Perk. (See section on [[#Rarity|Rarity]], below.) They will have different numerical tokens on the icon and border colors, for example, '''+1''' with a green border and '''+2''' with a blue border. These tokens are on the bottom of the icon.
+
+You can obtain some Perks more than once, and their effects will multiply. For example, a Perk increasing Bricks by +2 that you have obtained twice will increase Bricks by +4. Look for a small '''x2''' token at the top of Perk icons in the corner of your screen.
+
+Some Perks award additional bonuses upon reaching thresholds. For example, Nets increases Meat production by +1 for every 25 Meat produced (or gathered or farmed). If, after obtaining the Perk, workers in your Trappers' Camps have gathered a total of 100 Meat, they will be gathering with a +4 bonus. Look for a small '''x2''' token at the top of Perk icons in the corner of your screen. Holding the mouse over these icons will show you your current progress towards your next threshold.
+
+Except where explicitly noted by the description of the Perk, Perks are not retroactive and do not count retroactively. For example, [[Peasant Supplies]] ("Receive 3 Pack of Provisions for every new Villager") does not award packs for villagers already in the settlement. In contrast, [[Extraction Tools]] ''does'' count all already solved Glade Events, and its description explicitly says this.
+
+== Rarity ==
+
+[[File:Mystery_boxes_example.png|thumb|Screenshot of mystery boxes for sale by a trader]]
+Perks have different rarities, indicated by their border color. In some cases, two Perks with the same name but different rarities give different results. The higher the rarity, the better the bonus.
+
+The [[Trader]] [[Dullahan Warlander]] sells mystery boxes for [[Amber]] that contain at least one perk of the same rarity as the mystery boxes. Boxes with higher rarity Perks are more expensive.
+
+Here are examples of the four rarity levels of Cornerstone Perks, as purchased from the Trader.
+
+{| class="wikitable" style="border-spacing:18px; text-align:center""
+|+ Examples
+! Uncommon !! Rare !! Epic !! Legendary
+|-
+! green !! blue !! purple !! orange
+|-
+| {{Perk|LimeGreen|File:Coats.png}} || {{Perk|DodgerBlue|File:Mushrooms.png}} || {{Perk|DarkOrchid|File:8538 b.png}} || {{Perk|Chocolate|File:Perk-Contraband.png}}
+|-
+| [[File:Perk-example-green.png|x72px|In-game]] || [[File:Perk-example-blue.png|x72px|In-game]] || [[File:Perk-example-purple.png|x72px|In-game]] || [[File:Perk-example-orange.png|x72px|In-game]]
+|}
+
+== List of Perks ==
+
+{| class="wikitable sortable"
+! Perk !! Rarity !!class="unsortable"| Effects
+|-
+| {{Perk|DarkOrchid|File:Pt b 07.png}} [[Advanced Fuel]] || Epic Cornerstone || All [[Fuel]] [[Recipe]]s are 25% faster.
+|-
+| {{Perk|DarkOrchid|File:Artifact 11 b.png}} [[Ancient Artifact]] || Epic Perk || +3 to [[Global Resolve]].
+|-
+| {{Perk|Chocolate|File:Perk-Ancient Pact.png}} [[Ancient Pact]] || Legendary Cornerstone || You can see the content of undiscovered [[Glades]], but discovering Dangerous or Forbidden Glades '''kills''' 1 [[Villager]].
+|-
+| {{Perk|DodgerBlue|File:Coats.png}} [[Ancient Sewing Technique]] || Rare Perk || +3 to [[Coats]] production. Gain additional Coats every yield (from gathering, farming, or production).
+|-
+| {{Perk|DarkOrchid|File:Pottery.png}} [[Archaeological Tools]] || Epic Perk || Gain 20 [[Pottery]] every time you discover a new [[Glade]].
+|-
+| {{Perk|Chocolate|File:Perk-Back to Nature.png}} [[Back to Nature]] || Legendary Cornerstone <br /> [[File:Ethernal Icon.png|32px|link=Ethereal]] [[Ethereal]] || Increases yields by 100% in all [[Buildings]] that use [[Fertile Soil]] ([[Farms]]). You will '''lose all stored food''' (cooked and raw) upon choosing this cornerstone.
+|-
+| {{Perk|Chocolate|File:Perk-Baptism of Fire.png}} [[Baptism of Fire]] || Legendary Cornerstone || Every 3 burnt [[Blightrot Cysts]] lowers [[Hostility]] by -10. While the [[Hearth]] is corrupted, you're '''unable''' to [[Sacrifice]] Resources.
+|-
+| {{Perk|White|File:Perk-Beacon.png}} [[Beacon]] || [[Firekeeper]] Bonus from [[File:Human_circle.png|32px]] [[Human]]s || [[Queen's Impatience]] grows 25% slower.
+|-
+| {{Perk|LimeGreen|File:ScrollsAndBooks 60.png}} [[Beneficial Agreement]] || Uncommon Perk || [[Trade]]rs will arrive +15% quicker.
+|-
+| {{Perk|DodgerBlue|File:Pigment.png}} [[Big Phials]] || Rare Perk || +2 to [[Pigment]] production. Gain additional Pigment every yield (from gathering, farming, or production).
+|-
+| {{Perk|DodgerBlue|File:Skewers.png}} [[Bigger Grill]] || Rare Perk || +2 to [[Skewers]] production. Gain additional Skewers every yield (from gathering, farming, or production).
+|-
+| {{Perk|DarkOrchid|File:TradingIcons 129 b.png}} [[Biscuit Diet]] || Epic Cornerstone || [[Farmers]] have a +75% chance of producing double yields when under the effect of [[Biscuits]].
+|-
+| {{Perk|Chocolate|File:Perk-Blight Extractor.png}} [[Blight Extractor]] || Legendary Cornerstone || Every completely infected [[Building]] (100% [[Blightrot]]) generated 3 [[Amber]] per minute, but also '''adds''' +15 [[Hostility]].
+|-
+| {{Perk|DarkOrchid|File:Addons 46 b.png}} [[Blood Price Contract]] || Epic Cornerstone || Gain 10 [[Amber]] every time a [[Villager]] [[Dying|Dies]] or [[Leaving|Leaves]].
+|-
+| {{Perk|DarkOrchid|File:En craft 58.png}} [[Bread Peels]] || Epic Cornerstone || [[Bakery]] production is 50% quicker.
+|-
+| {{Perk|DarkOrchid|File:BagsAndBoxes 66.png}} [[Builder's Pack]] || Epic Perk || Any [[Builder]] can [[Carrying Capacity|Carry]] 5 additional items.
+|-
+| {{Perk|DarkOrchid|File:Orb 11 b.png}} [[Burnt to a Crisp]] || Epic Cornerstone || Gain 20 [[Coal]] for every 3 burned [[Blightrot Cysts]].
+|-
+| {{Perk|Chocolate|File:SGI 57.png}} [[Calming the Forest]] || Legendary Cornerstone || Every 2 newly completed Dangerous and Forbidden [[Glade Events]] lowers [[Hostility]] by -50.
+|-
+| {{Perk|DarkOrchid|File:NecromancerIcons 81 b.png}} [[Cannibalism]] || Epic Cornerstone || Gain 30 [[Meat]] every time a [[Villager]] [[Dying|Dies]] or [[Leaving|Leaves]].
+|-
+| {{Perk|Chocolate|File:Perk-Cheap Construction.png}} [[Cheap Construction]] || Legendary Cornerstone || All [[Buildings]] cost 40% less ([[Resources#Building Materials|Building Materials]]), but every discovered [[The Forest#Resource Deposits|Resource Deposit]] has -5 '''fewer''' charges.
+|-
+| {{Perk|DarkOrchid|File:Clay.png}} [[Clay Delivery Line]] || Epic Cornerstone || 3 [[Clay]] per minute.
+|-
+| {{Perk|Chocolate|File:Perk-Contraband.png}} [[Contraband]] || Legendary offer from [[Trade]]rs || You can choose one [[Blueprint]] from all unlocked Blueprints.
+|-
+| {{Perk|DarkOrchid|File:SGI 103.png}} [[Cosmetic Specialization]] || Epic Cornerstone || Gain +1 to [[Harpy]] [[Resolve]] for every 70 [[Cosmetics]] produced.
+|-
+| {{Perk|DarkOrchid|File:SGI 145.png}} [[Crowded Caravan]] || Epic Cornerstone || Each newcomer group has 2 additional [[Villagers]].
+|-
+| {{Perk|Chocolate|File:Perk-Crowded Houses.png}} [[Crowded Houses]] || Legendary Cornerstone || All [[Houses]] have room for 1 more [[Villager]].
+|-
+| {{Perk|Chocolate|File:Perk-Deserted Caravans.png}} [[Deserted Caravans]] || Legendary Cornerstone || Global production is 50% faster, but [[Trade|Trading]] is '''unavailable.'''
+|-
+| {{Perk|DodgerBlue|File:Perk-Drizzle Totem.png}} [[Drizzle Totem]] || Rare offer from [[Trade]]rs || +25% to [[Drizzle]] duration.
+|-
+| {{Perk|LimeGreen|File:Icon Drying Boards.png}} [[Drying Boards]] || Uncommon Perk || Time spent [[Resting]] is reduced by -20% when under the effect of [[Clothing]].
+|-
+| {{Perk|DodgerBlue|File:Perk-Dual Brewing Tools.png}} [[Dual Brewing Tools]] || Rare Perk || Get 3 [[Wine]] for every 15 [[Ale]] produced.
+|-
+| {{Perk|DarkOrchid|File:Winch b.png}} [[Dye Extractor]] || Epic Cornerstone || Gain 5 [[Pigment]] for every 10 [[Insects]] produced.
+|-
+| {{Perk|DarkOrchid|File:Perk-Enhanced Blueprints.png}} [[Enhanced Blueprints]] || Epic Perk || [[Builders]] construct [[Buildings]] 50% faster.
+|-
+| {{Perk|DodgerBlue|File:Perk-Experienced Scout.png}} [[Experienced Scout]] || Rare Perk || [[Scouts]] can open chests 40% faster.
+|-
+| {{Perk|DarkOrchid|File:SGI 85.png}} [[Exploration Contract]] || Epic Cornerstone || Gain 20 [[Reed]] and 20 [[Clay]] for each discovered [[Glade]].
+|-
+| {{Perk|Chocolate|File:Perk-Exploration Expedition.png}} [[Exploration Expedition]] || Legendary Cornerstone || Get a constant -5 '''penalty''' to [[Resolve|Global Resolve]], but +15 to Global Resolve for 5 minutes every time a new [[Glade]] is discovered.
+|-
+| {{Perk|Chocolate|File:Letters b 01.png}} [[Exploration Training]] || Legendary Cornerstone || For every 5 [[Villagers]] with the need for [[Brawling]] fulfilled, the chance of bringing back twice as many goods from [[Glade Events]] increases by +20%.
+|-
+| {{Perk|DarkOrchid|File:BagsAndBoxes 26.png}} [[Export Specialization]] || Epic Cornerstone || Gain +1 to production yields for all [[Packs of Goods]].
+|-
+| {{Perk|Chocolate|File:BlueLootBox 55 b.png}} [[Extraction Tools]] || Legendary Cornerstone || Gain 6 [[Artifacts]] ([[Citadel Resource]]) for every 2 completed Dangerous and Forbidden [[Glade Events]].
+|-
+| {{Perk|Chocolate|File:BagsAndBoxes 58.png}} [[Family Gratitude]] || Legendary Cornerstone || Get 40 [[Waterskins]] for every full [[Reputation|Reputation Point]] obtained through high [[Resolve]].
+|-
+| {{Perk|LimeGreen|File:Perk-Farmer's Pack.png}} [[Farmer's Pack]] || Uncommon Perk || Any [[Farmer]] can [[Carrying Capacity|Carry]] 5 additional items.
+|-
+| {{Perk|DarkOrchid|File:PlantFiber.png}} [[Fiber Delivery Line]] || Epic Cornerstone || 3 [[Plant Fiber]] per minute.
+|-
+| {{Perk|DarkOrchid|File:NecromancerIcons 42 b.png}} [[Firekeeper's Armor]] || Epic Cornerstone || Every burned [[Blightrot Cyst]] removes an additional 50 [[Corruption]].
+|-
+| {{Perk|Chocolate|File:Perk-Firekeeper's Prayer.png}} [[Firekeeper's Prayer]] || Legendary Cornerstone || [[Glade Event]] work speed increased by 30%. [[Resources]] you [[Sacrifice]] in the [[Ancient Hearth]] burn 25% '''quicker.'''
+|-
+| {{Perk|Chocolate|File:Perk-Flame Amulets.png}} [[Flame Amulets]] || Epic Cornerstone || [[Hostility]] from woodcutters is decreased by 12.
+|-
+| {{Perk|Chocolate|File:Perk-Frequent Caravans.png}} [[Frequent Caravans]] || Legendary Cornerstone || Boosts [[Resolve|Global Resolve]] by 3 for 60 seconds every time you finish a [[Trade Route]] (duration stacks).
+|-
+| {{Perk|DarkOrchid|File:SGI 25.png}} [[Friendly Relations]] || Epic Cornerstone || Boosts Global [[Resolve]] by 1 for every 3 levels of standing with other settlements in [[Trade Routes]]. (The bonus is added retroactively.)
+|-
+| {{Perk|LimeGreen|File:Perk-Full Stock.png}} [[Full Stock]] || Uncommon Perk || [[Trade Routes]] are faster by 10% for every 10 [[Pack of Provisions]] in your settlement's [[Warehouse]]s.
+|-
+| {{Perk|DarkOrchid|File:Book 03 b.png}} [[Fungal Guide]] || Epic Cornerstone || [[Mushrooms]] production increases by +1 every 25 times it's produced.
+|-
+| {{Perk|LimeGreen|File:Perk-Furniture.png}} [[Furniture]] || Uncommon Perk || Adds an additional +1 to [[Resolve]] for [[Villagers]] [[Housing|with a home]]. (This effect is applied to Villagers during their [[Resting|breaks]].
+|-
+| {{Perk|DodgerBlue|File:Icon GatheringTools.png}} [[Gathering Tools]] || Rare Perk || Gain 6 [[Pack of Provisions]] every time you discover a new [[Glade]].
+|-
+| {{Perk|DarkOrchid|File:Perk-Generous Gifts.png}} [[Generous Gifts]] || Epic Cornerstone || [[Newcomers]] bring 40% more goods with them for every [[Hub]] level gained.
+|-
+| {{Perk|LimeGreen|File:Perk-Gentle Dawn.png}} [[Gentle Dawn]] || [[Forest Mystery]] from [[File:Drizzle.png|32px]] [[Drizzle]] || Gain 3 to Global [[Resolve]] for 3 minutes every time you discover a new [[Glade]] (duration stacks).
+|-
+| {{Perk|DodgerBlue|File:Vegetables.png}} [[Giant Vegetables]] || Rare Cornerstone || +1 to [[Vegetables]] production. Gain additional Vegetables every yield (from gathering, farming, or production).
+|-
+| {{Perk|DarkOrchid|File:Vegetables.png}} [[Giant Vegetables]] || Epic Perk || +2 to [[Vegetables]] production. Gain additional Vegetables every yield (from gathering, farming, or production).
+|-
+| {{Perk|Chocolate|File:Perk-Gift of the Woodlands.png}} [[Gift of the Woodlands]] || [[Biome Effect]] from [[File:Icon Biome Royal Woodlands.png|32px]] [[Royal Woodlands]] || [[Trees]] give more [[Wood]].
+|-
+| {{Perk|DarkOrchid|File:NecromancerIcons 18 b.png}} [[Golden Marrow]] || Epic Cornerstone || Gain 2 [[Amber]] for every 20 [[Sea Marrow]] produced.
+|-
+| {{Perk|DarkOrchid|File:Grains.png}} [[Grain Bags]] || Epic Cornerstone || [[Grain]] production increases by +1 every 25 times it's produced.
+|-
+| {{Perk|DarkOrchid|File:Grain.png}} [[Grain Delivery Line]] || Epic Cornerstone || 3 [[Grain]] per minute.
+|-
+| {{Perk|Chocolate|File:Perk-Guild Catalogue.png}} [[Guild Catalogue]] || Epic Cornerstone || [[Trade]]rs will have 1 more [[Cornerstone]] for sale.
+|-
+| {{Perk|DarkOrchid|File:Runestone b 06.png}} [[Hidden Reward]] || Epic Cornerstone || Gain 1 [[Ancient Tablet]] for every 2 [[Glade Event]]s. (The bonus is added retroactively.)
+|-
+| {{Perk|Chocolate|File:Perk-Hunter-Gatherers.png}} [[Hunter–Gatherers]] || Legendary Cornerstone || All [[Camps|Camp]] production is increased by 50%, but all [[Buildings]] that use [[Fertile Soil]] have their yields '''decreased''' by 50%. Bonus does not affect the [[Woodcutters' Camp]].
+|-
+| {{Perk|Chocolate|File:Perk-Improvised Tools.png}} [[Improvised Tools]] || Legendary Cornerstone || Discovering a [[Glade]] grants 5 [[Simple Tools]], at a cost of -5 to [[Woodcutter]]s' [[Resolve]].
+|-
+| {{Perk|DarkOrchid|File:Reeds.png}} [[Leather Gloves]] || Epic Cornerstone || +2 to [[Reed]] production. Gain additional [[Reed]] every yield (from gathering, farming, or production).
+|-
+| {{Perk|DarkOrchid|File:Perk-Leftover Crops.png}} [[Leftover Crops]] || Epic Cornerstone || Gain 1 [[Pack of Provisions]] for every 10 [[Herbs]] produced.
+|-
+| {{Perk|DarkOrchid|File:Feather.png}} [[Light as a Feather]] || [[Firekeeper]] Bonus from [[File:Harpy circle.png|32px]] [[Harpy|Harpies]] || Global [[Carrying Capacity]] is increased by 5. This Perk is gained by assigning a [[Harpy]] to the [[Ancient Hearth]].
+|-
+| {{Perk|DarkOrchid|File:Beer.png}} [[Local Taxes]] || Epic Cornerstone || Gain 20 [[Amber]] for every 100 [[Ale]] produced.
+|-
+| {{Perk|DarkOrchid|File:Green 03.png}} [[Lost in the Wilds]] || Epic Cornerstone || Gain one [[Villager]] every time you discover a new [[Glade]].
+|-
+| {{Perk|Chocolate|File:Perk-Lost Supplies.png}} [[Lost Supplies]] || Legendary Cornerstone || Gain 40 [[Meat]] and 40 [[Grain]] for each completed Dangerous or Forbidden [[Glade Event]].
+|-
+| {{Perk|Chocolate|File:Perk-Lumber_Tax.png}} [[Lumber Tax]] || Legendary Cornerstone || Gain 1 [[Amber]] for every 50 [[Wood]] produced.
+|-
+| {{Perk|DarkOrchid|File:Perk-Meat Specialization.png}} [[Meat Specialization]] || Epic Cornerstone || [[Meat]] production increases by +1 every 25 times it's produced.
+|-
+| {{Perk|DarkOrchid|File:En craft 62.png}} [[Metallurgic Proficiency]] || Epic Cornerstone || All [[Recipes]] that use metal or ore will be produced +33% quicker.
+|-
+| {{Perk|Chocolate|File:Perk-Mist Piercers.png}} [[Mist Piercers]] || Legendary Cornerstone || The content of [[Glades]] will be revealed, but each discovered Glade increases the [[Queen's Impatience]] by 0.5.
+|-
+| {{Perk|DodgerBlue|File:Grain.png}} [[Mold Supply]] || Rare Perk || +1 to [[Grain]] production. Gain additional Grain every yield (from gathering, farming, or production).
+|-
+| {{Perk|DarkOrchid|File:Grain.png}} [[Mold Supply]] || Epic Perk || +2 to [[Grain]] production. Gain additional Grain every yield (from gathering, farming, or production).
+|-
+| {{Perk|DarkOrchid|File:Perk-Moldy Grain Seeds.png}} [[Moldy Grain Seeds]] || Epic Cornerstone || Gain 3 [[Mushrooms]] for every 10 [[Grain]] produced.
+|-
+| {{Perk|Chocolate|File:Artifact 06 b.png}} [[Mushroom Seedlings]] || Legendary Cornerstone || All [[Farms]] can plant [[Mushrooms]] (★★) on [[Farm Field]]s during [[Drizzle]] Season.
+|-
+| {{Perk|LimeGreen|File:Icon Small Mystery Box.png}} [[Mystery Box|Small Mystery Box]] || Mystery Box || A mysterious box full of surprises. Contains a small number of goods (for example, three stacks of 20 [[Resources#Raw Food|Raw Food]]), and one uncommon (green) Perk.
+|-
+| {{Perk|DodgerBlue|File:Icon Medium Mystery Box.png}} [[Mystery Box|Medium Mystery Box]] || Mystery Box || A mysterious box full of surprises. Contains a medium number of goods (for example, stacks of 30 raw goods or [[Resources#Building Materials|Building Materials]]), and one or two rare (blue) Perks.
+|-
+| {{Perk|DarkOrchid|File:Icon Big Mystery Box.png}} [[Mystery Box|Big Mystery Box]] || Mystery Box || A mysterious box full of surprises. Contains a large number of goods (for example, three or four stacks of 40 [[Resources#Complex Food|Complex Food]] or [[Resources#Consumable Items|Consumable Items]]), and two epic (purple) Perks.
+|-
+| {{Perk|LimeGreen|File:Perk-Obsidian Shovels.png}} [[Obsidian Shovels]] || Uncommon Perk || [[Farming|Planting crops]] is 25% faster.
+|-
+| {{Perk|DodgerBlue|File:Perk-Orderly Storage.png}} [[Orderly Storage]] || Rare Perk || All [[Buildings]] have their [[Storage Capacity]] increased by 10.
+|-
+| {{Perk|Chocolate|File:Perk-Over-Diligent Woodworkers.png}} [[Over-Diligent Woodworkers]] || Legendary Cornerstone || Gain 3 [[Barrels]] for every 10 [[Planks]] produced.
+|-
+| {{Perk|DarkOrchid|File:BagsAndBoxes 60.png}} [[Peasant Supplies]] || Epic Cornerstone || Receive 3 [[Pack of Provisions]] for every new [[Villager]].
+|-
+| {{Perk|DodgerBlue|File:BlueLootBox 17 b.png}} [[Pocket Knives]] || Rare Perk || Gain 4 [[Plant Fiber]] for every 12 [[Vegetables]] produced.
+|-
+| {{Perk|White|File:Perk-Pragmatic Frugality.png}} [[Pragmatic Frugality]] || [[Firekeeper]] Bonus from [[File:Beaver_circle.png|32px]] [[Beaver]]s || 20% slower [[Fuel]] consumption in [[Hearths]]. This Perk is gained by assigning a [[Beaver]] to the [[Ancient Hearth]].
+|-
+| {{Perk|DarkOrchid|File:Perk-Prayer Book.png}} [[Prayer Book]] || Epic Cornerstone || [[Scouts]] work 10% faster on [[Glade Events]] for every [[Firekeeper]] assigned to a [[Hearth]].
+|-
+| {{Perk|DarkOrchid|File:Perk-Prosperous Archaeology.png}} [[Prosperous Archaeology]] || Epic Cornerstone || Gain a stack of the [[#Wealth|Wealth Effect]] (+1 to [[Global Resolve]]) for every 2 [[Caches]] opened.
+|-
+| {{Perk|Chocolate|File:Perk-Prosperous Settlement.png}} [[Prosperous Settlement]] || Legendary Cornerstone || Gain a stack of the [[#Wealth|Wealth Effect]] (+1 to [[Global Resolve]]) each time you [[Trade|sell goods]] worth 40 [[Amber]].
+|-
+| {{Perk|Chocolate|File:SGI 118.png}} [[Protected Trade]] || Legendary Cornerstone || [[Hostility]] is reduced by -15 points every time you sell ([[Trade]]) goods worth 25 [[Amber]].
+|-
+| {{Perk|DarkOrchid|File:Brewery icon.png}} [[Rain Pumps]] || Epic Cornerstone || [[Brewery]] production is 50% quicker.
+|-
+| {{Perk|Chocolate|File:Perk-Rebellious Spirit.png}} [[Rebellious Spirit]] || Legendary Cornerstone || Gain +1 [[Resolve|Global Resolve]] for every 2 [[Queen's Impatience|Impatience Points]].
+|-
+| {{Perk|LimeGreen|File:Axe b 01.png}} [[Reinforced Axes]] || Uncommon Perk || [[Woodcutters' Camp]] production is 15% quicker.
+|-
+| {{Perk|DarkOrchid|File:Axe b 01.png}} [[Reinforced Axes]] || Epic Cornerstone || [[Woodcutters' Camp]] production is 40% quicker.
+|-
+| {{Perk|LimeGreen|File:Bricks.png}} [[Reinforced Brick Mold]] || Uncommon Perk || +1 to [[Bricks]] production. Gain additional Bricks every yield (from gathering, farming, or production).
+|-
+| {{Perk|LimeGreen|File:Fabric.png}} [[Reinforced Needles]] || Uncommon Perk || +1 to [[Fabric]] production. Gain additional Fabric every yield (from gathering, farming, or production).
+|-
+| {{Perk|DarkOrchid|File:SmallFarm icon.png}} [[Reinforced Tools]] || Epic Cornerstone || +50% to amount of goods produced in the [[Small Farm]].
+|-
+| {{Perk|DarkOrchid|File:SGI 106.png}} [[Religious Settlement]] || Epic Cornerstone || Gain +1 to [[Human]] [[Resolve]] for every 70 [[Incense]] produced.
+|-
+| {{Perk|LimeGreen|File:Perk-Repurposed Clay.png}} [[Repurposed Clay]] || Uncommon Perk || Gain 2 [[Bricks]] for every 10 [[Pottery]] produced.
+|-
+| {{Perk|LimeGreen|File:RichGlades.png}} [[Rich Glades]] || Uncommon Cornerstone || Newly discovered [[The Forest#Resource Deposits|Resource Deposits]] have 10 more Charges.
+|-
+| {{Perk|DarkOrchid|File:Roots.png}} [[Root Delivery Line]] || Epic Cornerstone || 3 [[Roots]] per minute.
+|-
+| {{Perk|Chocolate|File:Perk-Rooty Ground.png}} [[Rooty Ground]] || Legendary Cornerstone || [[Wood]] production is increased by +1, but harvesting and planting are 25% '''slower.'''
+|-
+| {{Perk|White|File:Perk-Sacred Pyre.png}} [[Sacred Pyre]] || [[Firekeeper]] Bonus from [[File:Lizard_circle.png|32px]] [[Lizard]]s || +1 to Global [[Resolve]]. This Perk is gained by assigning a [[Lizard]] to the [[Ancient Hearth]].
+|-
+| {{Perk|DarkOrchid|File:Perk-Safe Haven.png}} [[Safe Haven]] || Epic Cornerstone || -40 to [[Hostility]] for every [[Hub]] upgraded to level Neighborhood (or higher).
+|-
+| {{Perk|DarkOrchid|File:Book 08 b.png}} [[Sahilda's Secret Cookbook]] || Epic Cornerstone || Gain 10 [[Jerky]] for every 10 [[Pie]] produced.
+|-
+| {{Perk|DodgerBlue|File:Tongs.png}} [[Salvaging Tools]] || Rare Perk || Gain 10 [[Copper Ore]] and 30 [[Wood]] for every opened [[Cache]].
+|-
+| {{Perk|DarkOrchid|File:Perk-Scientific Agreement.png}} [[Scientific Agreement]] || Epic Perk || You can choose one [[Blueprint]] from all unlocked Blueprints every time 10 [[Villagers]] [[Dying|Die]].
+|-
+| {{Perk|DodgerBlue|File:ScrollsAndBooks 98.png}} [[Secret Techniques of the Firekeeper]] || Rare Perk || [[Fuel]] burns 25% longer in [[Hearths]].
+|-
+| {{Perk|DarkOrchid|File:Herbs.png}} [[Sharp Sickles]] || Epic Cornerstone || +2 to [[Herbs]] production. Gain additional Herbs every yield (from gathering, farming, or production).
+|-
+| {{Perk|DarkOrchid|File:SpellBookPage09 97.png}} [[Silent Looting]] || Epic Cornerstone || Every opened [[Cache]] lowers [[Hostility]] by -15 points.
+|-
+| {{Perk|LimeGreen|File:Ni b 05.png}} [[Shovels]] || Uncommon Perk || [[Villagers]] [[Movement Speed|move]] 10% faster on [[Roads]].
+|-
+| {{Perk|Chocolate|File:Barbarian icons 79 b.png}} [[Smuggler's Visit]] || Legendary offer from [[Trade]]rs || You can choose one [[Blueprint]] from all unlocked Blueprints.
+|-
+| {{Perk|DodgerBlue|File:Perk-Spiced Ale.png}} [[Spiced Ale]] || Rare Perk || Each [[Villager]] gets an additional +1 to [[Resolve]] when under the effect of [[Leisure]].
+|-
+| {{Perk|DarkOrchid|File:TradingIcons 02.png}} [[Spices]] || Epic Cornerstone || [[Herbs]] and [[Roots]] production is increased by +1 for every 75 [[Biscuits]] produced.
+|-
+| {{Perk|DodgerBlue|File:Stone.png}} [[Steel Pickaxes]] || Rare Cornerstone || +1 to [[Stone]] production. Gain additional Stone every yield (from gathering, farming, or production).
+|-
+| {{Perk|DodgerBlue|File:Clay.png}} [[Steel Shovels]] || Rare Perk || +1 to [[Clay]] production. Gain additional Clay every yield (from gathering, farming, or production).
+|-
+| {{Perk|DarkOrchid|File:CopperOre.png}} [[Steel Shovels]] || Epic Perk || +1 to [[Copper Ore]] production. Gain additional Copper Ore every yield (from gathering, farming, or production).
+|-
+| {{Perk|DarkOrchid|File:Perk-Stormwalker Training.png}} [[Stormwalker Training]] || Epic Cornerstone || All [[Trade Routes]] are faster by 40%.
+|-
+| {{Perk|DarkOrchid|File:PrehistoricIcon 129 b.png}} [[Surprise Child]] || Epic Cornerstone || Gain 1 [[Lizard]] [[Villager]] for every 25 [[Eggs]] produced.
+|-
+| {{Perk|DarkOrchid|File:Leather.png}} [[Tanning Racks]] || Epic Cornerstone || +2 to [[Leather]] production. Gain additional [[Leather]] every yield (from gathering, farming, or production).
+|-
+| {{Perk|DarkOrchid|File:Insects.png}} [[Termite Nest]] || Epic Perk || 3 [[Insects]] per minute.
+|-
+| {{Perk|DodgerBlue|File:ScrollsAndBooks 23.png}} [[Trade Contract]] || Rare offer from [[Trade]]rs || [[Trade]]rs will arrive +25% quicker.
+|-
+| {{Perk|Chocolate|File:Perk-Trade Hub.png}} [[Trade Hub]] || Legendary Cornerstone || Gain 1 [[Reputation|Reputation Point]] every time you [[Trade|sell goods]] worth 60 [[Amber]], while '''slowing''' Reputation gained from [[Resolve]] by -50%.
+|-
+| {{Perk|DarkOrchid|File:ScrollsAndBooks 03.png}} [[Trade Logs]] || Epic Cornerstone || [[Trade]]rs will arrive +25% quicker.
+|-
+| {{Perk|DarkOrchid|File:SGI 111.png}} [[Training Grounds]] ||Epic Cornerstone || Gain +1 to [[Lizard]] [[Resolve]] for every 70 [[Training Gear]] produced.
+|-
+| {{Perk|Chocolate|File:Perk-Urban Planning.png}} [[Urban Planning]] || Legendary Cornerstone || For every 10 completed [[Trade Routes]], all [[Housing|Houses]] will have room for one more [[Villager]], but construction is 25% '''slower.'''
+|-
+| {{Perk|DarkOrchid|File:BagsAndBoxes 107.png}} [[Value Added Tax]] || Epic Cornerstone || Gain 2 [[Amber]] for every 6 [[Pack of Trade Goods]] produced.
+|-
+| {{Perk|DarkOrchid|File:Vegetables.png}} [[Vegetable Delivery Line]] || Epic Perk || 3 [[Vegetables]] per minute.
+|-
+| {{Perk|DodgerBlue|File:Icon Viceroy's Survival Guide.png}} [[Viceroy's Survival Guide]] || Rare Perk || Increases [[Global Food Production Speed]] by 20%.
+|-
+| {{Perk|DarkOrchid|File:Blackberry 01 b.png}} [[Vineyard Town]] || Epic Cornerstone || Gain +1 to [[Beaver]] [[Resolve]] for every 70 [[Wine]] produced.
+|-
+| {{Perk|DodgerBlue|File:Perk-Ways of the Forest.png}} [[Ways of the Forest]] || Rare Perk || Lowers [[Hostility]] by 50 points.
+|-
+| {{Perk|White|File:Perk-Wealth.png}} <span id="Wealth">[[Wealth]]</span>  || Resolve Modifier || +1 to [[Global Resolve.]] This Perk is obtained from some [[Buildings]] that provide [[Services]] and stacks.
+|-
+| {{Perk|DarkOrchid|File:SGI 100.png}} [[Well-Rested Workers]] || Epic Cornerstone || [[Villagers]] with the [[Leisure]] need fulfilled have a +10% chance of doubling their yields.
+|-
+| {{Perk|Chocolate|File:Perk-Without Restrictions.png}} [[Without Restrictions]] || Legendary Cornerstone || [[Villagers]] have a +10% chance of receiving bonus yields from production, but [[Consumption Control]] is disabled.
+|-
+| {{Perk|Legendary|File:Yellow 29.png}} [[Woodcutter's Prayer]] || Legendary Cornerstone <br /> [[File:Ethernal Icon.png|32px|link=Ethereal]] [[Ethereal]] || +1 to [[Wood]] production. '''Lose all''' stored [[Fuel]] upon picking this Cornerstone.
+|-
+| {{Perk|DarkOrchid|File:Perk-Woodpecker Technique.png}} [[Woodpecker Technique]] || Epic Cornerstone || Gain 1 [[Insect]] every time [[Woodcutters]] cut down 2 [[Trees]].
+|-
+| {{Perk|Chocolate|File:ScrollsAndBooks 51.png}} [[Work Safety Guide]] || Legendary Cornerstone || Every 5 [[Villagers]] with the need for [[Education]] fulfilled will increase global production speed by 25%.
+|-
+| {{Perk|LimeGreen|File:Perk-Working Hard and Smart.png}} [[Working Hard and Smart]] || Uncommon Perk || Each [[Villager]] has a 10% chance of producing double yields when under the effect of [[Education]].
+|}

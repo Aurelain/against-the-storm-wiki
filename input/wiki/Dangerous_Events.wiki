@@ -1,0 +1,15 @@
+[[File:ATSglades.PNG|thumb|The icon of a Dangerous Glade, containing Dangerous Events.]]
+'''Dangerous Events''' are events found only in [[Dangerous Glades]]. These events are very risky to encounter as they start to affect your settlement at regular intervals, approximately once every in-game year. This timer will keep ticking so long the event is not dealt with, even if the threat starts when villagers are already in the process of investigating it.
+
+There are two kinds of Dangerous Events a player may encounter. '''Hazards''' are points of interest that are or destroyed upon completion through either choice. They can be destroyed in exchange for resources, or the results can be sent towards the citadel in exchange for [[Amber]] and [[Reputation]]. '''Totems''' however can be salvaged for components, but alternatively can be converted in exchange for extra resources, giving your settlement extra benefits. Once converted they will remain on the map until destroyed, and may sometimes be moved to somewhere else on the map.
+
+== Types of Dangerous Events ==
+=== Hazards ===
+* [[Destroyed Cage of the Warbeast]]
+* [[Fishmen Cave]]
+* [[Fuming Machine]]
+* [[Leaking Cauldron]]
+
+=== Totems ===
+* [[Totem of Denial]]
+* [[Rain Spirit Totem]]

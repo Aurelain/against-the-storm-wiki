@@ -1,0 +1,24 @@
+[[File:Impatience tooltip.png|thumb|300px|At the beginning of a new city.]]
+Creating a successful settlement is a race against the clock. This clock represents itself as the '''Queen's Impatience'''. If it rises too far, your game will result in a defeat, and will be handed only a portion of the potential rewards you would've otherwise gotten. Be cautious that even when you lose, you still make progress to a new storm cycle
+
+The red bar on the bottom right of the UI represents the time you have left to win. Impatience slowly and gradually increases during your mission, starting from the moment after [[Embarking]]. Some modifiers make the rate of increase faster or slower, and some events can instantly subtract or add Impatience. Hovering the mouse over the skull graphic reveals a tooltip with the current value of the Queen's Impatience and the current rate at which Impatience is increasing per minute.
+
+While Impatience is a clock that determines how much time you have left, it provides a great deal of benefits. For each point of Impatience, the [[Hostility of the Forest]] reduces by (???) points. Settlements that have the '''Rebellious Nature''' [[Cornerstone]] also are awarded +1 global [[Resolve]] for each 2 points of Impatience.
+
+== Sources that affect Impatience ==
+By default, the Queen's Impatience increases at a rate of 0.255 per minute. On average this means a run will end in about 55 minutes. There are however sources that reduce this rate. These modifiers all work additively, not accumulatively. 
+
+=== Impatience Rate Modifiers ===
+* Several core [[Upgrades]] reduces the Impatience rate by '''2%''' each
+* The '''Important Matters''' [[Modifier]] reduces Impatience rate by '''70%''' during Drizzle
+* Having a [[Human]] as firekeeper at the [[Hearth]] reduces Impatience rate by '''25%'''
+
+=== Impatience Increases ===
+* A villager leaving or dying increases Impatience by '''0.3'''
+* Letting certain [[Glade Events|Glade Event]] threat run out of time increases Impatience by '''1.0'''
+* The '''Mist Piercers''' Cornerstone increase Impatience by '''0.5''' when opening a [[Glade]]
+* Calling a trader from a [[Trading Post]] increases Impatience by '''0.5''', which becomes doubled for every call thereafter
+* Attacking a trader increases Impatience by either '''2.0''' or '''3.0''' at random
+
+=== Impatience Reductions ===
+* Reaching a [[Reputation]] milestone reduces Impatience by '''1.0'''

@@ -1,0 +1,64 @@
+In addition to shelter and food, Villagers need [[Services]], such as [[Education]] or [[Leisure]]. Once a Villager's need for a Service is satisfied, they receive a larger bonus to [[Resolve]] than from their other needs.
+
+For convenience and since it also differs by Species, the need for [[Coats]] is also included here even though it is not technically a Service. Being satisfied by Coats does not result in as large of a Resolve bonus as being satisfied by a Service.
+
+Species differ in which of the [[Services]] they desire. The following is a summary of these needs by Species, then by Service:
+
+[[File:Species Servies Needs.png|thumb|360px|This diagram illustrates the connections between Species and Services (and Coats).]]
+{| class="wikitable"
+! By Species !! By Service
+|- style="vertical-align:top;"
+|
+# [[Human]]
+## [[File:Icon_Need_Leisure.png|32px]] [[Leisure]]
+## [[File:Icon_Need_Religion.png|32px]] [[Religion]]
+## [[File:Coats.png|32px]] [[Coats]]
+# [[Beaver]]
+## [[File:Icon_Need_Education.png|32px]] [[Education]]
+## [[File:Icon_Need_Leisure.png|32px]] [[Leisure]]
+## [[File:Icon_Need_Luxury.png|32px]] [[Luxury]]
+## [[File:Coats.png|32px]] [[Coats]]
+# [[Lizard]]
+## [[File:Icon Need Brawling.png|32px]] [[Brawling]]
+## [[File:Icon_Need_Religion.png|32px]] [[Religion]]
+# [[Harpy]]
+## [[File:Icon Need Brawling.png|32px]] [[Brawling]]
+## [[File:Icon_Need_Cleanliness.png|32px]] [[Cleanliness]]
+## [[File:Icon_Need_Education.png|32px]] [[Education]]
+|
+# [[File:Icon Need Brawling.png|32px]] [[Brawling]]
+## [[Lizard]]
+## [[Harpy]]
+# [[File:Icon_Need_Cleanliness.png|32px]] [[Cleanliness]]
+## [[Harpy]]
+# [[File:Icon_Need_Education.png|32px]] [[Education]]
+## [[Beaver]]
+## [[Harpy]]
+# [[File:Icon_Need_Leisure.png|32px]] [[Leisure]]
+## [[Human]]
+## [[Beaver]]
+# [[File:Icon_Need_Luxury.png|32px]] [[Luxury]]
+## [[Beaver]]
+# [[File:Icon_Need_Religion.png|32px]] [[Religion]]
+## [[Human]]
+## [[Lizard]]
+# [[File:Coats.png|32px]] [[Coats]]
+## [[Human]]
+## [[Beaver]]
+|}
+
+
+== Strategy ==
+Based on the relationships above and the Species you have in your map, you technically only need to work '''one''' Building and to provide the consumable goods for both Services in that Building to satisfy everyone. '''The [[Tavern]] (Leisure & Brawling) or the [[Temple]] (Religion & Education) will always work,''' because each offers complementary Services that can satisfy all four Species without needing any other Service Building. In addition: 
+* If you don't have '''Harpies''' in your map, then you can also choose the [[Monastery]] (Religion & Leisure). And no one will need the Cleanliness Service from the [[Bath House]].
+* If you don't have '''Lizards''' in your map, then you can also choose the [[Forum]] (Leisure & Education).
+* If you don't have '''Beavers''' in your map, then you can also choose the [[Clan Hall]] (Brawling & Religion). And no one will need the Luxury Service from the [[Guild House]].
+* If you don't have '''Humans''' in your map, then you can also choose the [[Explorers' Lodge]] (Brawling & Education).
+
+== See Also ==
+[[Complex Food Need]]
+
+
+[[Category:Resolve]]
+[[Category:Services]]
+[[Category:Villagers]]

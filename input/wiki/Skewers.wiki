@@ -1,0 +1,97 @@
+[[File:Skewers.png|border|right|link=]]
+<blockquote>A Lizard specialty. Produced by: Cookhouse, Grill, Butcher.</blockquote>
+
+Skewers are [[Resources#Complex_Food|Complex Food]] preferred by [[Lizards]] and [[Harpies]]. Each of your [[Villagers]] that [[Complex Food Need|fulfills their need for Skewers]] receives a bonus to their [[Resolve]].
+
+
+== Produced in ==
+
+Three-star Buildings
+* [[Grill]] ({{3Star}})
+Two-star Buildings
+* [[Cookhouse]] ({{2Star}}), available at early Levels
+* [[Butcher]] ({{2Star}}
+One-star Buildings
+* ''none''
+Zero-star Buildings
+* ''none''
+
+== Recipes ==
+
+Before any [[Perks]] are applied, the [[Recipe]] for Skewers in all [[Buildings]] yields 10 Skewers. In the 3-star [[Grill]] ({{3Star}}), the Recipe requires 3 of the protein ingredient (except one fewer if it's [[Jerky]]) and 3 of the secondary ingredients. In the two-star ({{2Star}}) Buildings, the Recipe requires 4 of the protein (except one fewer if it's [[Jerky]]) and 4 secondary ingredients.
+
+{|style="border-style:solid; border-color:BurlyWood; border-width:2px; border-spacing:8px"
+| [[File:Grill icon.png|86px]]
+| [[Grill]] <br /> {{3Star}} <br /> 1:03 <br /> {{Blight1}}
+| 3 {{Insects}} <br /> 3 {{Meat}} <br /> 3 {{Mushrooms}} <br /> 2 {{Jerky}} || + || 3 {{Vegetables}} <br /> 3 {{Roots}} <br /> 3 {{Berries}} <br /> 3 {{Eggs}} || = || 10 [[File:Skewers.png|64px]] [[Skewers]]
+|}
+
+
+For reference, this is the standard Recipe for [[Jerky]] in the [[Butcher]] ({{2Star}}), which can make both Jerky and Skewers.
+{|style="border-style:solid; border-color:BurlyWood; border-width:2px; padding:6px; border-spacing:8px"
+|- 
+| [[File:Butcher_icon.png|86px]]
+| [[Butcher]] <br /> {{2Star}} <br /> 01:30 <br /> {{Blight1}}
+| 5 {{Insects}} <br /> 5 {{Meat}} || + || 5 {{Wood}} <br /> 2 {{Oil}} <br /> 1 {{Coal}} <br /> 1 {{Sea Marrow}} || = || 10 [[File:Jerky.png|64px]] [[Jerky]]
+|}
+
+
+== Sources and Strategies ==
+
+While Skewers require [[Insects]] or [[Meat]] from a [[Foragers' Camp]] or [[Trappers' Camp]], it can be worthwhile for the efficiency multiplier to first turn the Insects or Meat into [[Jerky]] in a [[Smokehouse]] ({{3Star}}) or the [[Butcher]] ({{2Star}}). If you can afford to also use a [[Fuel]], you can multiply the number of Skewers you get from Insects and Meat by more than 3x. If you're lucky enough to get the Butcher and have no [[Beavers]] in your map, you can meet two of the [[Complex Food Need]] of everyone in your Village with just one [[Building]].
+
+Skewers can be acquired from a [[Trade]]r. They have a value of 0.20 {{Amber}} [[Amber]], therefore a stack of 40 is worth 8.0 {{Amber}} to the Trader.
+
+
+=== Production Chain ===
+
+The production chain for Skewers looks like this.
+
+==== First Ingredient: [[Jerky]] ====
+
+Step 1 options:
+* A [[Wormtongue Nest]] worked by a [[Foragers' Camp]] ({1Star}) produces [[Insects]] ({{1Star}}).
+* A [[Slickshell Broodmother]] worked by a [[Trappers' Camp]] ({1Star}) produces [[Meat]] ({{1Star}}).
+* A [[Ranch]] supported by [[Grain]] from a [[Small Farm]] and sustain production of [[Meat]] ({{1Star}}).
+
+Step 2 options:
+* A [[Smokehouse]] requires the [[Insects]] or [[Meat]] to produce [[Jerky]] ({{3Star}}).
+* A [[Butcher]] requires the [[Insects]] or [[Meat]] to produce [[Jerky]] ({{2Star}}).
+
+
+==== Second Ingredient: [[Vegetables]], [[Roots]], [[Berries]], or [[Eggs]] ====
+
+* A [[Moss Broccoli Patch]] worked by a [[Foragers' Camp]] produces [[Vegetables]] ({{1Star}}).
+* A [[Root Deposit]] worked by a [[Scavengers' Camp]] produces [[Roots]] ({{1Star}}).
+* A [[Dewberry Bush]] worked by an [[Herbalists' Camp]] produces [[Berries]] ({{1Star}}).
+* A [[Stormbird Nest]] or [[Snake Nest]] worked by a [[Scavengers' Camp]] or [[Trappers' Camp]] produces [[Eggs]] ({{1Star}}).
+* The same [[Ranch]] for the [[#First Ingredient: Jerky|first ingredient]] supported by [[Grain]] from a [[Small Farm]] can sustain production of [[Eggs]] ({{1Star}}).
+* [[Fertile Soil]] is improved to a [[Farm Field]].
+** [[Farm Fields]] worked by a [[Small Farm]] produce [[Vegetables]] ({{1Star}}) (and can also support the [[Ranch]]).
+** [[Farm Fields]] worked by a [[Plantation]] produce [[Berries]] ({{2Star}}).
+
+
+==== Efficient sustainable production ====
+
+If you need to sustain Skewers '''and Jerky''' and want to feel efficient at doing so, look here.
+# [[Farm Field]]s worked by an [[Small Farm]] producing both [[Vegetables]] and [[Grain]].
+# The [[Grain]] is used by a [[Ranch]] to produce [[Meat]] and [[Eggs]].
+# A [[Butcher]] takes the [[Meat]] and a [[Fuel]] to make [[Jerky]].
+# The same Butcher takes the [[Jerky]] and the [[Vegetables]] to make [[Skewers]].
+
+
+== Related and Supporting Perks ==
+
+See also: [[Perks]].
+
+* [[File:Ethernal Icon.png|x14px|Ethereal]] [[Back to Nature]]: Increases yields by 100% in all [[Farms|Buildings that use Fertile Soil]]. You will lose all stored food (cooked and raw) upon choosing this cornerstone.
+* [[Bigger Grill]]: +2 to [[Skewers]] production. Gain additional Skewers every yield (from gathering, farming, or production).
+* [[Cannibalism]]: Gain 30 [[Meat]] every time a [[Villager]] [[Dying|Dies]] or [[Leaving|Leaves]].
+* [[Giant Vegetables]]: +2 to [[Vegetables]] production. Gain additional Vegetables every yield (from gathering, farming, or production).
+* [[Lost Supplies]]: Gain 40 [[Meat]] and 40 [[Grain]] for each completed Dangerous or Forbidden [[Glade Event]]. 
+* [[Meat Specialization]]: [[Meat]] production increases by +1 every 25 times it's produced.
+* [[Root Delivery Line]]: 3 [[Roots]] per minute. 
+* [[Sahilda's Secret Cookbook]]: Gain 10 [[Jerky]] for every 10 [[Pie]] produced.
+* [[Termite Nest]]: 3 [[Insects]] every minute.
+* [[Vegetable Delivery Line]]: 3 [[Vegetables]] per minute.
+* [[Viceroy's Survival Guide]]: Increases [[Global Food Production Speed]] by 20%.

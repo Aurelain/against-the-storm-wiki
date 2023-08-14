@@ -1,0 +1,227 @@
+[[File:Zhorg_Portrait.png|255px|thumb|right|Zhorg's in-game portrait]]Zhorg is a [[Trader]] and Quartermaster of the First Dawn Company.
+
+He is one of two Traders (the other being [[Sahilda]]) available from the start of the game before you unlock any other Traders. Zhorg can come to your settlement at any point of its life cycle, but he is most likely to come before you hit 33 City Score.
+
+{| class="wikitable" style="text-align: center"
+! City Score !! Chance to get Zhorg *
+|-
+| 0 - 32
+| 33%
+|-
+| 33 - 65
+| 20%
+|-
+| 66+
+| 8%
+|-
+|}* provided all [[Traders]] are unlocked
+
+Assaulting Zhorg rewards you with up to 50% of his goods and 30% of his [[Blueprints]] and [[Perks]], kills 2-5 of your [[Villagers]], raises [[Queen's Impatience]] by 2, prevents higher level Traders from coming to your settlement and increases the time it takes for Traders to arrive by 50%.
+==Zhorg's stock==
+Like all Traders, Zhorg is always going to have 12-14 types goods for sale. 40 Amber {{amber}} is guaranteed. The other 11-13 types of goods available are chosen from the following:
+{| class="wikitable" style="text-align: center"
+! rowspan="2" | Good 
+| [[File:Roots.png|64px]]
+| [[File:Mushrooms.png|64px]]
+| [[File:Meat.png|64px]]
+| [[File:Grain.png|64px]] 
+| [[File:Vegetables.png|64px]]
+| [[File:Eggs.png|64px]]
+| [[File:Berries.png|64px]] 
+| [[File:Herbs.png|64px]] 
+| [[File:Jerky.png|64px]] 
+| [[File:PickledGoods.png|64px]]
+| [[File:Pie.png|64px]] 
+| [[File:Skewers.png|64px]]
+|- 
+| [[Roots]]
+| [[Mushrooms]]
+| [[Meat]]
+| [[Grain]]
+| [[Vegetables]]
+| [[Eggs]]
+| [[Berries]]
+| [[Herbs]]
+| [[Jerky]]
+| [[Pickled Goods]]
+| [[Pie]]
+| [[Skewers]]
+|-
+! Quantity
+| 70
+| 70
+| 70
+| 70
+| 70
+| 70
+| 70
+| 70
+| 50
+| 50
+| 50
+| 50
+|- style="border-top:solid 5px grey"
+! rowspan="2"| Good 
+| [[File:SimpleTools.png|64px]]
+| [[File:Pottery.png|64px]] 
+| [[File:Flour.png|64px]] 
+| [[File:Oil.png|64px]] 
+| [[File:Ale.png|64px]] 
+| [[File:Wine.png|64px]] 
+| [[File:Barrels.png|64px]] 
+| [[File:Biscuits.png|64px]] 
+| [[File:Planks.png|64px]] 
+| [[File:Bricks.png|64px]] 
+| [[File:Fabric.png|64px]]
+|- 
+| [[Simple Tools]]
+| [[Pottery]]
+| [[Flour]]
+| [[Oil]] 
+| [[Ale]] 
+| [[Wine]] 
+| [[Barrels]] 
+| [[Biscuits]]
+| [[Planks]]
+| [[Bricks]]
+| [[Fabric]]
+|-
+! Quantity
+| 50
+| 50
+| 50
+| 50
+| 50
+| 30
+| 30
+| 30
+| 15
+| 50
+| 50
+|}
+Depending on your [[Smoldering City]] upgrades, you are going to have a few of the following [[Blueprints]], [[Perks]], or [[Reputation]] available:
+{| class="wikitable"
+|-
+| {{Perk|DodgerBlue|File:0_5_reputation_donation.png}} || [[Reputation Donation]]  || Gain 0.5 Reputation.
+|-
+| [[File:SmallFarm icon.png|72px]] || [[Small Farm]] Blueprint || Gain the ability to construct a [[Small Farm]].
+|-
+| [[File:Plantation icon.png|72px]] || [[Plantation]] Blueprint || Gain the ability to construct a [[Plantation]].
+|-
+| [[File:HerbGarden icon.png|72px]] || [[Herb Garden]] Blueprint || Gain the ability to construct an [[Herb Garden]].
+|-
+| [[File:Greenhouse icon.png|72px]] || [[Greenhouse]] Blueprint || Gain the ability to construct a [[Greenhouse]].
+|-
+| [[File:Clay Pit icon.png|72px]] || [[Clay Pit]] Blueprint || Gain the ability to construct a [[Clay Pit]].
+|-
+| [[File:Brewery icon.png|72px]] || [[Brewery]] Blueprint || Gain the ability to construct a [[Brewery]].
+|-
+| [[File:Cookhouse icon.png|72px]] || [[Cookhouse]] Blueprint || Gain the ability to construct a [[Cookhouse]].
+|-
+| [[File:Bakery icon.png|72px]] || [[Bakery]] Blueprint || Gain the ability to construct a [[Bakery]].
+|-
+| [[File:Ranch icon.png|72px]] || [[Ranch]] Blueprint || Gain the ability to construct a [[Ranch]].
+|-
+| {{Perk|DodgerBlue|File:Herbs.png}} || [[Sharp Sickles]] || +1 to [[Herbs]] production. Gain additional Herbs every yield (from gathering, farming, or production).
+|-
+| {{Perk|DarkOrchid|File:Grain.png}} || [[Mold Supply]] || +2 to [[Grain]] production. Gain additional Grain every yield (from gathering, farming, or production).
+|-
+| {{Perk|DodgerBlue|File:Perk-Insect Traps.png}} || [[Insect Traps]] ||  Gain 1 [[Insects]] for every 2 [[Mushrooms]] produced.
+|-
+| {{Perk|LimeGreen|File:Perk-Farmer's Pack.png}} || [[Farmer's Pack]] || Any [[Farmer]] can [[Carrying Capacity|Carry]] 5 additional items.
+|-
+| {{Perk|DodgerBlue|File:PlantFiber.png}} || [[Rich in Fiber]] || +1 to [[Plant Fiber]] production. Gain additional Plant Fiber every yield (from gathering, farming, or production).
+|-
+| {{Perk|LimeGreen|File:Ale.png}} || [[Bigger Barrels]] || +2 to [[Ale]] production. Gain additional Ale every yield (from gathering, farming, or production).
+|-
+| {{Perk|LimeGreen|File:Perk-Obsidian Shovels.png}} || [[Obsidian Shovels]] || [[Farming|Planting crops]] is 25% faster.
+|-
+| {{Perk|LimeGreen|File:Perk-Obsidian Sickles.png}} || [[Obsidian Sickles]] || [[Farming|Harvesting crops]] is 25% faster.
+|-
+| {{Perk|DodgerBlue|File:SpellBookPage09 66.png}} || [[Fragrant Roots]] || Gain 3 [[Incense]] for every 10 [[Roots]] produced.
+|-
+| {{Perk|LimeGreen|File:Pottery.png}} || [[Rain-Powered Pottery Wheel]] || +2 to [[Pottery]] production. Gain additional Pottery every yield (from gathering, farming, or production).
+
+|-
+| {{Perk|DodgerBlue|File:Biscuit Recipes.png}} || [[Buscuit Recipes]] || [[Biscuits]] (★★) can now be produced in the Kiln and Rain Mill.
+|-
+| {{Perk|LimeGreen|File:ScrollsAndBooks 60.png}} || [[Beneficial Agreement]] || [[Traders]] will arrive +15% quicker.
+|-
+| {{Perk|DodgerBlue|File:Icon Viceroy's Survival Guide.png}} || [[Viceroy's Survival Guide]] || Increases [[Global Food Production Speed]] by 20%.
+|-
+| {{Perk|DodgerBlue|File:Perk-Orderly Storage.png}} || [[Orderly Storage]] || All [[Buildings]] have their [[Storage Capacity]] increased by 10.
+|-
+| {{Perk|DodgerBlue|File:Specialized Boots.png}} || [[Specialized Boots]] || Woodcutters move +20% faster.
+|-
+| {{Perk|Chocolate|File:Barbarian icons 79 b.png}} || [[Smuggler's Visit]] || You can choose one [[Blueprint]] from all unlocked Blueprints.
+|}
+== Goods Zhorg buys ==
+{| style="text-align: center"
+| [[File:Amber.png|64px]]
+| [[File:AncientTablet.png|64px]]
+| [[File:Parts.png|64px]]
+| [[File:BuildingMaterials.png|64px]]
+| [[File:Crops.png|64px]]
+| [[File:Luxury.png|64px]]
+| [[File:Provisions.png|64px]]
+| [[File:TradeGoods.png|64px]]
+| [[File:Roots.png|64px]]
+| [[File:Vegetables.png|64px]]
+| [[File:Herbs.png|64px]]
+| [[File:Meat.png|64px]]
+| [[File:Eggs.png|64px]]
+| [[File:Insects.png|64px]]
+| [[File:Berries.png|64px]]
+| [[File:Clay.png|64px]]
+|- 
+| [[Amber]]
+| [[Ancient Tablet]]
+| [[Parts]] 
+| [[Pack of Building Materials]] 
+| [[Pack of Crops]]
+| [[Pack of Luxury Goods]] 
+| [[Pack of Provisions]] 
+| [[Trade Goods]]
+| [[Roots]] 
+| [[Vegetables]] 
+| [[Herbs]] 
+| [[Meat]]
+| [[Eggs]] 
+| [[Insects]] 
+| [[Berries]] 
+| [[Clay]]
+|-
+| [[File:PlantFiber.png|64px]]
+| [[File:Flour.png|64px]]
+| [[File:Resin.png|64px]]
+| [[File:Pigment.png|64px]]
+| [[File:Reeds.png|64px]]
+| [[File:SimpleTools.png|64px]]
+| [[File:InfusedTools.png|64px]]
+| [[File:CopperOre.png|64px]]
+| [[File:Coats.png|64px]]
+| [[File:Planks.png|64px]]
+| [[File:Bricks.png|64px]]
+| [[File:Fabric.png|64px]]
+| [[File:Icon MetaResource Machinery.png|64px]]
+| [[File:Icon MetaResource FoodStockpiles.png|64px]]
+| [[File:Icon MetaResource Artifact.png|64px]]
+| [[File:SeaMarrow.png|64px]]
+|-
+| [[Plant Fiber]] 
+| [[Flour]] 
+| [[Resin]] 
+| [[Pigment]] 
+| [[Reeds]] 
+| [[Simple Tools]] 
+| [[Infused Tools]] 
+| [[Copper Ore]] 
+| [[Coats]] 
+| [[Planks]]
+| [[Bricks]] 
+| [[Fabric]] 
+| [[Machinery]] 
+| [[Food Stockpiles]] 
+| [[Artifacts]] 
+| [[Sea Marrow]]
+|}

@@ -1,0 +1,110 @@
+'''Abandoned Caches''' are stockpiles of materials found as you explore glades. They range between Small, Medium, and Large. They require [[File:SimpleTools.png|frameless|18px]] Simple Tools or [[File:InfusedTools.png|frameless|18px]] Infused Tools in order to open, costing more tools the bigger their size is, but each offers better rewards respectively.
+
+Small Caches only appear in regular glades, however Medium and Large Caches can appear both in Dangerous and Forbidden Glades.
+
+== Small Caches ==
+{| class="wikitable
+|+ Choice of materials for investigation:
+! Resource Type !! Amount !! Amber Value
+|-
+| [[File:SimpleTools.png|border|32px]] Simple Tools || 6 || 8.28 {{amber}}
+|-
+| [[File:InfusedTools.png|border|32px]] Infused Tools || 3 || 5.28 {{amber}}
+|-
+|}
+
+{| class="wikitable
+|+ Working Time
+| 1 Villager || 3:00
+|-
+| 2 Villagers || 2:30
+|}
+
+{| class="wikitable
+|+ Send to the Citadel
+| [[File:Amber.png|border|32px]] Amber || 10
+|-
+| [[File:QueensGrace.png|border|32px]] Reputation || 0.5
+|-
+|}
+===Possible Rewards for Looting===
+
+== Medium Caches ==
+{| class="wikitable
+|+ Choice of materials for investigation:
+! Resource Type !! Amount !! Amber Value
+|-
+| [[File:SimpleTools.png|border|32px]] Simple Tools || 10 || 13.8 {{amber}}
+|-
+| [[File:InfusedTools.png|border|32px]] Infused Tools || 5 || 8.8 {{amber}}
+|-
+|}
+
+{| class="wikitable
+|+ Working Time
+| 1 Villager || 3:00
+|-
+| 2 Villagers || 2:30
+|}
+
+{| class="wikitable
+|+ Send to the Citadel
+| [[File:Amber.png|border|32px]] Amber || 20
+|-
+| [[File:QueensGrace.png|border|32px]] Reputation || 0.75
+|-
+|}
+===Possible Rewards for Looting===
+
+== Large Caches ==
+[[File:CacheLarge.PNG|thumb|A Large Abandoned Cache]]
+{| class="wikitable
+|+ Choice of materials for investigation:
+! Resource Type !! Amount !! Amber Value
+|-
+| [[File:SimpleTools.png|border|32px]] Simple Tools || 14 || 19.32 {{amber}}
+|-
+| [[File:InfusedTools.png|border|32px]] Infused Tools || 7 || 12.32 {{amber}}
+|-
+|}
+
+{| class="wikitable
+|+ Working Time
+| 1 Villager || 3:00
+|-
+| 2 Villagers || 2:30
+|}
+
+{| class="wikitable
+|+ Send to the Citadel
+| [[File:Amber.png|border|32px]] Amber || 30
+|-
+| [[File:QueensGrace.png|border|32px]] Reputation || 1
+|-
+|}
+===Possible Rewards for Looting===
+{| class="wikitable sortable"
+|+ 4 random rewards from the following:
+! Resource Type !! Amount !! Amber Value
+|-
+| [[File:AncientTablet.png|border|32px]] Chest of Ancient Tablets || 3 || 24 {{amber}}
+|-
+| [[File:Wine.png|border|32px]] Barrels of Wine || 40 || 5.6 {{amber}}
+|-
+| [[File:Incense.png|border|32px]] Vessel of Incense || 40 || 7.2 {{amber}}
+|-
+| [[File:Oil.png|border|32px]] Oil Vessels || 40 || 6.4 {{amber}}
+|-
+| [[File:Clay.png|border|32px]] Crate of Clay || 50 || 7 {{amber}}
+|-
+| [[File:Coats.png|border|32px]] Bundle of Coats || 35 || 3.5 {{amber}}
+|-
+| [[File:Scrolls.png|border|32px]] Bundle of Scrolls|| 40 || 5.6 {{amber}}
+|-
+| [[File:Barrels.png|border|32px]] Barrels || 35 || 7 {{amber}}
+|-
+| [[File:Ale.png|border|32px]] Barrels of Ale || 40 || 6.8 {{amber}}
+|-
+| [[File:Clay.png|32px]] Steel Shovels || Perk || +2 [[File:Clay.png|18px]] Clay production
+|-
+|}

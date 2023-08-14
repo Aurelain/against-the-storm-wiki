@@ -1,0 +1,233 @@
+{{Version|0.38.3}}
+
+= Buildings =
+
+Buildings are your main way of meeting the [[Needs]] of your [[Villagers]] by way of gathering, farming, production, and consumption. They occupy map tiles, constrain the movement of Villagers, and offer a variety of capabilities to help your [[Settlement]] survive.
+
+== Blueprints ==
+
+[[File:Choose blueprint shimmer.png|x120px|thumb|The Reputation icon shimmers when you can choose new Blueprints.]]
+Which buildings you have available for construction is determined by your Blueprints.  Every Viceroy has a list of Essential Buildings and you will begin each Settlement with all of those Blueprints.  You can choose additional Blueprints by gaining Reputation, buying from [[Trade | Traders]], and from [[Glade Event]] rewards.
+
+== Essential Buildings ==
+
+You can add more Blueprints to your Essential Buildings list by completing [[Smoldering City#Deeds | Deeds]] and buying upgrades in the [[Smoldering City#Upgrades | Smoldering City]].  Some upgrades in the Smoldering City also add Blueprints to your list of [[Embarking | Embarkation]] options.  You can learn about your starting list of Essential Buildings by playing the [[Tutorial]]. 
+
+= Construction =
+
+To construct new buildings, you must first have that building's Blueprint.  You can select from the available Blueprints using the menus at the bottom of the screen and click to place the construction site on the map.  Red squares under the construction site indicate impediments to placement such as trees, roads, or other buildings.  Once the construction site for your building is placed, you can select a priority and view which resources have or have not yet been delivered to the site.  Before any resources have been delivered, you can remove the construction site for free - but once resources have arrived, removing the construction site will only refund a partial amount of resources (just as for completed buildings).  Construction sites for buildings which can be moved for free can also be freely moved, but construction sites for buildings with a move cost cannot.
+
+== Builders ==
+
+Buildings are constructed by [[Villagers]] that aren't assigned to work anywhere else, and they become [[Builders]]. If you need a Building built quickly, you will need to dismiss several workers from their workplaces. If no Builders are available, a hammer icon will appear above all Buildings that are awaiting construction, letting you know that you need to dismiss a worker somewhere or the construction will never finish.
+
+== Construction Toolbar ==
+
+[[File:Buildings construction icons.png|thumb|500px|The construction toolbar at the bottom of the screen, also showing the tooltip over the second icon for Camps, which looks like a mushroom and leaf. Hold your mouse over an icon to see the tooltip.]]
+Buildings are constructed by selecting from the options at the bottom of the screen and then clicking on the game map where you wish it to be placed. From left to write, the construction icons contain the following options:
+# [[File:Construct Roads.png|x32px|Roads|link=]] [[Road]]s, which are not Buildings, but improve [[Villagers]]' ability to move between them
+# [[File:Construct Camps.png|x32px|Camps|link=]] [[Camps]], and you start most maps with the same 4 options: [[Woodcutters' Camp]], [[Stonecutters' Camp]], [[Harvesters' Camp]], and [[Scavengers' Camp]] before being able to choose more [[Blueprints]]
+# [[File:Construct Food Production.png|x32px|Food Production|link=]] [[Food Production]], for example for farming and cooking [[Recipes]]
+# [[File:Construct Housing.png|x32px|Housing|link=]] [[Housing]], and you start every map with at least the option for the basic [[Shelter]]
+# [[File:Construct Industry.png|x32px|Industry|link=]] [[Industry]] Buildings, which produce [[Resources]], sometimes by themselves but usually with [[Recipes]]
+# [[File:Construct City Buildings.png|x32px|City Buildings|link=]] [[City Buildings]], which includes [[Hearths]], [[Warehouse]]s, and the [[Trading Post]], but will also contain Buildings which provide [[Services]] when you have choose their [[Blueprints]].
+# [[File:Construct Decorations.png|x32px|Decorations|link=]] [[Decorations]], which are also not Buildings, but used to upgrade [[Hearths]]
+Next to the construction toolbar are the buttons for marking trees (the axe icons). To the far right is the button for destroying Buildings, roads, or deposits.
+
+== Range ==
+
+[[File:Hearth overlay.png|thumb|300px|Selecting the Ancient Hearth shows the range within which Housing must be placed to be functional.]]
+Depending on the Building you've chosen to build (or move), the game may reveal one or more special overlay areas, highlighting, or icons:
+* the range of the [[Hearth]] may be shown when placing another Hearth, [[Housing|Houses]], or [[Decorations]]
+* the range of gathering or farming when placing a [[Camp]] or Building that requires [[Fertile Soil]]
+* highlighting of tiles that contain Fertile Soil when placing [[Farms]]
+* icons of nearby relevant Resources when placing gathering Camps and [[Mines]]
+* highlighting of [[Trees]] that have been marked for cutting in a different color when in range of the [[Woodcutters' Camp]]
+
+Most [[Industry]] Buildings typically do not need to show any of these things. (The Mine is an exception). For example, when placing a [[Provisioner]], there are no overlays or icons shown.
+
+= Moving a Building =
+
+[[File:Moveable_building_from_construction_toolbar.png|thumb|100px|This Camp is a moveable Building.]]
+[[File:Move_Icon.png|32px|Move button]]
+
+If a Building may be moved, the button to do so appears large, in blue, at the top left the Building panel. Holding your mouse over the button will tell you whether the Building may be moved for free, like a [[Camps|Camp]]. Some Buildings can be moved for a cost, like a [[Shelter]] for 5 [[Wood]]. Most Buildings that produce goods using [[Recipes]] cannot be moved at all, and the icon will not appear on their Building panel.
+
+You can see before constructing a Building whether it will be moveable. This appears on the same tooltip where you can preview the cost of the Building before placing it for construction. In the screenshot to the right, notice the blue Move button on the Building's picture in its construction tooltip.
+
+= Building Panel =
+
+[[File:Building_panel_example-tab_1.png|thumb|100px|The Building panel for a Weaver.]]
+The Building panel contains information on a Building you have selected or placed for construction on the map. Counter-clockwise starting at the top of the panel, you can see four tabs, the [[Workers]], and the content of the tabs. The center-top of the panel, below the tabs, will show the Building's description, which typically includes a summary of its [[Recipes]] and any [[Specialization]].
+
+== First Tab: Recipes ==
+
+[[File:Building_panel_example-tab_1.png|thumb|200px]]
+''See also: [[Recipes]]''
+
+[[File:Tab-Recipes.png|48px]]
+
+On the Building Panel for production Buildings, the first tab contains the Recipes that the Building can produce. For Buildings like [[Camps]] and [[Farms]], there are no tabs and the Recipes and internal Storage are shown together.
+
+In the list of Recipes, you can check or uncheck the Recipes you want the Workers to produce. By default, all Recipes are enabled. You may want to uncheck to disable Recipes that are lower efficiency than in other Buildings. For example, you may want to disable the Recipe for [[Planks]] in the [[Crude Workstation]] ({{0star]]) once you have built a [[Lumber Mill]] ({{3star}}), so you get the most efficient use of [[Wood]]. However, if your are in need of more Planks and you can afford to spend the extra Wood, it may be worth it to keep the Planks Recipe checked in the Crude Workstation.
+
+In the list of Recipes, you can also click the up and down arrows to increase or decrease the priority of a Recipe. This will reorder the list, so the highest priority Recipes are on top. When a Recipe is prioritized in a Building, the Workers will spend all of their time making that Recipe. Once they are unable to produce more, they will move on to the next-lower priority Recipe. This may happen when the settlement runs out of the ingredient Resources or the Limit is reached.
+
+On the right side of the Recipes list, you can set the [[Limit]] of the Recipe. When the settlement has that number of that product Resource '''in the [[Warehouse]],''' then the Workers will not '''start''' producing more. Sometimes the deliveries to the [[Warehouse]] have not been made yet, so Workers may start another batch, and the Limit may be exceeded, so consider this as a soft target not a rigid constraint.
+
+=== Workers ===
+
+[[File:Worker_panel_example.png|thumb|300px|Example building panel showing 3 Workers with 3 different statuses.]]
+Most Buildings have space for two or more [[Villager]] to work. Selecting a Building open its panel on the right side of your game window. There, you can assign or dismiss Villagers as [[Workers]].
+
+Next to the Worker icon, like a [[Human]], a small icon will appear that indicates the status of the Worker. They may be the following:
+* [[File:Worker_transport_icon.png|x16px]] = walking to the Building
+* [[File:Worker_production_icon.png|x16px]] = actively producing or gathering
+* [[File:Worker_storage_icon.png|x16px]] = moving goods from the Building to a [[Warehouse]] or vice versa
+* [[File:Worker_rest_icon.png|x16px]] = resting at the Hearth
+* [[File:Worker_idle_icon.png|x16px]] = idling, unable to work
+
+If the worker is unable to work, then their icon will be an exclamation point. This occurs when there are no more Resources to work with (whether from the nearby map tiles or from the Warehouse) or if you must select one of the options of a [[Glade Event]] and press the '''Investigate''' button. The Building will also receive an exclamation point icon above it on the map view (even with the Building panel closed) to get your attention since an idling Worker may be wasting valuable time, however you are free to ignore these icons.
+
+==== Empty Worker Slots ====
+
+[[File:Worker_Circle_Widget.png|64px|link=]]
+
+If a Building has space for more Workers, you click the black-and-white icon with a nondescript person and green plus sign to choose which [[Species]] to add.
+
+There are noteworthy reasons to leave Worker slots empty in Buildings. For example, emptying the Woodcutters' Camps of all of their Workers just before the [[Storm]] can lower the [[Hostility]] of [[The Forest|the Forest]] enough so you don't lose any [[Villagers]] during the Storm due to low [[Resolve]]. Another example is if your settlement is producing a good more quickly than it is needed, removing a Worker will slow down the rate of production.
+
+==== Specializations ====
+
+Some Buildings will indicate that there are Specializations available with small, color-coded icons. You can hold your mouse over these icons to see a tooltip that identifies the name of the Specialization. However, the name does not tell you which of the two types of Specializations it is. Specializations either grant bonus to [[Resolve]] or chance for double production. A Building like the [[Cookhouse]] with 4 Worker slots can be used to boost the Resolve of the [[Lizards]] by assigning four Lizards to it due to its [[Warmth|Warmth Specialization]].
+
+{| class="wikitable sortable"
+|+ Specializations, effects, and examples
+! Specialization !! Type !!class="unsortable"| Effect !! Species !!class="unsortable"| Example Building
+|-
+| [[File:Icon Spec Alchemy 64x64.png|x48px|link=Alchemy]] [[Alchemy]] || '''Proficiency''' || +10% chance of doubling their yield || [[File:Harpy_circle.png|32px|link=Harpies]] [[Harpies]] || [[Apothecary]]
+|-
+| [[File:Icon Spec Brewing 64x64.png|x48px|link=Brewing]] [[Brewing]] || '''Comfortable''' || +5 to their Resolve || [[File:Human_circle.png|32px|link=Humans]] [[Humans]] || [[Brewery]]
+|-
+| [[File:Icon Spec Cloth 64x64.png|x48px|link=Cloth]] [[Cloth]] || '''Comfortable''' || +5 to their Resolve || [[File:Harpy_circle.png|32px|link=Harpies]] [[Harpies]] || [[Weaver]]
+|-
+| [[File:Icon Spec Gear 64x64.png|x48px|link=Engineering]] [[Engineering]] || '''Comfortable''' || +5 to their Resolve || [[File:Beaver_circle.png|32px|link=Beavers]] [[Beavers]] || [[Mine]]
+|-
+| [[File:Icon_Spec_Farm_64x64.png|x48px|link=Farming]] [[Farming]] || '''Proficiency''' || +10% chance of doubling their yield || [[File:Human_circle.png|32px|link=Humans]] [[Humans]] || [[Small Farm]]
+|-
+| [[File:Icon_Spec_Meat_64x64.png|x48px|link=Meat Production]] [[Meat Production]] || '''Proficiency''' || +10% chance of doubling their yield || [[File:Lizard_circle.png|32px|link=Lizards]] [[Lizards]] || [[Butcher]]
+|-
+| [[File:Icon_Spec_Fire_64x64.png|x48px|link=Warmth]] [[Warmth]] || '''Comfortable''' || +5 to their Resolve ||  [[File:Lizard_circle.png|32px|link=Lizards]] [[Lizards]] || [[Ancient Hearth]]
+|-
+| [[File:Icon_Spec_Wood_64x64.png|x48px|link=Woodworking]] [[Woodworking]] || '''Proficiency''' || +10% chance of doubling their yield || [[File:Beaver_circle.png|32px|link=Beavers]] [[Beavers]] || [[Woodcutters' Camp]]
+|}
+
+== Second Tab: Storage ==
+
+[[File:Building_panel_example-tab_2.png|thumb|200px]]
+''See also: [[Storage]] and [[Warehouse]]''
+
+[[File:Tab-Storage.png|48px]]
+
+=== Produced Goods Storage ===
+
+[[File:Worker panel example-just the storage.png|thumb|300px|The internal Storage in a Woodcutters' Camp is almost full. It has 8 Wood and 6 Copper Ore that need to be delivered to a Warehouse.]]
+
+Most buildings have internal storage, where (a) gathered or produced [[Resources]] are kept until a batch can be taken to the [[Warehouse]] or (b) input Resources are brought from the Warehouse for processing. The capacity of this Storage can be increased by [[Perks]] and [[Upgrades|Upgraded]] in the [[Smoldering City]].
+
+In the example screenshot, a [[Woodcutters' Camp]] has an internal Storage capacity of 15. It is holding 8 [[Wood]] and 6 [[Copper Ore]] that are awaiting delivery to the closest Warehouse. The blue button to '''Force delivery now''' is dimmed because a [[Worker]] is on their way back to the Camp to deliver these goods. Pressing this button when the Storage is not full will force a Worker to take the goods to the Warehouse before it is full (and possibly before their own [[Carrying|Carrying Capacity]] would be most efficiently used). This is useful if you have Buildings awaiting construction or [[Glade Events]] that need Resources as soon as possible.
+
+=== Ingredients Storage ===
+
+[[File:Internal storage example.png|thumb|200px|The ingredients Storage in an empty Crude Workstation are inaccessible to other Buildings that could use them.]]
+In another example, a [[Crude Workstation]] has been replaced with Buildings with more efficient (higher-star) [[Recipes]]. Clicking the red '''X''' icon on the [[Resources|Resource]]'s icons instantly transfers these Resources back to the [[Warehouse]]. If you accidentally remove the wrong ingredient, a [[Worker]] will need to go pick the ingredients back up from the Warehouse before they can work on the Recipe.
+
+= Essential Buildings List =
+
+''Main page: [[Essential Buildings]]''
+
+== Roads ==
+
+* Path
+
+== Camps ==
+
+{| class="wikitable sortable"
+! Building !! Source !! Cost to build
+|-
+| [[File:Woodcutters Camp icon.png|64px]] Woodcutters' Camp || (default) || [[File:Parts.png|25px]] 2 [[Parts]]
+|-
+| [[File:Stonecutter's Camp icon.png|64px]] Stonecutters' Camp || (default) || [[File:Wood.png|25px]] 10 [[Wood]]<br />[[File:Parts.png|25px]] 3 [[Parts]]
+|-
+| [[File:Harvester Camp icon.png|64px]] Harvesters' Camp || (default) || [[File:Wood.png|25px]] 10 [[Wood]]<br />[[File:Parts.png|25px]] 3 [[Parts]]
+|-
+| [[File:Forager's Camp icon.png|64px]] Small Foragers' Camp || (default) || [[File:Wood.png|25px]] 10 [[Wood]]<br />[[File:Parts.png|25px]] 3 [[Parts]]
+|-
+| [[File:Herbalist's_Camp_icon.png|64px]] Small Herbalists' Camp || (default) || [[File:Wood.png|25px]] 10 [[Wood]]<br />[[File:Parts.png|25px]] 3 [[Parts]]
+|-
+| [[File:Trapper's Camp icon.png|64px]] Small Trappers' Camp || (default) || [[File:Wood.png|25px]] 10 [[Wood]]<br />[[File:Parts.png|25px]] 3 [[Parts]]
+|}
+
+== Food Production ==
+
+
+{| class="wikitable sortable"
+! Building !! Source !! Cost to build
+|-
+| [[File:Farmfield_icon.png|64px]] [[Farm Field]] || (default) || (free)
+|-
+| [[File:FieldKitchen_icon.png|64px]] [[Field Kitchen]] || Unlocked with Dim Square 7 || [[File:Planks.png|25px]] 2 [[Planks]]<br />[[File:Fabric.png|25px]] 2 [[Fabric]]
+|}
+
+== Housing ==
+
+{| class="wikitable sortable"
+|+ Housing buildings and their benefits 
+! Building !! Source !! Cost to build
+|-
+| [[File:Shelter icon.png|64px]] [[Shelter]] || (default) || [[File:Wood.png|25px]] 10 [[Wood]]
+|-
+| [[File:Big Shelter icon.png|64px]] [[Big Shelter]] || Unlocked with the Ancient Knowledge Deed || [[File:Planks.png|25px]] 4 [[Planks]]
+|-
+| [[File:Human House icon.png|64px]] [[Human House]] || Unlocked with the Vanguard Spire 1 || [[File:Planks.png|25px]] 4 [[Planks]]<br />[[File:Bricks.png|25px]] 2 [[Bricks]]
+|-
+| [[File:Beaver House icon.png|64px]] [[Beaver House]]  || Unlocked with the Vanguard Spire 2 || [[File:Planks.png|25px]] 8 [[Planks]]
+|-
+| [[File:Fox House icon.png|64px]] [[Fox House]]  || Unlocked with the Vanguard Spire 3 || [[File:Planks.png|25px]] 4 [[Planks]]<br />[[File:CrystalizedDew.png|25px]] 2 [[Crystalized Dew]]
+|-
+| [[File:Lizard House icon.png|64px]] [[Lizard House]]  || Unlocked with the Vanguard Spire 3 || [[File:Fabric.png|25px]] 2 [[Fabric]]<br />[[File:Bricks.png|25px]] 4 [[Bricks]]
+|-
+| [[File:Harpy House icon.png|64px]] [[Harpy House]] || Unlocked with the Vanguard Spire 4 || [[File:Fabric.png|25px]] 4 [[Fabric]]
+|}
+
+== Industry ==
+
+{| class="wikitable sortable"
+! Building !! Source
+|-
+| [[File:Crude_Workstation_icon.png|64px]] [[Crude Workstation]] || (default)
+|-
+| [[File:Makeshift_Post_icon.png|64px]] [[Makeshift Post]] || (default)
+|}
+
+== City Buildings ==
+
+{| class="wikitable sortable"
+! Building !! Source
+|-
+| [[File:Blight_Post_icon.png|64px]] [[Blight Post]] || (default)
+|-
+| [[File:Hydrant_icon.png|64px]] [[Hydrant]] || (default)
+|-
+| [[File:Storage_icon.png|64px]] [[Warehouse]] || (default)
+|-
+| [[File:Temporary_Hearth_icon.png|64px]] [[Small Hearth]] || (default)
+|-
+| [[File:Trading_Post_icon.png|64px]] [[Trading Post]] || (default)
+|}
+
+= List of Buildings =
+
+''Main page: [[List of Buildings]]''
+
+{{:List of Buildings}}

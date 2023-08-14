@@ -1,0 +1,208 @@
+[[File:Beaver_Portrait.png|255px|thumb|right|Old Farluf's in-game portrait]]Old Farluf is a [[Beaver]] [[Trader]] and Engineer of the Brass Order.
+
+He is the first Trader you can unlock by leveling, at [[Level]] 3. Old Farluf can come to your settlement at any point of its life cycle, but he is most likely to come before you hit 33 City Score.
+
+{| class="wikitable" style="text-align: center"
+! City Score !! Chance to get Old Farluf *
+|-
+| 0 - 32
+| 33%
+|-
+| 33 - 65
+| 20%
+|-
+| 66+
+| 8%
+|-
+|}* provided all [[Traders]] are unlocked
+
+Assaulting Old Farluf rewards you with up to 40% of his goods and 30% of his [[Blueprints]] and [[Perks]], kills 2-5 of your [[Villagers]], raises [[Queen's Impatience]] by 3, prevents higher level Traders from coming to your settlement and increases the time it takes for Traders to arrive by 50%.
+==Old Farluf's stock==
+Like all Traders, Old Farluf is always going to have 12-14 types goods for sale. 40 Amber {{amber}} is guaranteed. The other 11-13 types of goods available are chosen from the following:
+{| class="wikitable" style="text-align: center"
+! rowspan="2" | Good 
+| [[File:CopperOre.png|64px]]
+| [[File:CopperBar.png|64px]]
+| [[File:CrystalizedDew.png|64px]]
+| [[File:Sparkdew.png|64px]] 
+| [[File:Oil.png|64px]] 
+| [[File:Coal.png|64px]] 
+| [[File:SimpleTools.png|64px]]
+| [[File:InfusedTools.png|64px]]
+| [[File:Barrels.png|64px]] 
+| [[File:Pottery.png|64px]] 
+|- 
+| [[Copper Ore]]
+| [[Copper Bar]]
+| [[Crystalized Dew]]
+| [[Sparkdew]]
+| [[Oil]]
+| [[Coal]]
+| [[Simple Tools]]
+| [[Infused Tools]]
+| [[Barrels]]
+| [[Pottery]]
+|-
+! Quantity
+| 50
+| 40
+| 40
+| 60
+| 60
+| 60
+| 30
+| 20
+| 50
+| 50
+|- style="border-top:solid 5px grey"
+! rowspan="2"| Good 
+| [[File:Clay.png|64px]] 
+| [[File:Stone.png|64px]]
+| [[File:Planks.png|64px]] 
+| [[File:Bricks.png|64px]]
+| [[File:Fabric.png|64px]]
+| [[File:SeaMarrow.png|64px]] 
+| [[File:PurgingFire.png|64px]] 
+| [[File:Parts.png|64px]] 
+| [[File:Wildfire Essence.png|64px]] 
+|- 
+| [[Clay]]
+| [[Stone]]
+| [[Planks]]
+| [[Bricks]] 
+| [[Fabric]] 
+| [[Sea Marrow]] 
+| [[Purging Fire]] 
+| [[Parts]]
+| [[Wildfire Essence]]
+|-
+! Quantity
+| 50
+| 50
+| 35
+| 35
+| 35
+| 50
+| 10
+| 10
+| 5
+|}
+Depending on your [[Smoldering City]] upgrades, you are going to have a few of the following [[Blueprints]], [[Perks]], or [[Reputation]] available:
+{| class="wikitable"
+|-
+| {{Perk|DodgerBlue|File:0_5_reputation_donation.png}} || [[Reputation Donation]]  || Gain 0.5 Reputation.
+|-
+| [[File:Smelter icon.png|72px]] || [[Smelter]] Blueprint || Gain the ability to construct a [[Smelter]].
+|-
+| [[File:Smithy icon.png|72px]] || [[Smithy]] Blueprint || Gain the ability to construct a [[Smithy]].
+|-
+| [[File:Toolshop icon.png|72px]] || [[Toolshop]] Blueprint || Gain the ability to construct an [[Toolshop]].
+|-
+| [[File:Carpenter icon.png|72px]] || [[Carpenter]] Blueprint || Gain the ability to construct a [[Carpenter]].
+|-
+| [[File:Rain Mill icon.png|72px]] || [[Rain Mill]] Blueprint || Gain the ability to construct a [[Rain Mill]].
+|-
+| {{Perk|DodgerBlue|File:CopperOre.png}} || [[Steel Shovels]] || +1 to [[Copper Ore]] production. Gain additional Copper Ore every yield (from gathering, farming, or production).
+|-
+| {{Perk|DarkOrchid|File:SimpleTools.png}} || [[Copper Tools]] || +1 to [[Simple Tools]] production. Gain additional Simple Tools every yield (from gathering, farming, or production).
+|-
+| {{Perk|LimeGreen|File:Axe b 01.png}} || [[Reinforced Axes]] || [[Woodcutters' Camp]] production is 15% quicker.
+|-
+| {{Perk|DodgerBlue|File:Perk-Repurposed Clay.png}} || [[Repurposed Clay]] || Gain 2 [[Bricks]] for every 10 [[Pottery]] produced.
+|-
+| {{Perk|DodgerBlue|File:Tongs.png}} || [[Salvaging Tools]] || Gain 10 [[Copper Ore]] and 30 [[Wood]] for every opened [[Cache]].
+|-
+| {{Perk|LimeGreen|File:CopperBar.png}} || [[Advanced Smelting]] || +2 to [[Copper Bar]] production. Gain additional Copper Bars every yield (from gathering, farming, or production).
+|-
+| {{Perk|DodgerBlue|File:CrystalizedDew.png}} || [[Crystal Growth]] || +1 to [[Crystalized Dew]] production. Gain additional Crystalized Dew every yield (from gathering, farming, or production).
+|-
+| {{Perk|DodgerBlue|File:Ice stone b.png}} || [[Accumulated Dew]] || Gain 2 [[Crystalized Dew]] for every 10 [[Berries]] produced.
+|-
+| {{Perk|DodgerBlue|File:Stone.png}} || [[Steel Pickaxes]] || +1 to [[Stone]] production. Gain additional Stone every yield (from gathering, farming, or production).
+|-
+| {{Perk|LimeGreen|File:Ni b 05.png}} || [[Shovels]] || [[Villagers]] [[Movement Speed|move]] 10% faster on [[Roads]].
+|-
+| {{Perk|LimeGreen|File:Barrels.png}} || [[Advanced Coopering]] || +2 to [[Barrels]] production. Gain additional Barrels every yield (from gathering, farming, or production).
+|-
+| {{Perk|LimeGreen|File:BagsAndBoxes 22.png}} || [[Scout's Pack]] || Workers assigned to [[Glade Events]] can carry 5 more items.
+|-
+| {{Perk|DodgerBlue|File:Order Generic 2.png}} || [[Beaver Clan Support]] || +3 to [[Beavers]] Resolve.
+|-
+| {{Perk|LimeGreen|File:Pigment.png}} || [[Big Phials]] || +2 to [[Pigment]] production. Gain additional Pigment every yield (from gathering, farming, or production).
+|-
+| {{Perk|DarkOrchid|File:Perk-Ways of the Forest.png}} || [[Ways of the Forest]] || Lowers [[Hostility]] by 50 points.
+|-
+| {{Perk|DodgerBlue|File:Quick Deliveries.png}} || [[Quick Deliveries]] || All packs of goods are produced 33% faster.
+|-
+| {{Perk|DarkOrchid|File:En craft 62.png}} || [[Metallurgic Proficiency]] || All [[Recipes]] that use metal or ore will be produced +33% quicker.
+|-
+| {{Perk|DarkOrchid|File:Beaver Portrait.png}} || [[Beaver Friendship]] || 2 additional [[Beavers]] will come with each group of newcomers.
+|-
+| {{Perk|LimeGreen|File:Perk-Enhanced Blueprints.png}} || [[Enhanced Blueprints]] || [[Builders]] construct [[Buildings]] 50% faster.
+|}
+== Goods Old Farluf buys ==
+{| style="text-align: center"
+| [[File:Amber.png|64px]]
+| [[File:AncientTablet.png|64px]]
+| [[File:Parts.png|64px]]
+| [[File:BuildingMaterials.png|64px]]
+| [[File:Crops.png|64px]]
+| [[File:Luxury.png|64px]]
+| [[File:Provisions.png|64px]]
+| [[File:TradeGoods.png|64px]]
+| [[File:Wood.png|64px]]
+| [[File:Stone.png|64px]]
+| [[File:Clay.png|64px]]
+| [[File:PlantFiber.png|64px]]
+| [[File:Reeds.png|64px]]
+| [[File:Planks.png|64px]]
+| [[File:Bricks.png|64px]]
+|- 
+| [[Amber]]
+| [[Ancient Tablet]]
+| [[Parts]] 
+| [[Pack of Building Materials]] 
+| [[Pack of Crops]]
+| [[Pack of Luxury Goods]] 
+| [[Pack of Provisions]] 
+| [[Trade Goods]]
+| [[Wood]] 
+| [[Stone]] 
+| [[Clay]] 
+| [[Plant FIber]]
+| [[Reeds]] 
+| [[Planks]] 
+| [[Bricks]]
+|-
+| [[File:Fabric.png|64px]]
+| [[File:CopperOre.png|64px]]
+| [[File:CopperBar.png|64px]]
+| [[File:CrystalizedDew.png|64px]]
+| [[File:Sparkdew.png|64px]]
+| [[File:Resin.png|64px]]
+| [[File:Leather.png|64px]]
+| [[File:Oil.png|64px]]
+| [[File:Pigment.png|64px]]
+| [[File:Barrels.png|64px]]
+| [[File:Waterskins.png|64px]]
+| [[File:Icon MetaResource Machinery.png|64px]]
+| [[File:Icon MetaResource FoodStockpiles.png|64px]]
+| [[File:Icon MetaResource Artifact.png|64px]]
+| [[File:SeaMarrow.png|64px]]
+|-
+| [[Fabric]] 
+| [[Copper Ore]] 
+| [[Copper Bar]] 
+| [[Crystalized Dew]] 
+| [[Sparkdew]] 
+| [[Resin]] 
+| [[Leather]] 
+| [[Oil]] 
+| [[Pigment]] 
+| [[Barrels]]
+| [[Watersinks]] 
+| [[Machinery]] 
+| [[Food Stockpiles]] 
+| [[Artifacts]] 
+| [[Sea Marrow]]
+|}

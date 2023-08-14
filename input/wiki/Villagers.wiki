@@ -1,0 +1,30 @@
+Villagers can be obtained at regular intervals, with a choice between two groups. Additional villagers can also be obtained by completing Orders.
+
+Each villager has a Resolve stat. If it reaches above a certain threshold it will generate Reputation. If it falls to 0 the villager will leave, increasing the queen's Impatience.
+
+== Resolve ==
+Resolve is the main indicator of the villagers’ well-being. It’s represented by a number between 0 and 50, and is calculated for each species based on its Base Resolve and all positive and negative effects influencing it. If it drops to 0 the villager will try to leave the settlement. To increase Resolve, you have to satisfy your villagers’ needs - by giving them complex food (like Jerky, Pie, etc.), clothing (Coats), or access to services (like a Tavern serving Ale). Resolve growth is gradual and takes different amounts of time for each species.
+
+To see the exact Resolve change, open the species panel using the arrow key next to the species’ portrait and hover over the numbers shown next to the species name. There you will find the Current Resolve and Target Resolve. Current Resolve reflects the Resolve a given species currently has, and Target Resolve is the sum of all effects – in other words, the value that the Current Resolve will eventually reach over time. Raising Resolve to an exceptionally high level (indicated by the blue line on the Resolve Bar) will generate Reputation Points passively. However, this won't last indefinitely, as villagers will get used to their standard of living after each point acquired, and the blue line on the Resolve bar will move further up.
+
+== Species ==
+Each villager is part of one of 4 species, which determines their stats:
+* '''Base Resolve''' is the villager's Resolve when there are no positive or negative effects affecting them.
+* '''Break Interval''' is the period of time before the villager will take a break at the Hearth.
+* '''Resilience''' is how fast the villager's Resolve can change.
+* '''Demands''' is how much Resolve a villager needs before it starts generating Reputation.
+* '''Decadence''' is how much Demands are raised after gaining a Reputation Point.
+* '''Production Specialization''' grants a villager a 10% chance to produce twice the amount of resources when working in a building related to this specialization.
+* '''Resolve Specialization''' grants a villager 5 Resolve when working in a building related to this specialization.
+A species can be offered lighter treatment from its needs menu. This will raise its Resolve by 5 but decrease the resolve of other species by 5.
+{| class="wikitable" style="text-align:center;"
+! Species !! Base<br>Resolve !! Break<br>Interval !! Resilience !! Demands !! Decadence !! Production<br>Specialization !! Resolve<br>Specialization !! Needs<br>(Goods) !! Needs<br>(Services) !! Description
+|-
+| [[File:Human circle.png|60px]]<br>Human || 15 || 2:00 || Low || High || Medium || [[File:Icon Spec Farm 64x64.png|30px]] Farming || [[File:Icon Spec Brewing 64x64.png|30px]] Brewing ||align="left" |  [[File:Jerky.png|25px]] Jerky<br>[[File:Biscuits.png|25px]] Biscuits<br>[[File:Pie.png|25px]] Pie<br>[[File:Coats.png|25px]] Clothing ||align="left" | [[File:Icon Need Leisure.png|25px]] Leisure<br>[[File:Icon Need Religion.png|25px]] Religion || ''An adaptable species, but very susceptible to the rain.''
+|-
+| [[File:Beaver circle.png|60px]]<br>Beaver || 10 || 2:00 || Low || High || Low || [[File:Icon Spec Wood 64x64.png|30px]] Woodworking || [[File:Icon Spec Gear 64x64.png|30px]] Engineering ||align="left" |  [[File:Biscuits.png|25px]] Biscuits<br>[[File:PickledGoods.png|25px]] Pickled Goods<br>[[File:Coats.png|25px]] Clothing ||align="left" |  [[File:Icon Need Leisure.png|25px]] Leisure<br>[[File:Icon Need Education.png|25px]] Education<br>[[File:Icon Need Luxury.png|25px]] Luxury || ''Beavers are hardworking and honest, but also quite demanding.''
+|-
+| [[File:Lizard circle.png|60px]]<br>Lizard || 5 || 1:40 || High || Medium || High || [[File:Icon Spec Meat 64x64.png|30px]] Meat Production || [[File:Icon Spec Fire 64x64.png|30px]] Warmth ||align="left" |  [[File:Jerky.png|25px]] Jerky<br>[[File:Skewers.png|25px]] Skewers<br>[[File:Pie.png|25px]] Pie<br>[[File:PickledGoods.png|25px]] Pickled Goods ||align="left" |  [[File:Icon Need Brawling.png|25px]] Brawling<br>[[File:Icon Need Religion.png|25px]] Religion || ''Lizards are a very resilient and distrustful species.''
+|-
+| [[File:Harpy circle.png|60px]]<br>Harpy || 5 || 1:40 || Low || Medium || Low || [[File:Icon Spec Alchemy 64x64.png|30px]] Alchemy || [[File:Icon Spec Cloth 64x64.png|30px]] Cloth ||align="left" |  [[File:Jerky.png|25px]] Jerky<br>[[File:Skewers.png|25px]] Skewers<br>[[File:Biscuits.png|25px]] Biscuits<br> ||align="left" |  [[File:Icon Need Brawling.png|25px]] Brawling<br>[[File:Icon Need Education.png|25px]] Education<br>[[File:Icon Need Cleanliness.png|25px]] Cleanliness || ''Harpies are a noble and fragile species, yet with a primal, aggressive side.''
+|}

@@ -1,0 +1,88 @@
+[[File:Pie.png|border|right|link=]]
+<blockquote>A Human specialty. Produced by: Bakery, Brick Oven, Furnace.</blockquote>
+
+Pie is a [[Resources#Complex_Food|Complex Food]] preferred by [[Humans]] and [[Lizards]]. Each of your [[Villagers]] that [[Complex Food Need|fulfills their need for Pie]] receives a bonus to their [[Resolve]].
+
+
+== Produced in ==
+
+Pie is produced in the following [[Buildings]]:
+
+Three-star Buildings
+* [[Brick Oven]] ({{3Star}})
+Two-star Buildings
+* [[Bakery]] ({{2Star}}), available at early [[Level]]s
+* [[Furnace]] ({{2Star}})
+One-star Buildings
+* ''none''
+Zero-star Buildings
+* ''none''
+
+
+== Recipes ==
+
+Before any [[Perks]] are applied, the [[Recipe]] for Pie in all [[Buildings]] yields 10 Pie. In all [[Buildings]], the Recipe requires 6 [[Flour]]. In the [[Brick Oven]] ({{3Star}}), the Recipe requires 3 of any of the flavor ingredients. In the two-star ({{2Star}}) Buildings, the Recipe requires 4 flavor ingredients. Production takes slightly longer in the [[Furnace]], at 1:30 instead of 1:15–16.
+
+{|style="border-style:solid; border-color:BurlyWood; border-width:2px; border-spacing:8px"
+| [[File:Brick_Oven_icon.png|86px]]
+| [[Brick Oven]] <br /> {{3Star}} <br /> 1:15 <br /> {{Blight1}}
+| 6 {{Flour}} || + || 3 {{Berries}} <br /> 3 {{Herbs}} <br /> 3 {{Roots}} || = || 10 [[File:Pie.png|64px]] [[Pie]]
+|}
+
+
+For reference, this is the standard Recipe for [[Flour]] in a 3-star ({{3Star}}) production Building, like the [[Rain Mill]].
+{|style="border-style:solid; border-color:BurlyWood; border-width:2px; padding:6px; border-spacing:8px"
+|- 
+| [[File:Rain Mill icon.png|86px]]
+| [[Rain Mill]] <br /> {{3Star}} <br /> 00:39 <br /> {{Blight2}}
+| 5 {{Grain}} <br /> 5 {{Mushrooms}} <br /> 5 {{Roots}} || = || 10 [[File:Flour.png|64px]] [[Flour]]
+|}
+
+
+== Sources and Strategies ==
+
+Pie is a typical reward from [[Orders]], including [[Lost Knowledge]] which rewards 40 [[Biscuits]], 40 [[Jerky]], 40 [[Pie]], and 1.0 [[Reputation]]. Also, there are Orders that require Pie. One Order requires Pie to be delivered from the settlement's inventory. Another Order requires that a certain number of [[Villagers]] be satisfied by their need for Pie for 30 seconds. '''If you don't want the Order to take your Pie, be sure you carefully read the text and tooltip before selecting the Order.'''
+
+Pie can be acquired from a [[Trade]]r. They have a value of 0.25 {{Amber}} [[Amber]], therefore a stack of 40 is worth 10.0 {{Amber}} to the Trader.
+
+Because the recipe for Pie contains [[Flour]], it will generally not be the first [[Complex Food]] available to your settlement.
+
+=== Production Chain ===
+
+The production chain for Biscuits looks like this.
+
+==== First Ingredient: [[Flour]] ====
+
+Step 1 options:
+* A [[Root Deposit]] worked by a [[Scavengers' Camp]] produces [[Roots]] ({{1Star}}).
+* A [[Swamp Wheat Field]] worked by a [[Foragers' Camp]] produces [[Grain]] ({{1Star}}).
+* [[Fertile Soil]] is improved to a [[Farm Field]].
+** [[Farm Field]]s worked by a [[Small Farm]] produce [[Grain]] ({{2Star}}).
+** [[Farm Field]]s worked by an [[Herb Garden]] produce [[Roots]] ({{1Star}}).
+Step 2 options:
+* A [[Rain Mill]] refines either or both of the [[Grain]] or [[Roots]] into [[Flour]] ({{3Star}}).
+* A [[Provisioner]], [[Stamping Mill]], or [[Supplier]] refine either or both of the [[Grain]] or [[Roots]] into [[Flour]] ({{2Star}}).
+* A [[Press]] refines either or both of the [[Grain]] or [[Roots]] into [[Flour]] ({{1Star}}).
+
+
+==== Second Ingredient: [[Herbs]], [[Meat]], [[Insects]], [[Eggs]], or [[Berries]] ====
+
+Options:
+* An [[Herb Deposit]] worked by an [[Herbalists' Camp]] produces [[Herbs]] ({{1Star}}).
+* A [[Slickshell Broodmother]], [[Snake Nest]], or [[Stormbird Nest]] worked by a [[Trappers' Camp]] produces [[Meat]] or [[Eggs]].
+* A [[Wormtongue Nest]] worked by a [[Foragers' Camp]] produces [[Insects]].
+* A [[Dewberry Bush]] worked by an [[Herbalists' Camp]] produces [[Berries]] ({{1Star}}).
+* [[Fertile Soil]] is improved to a [[Farm Field]], which when worked by an [[Plantation]] produces [[Barries]] ({{2Star}}).
+* A [[Ranch]] supported by [[Grain]] from a [[Small Farm]] and sustain production of [[Meat]] and [[Eggs]].
+
+
+== Related and Supporting Perks ==
+
+See also: [[Perks]].
+
+* [[Cannibalism]]: Gain 30 [[Meat]] every time a [[Villager]] [[Dying|Dies]] or [[Leaving|Leaves]].
+* [[Lost Supplies]]: Gain 40 [[Meat]] and 40 [[Grain]] for each completed Dangerous or Forbidden [[Glade Event]]. 
+* [[Meat Specialization]]: [[Meat]] production increases by +1 every 25 times it's produced.
+* [[Sahilda's Secret Cookbook]]: Gain 10 [[Jerky]] for every 10 [[Pie]] produced.
+* [[Sharp Sickles]]: +2 to [[Herbs]] production. Gain additional Herbs every yield (from gathering, farming, or production). 
+* [[Termite Nest]]: 3 [[Insects]] every minute.

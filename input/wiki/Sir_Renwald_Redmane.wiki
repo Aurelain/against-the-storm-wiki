@@ -1,0 +1,32 @@
+[[File:Raven_Portrait.png|255px|thumb|right|Sir Renwald Redmane's in-game portrait]]Sir Renwald Redmane is a raven [[Trader]] and Officer of the Royal Trading Company.
+
+He is the fourth Trader you can unlock by leveling, at [[Level]] 12. Sir Renwald Redmane can only come to your settlement once you hit 66 City score. He is the only Trader that cannot be attacked.
+
+{| class="wikitable"
+! City score !! Chance to get Sir Renwald Redmane *
+|-
+| 0 - 32
+| 0%
+|-
+| 33 - 65
+| 0%
+|-
+| 66+
+| 16%
+|-
+|}* provided all [[Traders]] are unlocked
+
+Sir Renwald Redmane sells:
+* advanced [[Blueprints]] and [[Perks]]
+* building materials
+* cooked food
+* parts
+* tools
+
+Sir Renwald Redmane buys:
+* building materials
+* fuel
+* luxury items
+* metal
+* packs of goods
+* tools

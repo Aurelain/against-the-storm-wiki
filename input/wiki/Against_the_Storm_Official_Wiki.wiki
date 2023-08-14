@@ -1,0 +1,47 @@
+{| class="gridBG" style="background-color: #314550 ; width: 100%; border: 1px solid orange; color: white;"
+| class="hides hidem" | <div style="margin-left: 5%; "> [[File:AtS Logo.png|200px|link=https://store.steampowered.com//app/1336490/Against_the_Storm/]]</div>
+| class="hides hidem" style="font-size: 125%; text-align: left;" | Official Community Wiki
+| class="hides hidem" | <div style="margin-right: 5%; ">[[File:Hooded Horse Logo W.png|link=https://hoodedhorse.com/|header|90px|right|Hooded Horse Publishing]]</div>
+|}
+
+
+<h2 id="mf-content" class="gridBG" style="border:none; padding:0.2em 0; margin:0; color:#; font-size:125%; font-weight:bold; text-indent:0.5em; font-variant:small-caps;border:1px solid #cccccc;">About this site</h2>
+<div id="mf-content" style="margin-bottom:1em; padding:0.25em 0.4em 0.25em 0.4em;">
+</div>
+
+'''''{{Game}}''''' is a dark fantasy city builder where you must rebuild civilization in the face of apocalyptic rains. As the Queen’s Viceroy, lead humans, beavers, lizards, harpies and foxes to reclaim the wilderness and secure a future for civilization's last survivors.
+
+This wiki's goal is to become the community's repository of knowledge regarding {{Game}}, free and editable by all and useful for newcomers, experienced players, and modders alike.
+
+If you want to help, [[Special:UserLogin|log in here]] and [https://discord.com/invite/KJKN939Zae find our chat room on Discord]!
+
+* [https://discord.com/invite/KJKN939Zae Wiki-specific Discord chat room]
+* [https://store.steampowered.com//app/1336490/Against_the_Storm/ Steam Page]
+* [https://discord.com/invite/2HfJGQG Developer's Discord]
+
+
+<h2 id="mf-content" class="gridBG" style="border:none; padding:0.2em 0; margin:0; color:#; font-size:125%; font-weight:bold; text-indent:0.5em; font-variant:small-caps;border:1px solid #cccccc;">Wiki Pages</h2>
+<div id="mf-content" style="margin-bottom:1em; padding:0.25em 0.4em 0.25em 0.4em;">
+</div>
+
+<div style="font-size: 125%; padding: 3px 0px 0px 0px; text-indent: 0.5em; color: black;">Getting Started</div><hr style="border-top: 2px solid #92A4B6;">
+* [[Tutorial_Walkthrough|Detailed walkthrough of the tutorial missions]] (work in progress)
+* [[Beginner's Guide]]
+* [[Tutorial Videos]]
+<div style="font-size: 125%; padding: 3px 0px 0px 0px; text-indent: 0.5em; color: black;">Building & Crafting</div><hr style="border-top: 2px solid #92A4B6;">
+* [[Resources]]
+* [[Villagers]]
+* [[Buildings]]
+* [[Perks]]
+* [[Trading]]
+* [[Blightrot]]
+<div style="font-size: 125%; padding: 3px 0px 0px 0px; text-indent: 0.5em; color: black;">Exploration & Expansion</div><hr style="border-top: 2px solid #92A4B6;">
+* [[The Forest]]
+* [[Seasons]]
+* [[Smoldering City]]
+* [[World Map]]
+<div style="font-size: 125%; padding: 3px 0px 0px 0px; text-indent: 0.5em; color: black;">Meta</div><hr style="border-top: 2px solid #92A4B6;">
+* [[Modding]]
+
+
+<seo metadescription="The official wiki for Against the Storm, developed by Eremite Games and published by Hooded Horse" />

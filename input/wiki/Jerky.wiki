@@ -1,0 +1,43 @@
+[[File:Jerky.png|border|right|link=]]
+<blockquote>Preserved, dried meat. Produced by: Field Kitchen, Smokehouse, Kiln, Butcher, Cellar.</blockquote>
+
+Jerky is a [[Resources#Complex_Food|Complex Food]] preferred by [[Humans]], [[Lizards]], and [[Harpies]]. Each of your [[Villagers]] that [[Complex Food Need|fulfills their need for Jerky]] receives a bonus to their [[Resolve]]. Therefore, if you do not have [[Beavers]] in your map, then a sustainable supply of Jerky can fulfill one of the Complex Food Needs for all of your Villagers.
+
+
+== Produced in ==
+
+Jerky is produced in the following [[Buildings]]:
+
+Three-star Buildings:
+* [[Smokehouse]] ({{3Star}})
+Two-star Buildings:
+* [[Butcher]] ({{2Star}})
+One-star Buildings:
+* [[Cellar]] ({{1Star}})
+* [[Kiln]] ({{1Star}})
+Zero-star Buildings:
+* [[Field Kitchen]] ({{0Star}})
+
+
+== Recipes ==
+
+Before any [[Perks]] are applied, the [[Recipe]] for Jerky in all [[Buildings]] yields 10 Jerky. In all Buildings, the Recipe requires the same number of the second, [[Fuel]]-type ingredients for cooking the first ingredient. In the [[Smokehouse]], the only 3-star ({{3Star}}) Building, only 4 of the first ingredient is needed, and the [[Butcher]] ({{2Star}}) requires only 5. In the zero-star [[Field Kitchen]] ({{0Star}}), the Recipe requires 8 of the first ingredient.
+
+The Recipe is slightly faster in the Smokehouse ({{3Star}}) at 1:15, and in all other Buildings, it takes 1:30 to produce.
+
+{|style="border-style:solid; border-color:BurlyWood; border-width:2px; border-spacing:8px"
+| [[File:Smokehouse icon.png|86px]]
+| [[Smokehouse]] <br /> {{3Star}} <br /> 1:15 <br /> {{Blight1}}
+| 4 [[File:Insects.png|32px]] [[Insects]] <br /> 4 [[File:Meat.png|32px]] [[Meat]] || + || 5 [[File:Wood.png|32px]] [[Wood]] <br /> 2 [[File:Oil.png|32px]] [[Oil]] <br /> 1 [[File:Coal.png|32px]] [[Coal]] <br /> 1 [[File:SeaMarrow.png|32px]] [[Sea Marrow]] || = || 10 [[File:Jerky.png|64px]] [[Jerky]]
+|}
+
+
+== Sources and Strategies ==
+
+Jerky is a typical reward from [[Orders]], especially ones involving the [[Lizards]], which can reward 40 Jerky or +1 to Jerky production.
+
+There is an Order that requires you to [[Complex Food Need|fulfill the need for Jerky]] in a certain number of your [[Villagers]]. Take note that this means that that many need to simultaneously have the need fulfilled and then held at that level for the duration of the timer. Therefore, you cannot complete this Order until you have at least that many combined [[Humans]], [[Lizards]], and [[Harpies]] in your settlement. Further, if your production is slow or you can only afford to buy a few from the [[Trade]]r, consider [[Consumption Control|disabling consumption for Jerky]] until you can be certain that it will be used quickly and can sustain the duration of the timer for the Order.
+
+Jerky can be acquired from a [[Trade]]r. They have a value of 0.14 {{Amber}} [[Amber]], which is considerably less than other [[Resources#Complex Food|Complex Foods]]. Therefore, a stack of 40 is worth 5.6 {{Amber}} to the Trader.
+
+If you use [[Wood]] or [[Sea Marrow]] for the [[Fuel]]-type ingredient, then Jerky can be one of the first [[Resources#Complex Food|Complex Foods]] you can produce in your settlement. If you do not have [[Beavers]] in your map, this can be a significant and sustainable source of [[Resolve]] for all of your [[Villagers.]]

@@ -1,0 +1,14 @@
+<blockquote>
+''In the end, the Blight came.''
+</blockquote>
+
+[[File:Wiki Blightrot.png|thumb|320px|Blightrot growing on a Smithy building]]
+Blightrot is a mechanic only present on difficulty Veteran or harder.
+
+Buildings gain Blightrot when they are connected to a source of infused rainwater. They gain Blightrot every time a recipe finishes. The amount of Blightrot produced scales with the amount of water used in the building and the recipe's footprint. This pollution accumulates and once it reaches 60 a Blightrot Cyst will form. The amount of accumulated Blightrot can be seen in the Blightrot tab in a given building’s UI panel.
+
+Each Cyst lies dormant at first. But during the Storm season Blightrot Cysts wake up and inflict Corruption upon the Ancient Hearth (indicated by the progress bar above the Hearth and in the Hearth’s UI after selecting it). Once the Corruption bar fills completely, a number of villagers will die. The more Blightrot Cysts are active in your settlement, the faster Corruption progresses.
+
+To combat the spread of Blightrot, you need to build Blight Posts and create [[Purging Fire]]. Blightrot Cysts are invulnerable for most of the year, but during the Storm, they open up and become vulnerable. That’s when Blight Fighters will go around the settlement and burn them down. Removing a Cyst will not only slow down the Corruption process but also remove a bit of the already accumulated Corruption from the Hearth.
+
+The Ancient Hearth can also be reinforced by building and upgrading other smaller Hearths in your settlement.

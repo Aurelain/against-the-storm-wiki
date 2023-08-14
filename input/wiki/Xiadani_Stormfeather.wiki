@@ -1,0 +1,29 @@
+[[File:Harpy_Portrait.png|255px|thumb|right|Xiadani Stormfeather's in-game portrait]]Xiadani Stormfeather is a harpy [[Trader]] and Wandering Merchant.
+
+She is the fifth and last Trader you can unlock by leveling, at [[Level]] 15. Xiadani Stormfeather can only come to your settlement once you hit 66 City score.
+
+{| class="wikitable"
+! City score !! Chance to get Xiadani Stormfeather *
+|-
+| 0 - 32
+| 0%
+|-
+| 33 - 65
+| 0%
+|-
+| 66+
+| 16%
+|-
+|}* provided all [[Traders]] are unlocked
+
+Xiadani Stormfeather sells:
+* basic [[Blueprints]] and [[Perks]]
+* basic [[Resources]]
+* raw food
+* some crafting materials
+
+Xiadani Stormfeather buys:
+* basic Resources
+* raw food
+* packs of goods
+* some building materials

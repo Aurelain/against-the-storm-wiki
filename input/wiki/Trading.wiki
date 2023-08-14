@@ -1,0 +1,167 @@
+[[File:Wiki Trading.png|thumb|320px|Vliss Greybone Trading screen]][[File:Dim_Square_Level_1_Upgrade.png|320px|thumb|right|Dim Square Level 1 Upgrade]]
+Once you build a [[Trading Post]], Traders will visit you periodically. You can barter with them by selecting their goods and offering some of your [[Resources]] in return. The goods Traders can offer are Resources, [[Perks]], [[Blueprints]], [[Reputation]] and [[Mystery boxes]].
+
+After you unlock the [[Dim Square]] Level 1 upgrade in [[Smoldering City]], Trading Posts also allow you to establish [[Trade Routes]] with nearby settlements.
+
+==Traders==
+
+Once a Trader arrives in your settlement, you are going to see a notification pop up and the Trader's circle icon is going to appear where the Trading Post building was placed. You can pull up their Trading Post screen by clicking on their icon or the Trading Post building. RMB click is going to hide their icon, but you can still interact with the Trader by clicking on the Trading Post building until they leave.
+
+When trading Resources on the Trader's Trading Post screen, the bar beneath the selected goods will show you if the Trader is happy with your proposal, and once the bar turns green, you can press the "trade" button to confirm the transaction.
+
+When trading Perks, Blueprints, Reputation, and Mystery boxes on the Trader's Trading Post screen, you need to have enough Amber {{Amber}} in your inventory. It is going to be substracted from your inventory automatically once you click on the icon in the bottom section of the Trader inventory.
+
+When there's no Trader in town, you can select the Trading Post and find out when the next one arrives. Arriving Traders can be called immediately at the cost of 0.5 [[Queen's Impatience]]. The Impatience cost doubles with every subsequent trader call. If the Trader arrives during the Storm season, their arrival is delayed until the following drizzle season. 
+
+With the exception of [[Sir Renwald Redmane]], Traders can be attacked by pressing the sword icon in the Trade Panel. This will take 30-50% of their item stacks and 30% of their Blueprints and Perks, as well as kill 1-6 villagers, raise Queen's Impatience by 2-3, prevent higher level Traders from coming to your settlement, and increase the Trader arrival time by 50%. Additionally, [[Sothur The Ancient]] will punish you with [[Amber Curse]], which causes your Amber {{Amber}} to be worth 90% less to any future traders,  effectively eliminating Trade Routes from viability and removing blueprint and perk purchase for the rest of the run. If your City Score is low enough, assaulting Traders will prevent any Traders from coming to your settlement until you raise your City Score above 0.
+==Perks== 
+
+{| class="wikitable sortable"
+! Perk !! Rarity !!class="unsortable"| Effects
+|-
+| {{Perk|LimeGreen|File:ScrollsAndBooks 60.png}} [[Beneficial Agreement]] || Uncommon Perk || [[Trade]]rs will arrive +15% quicker.
+|-
+| {{Perk|DodgerBlue|File:ScrollsAndBooks 23.png}} [[Trade Contract]] || Rare Perk || [[Trade]]rs will arrive +25% quicker.
+|-
+| {{Perk|DodgerBlue|File:Perk-GuildCatalogue.png|400px}} [[Guild Catalogue]] || Rare Perk  || [[Trade]]rs will have 1 more Cornerstone for sale. 
+|-
+| {{Perk|DarkOrchid|File:ScrollsAndBooks 03.png}} [[Trade Logs]] || Epic Cornerstone || Gain 1 additional active trade route slot.[[Trade]]rs will arrive +25% quicker.
+|-
+| {{Perk|DarkOrchid|File:Perk-BedandBreakfast.png}} [[Bed and Breakfast]] || Epic Perk || Gain 10 Amber every time a trader arrives.
+|-
+| {{Perk|Chocolate|File:Perk-Deserted Caravans.png}} [[Deserted Caravans]] || Legendary Cornerstone || Global production is 50% faster, but [[Trade|Trading]] is '''unavailable.'''
+|-
+| {{Perk|Chocolate|File:SGI 118.png}} [[Protected Trade]] || Legendary Cornerstone || [[Hostility]] is reduced by -15 points every time you sell ([[Trade]]) goods worth 25 [[Amber]].
+|-
+| {{Perk|Chocolate|File:Perk-RoyalGuardTraining.png}} [[Royal Guard Training]] || Legendary Cornerstone || Brawling grants an additional +2 resolve, but attacking a Trader results in 2 extra Impatience. 
+|-
+| {{Perk|Chocolate|File:Perk-Trade Hub.png}} [[Trade Hub]] || Legendary Cornerstone || Gain 1 [[Reputation|Reputation Point]] every time you [[Trade|sell goods]] worth 60 [[Amber]], while '''slowing''' Reputation gained from [[Resolve]] by -50%.
+|-
+
+|}
+
+{| class="wikitable"
+|+ List of Traders
+! Trader !! Sells !! Buys !! Required [[Level]]
+|-
+| [[File:Human Portrait.png|60px]]  [[Sahilda]]
+| 
+* basic Blueprints and Perks
+* basic Resources
+* building materials
+* crafting materials
+* raw food
+* tools
+| 
+* basic Resources
+* building materials
+* packs of goods
+* raw food
+| style="text-align:center;"| 1
+|-
+| [[File:Zhorg_Portrait.png|60px]]  [[Zhorg]]
+| 
+* agriculture Blueprints and Perks
+* complex food
+* pottery
+* raw food
+* tools
+| 
+* building materials
+* crafting materials
+* packs of goods
+* raw food
+| style="text-align:center;"| 1
+|-
+| [[File:Beaver_Portrait.png|60px]]  [[Old Farluf]]
+| 
+* Blueprints and Perks
+* building materials
+* fuel
+* metal
+* tools
+|
+* advanced building materials
+* basic Resources 
+* packs of goods
+* raw food
+* some crafting materials
+| style="text-align:center;"| 3
+|-
+| [[File:Caravanner_Portrait.png|60px]]  [[Sothur The Ancient]]
+| 
+* alchemical Blueprints
+* crafting materials
+* luxury items
+* Perks
+| 
+* cooked food
+* fuel
+* luxury items
+* packs of goods
+| style="text-align:center;"| 6
+|-
+| [[File:Lizard_Portrait.png|60px]]  [[Vliss Greybone]]
+| 
+* building materials
+* luxury items
+* Perks
+* tools
+| 
+* building materials
+* cooked food
+* fuel
+* metal
+* packs of goods
+* tools
+| style="text-align:center;"| 9
+|-
+| [[File:Raven_Portrait.png|60px]]  [[Sir Renwald Redmane]]
+| 
+* advanced Blueprints and Perks
+* building materials
+* cooked food
+* parts
+* tools
+| 
+* building materials
+* fuel
+* luxury items
+* metal
+* packs of goods
+* tools
+| style="text-align:center;"| 12
+|-
+| [[File:Harpy_Portrait.png|60px]]  [[Xiadani Stormfeather]]
+| 
+* basic Blueprints and Perks
+* basic Resources
+* raw food
+* some crafting materials
+| 
+* basic Resources
+* raw food
+* packs of goods
+* some building materials
+| style="text-align:center;"| 15
+|-
+| [[File:Trickster_Portrait.png|60px]]  [[Dullahan Warlander]]
+| 
+* crafting materials
+* fabrics
+* metal
+* mystery boxes
+| 
+* cooked food
+* luxury items
+* some raw resources
+* packs of goods
+| style="text-align:center;"| unlocked by [[Deed]]
+Against All Odds
+|}
+
+==Trivia== 
+
+* Effects that reduce the Waiting time for Traders to arrive cannot reduce the Time between Traders to below 3:15
+* Perks that give Bonuses for trading Amber Value do not take Amber spent on Perks, Blueprints and Cornerstones into account.
+*

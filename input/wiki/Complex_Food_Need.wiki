@@ -1,0 +1,70 @@
+[[Villagers]] prefer to eat Complex Food, like [[Pie]], instead of Raw Food, like [[Roots]]. While this need is satisfied, the Villager will get a bonus to their [[Resolve]].
+
+[[Species]] differ in which of the [[Resources#Complex_Food|Complex Food Goods]] they need. [[Villagers]] will only eat a type of complex food they do not want if there is no other food available to them.
+
+The following lists summarize these needs by Species, then by food. Also included for quick reference are [[Coats]]. Although they satisfy a different need, they are used like Food when Villagers rest at a [[Hearth]].
+
+[[File:Species Complex Food Needs.png|thumb|360px|This diagram illustrates the connections between Species and Complex Food (and Coats).]]
+{| class="wikitable"
+! By Species !! By Food
+|- style="vertical-align:top;"
+|
+* [[Human]]
+** [[File:Biscuits.png|32px]] [[Biscuits]]
+** [[File:Jerky.png|32px]] [[Jerky]]
+** [[File:Pie.png|32px]] [[Pie]]
+** [[File:Coats.png|32px]] [[Coats]]
+* [[Beaver]]
+** [[File:Biscuits.png|32px]] [[Biscuits]]
+** [[File:PickledGoods.png|32px]] [[Pickled Goods]]
+** [[File:Coats.png|32px]] [[Coats]]
+* [[Lizard]]
+** [[File:Jerky.png|32px]] [[Jerky]]
+** [[File:PickledGoods.png|32px]] [[Pickled Goods]]
+** [[File:Pie.png|32px]] [[Pie]]
+** [[File:Skewers.png|32px]] [[Skewers]]
+* [[Harpy]]
+** [[File:Biscuits.png|32px]] [[Biscuits]]
+** [[File:Jerky.png|32px]] [[Jerky]]
+** [[File:Skewers.png|32px]] [[Skewers]]
+|
+* [[File:Biscuits.png|32px]] [[Biscuits]]
+** [[Human]]
+** [[Beaver]]
+** [[Harpy]]
+* [[File:Jerky.png|32px]] [[Jerky]]
+** [[Human]]
+** [[Lizard]]
+** [[Harpy]]
+* [[File:PickledGoods.png|32px]] [[Pickled Goods]]
+** [[Beaver]]
+** [[Lizard]]
+* [[File:Pie.png|32px]] [[Pie]]
+** [[Human]]
+** [[Lizard]]
+* [[File:Skewers.png|32px]] [[Skewers]]
+** [[Lizard]]
+** [[Harpy]]
+* [[File:Coats.png|32px]] [[Coats]]
+** [[Human]]
+** [[Beaver]]
+|}
+
+
+== Strategy ==
+
+Based on the combinations above and which Species are in your map:
+* '''If you don't have Harpies in your map, then avoid Skewers.''' All other choices are fine, because they will serve exactly two of your Species.
+* '''If you don't have Lizards in your map, then Biscuits will serve everyone.''' Missing Lizards mean Pie, Pickled Goods, and Skewers all serve only one Species.
+* '''If you don't have Beavers in your map, then Jerky will serve everyone.''' Pickled Goods will only serve one Species. (Note that Coats may not be worth investing in either.)
+* '''If you don't have Humans in your map, then avoid Pie.''' All other choices are fine, because they will serve exactly two of your Species. (Note that Coats may not be worth investing in either.)
+
+
+== See Also ==
+[[Services Need]]
+
+
+
+[[Category:Resolve]]
+[[Category:Complex Food]]
+[[Category:Villagers]]

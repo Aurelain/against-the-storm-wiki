@@ -1,0 +1,277 @@
+== The Forest ==
+
+All [[Settlements]] are constructed in The Forest.  The Forest consists of multiple [[#Glades | Glades]] separated by a dense carpet of [[#Trees | Trees]].
+
+== Seasons ==
+Each Settlement must brave the three seasons of The Forest:
+
+# [[File:Drizzle.png|40px]] Drizzle lasts 6:00 minutes. Crops are planted and [[Seasons#Positive Forest Mysteries | positive Forest Mysteries]] are active.
+# [[File:Clearance.png|40px]] Clearance lasts 4:15 minutes. Crops are harvested.
+# [[File:Storm 2.png|40px]] Storm lasts 1:40 minutes. Crops that are not harvested die and negative [[Seasons#Negative Forest Mysteries | negative Forest Mysteries]] are active. Traders will not arrive. If Blightroot is present it will attempt to corrupt the Ancient Hearth.
+
+== Hostility ==
+
+<blockquote>
+''With every fallen tree, with every ancient site sacked - the Forest grows angrier.''
+</blockquote>
+
+Hostility is a measure of how wary the forest is of the settlement. It always starts at 0. Each Hostility level above 0 will decrease Global Resolve by 2 (6 during storms) and may activate a negative Forest Mystery.
+All hostility modifiers scale with difficulty other than those from Hearths, Impatience, and Glade Events.
+
+Hostility is increased by the following:
+* 15 per year after the first
+* 5 per small glade
+* 10 per dangerous or forbidden glade
+* 2 per villager
+* 8 per woodcutter
+
+Hostility is decreased by the following which do not scale with difficulty:
+* 30 per lit Hearth
+* 15 per Queen's Impatience
+
+Hostility can also be affected by Glade Events, Sacrifice, and Perks.
+
+== Trees ==
+
+''Main article: [[Woodcutting]]''
+
+Trees can be harvested by Woodcutters' Camps to provide Wood. Each tree has 2 charges, and may also grant additional Resources depending on the [[World Map#Biome | Biome]]. You can always click to select an individual tree to see what Resources it provides.
+
+You can set what chopping behavior you want each Woodcutters' Camp to use.  You can also set a Default Woodcutters' Camp Mode from the Gameplay Settings.
+
+'''Woodcutters' Camp Modes'''
+* Fell All Trees
+* Avoid Glades
+* Avoid Glades (except marked)
+* Only Marked Trees
+* Only Marked Trees & Avoid Glades
+
+Usually (unless you are using Fell All Trees or Avoid Glades) you must mark which trees you would like to Woodcutters' camps to fell.  You can click the green axe icon with the plus sign to the right of the building menus at the bottom of the screen - or use the hotkey (defaults to [F]) - to begin marking trees with a 3-tree width painting tool.  Marked trees which are in range of a Woodcutters' Camp are highlighted in yellow, marked trees which are out of range are highlighted in grey.  If you need to unmark trees, you can click the green axe icon with the minus sign - or use the hotkey (defaults to [G]) - to begin unmarking trees with a similar 3-tree width painting tool.  If you hold the [Shift] key while using the marking or unmarking paint tool, the width of the tool decreases to a single tree - allowing you to be very precise.  If you hold the [Ctrl] key while using the marking tool, you cannot mark trees which would open [[#Glades | Glades]].  You can use both [Shift] and [Ctrl] at the same time.
+
+{| class="wikitable"
+! Tree !! Biome !! Additional resources
+|-
+| '''Coppervein Tree''' 
+| Scarlet Orchard 
+| [[File:Wood.png|25px]] Wood (60%)<br>[[File:CopperOre.png|25px]] Copper Ore (10%)<br>[[File:Resin.png|25px]] Resin (5%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (5%)
+|-
+| '''Lush Tree''' 
+| Royal Woodlands 
+| [[File:Wood.png|25px]] Wood (100%)<br>[[File:Resin.png|25px]] Resin (15%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (10%)<br>[[File:Eggs.png|25px]] Eggs (5%)
+|-
+| '''Mushwood Tree''' 
+| The Marshlands 
+| [[File:Mushrooms.png|25px]] Mushrooms (15%)<br>[[File:Leather.png|25px]] Leather (5%)
+|-
+| '''Dying Tree'''
+| Cursed Royal Woodlands
+| [[File:Wood.png|25px]] Wood (60%)<br>[[File:Insects.png|25px]] Insects (10%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (10%)<br>[[File:Roots.png|25px]] Roots (10%)
+|-
+| '''Crimsonreach Tree''' 
+| Coral Forest 
+| [[File:Stone.png|25px]] Stone (40%)<br>[[File:Incense.png|25px]] Incense (20%)
+|-
+| '''Musselsprout Tree''' 
+| Coral Forest 
+| [[File:Meat.png|25px]] Meat (40%)<br>[[File:CrystalizedDew.png|25px]] Crystalized Dew (20%)
+|-
+| '''Plantleaf Tree''' 
+| Coral Forest 
+| [[File:Resin.png|25px]] Resin (30%)
+|}
+
+== Resource Deposits ==
+Resource deposits are spots that allow villagers to gather resources. Each deposit can have its own priority set, when it is preferred to be harvested more or less often than other deposits.
+
+Resource deposits come in two sizes. With the exception of the tutorial, big resource deposits can only be found inside Dangerous Glades and Forbidden Glades.
+
+Each deposit has a number of Charges, representing the amount of times it can be harvested. Small resource deposits can be harvested '''15''' times if they provide raw food and '''20''' times if they provide raw crafting materials. Large resource deposits can be harvested '''60''' times and only by not-small camps. The number can be increased by certain Smoldering City upgrades.
+
+{| class="wikitable"
+! Deposit !! Guaranteed resources !! Possible resources !! Gathered by !! Biome !! Description
+|-
+| [[File:DebugNode SwampWheatBig icon.png|50px]] Swamp Wheat Field (big)
+| rowspan=2 | [[File:Grain.png|30px]] Grain
+| [[File:PlantFiber.png|25px]] Plant Fiber (100%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (20%)
+| rowspan=2 | [[File:Forager's Camp icon.png|25px]] Foragers' Camp
+| rowspan=2 | Scarlet Orchard<br>The Marshlands
+| rowspan=2 | ''A plant species at home in the swamp.''
+|-
+| [[File:DebugNode SwampWheatSmall icon.png|50px]] Swamp Wheat Field (small)
+| [[File:PlantFiber.png|25px]] Plant Fiber (20%)
+|-
+| [[File:DebugNode RootsBig icon.png|50px]] Root Deposit (big)
+| rowspan=2 | [[File:Roots.png|30px]] Roots
+| [[File:Herbs.png|25px]] Herbs (30%)<br>[[File:Resin.png|25px]] Resin (30%)
+| rowspan=2 | [[File:Forager's Camp icon.png|25px]] Foragers' Camp
+| rowspan=2 | Royal Woodlands<br>Scarlet Orchard
+| rowspan=2 | ''A tangled net of living vines.''
+|-
+| [[File:DebugNode RootsSmall icon.png|50px]] Root Deposit (small)
+| [[File:Herbs.png|25px]] Herbs (20%)
+|-
+| [[File:DebugNode MossBroccoliBig icon.png|50px]] Moss Broccoli Patch (big)
+| rowspan=2 | [[File:Vegetables.png|30px]] Vegetables
+| [[File:Insects.png|25px]] Insects (40%)<br>[[File:Roots.png|25px]] Roots (20%)
+| rowspan=2 | [[File:Forager's Camp icon.png|25px]] Foragers' Camp
+| rowspan=2 | Coral Forest<br>Royal Woodlands<br>Cursed Royal Woodlands
+| rowspan=2 | ''An edible and tasty type of moss.''
+|-
+| [[File:DebugNode MossBroccoliSmall icon.png|50px]] Moss Broccoli Patch (small)
+| [[File:Insects.png|25px]] Insects (30%)
+|-
+| [[File:DebugNode FlaxBig icon.png|50px]] Flax Field (big)
+| rowspan=2 | [[File:PlantFiber.png|30px]] Plant Fiber
+| [[File:Clay.png|25px]] Clay (20%)<br>[[File:Insects.png|25px]] Insects (20%)
+| rowspan=2 | [[File:Harvester Camp icon.png|25px]] Harvesters' Camp
+| rowspan=2 | Royal Woodlands<br>Cursed Royal Woodlands
+| rowspan=2 | ''Resilient plants perfect for cloth-making.''
+|-
+| [[File:DebugNode FlaxSmall icon.png|50px]] Flax Field (small)
+| [[File:Clay.png|25px]] Clay (20%)<br>[[File:Insects.png|25px]] Insects (20%)
+|-
+| [[File:DebugNode ReedBig icon.png|50px]] Reed Field (big)
+| rowspan=2 | [[File:Reeds.png|30px]] Reed
+| [[File:Clay.png|25px]] Clay (40%)<br>[[File:Roots.png|25px]] Roots (40%)
+| rowspan=2 | [[File:Harvester Camp icon.png|25px]] Harvesters' Camp
+| rowspan=2 | Coral Forest<br>Scarlet Orchard
+| rowspan=2 | ''A very common plant, it thrives thanks to the magical rain.''
+|-
+| [[File:DebugNode ReedSmall icon.png|50px]] Reed Field (small)
+| [[File:Clay.png|25px]] Clay (20%)<br>[[File:Roots.png|25px]] Roots (20%)
+|-
+| [[File:DebugNode DewberryBushBig icon.png|50px]] Dewberry Bush (big)
+| rowspan=2 | [[File:Berries.png|30px]] Berries
+| [[File:Berries.png|25px]] Berries (80%)
+| rowspan=2 | [[File:Herbalist's Camp icon.png|25px]] Herbalists' Camp
+| rowspan=2 | Royal Woodlands<br>Scarlet Orchard
+| rowspan=2 | ''Fresh and sweet berries infused by the Rain.''
+|-
+| [[File:DebugNode DewberryBushSmall icon.png|50px]] Dewberry Bush (small)
+| [[File:Berries.png|25px]] Berries (20%)
+|-
+| [[File:DebugNode HerbsBig icon.png|50px]] Herb Deposit (big)
+| rowspan=2 | [[File:Herbs.png|30px]] Herbs
+| [[File:Berries.png|25px]] Berries (40%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (20%)
+| rowspan=2 | [[File:Herbalist's Camp icon.png|25px]] Herbalists' Camp
+| rowspan=2 | Coral Forest<br>Scarlet Orchard<br>Cursed Royal Woodlands
+| rowspan=2 | ''A dense shrub full of many useful plant species.''
+|-
+| [[File:DebugNode HerbsSmall icon.png|50px]] Herb Deposit (small)
+| [[File:Berries.png|25px]] Berries (20%)
+|-
+| [[File:DebugNode MushroomBig icon.png|50px]] Bleeding Tooth Mushroom (big)
+| rowspan=2 | [[File:Mushrooms.png|30px]] Mushrooms
+| [[File:Insects.png|25px]] Insects (40%)
+| rowspan=2 | [[File:Herbalist's Camp icon.png|25px]] Herbalists' Camp
+| rowspan=2 | Royal Woodlands<br>The Marshlands<br>Cursed Royal Woodlands
+| rowspan=2 | ''A resilient species that grows on marshy soil.''
+|-
+| [[File:DebugNode MushroomSmall icon.png|50px]] Bleeding Tooth Mushroom (small)
+| [[File:Insects.png|25px]] Insects (20%)
+|-
+| [[File:DebugNode MarshlandsMushroomBig icon.png|50px]] Grasscap Mushroom (big)
+| rowspan=2 | [[File:Mushrooms.png|30px]] Mushrooms
+| [[File:Insects.png|25px]] Insects (40%)
+| rowspan=2 | [[File:Herbalist's Camp icon.png|25px]] Herbalists' Camp
+| rowspan=2 | Royal Woodlands<br>The Marshlands<br>Cursed Royal Woodlands
+| rowspan=2 | ''A resilient species that grows on marshy soil.''
+|-
+| [[File:DebugNode_MarshlandsMushroomSmall_icon.png|50px]] Grasscap Mushroom (small)
+| [[File:Insects.png|25px]] Insects (20%)
+|-
+| [[File:DebugNode ClayBig icon.png|50px]] Clay Deposit (big)
+| rowspan=2 | [[File:Clay.png|30px]] Clay
+| [[File:CopperOre.png|25px]] Copper Ore (40%)<br>[[File:Roots.png|25px]] Roots (30%)
+| rowspan=2 | [[File:Stonecutter's Camp icon.png|25px]] Stonecutters' Camp
+| rowspan=2 | Royal Woodlands<br>Cursed Royal Woodlands
+| rowspan=2 | ''Soil infused with the essence of the rain.''
+|-
+| [[File:DebugNode ClaySmall icon.png|50px]] Clay Deposit (small)
+| [[File:CopperOre.png|25px]] Copper Ore (25%)<br>[[File:Roots.png|25px]] Roots (20%)
+|-
+| [[File:DebugNode SeaMarrowBig icon.png|50px]] Sea Marrow Deposit (big)
+| [[File:SeaMarrow.png|30px]] Sea Marrow
+| [[File:SeaMarrow.png|25px]] Sea Marrow (100%)<br>[[File:Stone.png|25px]] Stone (50%)<br>[[File:AncientTablet.png|25px]] Ancient Tablet (1%)
+| rowspan=2 | [[File:Stonecutter's Camp icon.png|25px]] Stonecutters' Camp
+| rowspan=2 | Royal Woodlands<br>Scarlet Orchard<br>Cursed Royal Woodlands
+| rowspan=2 | ''Ancient fossils rich in resources.''
+|-
+| [[File:DebugNode SeaMarrowSmall icon.png|50px]] Sea Marrow Deposit (small)
+| [[File:SeaMarrow.png|30px]] Sea Marrow
+| [[File:SeaMarrow.png|25px]] Sea Marrow (80%)<br>[[File:Stone.png|25px]] Stone (40%)
+|-
+| [[File:DebugNode StoneBig icon.png|50px]] Stone Deposit (big)
+| rowspan=2 | [[File:Stone.png|30px]] Stone
+| [[File:Insects.png|25px]] Insects (30%)<br>[[File:Roots.png|25px]] Roots (30%)<br>[[File:CopperOre.png|25px]] Copper Ore (10%)
+| rowspan=2 | [[File:Stonecutter's Camp icon.png|25px]] Stonecutters' Camp
+| rowspan=2 | Coral Forest<br>Scarlet Orchard<br>The Marshlands
+| rowspan=2 | ''Stones weathered by the everlasting rain.''
+|-
+| [[File:DebugNode StoneSmall icon.png|50px]] Stone Deposit (small)
+| [[File:Insects.png|25px]] Insects (20%)<br>[[File:Roots.png|25px]] Roots (20%)
+|-
+| [[File:DebugNode StormbirdNestBig icon.png|50px]] Stormbird Nest (big)
+| rowspan=2 | [[File:Eggs.png|30px]] Eggs
+| [[File:Meat.png|25px]] Meat (40%)
+| rowspan=2 | <br>[[File:Trapper's Camp icon.png|25px]] Trappers' Camp
+| rowspan=2 | Royal Woodlands<br>Scarlet Orchard<br>The Marshlands
+| rowspan=2 | ''An abandoned nest. Let's hope the owner doesn't come back...''
+|-
+| [[File:DebugNode StormbirdNestSmall icon.png|50px]] Stormbird Nest (small)
+| [[File:Meat.png|25px]] Meat (20%)
+|-
+| [[File:DebugNode SnakeNestBig icon.png|50px]] Snake Nest (big)
+| rowspan=2 | [[File:Eggs.png|30px]] Eggs
+| [[File:Leather.png|25px]] Leather (40%)<br>[[File:Meat.png|25px]] Meat (20%)
+| rowspan=2 | <br>[[File:Trapper's Camp icon.png|25px]] Trappers' Camp
+| rowspan=2 | Coral Forest<br>Royal Woodlands<br>Scarlet Orchard<br>The Marshlands
+| rowspan=2 | ''An abandoned nest. Let's hope the owner doesn't come back...''
+|-
+| [[File:DebugNode SnakeNestSmall icon.png|50px]] Snake Nest (small)
+| [[File:Leather.png|25px]] Leather (20%)
+|-
+| [[File:DebugNode WormtongueNestBig icon.png|50px]] Wormtongue Nest (big)
+| rowspan=2 | [[File:Insects.png|30px]] Insects
+| [[File:Insects.png|25px]] Insects (60%)
+| rowspan=2 | <br>[[File:Trapper's Camp icon.png|25px]] Trappers' Camp
+| rowspan=2 | Coral Forest<br>Cursed Royal Woodlands
+| rowspan=2 | ''A nest full of tasty Wormtongues.''
+|-
+| [[File:DebugNode WormtongueNestSmall icon.png|50px]] Wormtongue Nest (small)
+| [[File:Insects.png|25px]] Insects (20%)
+|-
+| [[File:DebugNode SnailBroodmotherBig icon.png|50px]] Slickshell Broodmother (big)
+| rowspan=2 | [[File:Meat.png|30px]] Meat
+| [[File:Leather.png|25px]] Leather (100%)
+| rowspan=2 | [[File:Trapper's Camp icon.png|25px]] Trappers' Camp
+| rowspan=2 | Royal Woodlands<br>The Marshlands<br>Coral Forest
+| rowspan=2 | ''Small Slickshells are crawling out of the openings in the broodmother's shell. It's easy to collect them.''
+|-
+| [[File:DebugNode SnailBroodmotherSmall icon.png|50px]] Slickshell Broodmother (small)
+| [[File:Leather.png|25px]] Leather (20%)
+|}
+
+== Glades ==
+
+<blockquote>
+''Rich glades are full of resources - yours for the taking.''
+</blockquote>
+
+Glades are empty areas of the Forest that are shrouded until they are first reached by clearing trees. They may contain resources, treasures, fertile soil, ruined buildings, and more.
+
+To reach a Glade faster, trees can be marked and unmarked for harvest via the axe icon on the bottom bar, ensuring they will be cut before other trees. Marked trees will glow golden if inside the area of a Woodcutters' Camp and white if outside one.
+
+The best rewards come from Dangerous Glades and especially Forbidden Glades (both marked with a skull icon), but they always contain at least one dangerous Glade Event, which requires delivering certain goods or completing a challenge.
+
+=== Glade Events ===
+''Main article: [[Glade Events]]''
+
+Glade Events are objects found in the forest, like abandoned caches, survivor camps, ruins, wild beasts, etc. Some of them are positive, offering goods or new villagers for small resource investments. Others are dangerous, forcing you to act quickly to avoid negative consequences (but also giving you generous rewards for solving them).
+
+Once you select a Glade Event, the Event Panel will show up. There, you will find a few different sections: effects, worker slots, requirements, and rewards. The effect section shows you the possible negative consequences of the Event, and how much time you have before they occur. To solve an Event, you need to assign workers to it, select one of two reward options, and select "investigate".
+
+Some events simply require you to deliver goods, others have something called a Working Effect. Working Effects are special conditions that activate once you give the order to investigate an Event (like a Resolve penalty, a slow debuff, etc.). Your goal is to survive these conditions for a set amount of time. After an Event is solved, the workers will bring back the rewards to your Storage, and no negative consequence will trigger.
+
+=== Ruins ===
+Ruins are ruined versions of non-essential buildings that may sometimes be encountered in Glades. For a certain amount of resources they can be either rebuilt, giving a fully functional building, or salvaged, giving a random reward of resources.

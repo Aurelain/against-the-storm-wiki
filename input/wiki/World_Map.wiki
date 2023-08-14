@@ -1,0 +1,51 @@
+The World Map is filled with things waiting to be discovered. Every point of interest on the map is marked with a '?' symbol, and may turn out to be either a [[Modifier]] or a Treasure Chest. Both are very rewarding.
+
+Modifiers are special types of objects that change the rules of the game (for example: by allowing you to move every building in your settlement, or by blocking your ability to trade). To take on a Modifier, simply settle on a map tile adjacent to it. After winning a game near it, the Modifier will disappear, and you will be rewarded with additional [[Resources#Citadel Resources | Citadel Resources]].
+
+Treasure Chests, on the other hand, don't require you to settle near them to claim their contents. Once you discover a chest, simply select it on the World Map to open it. A chest must be within your Embark Range to be collected.
+
+Every 12 years there is a Blightstorm that will reset the world map.
+
+== Biomes ==
+
+Biomes determine what resources will be available for a settlement. In addition each biome has one or more unique effects.  [[The Forest#Trees | Trees]] always provide Wood, and sometimes other bonus resources.
+
+
+{| class="wikitable"
+! width=120px | Biome !! Effect !! Fertile Soil !! width=140px | Tree resources !! width=140px | Resource deposits !! Description
+|-
+| <span style="color:purple;">'''Coral Forest'''</span>
+| '''Diverse Flora''': Vegetation here mutates into unique strands. Each type of tree provides distinct bonus resources.<br><br>'''Inspiring Pressure''': The forest is as scary as it is beautiful. Villagers have a 5% chance of earning bonus yields from production and gathering for each Hostility level.
+| Average amount
+| [[File:Wood.png|25px]] Wood<br>[[File:CrystalizedDew.png|25px]] Crystalized Dew<br>[[File:Incense.png|25px]] Incense<br>[[File:Meat.png|25px]] Meat<br>[[File:PlantFiber.png|25px]] Plant Fiber<br>[[File:Stone.png|25px]] Stone
+| [[File:Coal.png|25px]] Coal<br>[[File:Eggs.png|25px]] Eggs<br>[[File:Herbs.png|25px]] Herbs<br>[[File:Insects.png|25px]] Insects<br>[[File:Reeds.png|25px]] Reed<br>[[File:Roots.png|25px]] Roots<br>[[File:Stone.png|25px]] Stone<br>[[File:Vegetables.png|25px]] Vegetables
+| ''The true source of the Coral growth is unknown. Contrary to common belief, it doesn't usually appear in flooded regions. The unique influence of the Coral mutates trees into distinctive strands that offer various resources.''
+|-
+| <span style="color:green;">'''Royal Woodlands'''</span>
+| '''Gift of the Woodlands''': The Royal Woodlands are vey lush and rich in timber. Trees give more Wood.
+| Average amount
+| [[File:Wood.png|25px]] Wood<br>[[File:Eggs.png|25px]] Eggs<br>[[File:PlantFiber.png|25px]] Plant Fiber<br>[[File:Resin.png|25px]] Resin
+| [[File:Berries.png|25px]] Berries<br>[[File:Clay.png|25px]] Clay<br>[[File:Eggs.png|25px]] Eggs<br>[[File:Insects.png|25px]] Insects<br>[[File:Meat.png|25px]] Meat<br>[[File:Mushrooms.png|25px]] Mushrooms<br>[[File:PlantFiber.png|25px]] Plant Fiber<br>[[File:Roots.png|25px]] Roots<br>[[File:SeaMarrow.png|25px]] Sea Marrow<br>[[File:Vegetables.png|25px]] Vegetables
+| ''The Queen's forests were once part of the Smoldering City, but the Blightstorm reclaimed this land. The Royal Woodlands are rich in Roots, Moss Broccoli, Grasscap Mushrooms, and Flax with a decent amount of Dewberries and Clay. The ground is fertile and soft, and that makes it perfect for farming.''
+|-
+| <span style="color:brown;">'''Scarlet Orchard'''</span>
+| '''Royal Archaeologists''': Every viceroy embarking on an expedition to the Scarlet Orchard is assigned a royal archaeologist. You gain access to a new essential building: Archaeologist's Office.<br><br>'''Buried Mysteries''': A lush and exotic land, filled with prehistoric remains. Ancient excavation sites can be found here.
+| Average amount
+| [[File:Wood.png|25px]] Wood<br>[[File:CopperOre.png|25px]] Copper Ore<br>[[File:PlantFiber.png|25px]] Plant Fiber<br>[[File:Resin.png|25px]] Resin
+| [[File:Berries.png|25px]] Berries<br>[[File:CopperOre.png|25px]] Copper Ore<br>[[File:Eggs.png|25px]] Eggs<br>[[File:Grain.png|25px]] Grain<br>[[File:Herbs.png|25px]] Herbs<br>[[File:Reeds.png|25px]] Reed<br>[[File:Roots.png|25px]] Roots<br>[[File:SeaMarrow.png|25px]] Sea Marrow<br>[[File:Stone.png|25px]] Stone
+| ''A beautiful yet dangerous land that is colored in a strange shade of crimson. It's called the Herb Garden of the Kingdom due to the abundance of Herbs, Berries, and Roots.''
+|-
+| <span style="color:blue;">'''The Marshlands'''</span>
+| '''Gathering Knowledge''': The Marshlands are a gatherer's paradise. Gathering speed is increased by +10% for every 2 workers assigned to gathering camps.<br><br>'''Giant Organisms''': The Marshlands are home to enormous lifeforms. Giant resource nodes can be found in Forbidden Glades. Each glade will have a different one.
+| Small amount
+| [[File:Wood.png|25px]] Wood<br>[[File:Leather.png|25px]] Leather<br>[[File:Mushrooms.png|25px]] Mushrooms
+| [[File:Clay.png|25px]] Clay<br>[[File:Coal.png|25px]] Coal<br>[[File:CopperOre.png|25px]] Copper Ore<br>[[File:Eggs.png|25px]] Eggs<br>[[File:Grain.png|25px]] Grain<br>[[File:Insects.png|25px]] Insects<br>[[File:Meat.png|25px]] Meat<br>[[File:Mushrooms.png|25px]] Mushrooms<br>[[File:Roots.png|25px]] Roots<br>[[File:Stone.png|25px]] Stone
+| ''A harsh and cold land that is claimed by different extremely resilient species of fungi. The ground is very hard and rocky and that makes it difficult to farm. It's famous for its abundant fauna and insects.''
+|-
+| <span style="color:brown;">'''Cursed<br>Royal Woodlands'''</span>
+| '''Cursed Battlefield''': The forest has reshaped itself. It is impossible to recognize the danger of the glades, where are now all of even size.<br><br>'''Restless Spirits''': This land has seen a lot of bloodshed during the Great Civil War. Restless Spirits can be found in the forest.
+| Average amount
+| [[File:Wood.png|25px]] Wood<br>[[File:Insects.png|25px]] Insects<br>[[File:PlantFiber.png|25px]] Plant Fiber<br>[[File:Roots.png|25px]] Roots
+| [[File:Vegetables.png|25px]] Vegetables<br>[[File:PlantFiber.png|25px]] Plant Fiber<br>[[File:Herbs.png|25px]] Herbs<br>[[File:Mushrooms.png|25px]] Mushrooms<br>[[File:Clay.png|25px]] Clay<br>[[File:SeaMarrow.png|25px]] Sea Marrow<br>[[File:Insects.png|25px]] Insects
+|''A cursed area of the Royal Woodlands that is haunted by the lost souls of warriors fallen in the Great Civil War. The storm here is especially dangerous, and the forest more hostile than anywhere else. The Queen will handsomely reward any viceroy brave enough to settle this part of the world.''
+|}
