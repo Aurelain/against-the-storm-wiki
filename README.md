@@ -1,7 +1,19 @@
 # Against the Storm wiki
 A tool that suggests updates to the official wiki based on the current game files.
 
-## Unity asset file format (adapted for AtS)
+## Usage
+The following assumes a Windows Steam installation of AtS:
+1. Ensure you have `node` installed and `npm install` is run.
+2. Unpack the latest release of [AssetRipper](https://github.com/AssetRipper/AssetRipper/releases) into `/tools/AssetRipper`.
+3. Use `npm run extract` to unpack the game files into `/input/game`.
+4. Use `npm run download` to update the local snapshot of the online wiki into `/input/wiki`.
+5. Use `npm run suggest` to spawn a fresh wiki into `/output`, along with a report html file.
+
+Alternatively, you can use `npm run start` to call the above `npm run` steps in succession.
+
+## Unity asset file format
+This section is currently not used, because we opted to use [AssetRipper](https://github.com/AssetRipper/AssetRipper) instead. 
+We'll leave it here in case we implement a direct reading of the game files.
 ### First block
 | Bytes | Description                                     |
 |-------|-------------------------------------------------|
