@@ -29,10 +29,10 @@ const download = async () => {
 //  P R I V A T E
 // =====================================================================================================================
 /**
- * Sample: https://griftlands.fandom.com/api.php?action=query&prop=revisions&rvprop=content&rvslots=main&generator=allpages&gapnamespace=1&format=json
+ * Sample: https://hoodedhorse.com/wiki/Against_the_Storm/api.php?action=query&format=json&prop=revisions&rvprop=content&rvslots=main&generator=allpages&gapnamespace=0&gaplimit=50
  * {
  *      pages: {
- *           'Category/Foo_Bar!%2Fdoc.wikitext': {
+ *           'Category/Foo_Bar!%2Fdoc.wiki': {
  *                title: 'Category:Foo Bar!/doc',
  *                content: 'hello',
  *           },

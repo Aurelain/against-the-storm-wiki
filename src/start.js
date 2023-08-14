@@ -14,8 +14,8 @@ import suggest from './suggest/suggest.js';
  *
  */
 const start = async () => {
-    await datamine();
-    await download();
+    // await datamine();
+    // await download();
     await suggest();
 };
 

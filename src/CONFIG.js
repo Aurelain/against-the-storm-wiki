@@ -31,12 +31,17 @@ export const GAME_DIR = 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\Agai
 /**
  * Directory where we store the downloaded pages.
  */
-export const WIKI_DIR = __dirname + '/../input/wiki';
+export const WIKI_DIR = __dirname + '../input/wiki';
 
 /**
  * Directory where we store assets extracted (data-mined) from the game.
  */
-export const DATAMINE_DIR = __dirname + '/../input/game';
+export const DATAMINE_DIR = __dirname + '../input/game';
+
+/**
+ * Directory where we store the proposed wiki pages (which contain our suggestions).
+ */
+export const OUTPUT_DIR = __dirname + '../output';
 
 /**
  * How many results the MediaWiki API should return for one request.
