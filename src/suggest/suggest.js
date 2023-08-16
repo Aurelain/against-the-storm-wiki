@@ -5,7 +5,7 @@ import attemptSelfRun from '../utils/attemptSelfRun.js';
 import {DATAMINE_DIR, DEBUG} from '../CONFIG.js';
 import suggestDeeds from './suggestDeeds.js';
 import findFiles from '../utils/findFiles.js';
-import translateDeedNumbers from './translateDeedNumbers.js';
+import decodeDescriptionBraces from './decodeDescriptionBraces.js';
 
 // =====================================================================================================================
 //  P U B L I C
@@ -89,12 +89,10 @@ const collectScripts = () => {
         };
 
         // TODO maybe move this section to an "enrichment" phase
-        if (metaFile.includes('/Goals/')) {
-            const code = fs.readFileSync(metaFile.replace(/.meta$/, ''), 'utf8');
-            const deedNumbers = translateDeedNumbers(code, shortPath);
-            if (deedNumbers) {
-                script.deedNumbers = deedNumbers;
-            }
+        const code = fs.readFileSync(metaFile.replace(/.meta$/, ''), 'utf8');
+        const descriptionBraces = decodeDescriptionBraces(code, shortPath);
+        if (descriptionBraces) {
+            script.descriptionBraces = descriptionBraces;
         }
 
         scripts[shortPath] = script;

@@ -1,9 +1,6 @@
 import assert from 'assert/strict';
-import resolveNotation from '../utils/resolveNotation.js';
-
-// =====================================================================================================================
-//  D E C L A R A T I O N S
-// =====================================================================================================================
+import checkPojo from '../utils/checkPojo.js';
+import resolveDifficulty from './resolveDifficulty.js';
 
 // =====================================================================================================================
 //  P U B L I C
@@ -11,49 +8,41 @@ import resolveNotation from '../utils/resolveNotation.js';
 /**
  *
  */
-const resolveDeedDescription = (props, database) => {
+const resolveDescription = (props, database) => {
     const {guids, texts} = database;
-    const {m_Script, m_Name: deedName, description} = props;
+    const {m_Script, m_Name: locator, description} = props;
 
     const rawText = texts[description?.key];
-    console.log('-----------------------------------------');
-    console.log('deedName:', deedName);
-    console.log('t0:', rawText);
-    assert(rawText, `Cannot find text for "${deedName}"!`);
+    assert(rawText, `Cannot find text for "${locator}"!`);
 
     if (!rawText.includes('{')) {
         return rawText;
     }
 
     const script = guids[m_Script.guid];
-    assert(script, `Cannot find script for "${deedName}"!`);
+    assert(script, `Cannot find script for "${locator}"!`);
 
     const scriptPath = script.shortPath;
-    console.log('scriptPath:', scriptPath);
-    assert(script.deedNumbers, `Expecting deedNumbers in "${scriptPath}" @ "${deedName}"!`);
-    console.log('script.deedNumbers:', script.deedNumbers);
+    assert(script.descriptionBraces, `Expecting descriptionBraces in "${scriptPath}" @ "${locator}"!`);
 
     const resolvedText = rawText.replace(/\{\d}/g, (found) => {
         const nr = found.charAt(1);
-        const resolvedName = script.deedNumbers[nr];
-        assert(resolvedName, `Cannot resolve nr "${nr}" for "${deedName}"!`);
+        const resolvedName = script.descriptionBraces[nr];
+        assert(resolvedName, `Cannot resolve nr "${nr}" @ "${locator}"!`);
         if (resolvedName in props) {
             return props[resolvedName];
         }
         switch (resolvedName) {
             case 'GetDifficultyName':
-                return getDifficultyName(props, deedName);
+                return resolveDifficulty(props, database, locator);
             case 'GetBuildingsText':
-                return getBuildingsText(props, deedName);
+                return getBuildingsText(props, database, locator);
             default:
-                assert(resolvedName.includes('.'), `Unexpected deed variable "${resolvedName}" @ "${deedName}"!`);
-                return resolveValue(resolvedName, props, database, deedName);
+                assert(resolvedName.includes('.'), `Unexpected deed variable "${resolvedName}" @ "${locator}"!`);
+                return resolveValue(resolvedName, props, database, locator);
         }
     });
-
-    console.log('t1:', resolvedText);
-    console.log('scriptPath:', scriptPath);
-
+    assert(resolvedText, `Empty description @ "${locator}"!`);
     return resolvedText;
 };
 
@@ -63,17 +52,28 @@ const resolveDeedDescription = (props, database) => {
 /**
  *
  */
-const getDifficultyName = (props) => {
-    // TODO
-    return '{GetDifficultyName}';
-};
+const getBuildingsText = (props, database, deedName) => {
+    const {buildings} = props;
+    assert(Array.isArray(buildings), `Expecting buildings array @ "${deedName}"!`);
 
-/**
- *
- */
-const getBuildingsText = (props) => {
-    // TODO
-    return '{GetBuildingsText}';
+    const {guids, texts} = database;
+    let text = '';
+    for (const buildingProps of buildings) {
+        assert(checkPojo(buildingProps), `Expecting building props @ "${deedName}"!`);
+        const {amount} = buildingProps;
+        assert(amount > 0, `Unexpected building amount @ "${deedName}"!`);
+        text += amount + ' x ';
+
+        const buildingAsset = guids[buildingProps.building?.guid];
+        assert(checkPojo(buildingAsset), `Expecting a building asset @ "${deedName}!`);
+        const buildingName = texts[buildingAsset.displayName?.key];
+        assert(buildingName, `Unexpected building name @ "${deedName}"!`);
+        text += buildingName + ', ';
+    }
+
+    text = text.replace(/, $/, '');
+    assert(text, `Empty buildings text @ "${deedName}"!`);
+    return text;
 };
 
 /**
@@ -114,4 +114,4 @@ const resolveValue = (path, props, database, deedName) => {
 // =====================================================================================================================
 //  E X P O R T
 // =====================================================================================================================
-export default resolveDeedDescription;
+export default resolveDescription;
