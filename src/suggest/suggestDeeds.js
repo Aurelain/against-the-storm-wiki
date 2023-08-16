@@ -3,6 +3,7 @@ import open from 'open';
 import {OUTPUT_DIR} from '../CONFIG.js';
 import generateWikiTable from '../utils/generateWikiTable.js';
 import assert from 'assert/strict';
+import resolveDeedDescription from './resolveDeedDescription.js';
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -33,7 +34,8 @@ const suggestDeeds = (database) => {
 /**
  *
  */
-const collectDeeds = ({assets, texts, guids}) => {
+const collectDeeds = (database) => {
+    const {assets, texts} = database;
     const deeds = [];
     for (const key in assets) {
         const props = assets[key];
@@ -54,36 +56,23 @@ const collectDeeds = ({assets, texts, guids}) => {
             // (title "Victory Through Resolve"), so we resorted to this hack...
             continue;
         }
-        // if (key === 'Deed Win Without Bonus Prestige') {
-        // if (key === 'Deed Win Game With Trade Routes') {
-        // if (key === 'Deed Win Without Camps') { // simple description
-        // if (key === 'Deed Win With Lizards') {
-        // if (key === 'Deed Year 1 Dangerous') { // difficulty parameter
-        // if (key === 'Deed Win With Humans') {
-        //     open('input/game/ExportedProject/Assets/MonoBehaviour/' + key + '.asset');
+        // if (key === 'UniqueGoal_Phase1_WinGameNearFertileMeadows.asset') {
+        //     open('input/game/ExportedProject/Assets/MonoBehaviour/' + key);
         // }
         if (props.hasOwnProperty('isAchiv')) {
-            const title = texts[props.displayName.key];
+            const title = texts[props.displayName?.key];
             assert(title, `Invalid title for "${key}"!`);
-            const description = generateDescription(props, texts);
-            assert(description, `Invalid description for "${key}"!`);
+
             deeds.push({
                 key,
                 title,
-                description,
+                description: resolveDeedDescription(props, database),
             });
         }
     }
     console.log('Found ' + deeds.length + ' deeds.');
     deeds.sort(compareDeeds);
     return deeds;
-};
-
-/**
- *
- */
-const generateDescription = (props, texts) => {
-    return texts[props.description.key];
 };
 
 /**

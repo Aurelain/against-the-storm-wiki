@@ -4,6 +4,8 @@ import assert from 'assert/strict';
 import attemptSelfRun from '../utils/attemptSelfRun.js';
 import {DATAMINE_DIR, DEBUG} from '../CONFIG.js';
 import suggestDeeds from './suggestDeeds.js';
+import findFiles from '../utils/findFiles.js';
+import translateDeedNumbers from './translateDeedNumbers.js';
 
 // =====================================================================================================================
 //  P U B L I C
@@ -14,14 +16,17 @@ import suggestDeeds from './suggestDeeds.js';
 const suggest = async () => {
     try {
         const assets = collectAssets();
+        const scripts = collectScripts();
         const database = {
             assets,
+            scripts,
             texts: collectTexts(),
-            guids: linkGuidsToAssets(assets),
+            guids: linkGuids(assets, scripts),
         };
         // fs.writeFileSync('temp.json', JSON.stringify(database, null, 4));
         // fs.writeFileSync('guids.json', JSON.stringify(database.guids, null, 4));
         // fs.writeFileSync('assets.json', JSON.stringify(database.assets, null, 4));
+        // fs.writeFileSync('scripts.json', JSON.stringify(database.scripts, null, 4));
         suggestDeeds(database);
     } catch (e) {
         console.log('Error:', e.message);
@@ -67,11 +72,47 @@ const collectAssets = () => {
 /**
  *
  */
-const linkGuidsToAssets = (assets) => {
+const collectScripts = () => {
+    const scripts = {};
+    const dir = DATAMINE_DIR + '/ExportedProject/Assets/Scripts/Assembly-CSharp';
+    const metaFiles = findFiles(dir, /\.meta$/);
+    for (const metaFile of metaFiles) {
+        const meta = fs.readFileSync(metaFile, 'utf8');
+        const guid = (meta.match(/guid: (\w+)/) || [])[1];
+        assert(guid, `Cannot find guid for ${metaFile}!`);
+        let shortPath = metaFile.replace(/.*?Assembly-CSharp./, '');
+        shortPath = shortPath.replace(/.meta$/, '');
+        shortPath = shortPath.replace(/\\/g, '/');
+        const script = {
+            shortPath,
+            guid,
+        };
+
+        // TODO maybe move this section to an "enrichment" phase
+        if (metaFile.includes('/Goals/')) {
+            const code = fs.readFileSync(metaFile.replace(/.meta$/, ''), 'utf8');
+            const deedNumbers = translateDeedNumbers(code, shortPath);
+            if (deedNumbers) {
+                script.deedNumbers = deedNumbers;
+            }
+        }
+
+        scripts[shortPath] = script;
+    }
+    return scripts;
+};
+
+/**
+ *
+ */
+const linkGuids = (assets, scripts) => {
     const guids = {};
-    for (const key in assets) {
-        const asset = assets[key];
-        guids[asset.guid] = asset;
+    const bags = [assets, scripts];
+    for (const bag of bags) {
+        for (const key in bag) {
+            const item = bag[key];
+            guids[item.guid] = item;
+        }
     }
     return guids;
 };
