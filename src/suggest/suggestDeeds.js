@@ -28,7 +28,7 @@ const suggestDeeds = (database) => {
     wikiMarkup += prepareList(deeds) + '\n\n';
     fs.writeFileSync(PAGE_PATH, wikiMarkup);
 
-    open(PAGE_PATH);
+    // open(PAGE_PATH);
 };
 
 // =====================================================================================================================
@@ -38,10 +38,13 @@ const suggestDeeds = (database) => {
  *
  */
 const collectDeeds = (database) => {
-    const {assets, texts} = database;
+    const {assets} = database;
     const deeds = [];
     for (const key in assets) {
         const props = assets[key];
+        if (!props.hasOwnProperty('isAchiv')) {
+            continue;
+        }
         if (props.isLegacy) {
             // "UniqueGoal_Phase5_WinWithVaults" (title "Ancient Vaults") is legacy
             continue;
@@ -62,17 +65,15 @@ const collectDeeds = (database) => {
         // if (key === 'Deed Win Scarlet Impossible.asset') {
         //     open('input/game/ExportedProject/Assets/MonoBehaviour/' + key);
         // }
-        if (props.hasOwnProperty('isAchiv')) {
-            deeds.push({
-                key,
-                title: getTitle(props, database),
-                description: resolveDescription(props, database),
-                minDifficulty: resolveDifficulty(props, database, key),
-                reward: resolveReward(props, database),
-                isAchiv: props.isAchiv ? 'yes' : 'no',
-                deedProps: props,
-            });
-        }
+        deeds.push({
+            key,
+            title: getTitle(props, database),
+            description: resolveDescription(props, database),
+            minDifficulty: resolveDifficulty(props, database, key),
+            reward: resolveReward(props, database),
+            isAchiv: props.isAchiv ? 'yes' : 'no',
+            deedProps: props,
+        });
     }
     console.log('Found ' + deeds.length + ' deeds.');
     deeds.sort(compareDeeds);
@@ -160,7 +161,7 @@ const prepareList = (deeds) => {
         rows.push([deed.title, deed.description, deed.minDifficulty, deed.reward, deed.isAchiv]);
     }
     return `
-== List ==
+== List of Deeds ==
 ${generateWikiTable(rows)}
     `.trim();
 };

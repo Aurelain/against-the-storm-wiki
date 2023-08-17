@@ -6,6 +6,7 @@ import {DATAMINE_DIR, DEBUG} from '../CONFIG.js';
 import suggestDeeds from './suggestDeeds.js';
 import findFiles from '../utils/findFiles.js';
 import decodeDescriptionBraces from './decodeDescriptionBraces.js';
+import suggestUpgrades from './suggestUpgrades.js';
 
 // =====================================================================================================================
 //  P U B L I C
@@ -27,7 +28,9 @@ const suggest = async () => {
         // fs.writeFileSync('guids.json', JSON.stringify(database.guids, null, 4));
         // fs.writeFileSync('assets.json', JSON.stringify(database.assets, null, 4));
         // fs.writeFileSync('scripts.json', JSON.stringify(database.scripts, null, 4));
-        suggestDeeds(database);
+
+        // suggestDeeds(database);
+        suggestUpgrades(database);
     } catch (e) {
         console.log('Error:', e.message);
         DEBUG && console.log(e.stack);

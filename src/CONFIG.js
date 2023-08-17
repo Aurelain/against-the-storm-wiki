@@ -48,15 +48,18 @@ export const OUTPUT_DIR = __dirname + '../output';
  */
 export const API_LIMIT = 50;
 
-/**
- * The names of the props that distinguish the Deed Reward type:
- */
+// The names of the props that distinguish the Deed Reward type:
 export const REWARD_BUILDING = 'building';
 export const REWARD_TRADER = 'trader';
 export const REWARD_EFFECT = 'effect';
 export const REWARD_AMOUNT = 'amount';
 export const REWARD_GOOD = 'good';
 export const REWARD_PROPS = [REWARD_BUILDING, REWARD_TRADER, REWARD_EFFECT, REWARD_AMOUNT, REWARD_GOOD];
+
+// The names (i.e. m_Name) of the assets that describe the currency:
+export const CURRENCY_FOOD = 'Food Stockpiles';
+export const CURRENCY_MACHINERY = 'Machinery';
+export const CURRENCY_ARTIFACT = 'Artifacts';
 
 /**
  * A flag for verbosity.
