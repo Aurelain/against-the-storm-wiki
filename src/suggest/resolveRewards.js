@@ -6,14 +6,13 @@ import {REWARD_AMOUNT, REWARD_BUILDING, REWARD_EFFECT, REWARD_GOOD, REWARD_PROPS
 // =====================================================================================================================
 //  D E C L A R A T I O N S
 // =====================================================================================================================
-const SCRIPT_TO_LABEL = {
-    'Eremite/Model/Meta/ExpMetaRewardModel.cs': 'Experience',
-    'Eremite/Model/Meta/GlobalProductionSpeedMetaRewardModel.cs': 'Production speed',
-};
-
 const LABEL_TO_CUSTOM = {
     'Essential Buildings': 'Building', // the game's wording was bad (long and plural)
     'Embarkation Bonus': 'Embarkation', // the game's wording was bad (long)
+};
+
+const HIDDEN_LABELS = {
+    'Base Stat': true, // needed by the `Upgrades` page, but not inside the text
 };
 
 // =====================================================================================================================
@@ -30,15 +29,17 @@ const resolveRewards = (asset, database) => {
     const rewardTexts = [];
     for (const rewardMeta of rewards) {
         const rewardAsset = getAsset(rewardMeta, database);
-        const {type, text} = resolveReward(rewardAsset, database, locator);
+        const {type, text, amount} = resolveReward(rewardAsset, database, locator);
         rewardTypes[type] = rewardTypes[type] || 0;
-        rewardTypes[type]++;
-        rewardTexts.push(text);
+        rewardTypes[type] += amount || 1;
+        if (text) {
+            rewardTexts.push(text);
+        }
     }
 
     return {
         types: rewardTypes,
-        text: rewardTexts.join(', '),
+        text: rewardTexts.join('<br/>'),
     };
 };
 
@@ -66,9 +67,18 @@ const resolveReward = (rewardAsset, database, locator) => {
                     };
                 case REWARD_AMOUNT:
                     // const scriptPath = getScriptPath(rewardAsset, database);
+                    const {amount} = rewardAsset;
+                    if (label in HIDDEN_LABELS) {
+                        // Needed by the `Upgrades` page
+                        return {
+                            type: label,
+                            amount,
+                        };
+                    }
                     return {
                         type: label,
                         text: `${label}: ${rewardAsset.amount}`,
+                        amount,
                     };
                 case REWARD_GOOD:
                     const goodAsset = getAsset(rewardAsset.good.good, database);
@@ -82,7 +92,17 @@ const resolveReward = (rewardAsset, database, locator) => {
         }
     }
 
-    assert(false, `No reward @ "${locator}"!`);
+    // If we got here, we're dealing with a special kind of reward, that doesn't redirect to someplace else and doesn't
+    // have an amount. We'll just use its display name.
+    let value = getTitle(rewardAsset, database);
+    if (value.startsWith(label + ' - ')) {
+        // Example: "House Upgrades: House Upgrades - Foxes"
+        value = value.substring((label + ' - ').length);
+    }
+    return {
+        type: label,
+        text: `${label}: ${value}`,
+    };
 };
 
 // =====================================================================================================================

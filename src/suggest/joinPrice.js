@@ -25,7 +25,7 @@ export const CURRENCY_META = {
 /**
  *
  */
-const joinPrice = (currencies) => {
+const joinPrice = (currencies, compact) => {
     const textFragments = [];
     for (const currencyName in currencies) {
         assert(currencyName in CURRENCY_META, `Unexpected currency "${currencyName}"!`);
@@ -34,7 +34,11 @@ const joinPrice = (currencies) => {
         if (key in currencies) {
             const amount = currencies[key];
             const {icon, label} = CURRENCY_META[key];
-            textFragments.push(`${icon} ${amount} ${label}`);
+            if (compact) {
+                textFragments.push(`${icon} ${amount}`);
+            } else {
+                textFragments.push(`${icon} ${amount} ${label}`);
+            }
         }
     }
     return textFragments.join(' + ');

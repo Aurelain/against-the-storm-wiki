@@ -30,7 +30,7 @@ const suggest = async () => {
         // fs.writeFileSync('scripts.json', JSON.stringify(database.scripts, null, 4));
 
         suggestDeeds(database);
-        // suggestUpgrades(database);
+        suggestUpgrades(database);
     } catch (e) {
         console.log('Error:', e.message);
         DEBUG && console.log(e.stack);
