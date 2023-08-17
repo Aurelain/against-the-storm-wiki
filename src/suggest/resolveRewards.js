@@ -4,6 +4,7 @@ import getAsset from '../shared/getAsset.js';
 import {REWARD_AMOUNT, REWARD_BUILDING, REWARD_EFFECT, REWARD_GOOD, REWARD_PROPS, REWARD_TRADER} from '../CONFIG.js';
 import getImg from '../shared/getImg.js';
 import formatBonus from '../utils/formatBonus.js';
+import resolveDescription from './resolveDescription.js';
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -54,7 +55,9 @@ const resolveRewards = (asset, database) => {
 const resolveReward = (rewardAsset, database, locator) => {
     const labelAsset = getAsset(rewardAsset.label, database);
     const title = getTitle(labelAsset, database);
-    const label = LABEL_TO_CUSTOM[title] || title;
+    const type = LABEL_TO_CUSTOM[title] || title;
+    const description = rewardAsset.description ? formatDescription(resolveDescription(rewardAsset, database)) : '';
+    const label = `<span title="${description}">🛈 ${type}</span>`;
 
     for (const rewardProperty of REWARD_PROPS) {
         if (rewardProperty in rewardAsset) {
@@ -65,27 +68,27 @@ const resolveReward = (rewardAsset, database, locator) => {
                     const asset = getAsset(rewardAsset[rewardProperty], database);
                     const targetTitle = getTitle(asset, database);
                     let value;
-                    if (label === 'Embarkation') {
+                    if (type === 'Embarkation') {
                         value = getImg(targetTitle.split(' ')[0]) + ' [[' + targetTitle + ']]';
                     } else {
                         value = '[[' + targetTitle + ']]';
                     }
                     return {
-                        type: label,
+                        type,
                         text: `${label}: ${value}`,
                     };
                 case REWARD_AMOUNT:
                     // const scriptPath = getScriptPath(rewardAsset, database);
                     const {amount} = rewardAsset;
-                    if (label in HIDDEN_LABELS) {
+                    if (type in HIDDEN_LABELS) {
                         // Needed by the `Upgrades` page
                         return {
-                            type: label,
+                            type,
                             amount,
                         };
                     }
                     return {
-                        type: label,
+                        type,
                         text: `${label}: ${formatBonus(rewardAsset.amount)}`,
                         amount,
                     };
@@ -93,7 +96,7 @@ const resolveReward = (rewardAsset, database, locator) => {
                     const goodAsset = getAsset(rewardAsset.good.good, database);
                     const goodTitle = getTitle(goodAsset, database);
                     return {
-                        type: label,
+                        type,
                         text: `${label}: ${getImg(goodTitle)} ${rewardAsset.good.amount} [[${goodTitle}]]`,
                     };
                 default:
@@ -105,14 +108,21 @@ const resolveReward = (rewardAsset, database, locator) => {
     // If we got here, we're dealing with a special kind of reward, that doesn't redirect to someplace else and doesn't
     // have an amount. We'll just use its display name.
     let value = getTitle(rewardAsset, database);
-    if (value.startsWith(label + ' - ')) {
+    if (value.startsWith(type + ' - ')) {
         // Example: "House Upgrades: House Upgrades - Foxes"
-        value = value.substring((label + ' - ').length);
+        value = value.substring((type + ' - ').length);
     }
     return {
-        type: label,
+        type,
         text: `${label}: ${value}`,
     };
+};
+
+/**
+ *
+ */
+const formatDescription = (text) => {
+    return text.replace(/\s+/g, ' ').trim();
 };
 
 // =====================================================================================================================

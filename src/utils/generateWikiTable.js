@@ -12,7 +12,7 @@ const generateWikiTable = (rows, styles = []) => {
     for (let i = 1; i < safeRows.length; i++) {
         const style = styles[i] ? `style="${styles[i]}"` : '';
         draft += '|-' + style + '\n';
-        draft += '|' + safeRows[i].join('||') + '\n';
+        draft += '|' + safeRows[i].join('||') + '\n\n';
     }
     draft += '|}';
     return draft;

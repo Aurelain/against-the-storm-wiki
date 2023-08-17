@@ -13,6 +13,8 @@ const resolveDescription = (props, database) => {
     const {m_Script, m_Name: locator, description} = props;
 
     const rawText = texts[description?.key];
+    // console.log('------------------------------------------');
+    // console.log('rawText:', rawText);
     assert(rawText, `Cannot find text for "${locator}"!`);
 
     if (!rawText.includes('{')) {
@@ -39,7 +41,8 @@ const resolveDescription = (props, database) => {
                 return getBuildingsText(props, database, locator);
             default:
                 assert(resolvedName.includes('.'), `Unexpected deed variable "${resolvedName}" @ "${locator}"!`);
-                return resolveValue(resolvedName, props, database, locator);
+                const value = resolveValue(resolvedName, props, database, locator);
+                return value;
         }
     });
     assert(resolvedText, `Empty description @ "${locator}"!`);
@@ -108,6 +111,7 @@ const resolveValue = (path, props, database, deedName) => {
     if (target.key) {
         target = texts[target.key];
     }
+    // TODO if text came with braces, resolve those also (e.g. "Metal Tools 10 - Lizard Passive")
     return target;
 };
 
