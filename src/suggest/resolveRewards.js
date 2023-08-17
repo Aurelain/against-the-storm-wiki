@@ -2,6 +2,8 @@ import assert from 'assert/strict';
 import getTitle from '../shared/getTitle.js';
 import getAsset from '../shared/getAsset.js';
 import {REWARD_AMOUNT, REWARD_BUILDING, REWARD_EFFECT, REWARD_GOOD, REWARD_PROPS, REWARD_TRADER} from '../CONFIG.js';
+import getImg from '../shared/getImg.js';
+import formatBonus from '../utils/formatBonus.js';
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -61,9 +63,16 @@ const resolveReward = (rewardAsset, database, locator) => {
                 case REWARD_TRADER:
                 case REWARD_EFFECT:
                     const asset = getAsset(rewardAsset[rewardProperty], database);
+                    const targetTitle = getTitle(asset, database);
+                    let value;
+                    if (label === 'Embarkation') {
+                        value = getImg(targetTitle.split(' ')[0]) + ' [[' + targetTitle + ']]';
+                    } else {
+                        value = '[[' + targetTitle + ']]';
+                    }
                     return {
                         type: label,
-                        text: `${label}: [[${getTitle(asset, database)}]]`,
+                        text: `${label}: ${value}`,
                     };
                 case REWARD_AMOUNT:
                     // const scriptPath = getScriptPath(rewardAsset, database);
@@ -77,14 +86,15 @@ const resolveReward = (rewardAsset, database, locator) => {
                     }
                     return {
                         type: label,
-                        text: `${label}: ${rewardAsset.amount}`,
+                        text: `${label}: ${formatBonus(rewardAsset.amount)}`,
                         amount,
                     };
                 case REWARD_GOOD:
                     const goodAsset = getAsset(rewardAsset.good.good, database);
+                    const goodTitle = getTitle(goodAsset, database);
                     return {
                         type: label,
-                        text: `${label}: ${rewardAsset.good.amount} [[${getTitle(goodAsset, database)}]]`,
+                        text: `${label}: ${getImg(goodTitle)} ${rewardAsset.good.amount} [[${goodTitle}]]`,
                     };
                 default:
                     throw new Error('Unhandled property name!'); // our coding error

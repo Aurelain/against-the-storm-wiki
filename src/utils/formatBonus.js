@@ -6,7 +6,7 @@ const formatBonus = (value) => {
     if (text.includes('.')) {
         let percent = value * 100;
         const close = Math.round(percent);
-        if (Math.abs(close - percent) < 0.01) {
+        if (Math.abs(close - percent) < 0.001) {
             percent = close;
         }
         const sign = percent > 0 ? '+' : '-';

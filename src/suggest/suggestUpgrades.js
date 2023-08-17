@@ -181,7 +181,7 @@ const editIntro = (stats) => {
     return `
 The Scorched Queen has decided that the Smoldering City requires 7 new great work projects: the Obsidian Archives, the Monastery of the Vigilant Flame, the Pioneers' Gate, the First Dawn Headquarters, the Dim Square, the Brass Forge, and the Vanguard Spire.
 
-From the Upgrades tab of the Smoldering City, you can spend [[Resources#Citadel Resources | Citadel Resources]] - such as [[File:Icon MetaResource FoodStockpiles.png|16px]] Food Stockpiles, [[File:Icon MetaResource Artifact.png|16px]] Artifacts, and [[File:Icon MetaResource Machinery.png|16px]] Machinery - to construct and upgrade these great works.  Each great work improves your Settlements' chances for survival in a particular way, and certain upgrade levels will unlock new game features.
+From the Upgrades tab of the Smoldering City, you can spend [[Resources#Citadel Resources | Citadel Resources]] ([[File:Icon MetaResource FoodStockpiles.png|16px]] Food Stockpiles, [[File:Icon MetaResource Machinery.png|16px]] Machinery and [[File:Icon MetaResource Artifact.png|16px]] Artifacts) to construct and upgrade these great works.  Each great work improves your Settlements' chances for survival in a particular way, and certain upgrade levels will unlock new game features.
 
 == Overview ==
 Each level of the great works grants:
