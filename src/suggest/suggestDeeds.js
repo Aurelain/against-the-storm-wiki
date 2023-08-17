@@ -1,12 +1,12 @@
 import fs from 'fs';
 import open from 'open';
-import {REWARD_AMOUNT, REWARD_BUILDING, REWARD_EFFECT, REWARD_GOOD, REWARD_TRADER, OUTPUT_DIR} from '../CONFIG.js';
+import {OUTPUT_DIR} from '../CONFIG.js';
 import generateWikiTable from '../utils/generateWikiTable.js';
 import resolveDescription from './resolveDescription.js';
 import resolveDifficulty from './resolveDifficulty.js';
-import resolveReward from './resolveReward.js';
-import getTitle from './getTitle.js';
-import getAsset from './getAsset.js';
+import resolveRewards from './resolveRewards.js';
+import getTitle from '../shared/getTitle.js';
+import assert from 'assert/strict';
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -62,7 +62,7 @@ const collectDeeds = (database) => {
             // (title "Victory Through Resolve"), so we resorted to this hack...
             continue;
         }
-        // if (key === 'Deed Win Scarlet Impossible.asset') {
+        // if (key === 'ScalingGoal_Phase5_TradeGoods.asset') {
         //     open('input/game/ExportedProject/Assets/MonoBehaviour/' + key);
         // }
         deeds.push({
@@ -70,7 +70,7 @@ const collectDeeds = (database) => {
             title: getTitle(props, database),
             description: resolveDescription(props, database),
             minDifficulty: resolveDifficulty(props, database, key),
-            reward: resolveReward(props, database),
+            rewards: resolveRewards(props, database),
             isAchiv: props.isAchiv ? 'yes' : 'no',
             deedProps: props,
         });
@@ -106,14 +106,17 @@ Some of them require playing on a certain minimal difficulty. Some of them will 
  */
 const prepareStats = (deeds, database) => {
     const stats = computeStats(deeds, database);
+
+    let list = '';
+    for (const type in stats.rewardTypes) {
+        list += `** ${type} rewards: ${stats.rewardTypes[type]}\n`;
+    }
+    list = list.trim();
+
     return `
 == Statistics ==
-* Total number of deeds: ${stats.deeds}
-** Experience rewards: ${stats.xp}
-** Building rewards: ${stats.buildings}
-** Effect rewards: ${stats.effects}
-** Embarkation rewards: ${stats.embarkations}
-** Trader rewards: ${stats.traders}
+* Total number of deeds: ${deeds.length}
+${list}
 * Total experience points to be gained: ${stats.xpTotal}
 * Achievements tied to deeds: ${stats.achievements} 
     `.trim();
@@ -122,43 +125,51 @@ const prepareStats = (deeds, database) => {
 /**
  *
  */
-const computeStats = (deeds, database) => {
-    let xp = 0;
-    let buildings = 0;
-    let effects = 0;
-    let embarkations = 0;
-    let traders = 0;
+const computeStats = (deeds) => {
     let xpTotal = 0;
     let achievements = 0;
+    const rewardTypes = {};
     for (const deed of deeds) {
-        const {deedProps} = deed;
-        const rewardAsset = getAsset(deedProps.rewards[0], database);
-        if (REWARD_BUILDING in rewardAsset) {
-            buildings++;
-        } else if (REWARD_TRADER in rewardAsset) {
-            traders++;
-        } else if (REWARD_EFFECT in rewardAsset) {
-            effects++;
-        } else if (REWARD_AMOUNT in rewardAsset) {
-            xp++;
-            xpTotal += rewardAsset.amount;
-        } else if (REWARD_GOOD in rewardAsset) {
-            embarkations++;
+        const {deedProps, rewards} = deed;
+        for (const type in rewards.types) {
+            rewardTypes[type] = rewardTypes[type] || 0;
+            rewardTypes[type]++;
+            if (type === 'Experience') {
+                xpTotal += Number(rewards.text.match(/\d+/)[0]);
+            }
         }
         if (deedProps.isAchiv) {
             achievements++;
         }
     }
-    return {deeds: deeds.length, xp, buildings, effects, embarkations, traders, xpTotal, achievements};
+    assert(xpTotal > 0, `Unexpected xpTotal!`);
+    assert(achievements > 0, `Unexpected achievements count!`);
+    return {rewardTypes, xpTotal, achievements};
 };
 
 /**
  *
  */
 const prepareList = (deeds) => {
-    const rows = [['Deed', 'Objective', 'Min. difficulty', 'Reward', 'Grants achievement']];
+    const rows = [
+        [
+            // 'Guid', // hidden
+            'Deed',
+            'Objective',
+            'Min. difficulty',
+            'Reward',
+            'Grants achievement',
+        ],
+    ];
     for (const deed of deeds) {
-        rows.push([deed.title, deed.description, deed.minDifficulty, deed.reward, deed.isAchiv]);
+        rows.push([
+            // deed.deedProps.guid, // Guid, hidden
+            deed.title,
+            deed.description,
+            deed.minDifficulty,
+            deed.rewards.text,
+            deed.isAchiv,
+        ]);
     }
     return `
 == List of Deeds ==

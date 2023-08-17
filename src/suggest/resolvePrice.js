@@ -1,5 +1,5 @@
 import assert from 'assert/strict';
-import getAsset from './getAsset.js';
+import getAsset from '../shared/getAsset.js';
 
 // =====================================================================================================================
 //  P U B L I C

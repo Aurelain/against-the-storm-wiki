@@ -9,7 +9,7 @@ import assert from 'assert/strict';
 const getTitle = (props, database) => {
     const {texts} = database;
     const title = texts[props.displayName?.key];
-    assert(title, `Empty title @ "${props.m_Name}"!`);
+    assert(title, `Falsy title @ "${props.m_Name}"!`);
     return title;
 };
 

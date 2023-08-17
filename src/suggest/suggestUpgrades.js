@@ -2,9 +2,10 @@ import fs from 'fs';
 import open from 'open';
 import {OUTPUT_DIR} from '../CONFIG.js';
 import generateWikiTable from '../utils/generateWikiTable.js';
-import getTitle from './getTitle.js';
+import getTitle from '../shared/getTitle.js';
 import resolvePrice from './resolvePrice.js';
 import joinPrice from './joinPrice.js';
+import resolveRewards from './resolveRewards.js';
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -60,9 +61,9 @@ const collectUpgrades = (database) => {
         if (!props.requiredLevel) {
             continue;
         }
-        // if (key === 'Monastery Level 01.asset') {
-        //     open('input/game/ExportedProject/Assets/MonoBehaviour/' + key);
-        // }
+        if (key === 'Monastery Level 01.asset') {
+            open('input/game/ExportedProject/Assets/MonoBehaviour/' + key);
+        }
         const title = getTitle(props, database);
         upgrades.push({
             key,
@@ -70,7 +71,7 @@ const collectUpgrades = (database) => {
             title: title + ' ' + props.m_Name.match(/\d+/)[0],
             requiredLevel: props.requiredLevel,
             price: resolvePrice(props, database),
-            // reward: resolveReward(props, database),
+            reward: resolveRewards(props, database),
             upgradeProps: props,
         });
     }
@@ -179,7 +180,7 @@ const editList = (upgrades, stats) => {
             String(upgrade.requiredLevel).padStart(2, '0'), // Level
             joinPrice(upgrade.price), // Cost
             joinPrice(stats.totalCostEachUpgrade[upgrade.title]), // Cost
-            ' ', // Reward
+            upgrade.reward, // Reward
             ' ', // Total bonus
         ]);
     }
