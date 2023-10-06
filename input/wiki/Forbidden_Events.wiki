@@ -1,4 +1,27 @@
 '''Forbidden Events''' are a variant of [[Dangerous Events]], that house a unique level of threat. Most threats of these come in the shape of killing villagers and destroying buildings. They may end disastrous if left unattended, where few will even disappear if not solved, but all the while they offer phenomenal rewards when investigated.
+== List of Forbidden Events ==
+{| class="wikitable" 
+|-
+! Name
+! Time to complete
+! Repercussions
+! Cost
+! Working effects
+|-
+| rowspan="2" | Dark Gate
+| rowspan="2" | 03:30
+| rowspan="2" | '''Every 13:00:'''
+Old tales talk of horrific, bloodthirsty apparitions emerging from beyond Dark Gates. Kills 10 random villagers.
+| Perform ritual: (Corruption)
+10 {{Resource link|Incense|med}}
+10 {{Resource link|Scrolls|med}}
+10 {{Resource link|Tea|med}}
+20 {{Resource link|Oil|med}}
 
-== Types of Forbidden Events ==
-* [[Drainage Mole]]
+| Horrific sacrifices are offered to the creatures trapped beneath the ancient seals. Maybe this will keep them resting a little while longer. Pray this never reaches Queen's ears. Kills 1 random villagers. (Activates every time work on the corresponding Glade Event is started. The effect won't be reversed once work is stopped)
+|-
+| Seal Off: (Loyalty)
+1 {{Resource link|Wildfire Essence|med}}
+| The mere presence of a Dark Gate makes the villagers fear for their lives. (-4 to Global Resolve) (Is active only when the corresponding Glade Event is being worked on)
+The forest’s Hostility is temporarily increased by 100 points. (Is active only when the corresponding Glade Event is being worked on)
+|}

@@ -1,0 +1,8 @@
+[[File:Abyssal Trees.png|thumb|Abyssal Tree]]
+{| class="wikitable"
+|+ Abyssal Tree
+|-
+|-
+! Biome !! Resources !! Gatherer Camp !! Charges !! Description
+|-
+| Abyssal Tree|| [[File:Meat.png|25px]] Meat (10%)<br>[[File:SeaMarrow.png|25px]] Sea Marrow (10%)<br>[[File:Leather.png|25px]] Leather (5%) || [[File:Woodcutters_Camp_icon.png|25px]] Woodcutter Camp|| 2 || A bizarre, writhing growth... is this even really a tree?

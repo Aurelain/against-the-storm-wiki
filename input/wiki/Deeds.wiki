@@ -1,0 +1,329 @@
+Deeds are tasks from the [[Smoldering City]] what will grant either 50 Experience Points or a permanent bonus when completed.
+Some of them require playing on a certain minimal difficulty. Some of them will grant an Achievement.
+
+== Statistics ==
+* Total number of deeds: 156
+** Experience rewards: 113
+** Building rewards: 29
+** Effect rewards: 11
+** Embarkation rewards: 2
+** Trader rewards: 1
+* Total experience points to be gained: 5650
+* Achievements tied to deeds: 50
+
+== List ==
+{| class="wikitable sortable"
+!Deed!!Objective!!Min. difficulty!!Reward!!Grants achievement
+|-
+|A Real Challenge||Win a game on Veteran difficulty (or higher).||Veteran||Building: [[Pipe Ending]]||yes
+|-
+|A True Leader||Earn 18 Reputation Points through villagers’ Resolve in a single game on Prestige 1 difficulty (or higher).||Prestige 1||Building: [[Ancient Arch]]||no
+|-
+|Abandoned Settlement||Win a game near the Abandoned Settlement modifier.||Settler||Experience: 50||no
+|-
+|Against All Odds||Win a game on Viceroy difficulty (or higher).||Viceroy||Trader: [[Dullahan Warlander]]||yes
+|-
+|Ancient Battleground||Win a game near the Ancient Battleground modifier.||Settler||Experience: 50||yes
+|-
+|Ancient Knowledge||Win a game with at least 5 Ancient Tablets in the Warehouse.||Settler||Building: [[Big Shelter]]||no
+|-
+|Apprentice Archaeologist 1||Win a game with a reconstructed Smoldering Scorpion skeleton in the Scarlet Orchard.||Settler||Experience: 50||no
+|-
+|Apprentice Archaeologist 2||Win a game with a reconstructed Sea Serpent skeleton in the Scarlet Orchard.||Settler||Experience: 50||no
+|-
+|Apprentice Archaeologist 3||Win a game with a reconstructed Sealed Spider skeleton in the Scarlet Orchard.||Settler||Experience: 50||no
+|-
+|Bandit Camp||Win a game near the Bandit Camp modifier.||Settler||Building: [[Cages]]||yes
+|-
+|Barren Lands||Win a game near the Barren Lands modifier.||Settler||Building: [[Gate]]||yes
+|-
+|Beaver Settlement||Win a game with at least 25 Beavers.||Settler||Experience: 50||no
+|-
+|Beaver Utopia||Win a game with 30 Beavers, 15 x Beaver House, 1 x Guild House||Settler||Building: [[Pipe T-Connector]]||yes
+|-
+|Big Settlement 1||Win a game with at least 40 villagers.||Settler||Building: [[Lamp]]||no
+|-
+|Big Settlement 2||Win a game with at least 60 villagers||Settler||Experience: 50||no
+|-
+|Blood Flower Farmer||Win a game with 3 active Blood Flower clones on the map.||Settler||Experience: 50||yes
+|-
+|Coral Forest||Win a game on the Coral Forest biome.||Settler||Experience: 50||yes
+|-
+|Corrosive Torrent||Win a game near the Corrosive Torrent modifier.||Settler||Experience: 50||yes
+|-
+|Crimson Soil||Win a game in the Scarlet Orchard biome, and on Viceroy difficulty (or higher).||Viceroy||Embarkation bonus: 30 Reed||no
+|-
+|Cursed Lands||Win a game on the Cursed Royal Woodlands biome.||Settler||Building: [[Wall Crossing]]||yes
+|-
+|Cycle of the Wilds||Discover 20 Dangerous Glades in one cycle.||Settler||Building: [[Nightfern]]||no
+|-
+|Dangerous Lands||Win a game near the Dangerous Lands modifier.||Settler||Experience: 50||yes
+|-
+|Deadly Spores||Win a game in the The Marshlands biome, and on Viceroy difficulty (or higher).||Viceroy||Building: [[Decorative Fungus]]||no
+|-
+|Defying the Crown||Win a game without completing any orders.||Settler||Experience: 50||yes
+|-
+|Devil's Bargain||Win a game after 20 villagers have died.||Settler||Effect: [[Bone Tools]]||no
+|-
+|Dice With Death 1||Win a game with one Dangerous Glade Event still active.||Settler||Experience: 50||no
+|-
+|Dice With Death 2||Win a game with two Dangerous Glade Events still active.||Settler||Experience: 50||no
+|-
+|Dice With Death 3||Win a game with three Dangerous Glade Events still active.||Settler||Experience: 50||no
+|-
+|Dice With Death 4||Win a game with four Dangerous Glade Events still active.||Settler||Experience: 50||no
+|-
+|Discovery 1||Discover 10 glades.||Settler||Experience: 50||no
+|-
+|Discovery 2||Discover 30 glades.||Settler||Experience: 50||no
+|-
+|Discovery 3||Discover 80 glades.||Settler||Effect: [[Woodpecker Technique]]||no
+|-
+|Discovery 4||Discover 150 glades.||Settler||Experience: 50||no
+|-
+|Discovery 5||Discover 250 glades.||Settler||Experience: 50||no
+|-
+|Discovery 6||Discover 400 glades.||Settler||Experience: 50||no
+|-
+|Efficient Explorer||Win a game after completing 25 Glade Events.||Settler||Effect: [[Firekeeper's Prayer]]||yes
+|-
+|Export Expert 1||Complete 10 trade routes.||Settler||Experience: 50||no
+|-
+|Export Expert 2||Complete 30 trade routes.||Settler||Experience: 50||no
+|-
+|Export Expert 3||Complete 80 trade routes.||Settler||Experience: 50||no
+|-
+|Export Expert 4||Complete 150 trade routes.||Settler||Experience: 50||no
+|-
+|Export Expert 5||Complete 250 trade routes.||Settler||Experience: 50||no
+|-
+|Export Expert 6||Complete 400 trade routes.||Settler||Experience: 50||no
+|-
+|Feeding The People||Ensure all villagers from all three species have all their needs from the Complex Food category fulfilled simultaneously.||Settler||Effect: [[Worker's Rations]]||yes
+|-
+|Fertile Meadows||Win a game near the Fertile Grounds modifier.||Settler||Experience: 50||yes
+|-
+|First Real Expedition||Win a game in the Royal Woodlands biome, and on Settler difficulty (or higher).||Settler||Experience: 50||yes
+|-
+|First Steps||Win 3 games||Settler||Experience: 50||no
+|-
+|Fishmen Ritual Site||Win a game near the Fishmen Ritual Site modifier.||Settler||Experience: 50||yes
+|-
+|Flooded Mines||Win a game near the Flooded Mines modifier.||Settler||Building: [[Valve]]||yes
+|-
+|Forbidden Lands||Win a game near the Forbidden Lands modifier.||Settler||Experience: 50||yes
+|-
+|Forsaken Gods Temple||Win a game near the Forsaken Gods Temple modifier.||Settler||Experience: 50||yes
+|-
+|Fox Settlement||Win a game with at least 25 Foxes.||Settler||Building: [[Overgrown Fence]]||no
+|-
+|Fox Utopia||Win a game with 30 Foxes, 15 x Fox House, 1 x Tea Doctor||Settler||Building: [[Overgrown Fence Corner]]||no
+|-
+|Frosts||Win a game near the Frosts modifier.||Settler||Experience: 50||no
+|-
+|Gathering Storm||Win a game near the Gathering Storm modifier.||Settler||Experience: 50||no
+|-
+|Harpy Settlement||Win a game with at least 25 Harpies.||Settler||Experience: 50||no
+|-
+|Harpy Utopia||Win a game with 30 Harpies, 15 x Harpy House, 1 x Bath House||Settler||Building: [[Umbrella]]||yes
+|-
+|Haunted Forest||Win a game near the Haunted Forest modifier.||Settler||Experience: 50||yes
+|-
+|High Price||Win a game after 15 villagers died, on Prestige 18 difficulty (or higher).||Prestige 18||Experience: 50||no
+|-
+|Higher Needs||Ensure all villagers from all three species have all their needs from the Services category fulfilled simultaneously.||Settler||Experience: 50||yes
+|-
+|Homesick 1||Win a game in 5 years or less.||Settler||Building: [[Signboard]]||yes
+|-
+|Homesick 2||Win a game in 3 years or less.||Settler||Experience: 50||no
+|-
+|Human Settlement||Win a game with at least 25 Humans.||Settler||Experience: 50||no
+|-
+|Human Utopia||Win a game with 30 Humans, 15 x Human House, 1 x Temple||Settler||Experience: 50||yes
+|-
+|Immovable Viceroy||Win a game without discovering any glades.||Settler||Experience: 50||no
+|-
+|Independent Viceroy||Win a game without completing any orders on Prestige 1 difficulty (or higher).||Prestige 1||Experience: 50||no
+|-
+|Into the Forest||Win a game after discovering 2 Dangerous or Forbidden Glades before the end of Year 1, on Pioneer difficulty (or higher).||Pioneer||Building: [[Rainpunk Barrels]]||yes
+|-
+|Land of Greed||Win a game near the Land of Greed modifier.||Settler||Experience: 50||no
+|-
+|Levitating Monument||Win a game near the Levitating Monument modifier.||Settler||Experience: 50||yes
+|-
+|Like a Machine||Win a game after completing 3 timed orders.||Settler||Experience: 50||yes
+|-
+|Lizard Settlement||Win a game with at least 25 Lizards.||Settler||Experience: 50||no
+|-
+|Lizard Utopia||Win a game with 30 Lizards, 15 x Lizard House, 1 x Clan Hall||Settler||Experience: 50||yes
+|-
+|Lost Colonies||Win a game near the Ruins modifier.||Settler||Building: [[Wall Corner]]||yes
+|-
+|Master Archaeologist||Win a game with all three skeletons reconstructed in the Scarlet Orchard.||Settler||Experience: 50||no
+|-
+|Monastery of the Holy Flame||Win a game near the Monastery of the Holy Flame modifier.||Settler||Experience: 50||yes
+|-
+|No Deaths||Win a game with 0 villagers dying.||Settler||Experience: 50||yes
+|-
+|No Loot Boxes||Win a game without opening or sending any Abandoned Caches to the Citadel.||Settler||Experience: 50||no
+|-
+|No Strangers||Win a game without completing any camp events.||Settler||Experience: 50||no
+|-
+|Ominous Presence||Win a game near the Ominous Presence modifier.||Settler||Experience: 50||no
+|-
+|Orders From the Queen 1||Complete 10 orders.||Settler||Experience: 50||no
+|-
+|Orders From the Queen 2||Complete 30 orders.||Settler||Experience: 50||no
+|-
+|Orders From the Queen 3||Complete 80 orders.||Settler||Experience: 50||no
+|-
+|Orders From the Queen 4||Complete 150 orders.||Settler||Experience: 50||no
+|-
+|Orders From the Queen 5||Complete 250 orders.||Settler||Experience: 50||no
+|-
+|Orders From the Queen 6||Complete 400 orders.||Settler||Building: [[Ancient Tombstone]]||no
+|-
+|Outstanding Move||Win a game after discovering a Forbidden Glade before the end of Year 1, on Veteran difficulty (or higher).||Veteran||Experience: 50||no
+|-
+|Overcoming Difficulty||Win a game on Pioneer difficulty (or higher).||Pioneer||Building: [[Pipe]]||yes
+|-
+|Overgrown Library||Win a game near the Overgrown Library modifier.||Settler||Experience: 50||no
+|-
+|Paradise||Ensure all villagers from all three species have all their needs fulfilled simultaneously.||Settler||Experience: 50||yes
+|-
+|Petrified Necropolis||Win a game near the Petrified Necropolis modifier.||Settler||Experience: 50||no
+|-
+|Playing It Safe||Win a game without discovering a Dangerous or Forbidden Glade, on Pioneer difficulty (or higher).||Pioneer||Experience: 50||no
+|-
+|Prestigious Expedition  1||Win a game on Prestige 1 difficulty (or higher).||Prestige 1||Building: [[Pipe Elbow]]||no
+|-
+|Prestigious Expedition  2||Win a game on Prestige 2 difficulty (or higher).||Prestige 2||Experience: 50||no
+|-
+|Prestigious Expedition  3||Win a game on Prestige 3 difficulty (or higher).||Prestige 3||Experience: 50||no
+|-
+|Prestigious Expedition  4||Win a game on Prestige 4 difficulty (or higher).||Prestige 4||Experience: 50||no
+|-
+|Prestigious Expedition  5||Win a game on Prestige 5 difficulty (or higher).||Prestige 5||Effect: [[Moss Broccoli Seeds]]||no
+|-
+|Prestigious Expedition  6||Win a game on Prestige 6 difficulty (or higher).||Prestige 6||Experience: 50||no
+|-
+|Prestigious Expedition  7||Win a game on Prestige 7 difficulty (or higher).||Prestige 7||Experience: 50||no
+|-
+|Prestigious Expedition  8||Win a game on Prestige 8 difficulty (or higher).||Prestige 8||Experience: 50||no
+|-
+|Prestigious Expedition  9||Win a game on Prestige 9 difficulty (or higher).||Prestige 9||Experience: 50||no
+|-
+|Prestigious Expedition 10||Win a game on Prestige 10 difficulty (or higher).||Prestige 10||Effect: [[No Quality Control]]||yes
+|-
+|Prestigious Expedition 11||Win a game on Prestige 11 difficulty (or higher).||Prestige 11||Experience: 50||no
+|-
+|Prestigious Expedition 12||Win a game on Prestige 12 difficulty (or higher).||Prestige 12||Experience: 50||no
+|-
+|Prestigious Expedition 13||Win a game on Prestige 13 difficulty (or higher).||Prestige 13||Experience: 50||no
+|-
+|Prestigious Expedition 14||Win a game on Prestige 14 difficulty (or higher).||Prestige 14||Experience: 50||no
+|-
+|Prestigious Expedition 15||Win a game on Prestige 15 difficulty (or higher).||Prestige 15||Effect: [[Steel Mattocks]]||no
+|-
+|Prestigious Expedition 16||Win a game on Prestige 16 difficulty (or higher).||Prestige 16||Experience: 50||no
+|-
+|Prestigious Expedition 17||Win a game on Prestige 17 difficulty (or higher).||Prestige 17||Experience: 50||no
+|-
+|Prestigious Expedition 18||Win a game on Prestige 18 difficulty (or higher).||Prestige 18||Experience: 50||no
+|-
+|Prestigious Expedition 19||Win a game on Prestige 19 difficulty (or higher).||Prestige 19||Experience: 50||no
+|-
+|Prestigious Expedition 20||Win a game on Prestige 20 difficulty (or higher).||Prestige 20||Experience: 50||yes
+|-
+|Prosperity 1||Collect 10 Reputation Points through villager Resolve.||Settler||Experience: 50||no
+|-
+|Prosperity 2||Collect 25 Reputation Points through villager Resolve.||Settler||Experience: 50||no
+|-
+|Prosperity 3||Collect 50 Reputation Points through villager Resolve.||Settler||Experience: 50||no
+|-
+|Prosperity 4||Collect 80 Reputation Points through villager Resolve.||Settler||Experience: 50||no
+|-
+|Prosperity 5||Collect 130 Reputation Points through villager Resolve.||Settler||Experience: 50||no
+|-
+|Rare Technology||Win a game with a restored Rainpunk Foundry in your settlement.||Settler||Building: [[Water Barrels]]||no
+|-
+|Refinery||Win a game with: 1 x Mine, 1 x Smelter, 1 x Smithy, on Veteran difficulty (or higher).||Veteran||Effect: [[Small Distillery]]||yes
+|-
+|Rolling in Wealth 1||Trade goods worth 50 Amber.||Settler||Experience: 50||no
+|-
+|Rolling in Wealth 2||Trade goods worth 200 Amber.||Settler||Experience: 50||no
+|-
+|Rolling in Wealth 3||Trade goods worth 600 Amber.||Settler||Experience: 50||no
+|-
+|Rolling in Wealth 4||Trade goods worth 1500 Amber.||Settler||Experience: 50||no
+|-
+|Rolling in Wealth 5||Trade goods worth 3000 Amber.||Settler||Experience: 50||no
+|-
+|Rolling in Wealth 6||Trade goods worth 5000 Amber.||Settler||Effect: [[Royal Permit]]||no
+|-
+|Royal Outpost||Win a game near the Royal Outpost modifier.||Settler||Experience: 50||yes
+|-
+|Ruined Armory||Win a game near the Ruined Armory modifier.||Settler||Building: [[Anvil]]||yes
+|-
+|Ruins||Win a game after taking care of 10 ruins found in glades.||Settler||Experience: 50||yes
+|-
+|Rushed Delivery 1||Complete 5 timed orders.||Settler||Experience: 50||no
+|-
+|Rushed Delivery 2||Complete 15 timed orders.||Settler||Experience: 50||no
+|-
+|Rushed Delivery 3||Complete 30 timed orders.||Settler||Experience: 50||no
+|-
+|Rushed Delivery 4||Complete 50 timed orders.||Settler||Experience: 50||no
+|-
+|Rushed Delivery 5||Complete 75 timed orders.||Settler||Experience: 50||no
+|-
+|Rushed Delivery 6||Complete 100 timed orders.||Settler||Experience: 50||no
+|-
+|Serving Ale||Win a game with: 1 x Small Farm, 1 x Brewery, 1 x Tavern, on Veteran difficulty (or higher).||Veteran||Experience: 50||yes
+|-
+|Sparkdew Crystals||Win a game near the Sparkdew Crystals modifier.||Settler||Building: [[Pipe Cross]]||yes
+|-
+|Stalking Shadows||Win a game after discovering a Forbidden Glade before the end of Year 2, on Pioneer difficulty (or higher).||Pioneer||Experience: 50||no
+|-
+|Statue of the Forefathers||Win a game near the Statue of the Forefathers modifier.||Settler||Experience: 50||yes
+|-
+|Taking Action||Win a game after completing 5 Glade Events.||Settler||Experience: 50||yes
+|-
+|Tempest||Win a game with no dead villagers on Viceroy difficulty (or higher).||Viceroy||Experience: 50||no
+|-
+|The Marketplace||Win a game with 50 villagers, 1 x Temple, 1 x Market||Settler||Experience: 50||no
+|-
+|The Marshlands||Win a game on the The Marshlands biome.||Settler||Experience: 50||yes
+|-
+|The Patient Queen 1||Don't let the Queen's Impatience grow above 6 in a single game.||Settler||Experience: 50||no
+|-
+|The Patient Queen 2||Don't let the Queen's Impatience grow above 4 in a single game.||Settler||Effect: [[Fiery Wrath]]||no
+|-
+|The Patient Queen 3||Don't let the Queen's Impatience grow above 2 in a single game.||Settler||Experience: 50||no
+|-
+|The Reef||Win a game in the Coral Forest biome, and on Viceroy difficulty (or higher).||Viceroy||Building: [[Coral Growth]]||no
+|-
+|The Scarlet Orchard||Win a game on the Scarlet Orchard biome.||Settler||Building: [[Thorny Reed]]||yes
+|-
+|Thick Clouds||Win a game in the Cursed Royal Woodlands biome, and on Viceroy difficulty (or higher).||Viceroy||Building: [[Wall]]||no
+|-
+|Thorough Exploration||Win a game with 30 or more glades discovered, on Pioneer difficulty (or higher).||Pioneer||Building: [[Golden Leaf Plant]]||no
+|-
+|Totem Hunter||Win a game with: 1 x Converted Rain Totem, 1 x Converted Totem of Denial, on Veteran difficulty (or higher).||Veteran||Experience: 50||no
+|-
+|Trade Baron||Win a game after completing 20 trade routes.||Settler||Building: [[Chest]]||yes
+|-
+|Trade Connections||Win a game with 400 Amber in your Warehouse.||Settler||Building: [[Crates]]||no
+|-
+|Traveling Light||Win a game without taking any Embarkation Bonuses on Viceroy difficulty (or higher).||Viceroy||Experience: 50||no
+|-
+|Treasure||Win a game after opening or sending 20 Abandoned Caches to the Citadel.||Settler||Embarkation bonus: 30 Leather||yes
+|-
+|Unnecessary Burden||Win a game without taking any Embarkation Bonuses on Prestige 10 difficulty (or higher).||Prestige 10||Experience: 50||no
+|-
+|Untamed Wilds||Win a game near the Untamed Wilds modifier.||Settler||Experience: 50||no
+|-
+|Victory Through Prosperity||Earn 14 Reputation Points through Resolve in a single game.||Settler||Effect: [[Generous Rations]]||yes
+|-
+|Watchtower||Win a game near the Watchtower modifier.||Settler||Experience: 50||yes
+|}

@@ -41,45 +41,74 @@ When browsing by Product, the left-hand side number indicates the current amount
 
 When browsing by Ingredient, the left-hand side number indicates the current amount in Storage. If you click on an Ingredient, it will expand a menu showing all the Recipes from all the Buildings which use that Ingredient. If you have unlocked a particular Building, you can adjust which Ingredients are being used and apply a Building-specific Production Limit that overrides the Global Production Limit.
 
+The [[Recipes]] hotkey is "U" by default.
+
 = Acquiring Resources =
 
-Resources can be acquired in three ways: Gathered from Trees and Resource Deposits, Farmed from [[Farm Fields]], or Produced by Buildings. Some Gathered resources can also be Produced, while all Farmed resources are also Gathered.
+Resources can be acquired in four ways: Gathered from Trees and Resource Deposits, Farmed from [[Farm Fields]], Produced by Buildings or given as rewards for completing Orders. Some Gathered resources can also be Produced, while all Farmed resources are also Gathered.
 
+[[The_Forest#Trees | 
 == Trees ==
+]]
 
 ''Main article: [[The Forest#Trees]]''
 
-Trees can be harvested by [[File:Woodcutters_Camp_icon.png|25px]] Woodcutters' Camp buildings to give [[File:Wood.png|25px]] Wood. They may also grant additional resources depending on the biome.
-{| class="wikitable"
-! Tree !! Biome !! Additional resources
+Trees can be harvested by [[File:Woodcutters Camp icon.png|25px]] [[Woodcutters' Camp]] buildings to give [[File:Wood.png|25px]] Wood. They may also grant additional resources depending on the biome.
+{| class="wikitable" 
 |-
-| '''Coppervein Tree''' 
-| Scarlet Orchard 
-| [[File:Wood.png|25px]] Wood (60%)<br>[[File:CopperOre.png|25px]] Copper Ore (10%)<br>[[File:Resin.png|25px]] Resin (5%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (5%)
+! Deposit
+! Possible Resources
+! Guaranteed Resource
+! Gathered By
+! Biome
+! Description
 |-
-| '''Lush Tree''' 
-| Royal Woodlands 
-| [[File:Wood.png|25px]] Wood (100%)<br>[[File:Resin.png|25px]] Resin (15%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (10%)<br>[[File:Eggs.png|25px]] Eggs (5%)
+| [[File:Abyssal Trees.png|50px]] [[The_Forest#Trees | Abyssal Trees ]]
+| [[File:Meat.png|25px]] Meat (10%)<br>[[File:SeaMarrow.png|25px]] Sea Marrow (10%)<br>[[File:Leather.png|25px]] Leather (5%)
+| rowspan="9" | [[File:Wood.png|32px]] [[Wood]]
+| rowspan="9" | [[File:Woodcutters Camp icon.png|25px]] [[Woodcutters' Camp]]<br />
+| Sealed Forest
+| A bizarre, writhing growth... is this even really a tree?
 |-
-| '''Mushwood Tree''' 
-| The Marshlands 
-| [[File:Mushrooms.png|25px]] Mushrooms (15%)<br>[[File:Leather.png|25px]] Leather (5%)
+| [[File:Coppervein Tree.png|50px]] [[The_Forest#Trees | Coppervein Trees ]]
+| [[File:CopperOre.png|25px]] Copper Ore (10%)<br>[[File:Pigment.png|25px]] Pigment (5%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (5%)
+| Coral Forest
+| A scarlet tree covered in enormous thorns.
 |-
-| '''Dying Tree'''
-| Cursed Royal Woodlands
-| [[File:Wood.png|25px]] Wood (60%)<br>[[File:Insects.png|25px]] Insects (10%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (10%)<br>[[File:Roots.png|25px]] Roots (10%)
-|-
-| '''Crimsonreach Tree''' 
-| Coral Forest 
+| [[File:Crimsonreach Tree.png|50px]] [[The_Forest#Trees | Crimsonreach Trees ]]
 | [[File:Stone.png|25px]] Stone (40%)<br>[[File:Incense.png|25px]] Incense (20%)
+| Coral Forest
+| A mineralized coral tree.
 |-
-| '''Musselsprout Tree''' 
-| Coral Forest 
+| [[File:Dying Tree.png|50px]] [[The_Forest#Trees | Dying Trees ]]
+| [[File:Insects.png|25px]] Insects (10%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (10%)<br>
+| Cursed Woodlands
+| A bare, rotting tree infested with grubs.
+|-
+| [[File:Lush Trees.png|50px]] [[The_Forest#Trees | Lush Trees ]]
+| [[File:Resin.png|25px]] Resin (15%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (10%)<br>[[File:Eggs.png|25px]] Eggs (5%)
+| Royal Woodlands
+| A perfect source of wood.
+|-
+| [[File:Mushwood Tree.png|50px]] [[The_Forest#Trees | Mushwood Trees ]]
+| [[File:Mushrooms.png|25px]] Mushrooms (15%)<br>[[File:Leather.png|25px]] Leather (5%)
+| Marshland
+| A giant fungal tree covered in a leathery bark.
+|-
+| [[File:Musselsprout Tree.png|50px]] [[The_Forest#Trees | Musselsprout Trees ]]
 | [[File:Meat.png|25px]] Meat (40%)<br>[[File:CrystalizedDew.png|25px]] Crystalized Dew (20%)
+| Coral Forest
+| The unusually hard bark conceals soft, fleshy tissue.
 |-
-| '''Plateleaf Tree''' 
-| Coral Forest 
+| [[File:Giant Abyssal Tree.png|50px]] [[The_Forest#Trees | Overgrown Abyssal Trees ]]
+| [[File:Meat.png|25px]] Meat (10%)<br>[[File:SeaMarrow.png|25px]] Sea Marrow (10%)<br>[[File:Leather.png|25px]] Leather (10%)
+| Sealed Forest
+| A giant, bizarre growth... it's bigger than the other trees in the area.
+|-
+| [[File:Plateleaf Tree.png|50px]] [[The_Forest#Trees | Plateleaf Trees ]]
 | [[File:PlantFiber.png|25px]] Plant Fiber (30%)
+| Coral Forest
+| A species of plant rarely seen above water.
 |}
 
 == Resource Deposits ==
@@ -88,170 +117,80 @@ Trees can be harvested by [[File:Woodcutters_Camp_icon.png|25px]] Woodcutters' C
 
 Resource deposits are spots that allow villagers to gather resources. Each deposit can have its own priority set, when it is preferred to be harvested more or less often than other deposits.
 
-Resource deposits come in two sizes. With the exception of the tutorial, big resource deposits can only be found inside Dangerous Glades and Forbidden Glades.
+Resource deposits come in two sizes. With the exception of the tutorial, Large resource deposits can only be found inside Dangerous Glades and Forbidden Glades.
 
-Each deposit has a number of Charges, representing the amount of times it can be harvested. Small resource deposits can be harvested '''15''' times if they provide raw food, and '''20''' times if they provide raw crafting materials. Large resource deposits can be harvested '''70''' times. The number of Charges can be increased by certain Smoldering City upgrades.
+Each deposit has a number of Charges, representing the amount of times it can be harvested. Small resource deposits can be harvested '''15''' times if they provide raw food, and '''20''' times if they provide raw crafting materials. Large resource deposits can be harvested '''70''' times. The number of Charges can be increased by certain Smoldering City upgrades or Corberstones like "Rich Glades" , "Rooty Ground" and "Woodcutters' Prayer".
 
-{| class="wikitable"
-! Deposit !! Guaranteed resources !! Possible resources !! Gathered by !! Biome !! Description
+{| class="wikitable" 
 |-
-| [[File:DebugNode MushroomBig icon.png|50px]] Bleeding Tooth Mushroom (big)
-| rowspan=4 | [[File:Mushrooms.png|30px]] Mushrooms
-| [[File:Insects.png|25px]] Insects (40%)
-| rowspan=2 | [[File:Herbalist's Camp icon.png|25px]] Herbalists' Camp
-| rowspan=2 | Royal Woodlands<br>The Marshlands<br>Cursed Royal Woodlands
-| rowspan=2 | ''A resilient species that grows on marshy soil.''
+! Primary <br /> Resources
+! Bonus<br />Resources
+! Resource Deposits
+! Gathering Building
+! Worker <br /> Slots
+! Specialization <br /> Bonus
+! Build Cost <br />Prestige 5≤
+! Build Cost <br />Prestige 6≥
 |-
-| [[File:DebugNode MushroomSmall icon.png|50px]] Bleeding Tooth Mushroom (small)
-| [[File:Insects.png|25px]] Insects (20%)
+| rowspan="2" | [[File:Grain.png|32px]] Wheat<br />[[File:Roots.png|32px]] Roots<br />[[File:Vegetables.png|32px]] Vegetables
+| 
+| [[File:DebugNode SwampWheatBig icon.png|32px]] Swamp Wheat Field (<small>LARGE</small> and <small><small>SMALL</small></small>)<br />[[File:DebugNode RootsBig icon.png|32px]] Root Deposit (<small>LARGE</small> and <small><small>SMALL</small></small>)<br />[[File:DebugNode MossBroccoliBig icon.png|32px]] Moss Broccoli Patch (<small>LARGE</small> and <small><small>SMALL</small></small>)
+| [[File:Forager's Camp icon.png|96px]] [[Foragers' Camp ]]({{2Star}})
+| rowspan="2" | 2
+| rowspan="2" | [[File:Icon Spec Farm 64x64.png|16px]] [[Farming]] <br /><br />[[File: Human_circle.png|32px]] [[Human]]
+| rowspan="2" | [[File:Wood.png|32px]] 10 [[Wood]] <br /> [[File:Parts.png|32px]] 3 [[Parts]]
+| rowspan="2" | [[File:Wood.png|32px]] 15 [[Wood]] <br /> [[File:Parts.png|32px]] 5 [[Parts]]
 |-
-| [[File:DebugNode MarshlandsMushroomBig icon.png|50px]] Grasscap Mushroom (big)
-| [[File:Insects.png|25px]] Insects (40%)
-| rowspan=2 | [[File:Herbalist's Camp icon.png|25px]] Herbalists' Camp
-| rowspan=2 | Royal Woodlands<br>The Marshlands<br>Cursed Royal Woodlands
-| rowspan=2 | ''A resilient species that grows on marshy soil.''
+| 
+| [[File:DebugNode SwampWheatSmall icon.png|32px]] Swamp Wheat Field (<small>SMALL</small>)<br />[[File:DebugNode RootsSmall icon.png|32px]] Root Deposit (<small>SMALL</small>)<br />[[File:DebugNode MossBroccoliSmall icon.png|32px]] Moss Broccoli Patch (<small>SMALL</small>)
+| [[File:Small Foragers' Camp icon.png|96px]] [[Small Foragers' Camp ]] ({{1Star}})
 |-
-| [[File:DebugNode MarshlandsMushroomSmall icon.png|50px]] Grasscap Mushroom (small)
-| [[File:Insects.png|25px]] Insects (20%)
+| [[File:PlantFiber.png|32px]] [[Plant Fiber]] <br /> <br /> <br /> [[File:Reeds.png|32px]] [[Reed]]
+| 
+| [[File:DebugNode_FlaxBig_icon.png|32px]] Flax Field (<small>LARGE</small>)<br />[[File:DebugNode_FlaxSmall_icon.png|32px]] Flax Field (<small>SMALL</small>)<br /><br />[[File:DebugNode_ReedBig_icon.png|32px]] Reed Field (<small>LARGE</small>)<br />[[File:DebugNode_ReedSmall_icon.png|32px]] Reed Field (<small>SMALL</small>)
+| [[File:Harvester Camp icon.png|96px]] [[Harvesters' Camp ]] ({{2Star}})
+| 2
+| ''none''
+| [[File:Wood.png|32px]] 10 [[Wood]] <br /> [[File:Parts.png|32px]] 3 [[Parts]]
+| [[File:Wood.png|32px]] 15 [[Wood]] <br /> [[File:Parts.png|32px]] 5 [[Parts]]
 |-
-| [[File:DebugNode ClayBig icon.png|50px]] Clay Deposit (big)
-| rowspan=2 | [[File:Clay.png|30px]] Clay
-| [[File:CopperOre.png|25px]] Copper Ore (40%)<br>[[File:Roots.png|25px]] Roots (30%)
-| rowspan=2 | [[File:Stonecutter's Camp icon.png|25px]] Stonecutters' Camp
-| rowspan=2 | Royal Woodlands<br>Cursed Royal Woodlands
-| rowspan=2 | ''Soil infused with the essence of the rain.''
+| rowspan="2" | [[File:Berries.png|32px]] [[Berries]] <br /> [[File:Herbs.png|32px]] [[Herbs]] <br /> [[File:Mushrooms.png|32px]] [[Mushrooms]]
+| 
+| [[File:DebugNode HerbsBig icon.png|32px]] Herb Node (<small>LARGE</small> and <small><small>SMALL</small></small>)<br />[[File:DebugNode DewberryBushBig icon.png|32px]] Dewberry Bush (<small>LARGE</small> and <small><small>SMALL</small></small>) <br />[[File:DebugNode MushroomBig icon.png|32px]] Bleeding Tooth Mushrooms (<small>LARGE</small> and <small><small>SMALL</small></small>) <br/>[[File:DebugNode_MarshlandsMushroomBig_icon.png|32px]] Grasscap Mushrooms (<small>LARGE</small> and <small><small>SMALL</small></small>)
+| [[File:Herbalist's_Camp_icon.png|96px]] [[Herbalists' Camp]]({{2Star}})
+| rowspan="2" | 2
+| rowspan="2" | [[File:Icon Spec Alchemy 64x64.png|16px]] [[Alchemy]] <br /><br />[[File:Harpy_circle.png|32px]] [[Harpy]]
+| rowspan="2" | [[File:Wood.png|32px]] 10 [[Wood]] <br /> [[File:Parts.png|32px]] 3 [[Parts]]
+| rowspan="2" | [[File:Wood.png|32px]] 15 [[Wood]] <br /> [[File:Parts.png|32px]] 5 [[Parts]]
 |-
-| [[File:DebugNode ClaySmall icon.png|50px]] Clay Deposit (small)
-| [[File:CopperOre.png|25px]] Copper Ore (25%)<br>[[File:Roots.png|25px]] Roots (20%)
+| 
+| [[File:DebugNode HerbsSmall icon.png|32px]] Herb Node (<small>SMALL</small>)<br />[[File:DebugNode DewberryBushSmall icon.png|32px]] Dewberry Bush (<small>SMALL</small>) <br />[[File:DebugNode MushroomSmall icon.png|32px]] Bleeding Tooth Mushrooms (<small>SMALL</small>)<br/>[[File:DebugNode_MarshlandsMushroomSmall_icon.png|32px]] Grasscap Mushrooms (<small>SMALL</small>)
+| [[File:Small Herbalists' Camp icon.png|96px]] [[Small Herbalists' Camp ]]({{1Star}})
 |-
-| [[File:DebugNode DewberryBushBig icon.png|50px]] Dewberry Bush (big)
-| rowspan=2 | [[File:Berries.png|30px]] Berries
-| [[File:Berries.png|25px]] Berries (80%)
-| rowspan=2 | [[File:Herbalist's Camp icon.png|25px]] Herbalists' Camp
-| rowspan=2 | Royal Woodlands<br>Scarlet Orchard
-| rowspan=2 | ''Fresh and sweet berries infused by the Rain.''
+| [[File:Clay.png|32px]] [[Clay]] <br /> [[File:SeaMarrow.png|32px]] [[Sea Marrow]] <br /> [[File:Stone.png|32px]] [[Stone]]
+| 
+| [[File:DebugNode ClaySmall icon.png|32px]] [[Clay Deposit]] <br /> [[File:DebugNode SeaMarrowSmall icon.png|32px]] [[Sea Marrow Deposit]] <br /> [[File:DebugNode StoneSmall icon.png|32px]] [[Stone Deposit]]
+| [[File:Stonecutter's Camp icon.png|96px]] [[Stonecutters' Camp]]({{2Star}})
+| 2
+| ''none''
+| [[File:Wood.png|32px]] 10 [[Wood]] <br /> [[File:Parts.png|32px]] 3 [[Parts]]
+| [[File:Wood.png|32px]] 15 [[Wood]] <br /> [[File:Parts.png|32px]] 5 [[Parts]]
 |-
-| [[File:DebugNode DewberryBushSmall icon.png|50px]] Dewberry Bush (small)
-| [[File:Berries.png|25px]] Berries (20%)
+| rowspan="2" | [[File:Meat.png|32px]] [[Meat]]<br /> <br /><br />[[File:Eggs.png|32px]] [[Eggs]]
+| 
+| [[File:DebugNode_LeechBroodmotherBig_icon.png|32px]] Leech Broodmother (<small>LARGE</small> and <small><small>SMALL</small></small>)<br /> [[File:DebugNode SnailBroodmotherBig icon.png|32px]][[Slickshell Broodmother]] (<small>LARGE</small> and <small><small>SMALL</small></small>)<br />[[File:DebugNode WormtongueNestBig icon.png|32px]] Wormtongue Nest (<small>LARGE</small> and <small><small>SMALL</small></small>) <br> <br /> [[File:DebugNode_SnakeNestBig_icon.png|32px]] [[Snake Nest]] (<small>LARGE</small> and <small><small>SMALL</small></small>)<br /> [[File:DebugNode StormbirdNestBig icon.png|32px]] [[Stormbird Nest]] (<small>LARGE</small> and <small><small>SMALL</small></small>)<br /> 
+| [[File:Trapper's Camp icon.png|96px]] [[Trappers' Camp ]]({{2Star}})
+| 2
+| rowspan="2" | [[File:Icon_Spec_Meat_64x64.png|16px]] [[Meat Production]]<br /> <br/>[[File:Lizard_circle.png|32px]] [[Lizard]]
+| [[File:Wood.png|32px]] 10 [[Wood]] <br /> [[File:Parts.png|32px]] 3 [[Parts]]
+| [[File:Wood.png|32px]] 15 [[Wood]] <br /> [[File:Parts.png|32px]] 5 [[Parts]]
 |-
-| [[File:DebugNode FlaxBig icon.png|50px]] Flax Field (big)
-| rowspan=2 | [[File:PlantFiber.png|30px]] Plant Fiber
-| [[File:Clay.png|25px]] Clay (20%)<br>[[File:Insects.png|25px]] Insects (20%)
-| rowspan=2 | [[File:Harvester Camp icon.png|25px]] Harvesters' Camp
-| rowspan=2 | Royal Woodlands<br>Cursed Royal Woodlands
-| rowspan=2 | ''Resilient plants perfect for cloth-making.''
-|-
-| [[File:DebugNode FlaxSmall icon.png|50px]] Flax Field (small)
-| [[File:Clay.png|25px]] Clay (20%)<br>[[File:Insects.png|25px]] Insects (20%)
-|-
-| [[File:DebugNode HerbsBig icon.png|50px]] Herb Node (big)
-| rowspan=2 | [[File:Herbs.png|30px]] Herbs
-| [[File:Berries.png|25px]] Berries (40%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (20%)
-| rowspan=2 | [[File:Herbalist's Camp icon.png|25px]] Herbalists' Camp
-| rowspan=2 | Coral Forest<br>Scarlet Orchard<br>Cursed Royal Woodlands
-| rowspan=2 | ''A dense shrub full of many useful plant species.''
-|-
-| [[File:DebugNode HerbsSmall icon.png|50px]] Herb Node (small)
-| [[File:Berries.png|25px]] Berries (20%)
-|-
-| [[File:DebugNode MossBroccoliBig icon.png|50px]] Moss Broccoli Patch (big)
-| rowspan=2 | [[File:Vegetables.png|30px]] Vegetables
-| [[File:Insects.png|25px]] Insects (40%)<br>[[File:Roots.png|25px]] Roots (20%)
-| rowspan=2 | [[File:Forager's Camp icon.png|25px]] Foragers' Camp
-| rowspan=2 | Coral Forest<br>Royal Woodlands<br>Cursed Royal Woodlands
-| rowspan=2 | ''An edible and tasty type of moss.''
-|-
-| [[File:DebugNode MossBroccoliSmall icon.png|50px]] Moss Broccoli Patch (small)
-| [[File:Insects.png|25px]] Insects (30%)
-|-
-| [[File:DebugNode ReedBig icon.png|50px]] Reed Field (big)
-| rowspan=2 | [[File:Reeds.png|30px]] Reeds
-| [[File:Clay.png|25px]] Clay (40%)<br>[[File:Roots.png|25px]] Roots (40%)
-| rowspan=2 | [[File:Harvester Camp icon.png|25px]] Harvesters' Camp
-| rowspan=2 | Coral Forest<br>Scarlet Orchard
-| rowspan=2 | ''A very common plant, it thrives thanks to the magical rain.''
-|-
-| [[File:DebugNode ReedSmall icon.png|50px]] Reed Field (small)
-| [[File:Clay.png|25px]] Clay (20%)<br>[[File:Roots.png|25px]] Roots (20%)
-|-
-| [[File:DebugNode RootsBig icon.png|50px]] Root Deposit (big)
-| rowspan=2 | [[File:Roots.png|30px]] Roots
-| [[File:Herbs.png|25px]] Herbs (30%)<br>[[File:Resin.png|25px]] Resin (30%)
-| rowspan=2 | [[File:Forager's Camp icon.png|25px]] Foragers' Camp
-| rowspan=2 | Royal Woodlands<br>Scarlet Orchard
-| rowspan=2 | ''A tangled net of living vines.''
-|-
-| [[File:DebugNode RootsSmall icon.png|50px]] Root Deposit (small)
-| [[File:Herbs.png|25px]] Herbs (20%)
-|-
-| [[File:DebugNode SeaMarrowBig icon.png|50px]] Sea Marrow Deposit (big)
-| rowspan=2 | [[File:SeaMarrow.png|30px]] Sea Marrow
-| [[File:SeaMarrow.png|25px]] Sea Marrow (100%)<br>[[File:Stone.png|25px]] Stone (50%)<br>[[File:AncientTablet.png|25px]] Ancient Tablet (1%)
-| rowspan=2 | [[File:Stonecutter's Camp icon.png|25px]] Stonecutters' Camp
-| rowspan=2 | Royal Woodlands<br>Scarlet Orchard<br>Cursed Royal Woodlands
-| rowspan=2 | ''Ancient fossils rich in resources.''
-|-
-| [[File:DebugNode SeaMarrowSmall icon.png|50px]] Sea Marrow Deposit (small)
-| [[File:SeaMarrow.png|25px]] Sea Marrow (80%)<br>[[File:Stone.png|25px]] Stone (40%)
-|-
-| [[File:DebugNode SnailBroodmotherBig icon.png|50px]] Slickshell Broodmother (big)
-| rowspan=2 | [[File:Meat.png|30px]] Meat
-| [[File:Leather.png|25px]] Leather (100%)
-| rowspan=2 | [[File:Trapper's Camp icon.png|25px]] Trappers' Camp
-| rowspan=2 | Royal Woodlands<br>The Marshlands<br>Coral Forest
-| rowspan=2 | ''Small Slickshells are crawling out of the openings in the broodmother's shell. It's easy to collect them.''
-|-
-| [[File:DebugNode SnailBroodmotherSmall icon.png|50px]] Slickshell Broodmother (small)
-| [[File:Leather.png|25px]] Leather (20%)
-|-
-| [[File:DebugNode StoneBig icon.png|50px]] Stone Deposit (big)
-| rowspan=2 | [[File:Stone.png|30px]] Stone
-| [[File:Insects.png|25px]] Insects (30%)<br>[[File:Roots.png|25px]] Roots (30%)<br>[[File:CopperOre.png|25px]] Copper Ore (10%)
-| rowspan=2 | [[File:Stonecutter's Camp icon.png|25px]] Stonecutters' Camp
-| rowspan=2 | Coral Forest<br>Scarlet Orchard<br>The Marshlands
-| rowspan=2 | ''Stones weathered by the everlasting rain.''
-|-
-| [[File:DebugNode StoneSmall icon.png|50px]] Stone Deposit (small)
-| [[File:Insects.png|25px]] Insects (20%)<br>[[File:Roots.png|25px]] Roots (20%)
-|-
-| [[File:DebugNode StormbirdNestBig icon.png|50px]] Stormbird Nest (big)
-| rowspan=4 | [[File:Eggs.png|30px]] Eggs
-| [[File:Meat.png|25px]] Meat (40%)
-| rowspan=2 | <br>[[File:Trapper's Camp icon.png|25px]] Trappers' Camp
-| rowspan=2 | Royal Woodlands<br>Scarlet Orchard<br>The Marshlands
-| rowspan=2 | ''An abandoned nest. Let's hope the owner doesn't come back...''
-|-
-| [[File:DebugNode StormbirdNestSmall icon.png|50px]] Stormbird Nest (small)
-| [[File:Meat.png|25px]] Meat (20%)
-|-
-| [[File:DebugNode SnakeNestBig icon.png|50px]] Snake Nest (big)
-| [[File:Leather.png|25px]] Leather (40%)<br>[[File:Meat.png|25px]] Meat (20%)
-| rowspan=2 | [[File:Trapper's Camp icon.png|25px]] Trappers' Camp
-| rowspan=2 | Royal Woodlands<br>Scarlet Orchard<br>The Marshlands
-| rowspan=2 | ''An abandoned nest. Let's hope the owner doesn't come back...''
-|-
-| [[File:DebugNode SnakeNestSmall icon.png|50px]] Snake Nest (small)
-| [[File:Leather.png|25px]] Leather (20%)
-|-
-| [[File:DebugNode SwampWheatBig icon.png|50px]] Swamp Wheat Field (big)
-| rowspan=2 | [[File:Grain.png|30px]] Grain
-| [[File:PlantFiber.png|25px]] Plant Fiber (100%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (20%)
-| rowspan=2 | [[File:Forager's Camp icon.png|25px]] Foragers' Camp
-| rowspan=2 | Scarlet Orchard<br>The Marshlands<br>Cursed Royal Woodlands
-| rowspan=2 | ''A plant species at home in the swamp.''
-|-
-| [[File:DebugNode SwampWheatSmall icon.png|50px]] Swamp Wheat Field (small)
-| [[File:PlantFiber.png|25px]] Plant Fiber (20%)
-|-
-| [[File:DebugNode WormtongueNestBig icon.png|50px]] Wormtongue Nest (big)
-| rowspan=2 | [[File:Insects.png|30px]] Insects
-| [[File:Insects.png|25px]] Insects (60%)
-| rowspan=2 | <br>[[File:Trapper's Camp icon.png|25px]] Trappers' Camp
-| rowspan=2 | Coral Forest<br>Cursed Royal Woodlands
-| rowspan=2 | ''A nest full of tasty Wormtongues.''
-|-
-| [[File:DebugNode WormtongueNestSmall icon.png|50px]] Wormtongue Nest (small)
-| [[File:Insects.png|25px]] Insects (20%)
+| 
+| [[File:DebugNode_LeechBroodmotherSmall_icon.png|32px]] Leech Broodmother (<small>SMALL</small>)<br /> [[File:DebugNode SnailBroodmotherSmall icon.png|32px]][[Slickshell Broodmother]] (<small>SMALL</small>)<br/>[[File:DebugNode WormtongueNestSmall icon.png|32px]] Wormtongue Nest (<small>SMALL</small>) <br> <br /> [[File:DebugNode_SnakeNestSmall_icon.png|32px]] [[Snake Nest]] (<small>SMALL</small>)<br /> [[File:DebugNode StormbirdNestSmall icon.png|32px]] [[Stormbird Nest]] (<small>SMALL</small>)<br /> 
+| [[File:Small_Trappers'_Camp_icon.png|96px]] [[Small Trappers' Camp ]]({{1Star}})
+| 2
+| [[File:Wood.png|32px]] 10 [[Wood]] <br /> [[File:Parts.png|32px]] 3 [[Parts]]
+| [[File:Wood.png|32px]] 15 [[Wood]] <br /> [[File:Parts.png|32px]] 5 [[Parts]]
 |}
 
 == Farming ==
@@ -285,7 +224,7 @@ Each deposit has a number of Charges, representing the amount of times it can be
 | [[File:Icon Spec Farm 64x64.png|16px]] [[Farming]]
 | [[File:Planks.png|32px]] 2 [[Planks]]
 |-
-| [[Forester's Hut]]
+| [[File:Grove icon.png|96px]][[Forester's Hut]]
 | From nearby [[File:Farmfield_icon.png|32px]] [[Farm Field]]s: <br /> [[File:Resin.png|32px]] [[Resin]] ({{2Star}}) <br /> [[File:CrystalizedDew.png|32px]] [[Crystalized Dew]] ({{2Star}})
 | 4
 | [[File:Icon Spec Wood 64x64.png|16px]] [[Wood]]

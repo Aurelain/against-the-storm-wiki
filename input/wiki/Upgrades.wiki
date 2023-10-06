@@ -1,0 +1,285 @@
+The Scorched Queen has decided that the Smoldering City requires 7 new great work projects: the Obsidian Archives, the Monastery of the Vigilant Flame, the Pioneers' Gate, the First Dawn Headquarters, the Dim Square, the Brass Forge, and the Vanguard Spire.
+
+From the Upgrades tab of the Smoldering City, you can spend [[Resources#Citadel Resources | Citadel Resources]] ([[File:Icon MetaResource FoodStockpiles.png|16px]] Food Stockpiles, [[File:Icon MetaResource Machinery.png|16px]] Machinery and [[File:Icon MetaResource Artifact.png|16px]] Artifacts) to construct and upgrade these great works.  Each great work improves your Settlements' chances for survival in a particular way, and certain upgrade levels will unlock new game features.
+
+== Overview ==
+Each level of the great works grants:
+* '''Obsidian Archives''' - Queen's Patience: -2% to the speed at which the Queen's Impatience grows per upgrade level (max. -36%)
+* '''Monastery of the Vigilant Flame''' - Everlasting Flames: -2% to burning duration for all fuels burned in the Hearth per upgrade level (max. -24%)
+* '''Pioneers' Gate''' - Villager Speed Increase: +2% increase to Villager walking speed per upgrade level (max. +24%)
+* '''First Dawn Headquarters''' - Unforeseen Riches: +1% boost to the chance of obtaining bonus production yields per upgrade level (max. +11%)
+* '''Dim Square''' - Quicker Trader Arrival: +3% bonus to trader arrival speed per upgrade level (max. +30%)
+* '''Brass Forge''' - Production Speed Increase: +2% boost to global production speed per upgrade level (max. +22%)
+* '''Vanguard Spire''' - Gathering Technique: +1 available charge to all resource deposits per upgrade level (max. +11)
+
+Other rewards include:
+* '''Obsidian Archives''' - increases the Citadel Resource rewards for completing a Settlement, and unlocks many new game features such as Consumption Control, Rainpunk Engines, rival Viceroys, [[Royal Expeditions]], [[Timed Orders]], [[Training Expeditions]]
+* '''Monastery of the Vigilant Flame''' - increases your [[Cornerstone]] pool and reroll chances
+* '''Pioneers' Gate''' - increases your Embarkation points, and extends the vision of your Settlements and your Embarkation range
+* '''First Dawn Headquarters''' - adds new Embarkation choices and increases your Embarkation points
+* '''Dim Square''' - allows and increases the number of [[Trade Routes]], and improves the cost and availability of [[Perks]]/Blueprints from [[Traders]]
+* '''Brass Forge''' - allows [[Hearth]] upgrades, and increases worker and building capacities
+* '''Vanguard Spire''' - adds race-specific [[Housing]] to your [[Essential Buildings]] and improves your Caravan choices and Newcomers
+
+== List of Upgrades ==
+{| class="wikitable sortable"
+!Upgrade!!Level!!Cost!!Total cost!!Reward!!Total bonus
+|-style="background:#C8E6C9"
+|Brass Forge 01||04||[[File:Icon MetaResource FoodStockpiles.png|24px]] 24||[[File:Icon MetaResource FoodStockpiles.png|24px]] 24||<span title="You can upgrade your Hearths to the Neighborhood level.">🛈 Fundamental Upgrade</span>: Hearth Upgrade - Neighborhood||+2% production speed
+
+|-style="background:#C8E6C9"
+|Brass Forge 02||05||[[File:Icon MetaResource FoodStockpiles.png|24px]] 30 + [[File:Icon MetaResource Artifact.png|24px]] 6||[[File:Icon MetaResource FoodStockpiles.png|24px]] 54 + [[File:Icon MetaResource Artifact.png|24px]] 6||<span title="Every settlement starts with additional resources: 5 Planks.">🛈 Embarkation Goods</span>: [[File:Planks.png|24px]] 5 [[Planks]]||+4% production speed
+
+|-style="background:#C8E6C9"
+|Brass Forge 03||07||[[File:Icon MetaResource FoodStockpiles.png|24px]] 48 + [[File:Icon MetaResource Machinery.png|24px]] 6||[[File:Icon MetaResource FoodStockpiles.png|24px]] 102 + [[File:Icon MetaResource Machinery.png|24px]] 6 + [[File:Icon MetaResource Artifact.png|24px]] 6||<span title="You can upgrade Hearths to the District level.">🛈 Fundamental Upgrade</span>: Hearth Upgrade - District||+6% production speed
+
+|-style="background:#C8E6C9"
+|Brass Forge 04||08||[[File:Icon MetaResource FoodStockpiles.png|24px]] 48 + [[File:Icon MetaResource Machinery.png|24px]] 12 + [[File:Icon MetaResource Artifact.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 150 + [[File:Icon MetaResource Machinery.png|24px]] 18 + [[File:Icon MetaResource Artifact.png|24px]] 18||<span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Planks">🛈 Embarkation</span>: [[File:Planks.png|24px]] 10 [[Planks]]<br/><span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Bricks">🛈 Embarkation</span>: [[File:Bricks.png|24px]] 10 [[Bricks]]<br/><span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Fabric">🛈 Embarkation</span>: [[File:Fabric.png|24px]] 10 [[Fabric]]||+8% production speed
+
+|-style="background:#C8E6C9"
+|Brass Forge 05||09||[[File:Icon MetaResource FoodStockpiles.png|24px]] 60 + [[File:Icon MetaResource Machinery.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 210 + [[File:Icon MetaResource Machinery.png|24px]] 30 + [[File:Icon MetaResource Artifact.png|24px]] 18||<span title="Unlocks the Starting Ability of the species: Beavers. Extends available trade offers by {0} in each neighboring town. Starting Abilities are applied immediately after a species joins your town for the first time.">🛈 Starting Ability</span>: Beavers||+10% production speed
+
+|-style="background:#C8E6C9"
+|Brass Forge 06||11||[[File:Icon MetaResource FoodStockpiles.png|24px]] 72 + [[File:Icon MetaResource Artifact.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 282 + [[File:Icon MetaResource Machinery.png|24px]] 30 + [[File:Icon MetaResource Artifact.png|24px]] 30||<span title="You can set up trade routes with Brass Order representatives in the Smoldering City.">🛈 Faction</span>: Brass Order||+12% production speed
+
+|-style="background:#C8E6C9"
+|Brass Forge 07||12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 84||[[File:Icon MetaResource FoodStockpiles.png|24px]] 366 + [[File:Icon MetaResource Machinery.png|24px]] 30 + [[File:Icon MetaResource Artifact.png|24px]] 30||<span title="You gain a permanent +5 to the storage capacity of all buildings in your settlement.">🛈 Building Storage</span>: +5||+14% production speed
+
+|-style="background:#C8E6C9"
+|Brass Forge 08||14||[[File:Icon MetaResource FoodStockpiles.png|24px]] 108||[[File:Icon MetaResource FoodStockpiles.png|24px]] 474 + [[File:Icon MetaResource Machinery.png|24px]] 30 + [[File:Icon MetaResource Artifact.png|24px]] 30||<span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Parts">🛈 Embarkation</span>: [[File:Parts.png|24px]] 5 [[Parts]]||+16% production speed
+
+|-style="background:#C8E6C9"
+|Brass Forge 09||15||[[File:Icon MetaResource FoodStockpiles.png|24px]] 120 + [[File:Icon MetaResource Machinery.png|24px]] 30||[[File:Icon MetaResource FoodStockpiles.png|24px]] 594 + [[File:Icon MetaResource Machinery.png|24px]] 60 + [[File:Icon MetaResource Artifact.png|24px]] 30||<span title="Every worker in your settlement gets a permanent +1 to their carry capacity.">🛈 Worker Capacity</span>: +1||+18% production speed
+
+|-style="background:#C8E6C9"
+|Brass Forge 10||17||[[File:Icon MetaResource FoodStockpiles.png|24px]] 132||[[File:Icon MetaResource FoodStockpiles.png|24px]] 726 + [[File:Icon MetaResource Machinery.png|24px]] 60 + [[File:Icon MetaResource Artifact.png|24px]] 30||<span title="You gain a permanent +5 to the storage capacity of all buildings in your settlement.">🛈 Building Storage</span>: +5||+20% production speed
+
+|-style="background:#C8E6C9"
+|Brass Forge 11||18||[[File:Icon MetaResource FoodStockpiles.png|24px]] 156 + [[File:Icon MetaResource Machinery.png|24px]] 40||[[File:Icon MetaResource FoodStockpiles.png|24px]] 882 + [[File:Icon MetaResource Machinery.png|24px]] 100 + [[File:Icon MetaResource Artifact.png|24px]] 30||<span title="Unlocks the ability to upgrade Beaver Houses.">🛈 House Upgrades</span>: Beavers||+22% production speed
+
+|-style="background:#F9D9DE"
+|Dim Square 01||04||[[File:Icon MetaResource FoodStockpiles.png|24px]] 24||[[File:Icon MetaResource FoodStockpiles.png|24px]] 24||<span title="Allows you to establish trade routes with other nearby settlements.">🛈 Fundamental Upgrade</span>: Trade Routes||+3% trader arrival speed
+
+|-style="background:#F9D9DE"
+|Dim Square 02||06||[[File:Icon MetaResource FoodStockpiles.png|24px]] 36||[[File:Icon MetaResource FoodStockpiles.png|24px]] 60||<span title="All traders will have +1 cornerstone or blueprint for sale.">🛈 Additional Wares</span>: +1||+6% trader arrival speed
+
+|-style="background:#F9D9DE"
+|Dim Square 03||07||[[File:Icon MetaResource FoodStockpiles.png|24px]] 36 + [[File:Icon MetaResource Artifact.png|24px]] 6||[[File:Icon MetaResource FoodStockpiles.png|24px]] 96 + [[File:Icon MetaResource Artifact.png|24px]] 6||<span title="You gain a permanent discount of 10% on perks and blueprints sold by traders.">🛈 Lower Prices</span>: +10%||+9% trader arrival speed
+
+|-style="background:#F9D9DE"
+|Dim Square 04||09||[[File:Icon MetaResource FoodStockpiles.png|24px]] 60 + [[File:Icon MetaResource Artifact.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 156 + [[File:Icon MetaResource Artifact.png|24px]] 18||<span title="You gain a permanent +1 to the number of trade routes you can have active at once.">🛈 Trade Route Limit</span>: +1||+12% trader arrival speed
+
+|-style="background:#F9D9DE"
+|Dim Square 05||10||[[File:Icon MetaResource FoodStockpiles.png|24px]] 60||[[File:Icon MetaResource FoodStockpiles.png|24px]] 216 + [[File:Icon MetaResource Artifact.png|24px]] 18||<span title="You gain a permanent discount of 10% on perks and blueprints sold by traders.">🛈 Lower Prices</span>: +10%||+15% trader arrival speed
+
+|-style="background:#F9D9DE"
+|Dim Square 06||11||[[File:Icon MetaResource FoodStockpiles.png|24px]] 72 + [[File:Icon MetaResource Machinery.png|24px]] 12 + [[File:Icon MetaResource Artifact.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 288 + [[File:Icon MetaResource Machinery.png|24px]] 12 + [[File:Icon MetaResource Artifact.png|24px]] 30||<span title="Embarkation Bonuses you choose before starting a new settlement have 20% more resources.">🛈 Embarkation Goods</span>: +20%||+18% trader arrival speed
+
+|-style="background:#F9D9DE"
+|Dim Square 07||13||[[File:Icon MetaResource FoodStockpiles.png|24px]] 96 + [[File:Icon MetaResource Machinery.png|24px]] 18||[[File:Icon MetaResource FoodStockpiles.png|24px]] 384 + [[File:Icon MetaResource Machinery.png|24px]] 30 + [[File:Icon MetaResource Artifact.png|24px]] 30||<span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Amber">🛈 Embarkation</span>: [[File:Amber.png|24px]] 20 [[Amber]]||+21% trader arrival speed
+
+|-style="background:#F9D9DE"
+|Dim Square 08||14||[[File:Icon MetaResource FoodStockpiles.png|24px]] 108 + [[File:Icon MetaResource Artifact.png|24px]] 24||[[File:Icon MetaResource FoodStockpiles.png|24px]] 492 + [[File:Icon MetaResource Machinery.png|24px]] 30 + [[File:Icon MetaResource Artifact.png|24px]] 54||<span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Pack of Provisions">🛈 Embarkation</span>: [[File:Provisions.png|24px]] 15 [[Pack of Provisions]]||+24% trader arrival speed
+
+|-style="background:#F9D9DE"
+|Dim Square 09||15||[[File:Icon MetaResource FoodStockpiles.png|24px]] 120 + [[File:Icon MetaResource Artifact.png|24px]] 30||[[File:Icon MetaResource FoodStockpiles.png|24px]] 612 + [[File:Icon MetaResource Machinery.png|24px]] 30 + [[File:Icon MetaResource Artifact.png|24px]] 84||<span title="You gain a permanent discount of 10% on perks and blueprints sold by traders.">🛈 Lower Prices</span>: +10%||+27% trader arrival speed
+
+|-style="background:#F9D9DE"
+|Dim Square 10||16||[[File:Icon MetaResource FoodStockpiles.png|24px]] 132||[[File:Icon MetaResource FoodStockpiles.png|24px]] 744 + [[File:Icon MetaResource Machinery.png|24px]] 30 + [[File:Icon MetaResource Artifact.png|24px]] 84||<span title="All traders will have +1 cornerstone or blueprint for sale.">🛈 Additional Wares</span>: +1||+30% trader arrival speed
+
+|-style="background:#D0ECEC"
+|First Dawn Headquarters 01||03||[[File:Icon MetaResource FoodStockpiles.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 12||<span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Newcomers">🛈 Embarkation</span>: [[File:Newcomers.png|24px]] [[Newcomers]]||+1% chance for bonus production
+
+|-style="background:#D0ECEC"
+|First Dawn Headquarters 02||04||[[File:Icon MetaResource FoodStockpiles.png|24px]] 24||[[File:Icon MetaResource FoodStockpiles.png|24px]] 36||<span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Vegetables">🛈 Embarkation</span>: [[File:Vegetables.png|24px]] 30 [[Vegetables]]<br/><span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Meat">🛈 Embarkation</span>: [[File:Meat.png|24px]] 30 [[Meat]]||+2% chance for bonus production
+
+|-style="background:#D0ECEC"
+|First Dawn Headquarters 03||06||[[File:Icon MetaResource FoodStockpiles.png|24px]] 36||[[File:Icon MetaResource FoodStockpiles.png|24px]] 72||<span title="Every settlement starts with additional resources: 5 Bricks.">🛈 Embarkation Goods</span>: [[File:Bricks.png|24px]] 5 [[Bricks]]||+3% chance for bonus production
+
+|-style="background:#D0ECEC"
+|First Dawn Headquarters 04||08||[[File:Icon MetaResource FoodStockpiles.png|24px]] 48||[[File:Icon MetaResource FoodStockpiles.png|24px]] 120||<span title="You can set up trade routes with First Dawn representatives in the Smoldering City.">🛈 Faction</span>: First Dawn Company||+4% chance for bonus production
+
+|-style="background:#D0ECEC"
+|First Dawn Headquarters 05||09||[[File:Icon MetaResource FoodStockpiles.png|24px]] 60||[[File:Icon MetaResource FoodStockpiles.png|24px]] 180||<span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Herbalists' Camp">🛈 Embarkation</span>: [[File:Herbalist%27s_Camp_icon.png|24px]] [[Herbalists' Camp]]||+5% chance for bonus production
+
+|-style="background:#D0ECEC"
+|First Dawn Headquarters 06||10||[[File:Icon MetaResource FoodStockpiles.png|24px]] 60 + [[File:Icon MetaResource Machinery.png|24px]] 12 + [[File:Icon MetaResource Artifact.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 240 + [[File:Icon MetaResource Machinery.png|24px]] 12 + [[File:Icon MetaResource Artifact.png|24px]] 12||<span title="Unlocks the Starting Ability of the species: Humans. Reveals the location of {0} of the nearest patches of fertile soil. Starting Abilities are applied immediately after a species joins your town for the first time.">🛈 Starting Ability</span>: Humans||+6% chance for bonus production
+
+|-style="background:#D0ECEC"
+|First Dawn Headquarters 07||12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 84||[[File:Icon MetaResource FoodStockpiles.png|24px]] 324 + [[File:Icon MetaResource Machinery.png|24px]] 12 + [[File:Icon MetaResource Artifact.png|24px]] 12||<span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Small Farm">🛈 Embarkation</span>: [[File:SmallFarm_icon.png|24px]] [[Small Farm]]||+7% chance for bonus production
+
+|-style="background:#D0ECEC"
+|First Dawn Headquarters 08||13||[[File:Icon MetaResource FoodStockpiles.png|24px]] 96 + [[File:Icon MetaResource Artifact.png|24px]] 18||[[File:Icon MetaResource FoodStockpiles.png|24px]] 420 + [[File:Icon MetaResource Machinery.png|24px]] 12 + [[File:Icon MetaResource Artifact.png|24px]] 30||<span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Plantation">🛈 Embarkation</span>: [[File:Plantation_icon.png|24px]] [[Plantation]]||+8% chance for bonus production
+
+|-style="background:#D0ECEC"
+|First Dawn Headquarters 09||14||[[File:Icon MetaResource FoodStockpiles.png|24px]] 108 + [[File:Icon MetaResource Machinery.png|24px]] 24 + [[File:Icon MetaResource Artifact.png|24px]] 24||[[File:Icon MetaResource FoodStockpiles.png|24px]] 528 + [[File:Icon MetaResource Machinery.png|24px]] 36 + [[File:Icon MetaResource Artifact.png|24px]] 54||<span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Herb Garden">🛈 Embarkation</span>: [[File:HerbGarden_icon.png|24px]] [[Herb Garden]]||+9% chance for bonus production
+
+|-style="background:#D0ECEC"
+|First Dawn Headquarters 10||17||[[File:Icon MetaResource FoodStockpiles.png|24px]] 144||[[File:Icon MetaResource FoodStockpiles.png|24px]] 672 + [[File:Icon MetaResource Machinery.png|24px]] 36 + [[File:Icon MetaResource Artifact.png|24px]] 54||<span title="Unlocks the ability to upgrade Human Houses.">🛈 House Upgrades</span>: Humans||+10% chance for bonus production
+
+|-style="background:#D0ECEC"
+|First Dawn Headquarters 11||18||[[File:Icon MetaResource FoodStockpiles.png|24px]] 156 + [[File:Icon MetaResource Machinery.png|24px]] 40||[[File:Icon MetaResource FoodStockpiles.png|24px]] 828 + [[File:Icon MetaResource Machinery.png|24px]] 76 + [[File:Icon MetaResource Artifact.png|24px]] 54||<span title="All your farms have their range increased by 1 tile.">🛈 Farm Range</span>: +1||+11% chance for bonus production
+
+|-style="background:#E6E6FA"
+|Monastery of the Vigilant Flame 01||02||[[File:Icon MetaResource FoodStockpiles.png|24px]] 10||[[File:Icon MetaResource FoodStockpiles.png|24px]] 10||<span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Stone">🛈 Embarkation</span>: [[File:Stone.png|24px]] 30 [[Stone]]<br/><span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Clay">🛈 Embarkation</span>: [[File:Clay.png|24px]] 30 [[Clay]]||-2% burning duration
+
+|-style="background:#E6E6FA"
+|Monastery of the Vigilant Flame 02||03||[[File:Icon MetaResource FoodStockpiles.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 22||<span title="You have one additional option to choose from when picking cornerstones at the beginning of each year.">🛈 Cornerstone Pool Increase</span>: +1||-4% burning duration
+
+|-style="background:#E6E6FA"
+|Monastery of the Vigilant Flame 03||05||[[File:Icon MetaResource FoodStockpiles.png|24px]] 24 + [[File:Icon MetaResource Machinery.png|24px]] 3||[[File:Icon MetaResource FoodStockpiles.png|24px]] 46 + [[File:Icon MetaResource Machinery.png|24px]] 3||<span title="You gain +1 cornerstone reroll charge per settlement.">🛈 Cornerstone Reroll</span>: +1||-6% burning duration
+
+|-style="background:#E6E6FA"
+|Monastery of the Vigilant Flame 04||06||[[File:Icon MetaResource FoodStockpiles.png|24px]] 24 + [[File:Icon MetaResource Artifact.png|24px]] 6||[[File:Icon MetaResource FoodStockpiles.png|24px]] 70 + [[File:Icon MetaResource Machinery.png|24px]] 3 + [[File:Icon MetaResource Artifact.png|24px]] 6||<span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Coal">🛈 Embarkation</span>: [[File:Coal.png|24px]] 30 [[Coal]]<br/><span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Oil">🛈 Embarkation</span>: [[File:Oil.png|24px]] 30 [[Oil]]||-8% burning duration
+
+|-style="background:#E6E6FA"
+|Monastery of the Vigilant Flame 05||08||[[File:Icon MetaResource FoodStockpiles.png|24px]] 48||[[File:Icon MetaResource FoodStockpiles.png|24px]] 118 + [[File:Icon MetaResource Machinery.png|24px]] 3 + [[File:Icon MetaResource Artifact.png|24px]] 6||<span title="Unlocks the Starting Ability of the species: Lizards. Gain {1} {0}. Starting Abilities are applied immediately after a species joins your town for the first time.">🛈 Starting Ability</span>: Lizards||-10% burning duration
+
+|-style="background:#E6E6FA"
+|Monastery of the Vigilant Flame 06||10||[[File:Icon MetaResource FoodStockpiles.png|24px]] 60 + [[File:Icon MetaResource Machinery.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 178 + [[File:Icon MetaResource Machinery.png|24px]] 15 + [[File:Icon MetaResource Artifact.png|24px]] 6||<span title="You have one additional option to choose from when picking cornerstones at the beginning of each year.">🛈 Cornerstone Pool Increase</span>: +1||-12% burning duration
+
+|-style="background:#E6E6FA"
+|Monastery of the Vigilant Flame 07||11||[[File:Icon MetaResource FoodStockpiles.png|24px]] 72 + [[File:Icon MetaResource Machinery.png|24px]] 12 + [[File:Icon MetaResource Artifact.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 250 + [[File:Icon MetaResource Machinery.png|24px]] 27 + [[File:Icon MetaResource Artifact.png|24px]] 18||<span title="Resources sacrificed in the Ancient Hearth burn 10% longer.">🛈 Sacrifice Cost Decrease</span>: +10%||-14% burning duration
+
+|-style="background:#E6E6FA"
+|Monastery of the Vigilant Flame 08||12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 84 + [[File:Icon MetaResource Machinery.png|24px]] 12 + [[File:Icon MetaResource Artifact.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 334 + [[File:Icon MetaResource Machinery.png|24px]] 39 + [[File:Icon MetaResource Artifact.png|24px]] 30||<span title="You gain +1 cornerstone reroll charge per settlement.">🛈 Cornerstone Reroll</span>: +1||-16% burning duration
+
+|-style="background:#E6E6FA"
+|Monastery of the Vigilant Flame 09||13||[[File:Icon MetaResource FoodStockpiles.png|24px]] 96||[[File:Icon MetaResource FoodStockpiles.png|24px]] 430 + [[File:Icon MetaResource Machinery.png|24px]] 39 + [[File:Icon MetaResource Artifact.png|24px]] 30||<span title="Every settlement starts with additional resources: 5 Fabric.">🛈 Embarkation Goods</span>: [[File:Fabric.png|24px]] 5 [[Fabric]]||-18% burning duration
+
+|-style="background:#E6E6FA"
+|Monastery of the Vigilant Flame 10||16||[[File:Icon MetaResource FoodStockpiles.png|24px]] 132 + [[File:Icon MetaResource Machinery.png|24px]] 30||[[File:Icon MetaResource FoodStockpiles.png|24px]] 562 + [[File:Icon MetaResource Machinery.png|24px]] 69 + [[File:Icon MetaResource Artifact.png|24px]] 30||<span title="You gain +1 cornerstone reroll charge per settlement.">🛈 Cornerstone Reroll</span>: +1||-20% burning duration
+
+|-style="background:#E6E6FA"
+|Monastery of the Vigilant Flame 11||17||[[File:Icon MetaResource FoodStockpiles.png|24px]] 144||[[File:Icon MetaResource FoodStockpiles.png|24px]] 706 + [[File:Icon MetaResource Machinery.png|24px]] 69 + [[File:Icon MetaResource Artifact.png|24px]] 30||<span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Scroll Delivery Line">🛈 Embarkation</span>: [[File:Scrolls.png|24px]] [[Scroll Delivery Line]]<br/><span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Incense Delivery Line">🛈 Embarkation</span>: [[File:Incense.png|24px]] [[Incense Delivery Line]]||-22% burning duration
+
+|-style="background:#E6E6FA"
+|Monastery of the Vigilant Flame 12||18||[[File:Icon MetaResource FoodStockpiles.png|24px]] 156 + [[File:Icon MetaResource Artifact.png|24px]] 40||[[File:Icon MetaResource FoodStockpiles.png|24px]] 862 + [[File:Icon MetaResource Machinery.png|24px]] 69 + [[File:Icon MetaResource Artifact.png|24px]] 70||<span title="Unlocks the ability to upgrade Lizard Houses.">🛈 House Upgrades</span>: Lizards||-24% burning duration
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 01||01||[[File:Icon MetaResource FoodStockpiles.png|24px]] 10||[[File:Icon MetaResource FoodStockpiles.png|24px]] 10||<span title="A place where records about great viceroys are kept. Unlocks Deeds.">🛈 Fundamental Upgrade</span>: Obsidian Archive||-2% impatience growth speed
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 02||02||[[File:Icon MetaResource FoodStockpiles.png|24px]] 10||[[File:Icon MetaResource FoodStockpiles.png|24px]] 20||<span title="You gain +10% more Citadel Resources whenever you finish a settlement.">🛈 Citadel Resource Modifier</span>: +10%||-4% impatience growth speed
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 03||03||[[File:Icon MetaResource FoodStockpiles.png|24px]] 18||[[File:Icon MetaResource FoodStockpiles.png|24px]] 38||<span title="Enables advanced controls for what is being consumed in your settlement (and by whom).">🛈 Fundamental Upgrade</span>: Consumption Control||-6% impatience growth speed
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 04||04||[[File:Icon MetaResource FoodStockpiles.png|24px]] 24||[[File:Icon MetaResource FoodStockpiles.png|24px]] 62||<span title="You have one additional option to choose from when choosing blueprints as a Reputation reward.">🛈 Reputation Picks Pool Increase</span>: +1||-8% impatience growth speed
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 05||05||[[File:Icon MetaResource FoodStockpiles.png|24px]] 30||[[File:Icon MetaResource FoodStockpiles.png|24px]] 92||<span title="Allows you to pay Amber to reroll blueprints offered as Reputation bonuses.">🛈 Fundamental Upgrade</span>: Blueprint Reroll||-10% impatience growth speed
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 06||06||[[File:Icon MetaResource FoodStockpiles.png|24px]] 36||[[File:Icon MetaResource FoodStockpiles.png|24px]] 128||<span title="You can extract infused rainwater from geysers located in glades, and use it to power Rain Engines in production buildings to boost their performance.">🛈 Fundamental Upgrade</span>: Rainpunk Engines<br/><span title="Every settlement starts with additional resources: 10 Pipes.">🛈 Embarkation Goods</span>: [[File:Pipes.png|24px]] 10 [[Pipes]]||-12% impatience growth speed
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 07||07||[[File:Icon MetaResource FoodStockpiles.png|24px]] 36||[[File:Icon MetaResource FoodStockpiles.png|24px]] 164||<span title="You gain +10% more Citadel Resources whenever you finish a settlement.">🛈 Citadel Resource Modifier</span>: +10%||-14% impatience growth speed
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 08||08||[[File:Icon MetaResource FoodStockpiles.png|24px]] 48||[[File:Icon MetaResource FoodStockpiles.png|24px]] 212||<span title="To challenge yourself and improve your skills, you can embark on a Training Expedition. You can choose any set of starting conditions, but Training Expeditions yield no rewards, don't count towards Deeds, and won't progress the Blightstorm Cycle.">🛈 Fundamental Upgrade</span>: Training Expedition||-16% impatience growth speed
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 09||09||[[File:Icon MetaResource FoodStockpiles.png|24px]] 60 + [[File:Icon MetaResource Artifact.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 272 + [[File:Icon MetaResource Artifact.png|24px]] 12||<span title="Unlocks a pool of difficult, time-sensitive, and highly rewarding orders. They will randomly appear in some order packages from the Queen's Envoy.">🛈 Fundamental Upgrade</span>: Timed Orders||-18% impatience growth speed
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 10||10||[[File:Icon MetaResource FoodStockpiles.png|24px]] 60||[[File:Icon MetaResource FoodStockpiles.png|24px]] 332 + [[File:Icon MetaResource Artifact.png|24px]] 12||<span title="Once per day, you can join the Royal Expedition and venture into the strangest of lands, where the Ancient Seals are broken and reality has been distorted.">🛈 Fundamental Upgrade</span>: Daily Expedition||-20% impatience growth speed
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 11||11||[[File:Icon MetaResource FoodStockpiles.png|24px]] 72 + [[File:Icon MetaResource Machinery.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 404 + [[File:Icon MetaResource Machinery.png|24px]] 12 + [[File:Icon MetaResource Artifact.png|24px]] 12||<span title="Adds a blueprint to your pool of essential buildings: Field Kitchen. Can produce: {0}. Can use: {1}.">🛈 Building</span>: [[Field Kitchen]]||-22% impatience growth speed
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 12||12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 84||[[File:Icon MetaResource FoodStockpiles.png|24px]] 488 + [[File:Icon MetaResource Machinery.png|24px]] 12 + [[File:Icon MetaResource Artifact.png|24px]] 12||<span title="You have one additional caravan to choose from when embarking on your next run.">🛈 Caravan Slot</span>: -0||-24% impatience growth speed
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 13||13||[[File:Icon MetaResource FoodStockpiles.png|24px]] 96 + [[File:Icon MetaResource Machinery.png|24px]] 18 + [[File:Icon MetaResource Artifact.png|24px]] 18||[[File:Icon MetaResource FoodStockpiles.png|24px]] 584 + [[File:Icon MetaResource Machinery.png|24px]] 30 + [[File:Icon MetaResource Artifact.png|24px]] 30||<span title="You gain +10% more Citadel Resources whenever you finish a settlement.">🛈 Citadel Resource Modifier</span>: +10%||-26% impatience growth speed
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 14||14||[[File:Icon MetaResource FoodStockpiles.png|24px]] 108||[[File:Icon MetaResource FoodStockpiles.png|24px]] 692 + [[File:Icon MetaResource Machinery.png|24px]] 30 + [[File:Icon MetaResource Artifact.png|24px]] 30||<span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Foragers' Camp">🛈 Embarkation</span>: [[File:Forager%27s_Camp_icon.png|24px]] [[Foragers' Camp]]||-28% impatience growth speed
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 15||15||[[File:Icon MetaResource FoodStockpiles.png|24px]] 120 + [[File:Icon MetaResource Artifact.png|24px]] 30||[[File:Icon MetaResource FoodStockpiles.png|24px]] 812 + [[File:Icon MetaResource Machinery.png|24px]] 30 + [[File:Icon MetaResource Artifact.png|24px]] 60||<span title="You gain +30s of time after reaching maximum Impatience to try and save your settlement.">🛈 Grace Period Upgrade</span>: +30||-30% impatience growth speed
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 16||16||[[File:Icon MetaResource FoodStockpiles.png|24px]] 130 + [[File:Icon MetaResource Machinery.png|24px]] 30 + [[File:Icon MetaResource Artifact.png|24px]] 30||[[File:Icon MetaResource FoodStockpiles.png|24px]] 942 + [[File:Icon MetaResource Machinery.png|24px]] 60 + [[File:Icon MetaResource Artifact.png|24px]] 90||<span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Trappers' Camp">🛈 Embarkation</span>: [[File:Trapper%27s_Camp_icon.png|24px]] [[Trappers' Camp]]||-32% impatience growth speed
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 17||17||[[File:Icon MetaResource FoodStockpiles.png|24px]] 144 + [[File:Icon MetaResource Machinery.png|24px]] 40||[[File:Icon MetaResource FoodStockpiles.png|24px]] 1086 + [[File:Icon MetaResource Machinery.png|24px]] 100 + [[File:Icon MetaResource Artifact.png|24px]] 90||<span title="You gain +30s of time after reaching maximum Impatience to try and save your settlement.">🛈 Grace Period Upgrade</span>: +30||-34% impatience growth speed
+
+|-style="background:#FFE5B4"
+|Obsidian Archive 18||18||[[File:Icon MetaResource FoodStockpiles.png|24px]] 156||[[File:Icon MetaResource FoodStockpiles.png|24px]] 1242 + [[File:Icon MetaResource Machinery.png|24px]] 100 + [[File:Icon MetaResource Artifact.png|24px]] 90||<span title="You gain +30s of time after reaching maximum Impatience to try and save your settlement.">🛈 Grace Period Upgrade</span>: +30||-36% impatience growth speed
+
+|-style="background:#C4E1FF"
+|Pioneers' Gate 01||03||[[File:Icon MetaResource FoodStockpiles.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 12||<span title="You gain +1 Embarkation Points to spend on resources and bonuses before starting a new settlement.">🛈 Embarkation Points</span>: +1||+2% walking speed
+
+|-style="background:#C4E1FF"
+|Pioneers' Gate 02||05||[[File:Icon MetaResource FoodStockpiles.png|24px]] 24||[[File:Icon MetaResource FoodStockpiles.png|24px]] 36||<span title="You gain +1 Embarkation Points to spend on resources and bonuses before starting a new settlement.">🛈 Embarkation Points</span>: +1||+4% walking speed
+
+|-style="background:#C4E1FF"
+|Pioneers' Gate 03||06||[[File:Icon MetaResource FoodStockpiles.png|24px]] 36||[[File:Icon MetaResource FoodStockpiles.png|24px]] 72||<span title="Embarkation Bonuses you choose before starting a new settlement have 20% more resources.">🛈 Embarkation Goods</span>: +20%||+6% walking speed
+
+|-style="background:#C4E1FF"
+|Pioneers' Gate 04||07||[[File:Icon MetaResource FoodStockpiles.png|24px]] 36 + [[File:Icon MetaResource Artifact.png|24px]] 6||[[File:Icon MetaResource FoodStockpiles.png|24px]] 108 + [[File:Icon MetaResource Artifact.png|24px]] 6||<span title="You gain +1 Embarkation Points to spend on resources and bonuses before starting a new settlement.">🛈 Embarkation Points</span>: +1||+8% walking speed
+
+|-style="background:#C4E1FF"
+|Pioneers' Gate 05||08||[[File:Icon MetaResource FoodStockpiles.png|24px]] 48 + [[File:Icon MetaResource Artifact.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 156 + [[File:Icon MetaResource Artifact.png|24px]] 18||<span title="All towns unveil more of the World Map. You can see more of the World Map at the beginning of a cycle.">🛈 Town Vision Range</span>: +1||+10% walking speed
+
+|-style="background:#C4E1FF"
+|Pioneers' Gate 06||09||[[File:Icon MetaResource FoodStockpiles.png|24px]] 60 + [[File:Icon MetaResource Machinery.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 216 + [[File:Icon MetaResource Machinery.png|24px]] 12 + [[File:Icon MetaResource Artifact.png|24px]] 18||<span title="You gain +1 Embarkation Points to spend on resources and bonuses before starting a new settlement.">🛈 Embarkation Points</span>: +1||+12% walking speed
+
+|-style="background:#C4E1FF"
+|Pioneers' Gate 07||10||[[File:Icon MetaResource FoodStockpiles.png|24px]] 60 + [[File:Icon MetaResource Artifact.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 276 + [[File:Icon MetaResource Machinery.png|24px]] 12 + [[File:Icon MetaResource Artifact.png|24px]] 30||<span title="You gain +1 Embarkation Points to spend on resources and bonuses before starting a new settlement.">🛈 Embarkation Points</span>: +1||+14% walking speed
+
+|-style="background:#C4E1FF"
+|Pioneers' Gate 08||12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 84 + [[File:Icon MetaResource Machinery.png|24px]] 12 + [[File:Icon MetaResource Artifact.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 360 + [[File:Icon MetaResource Machinery.png|24px]] 24 + [[File:Icon MetaResource Artifact.png|24px]] 42||<span title="Unlocks the Starting Ability of the species: Foxes. Reveals the location of {0} of the nearest geysers. Starting Abilities are applied immediately after a species joins your town for the first time.">🛈 Starting Ability</span>: Foxes||+16% walking speed
+
+|-style="background:#C4E1FF"
+|Pioneers' Gate 09||14||[[File:Icon MetaResource FoodStockpiles.png|24px]] 108 + [[File:Icon MetaResource Machinery.png|24px]] 24||[[File:Icon MetaResource FoodStockpiles.png|24px]] 468 + [[File:Icon MetaResource Machinery.png|24px]] 48 + [[File:Icon MetaResource Artifact.png|24px]] 42||<span title="You can see more of the World Map at the beginning of a cycle, and you can venture one field further.">🛈 Embarkation Range</span>: +1||+18% walking speed
+
+|-style="background:#C4E1FF"
+|Pioneers' Gate 10||15||[[File:Icon MetaResource FoodStockpiles.png|24px]] 120||[[File:Icon MetaResource FoodStockpiles.png|24px]] 588 + [[File:Icon MetaResource Machinery.png|24px]] 48 + [[File:Icon MetaResource Artifact.png|24px]] 42||<span title="You gain +1 Embarkation Points to spend on resources and bonuses before starting a new settlement.">🛈 Embarkation Points</span>: +1||+20% walking speed
+
+|-style="background:#C4E1FF"
+|Pioneers' Gate 11||16||[[File:Icon MetaResource FoodStockpiles.png|24px]] 132||[[File:Icon MetaResource FoodStockpiles.png|24px]] 720 + [[File:Icon MetaResource Machinery.png|24px]] 48 + [[File:Icon MetaResource Artifact.png|24px]] 42||<span title="You gain +1 Embarkation Points to spend on resources and bonuses before starting a new settlement.">🛈 Embarkation Points</span>: +1||+22% walking speed
+
+|-style="background:#C4E1FF"
+|Pioneers' Gate 12||17||[[File:Icon MetaResource FoodStockpiles.png|24px]] 144 + [[File:Icon MetaResource Machinery.png|24px]] 40||[[File:Icon MetaResource FoodStockpiles.png|24px]] 864 + [[File:Icon MetaResource Machinery.png|24px]] 88 + [[File:Icon MetaResource Artifact.png|24px]] 42||<span title="Unlocks the ability to upgrade Fox Houses.">🛈 House Upgrades</span>: Foxes||+24% walking speed
+
+|-style="background:#FFF5E1"
+|Vanguard Spire 01||04||[[File:Icon MetaResource FoodStockpiles.png|24px]] 24 + [[File:Icon MetaResource Machinery.png|24px]] 3||[[File:Icon MetaResource FoodStockpiles.png|24px]] 24 + [[File:Icon MetaResource Machinery.png|24px]] 3||<span title="Adds a blueprint to your pool of essential buildings: Human House. Building specifically made for Humans. Has to be built near a Hearth. Can house {0} residents.">🛈 Building</span>: [[Human House]]||+1 charges in resource deposits
+
+|-style="background:#FFF5E1"
+|Vanguard Spire 02||05||[[File:Icon MetaResource FoodStockpiles.png|24px]] 36 + [[File:Icon MetaResource Machinery.png|24px]] 6||[[File:Icon MetaResource FoodStockpiles.png|24px]] 60 + [[File:Icon MetaResource Machinery.png|24px]] 9||<span title="Adds a blueprint to your pool of essential buildings: Beaver House. Building specifically made for Beavers. Has to be built near a Hearth. Can house {0} residents.">🛈 Building</span>: [[Beaver House]]||+2 charges in resource deposits
+
+|-style="background:#FFF5E1"
+|Vanguard Spire 03||06||[[File:Icon MetaResource FoodStockpiles.png|24px]] 36 + [[File:Icon MetaResource Machinery.png|24px]] 6||[[File:Icon MetaResource FoodStockpiles.png|24px]] 96 + [[File:Icon MetaResource Machinery.png|24px]] 15||<span title="Adds a blueprint to your pool of essential buildings: Lizard House. Building specifically made for Lizards. Has to be built near a Hearth. Can house {0} residents.">🛈 Building</span>: [[Lizard House]]||+3 charges in resource deposits
+
+|-style="background:#FFF5E1"
+|Vanguard Spire 04||07||[[File:Icon MetaResource FoodStockpiles.png|24px]] 48 + [[File:Icon MetaResource Machinery.png|24px]] 6||[[File:Icon MetaResource FoodStockpiles.png|24px]] 144 + [[File:Icon MetaResource Machinery.png|24px]] 21||<span title="Adds a blueprint to your pool of essential buildings: Harpy House. Building specifically made for Harpies. Has to be built near a Hearth. Can house {0} residents.">🛈 Building</span>: [[Harpy House]]||+4 charges in resource deposits
+
+|-style="background:#FFF5E1"
+|Vanguard Spire 05||10||[[File:Icon MetaResource FoodStockpiles.png|24px]] 48 + [[File:Icon MetaResource Machinery.png|24px]] 12||[[File:Icon MetaResource FoodStockpiles.png|24px]] 192 + [[File:Icon MetaResource Machinery.png|24px]] 33||<span title="Adds a blueprint to your pool of essential buildings: Fox House. Building specifically made for Foxes. Has to be built near a Hearth. Can house {0} residents.">🛈 Building</span>: [[Fox House]]||+5 charges in resource deposits
+
+|-style="background:#FFF5E1"
+|Vanguard Spire 06||11||[[File:Icon MetaResource FoodStockpiles.png|24px]] 72||[[File:Icon MetaResource FoodStockpiles.png|24px]] 264 + [[File:Icon MetaResource Machinery.png|24px]] 33||<span title="Unlocks the Starting Ability of the species: Harpies. Gain {1} {0}. Starting Abilities are applied immediately after a species joins your town for the first time.">🛈 Starting Ability</span>: Harpies||+6 charges in resource deposits
+
+|-style="background:#FFF5E1"
+|Vanguard Spire 07||13||[[File:Icon MetaResource FoodStockpiles.png|24px]] 96||[[File:Icon MetaResource FoodStockpiles.png|24px]] 360 + [[File:Icon MetaResource Machinery.png|24px]] 33||<span title="Newcomers arriving in your settlement will bring more resources with them.">🛈 Newcomer Goods</span>: +20%||+7 charges in resource deposits
+
+|-style="background:#FFF5E1"
+|Vanguard Spire 08||15||[[File:Icon MetaResource FoodStockpiles.png|24px]] 120 + [[File:Icon MetaResource Machinery.png|24px]] 30||[[File:Icon MetaResource FoodStockpiles.png|24px]] 480 + [[File:Icon MetaResource Machinery.png|24px]] 63||<span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Ale Delivery Line">🛈 Embarkation</span>: [[File:Ale.png|24px]] [[Ale Delivery Line]]<br/><span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Training Gear Delivery Line">🛈 Embarkation</span>: [[File:TrainingGear.png|24px]] [[Training Gear Delivery Line]]||+8 charges in resource deposits
+
+|-style="background:#FFF5E1"
+|Vanguard Spire 09||16||[[File:Icon MetaResource FoodStockpiles.png|24px]] 132 + [[File:Icon MetaResource Artifact.png|24px]] 30||[[File:Icon MetaResource FoodStockpiles.png|24px]] 612 + [[File:Icon MetaResource Machinery.png|24px]] 63 + [[File:Icon MetaResource Artifact.png|24px]] 30||<span title="You can set up trade routes with Vanguard representatives in the Smoldering City.">🛈 Faction</span>: Vanguard of the Stolen Keys||+9 charges in resource deposits
+
+|-style="background:#FFF5E1"
+|Vanguard Spire 10||17||[[File:Icon MetaResource FoodStockpiles.png|24px]] 144 + [[File:Icon MetaResource Artifact.png|24px]] 40||[[File:Icon MetaResource FoodStockpiles.png|24px]] 756 + [[File:Icon MetaResource Machinery.png|24px]] 63 + [[File:Icon MetaResource Artifact.png|24px]] 70||<span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Wine Delivery Line">🛈 Embarkation</span>: [[File:Wine.png|24px]] [[Wine Delivery Line]]<br/><span title="You gain a new Embarkation Bonus to choose from when starting a settlement: Tea Delivery Line">🛈 Embarkation</span>: [[File:Tea.png|24px]] [[Tea Delivery Line]]||+10 charges in resource deposits
+
+|-style="background:#FFF5E1"
+|Vanguard Spire 11||18||[[File:Icon MetaResource FoodStockpiles.png|24px]] 156 + [[File:Icon MetaResource Artifact.png|24px]] 40||[[File:Icon MetaResource FoodStockpiles.png|24px]] 912 + [[File:Icon MetaResource Machinery.png|24px]] 63 + [[File:Icon MetaResource Artifact.png|24px]] 110||<span title="Unlocks the ability to upgrade Harpy Houses.">🛈 House Upgrades</span>: Harpies||+11 charges in resource deposits
+
+|}
+
+* Total number of upgrades: 85
+* Total cost of upgrades: [[File:Icon MetaResource FoodStockpiles.png|24px]] 6334 Food + [[File:Icon MetaResource Machinery.png|24px]] 526 Machinery + [[File:Icon MetaResource Artifact.png|24px]] 480 Artifacts

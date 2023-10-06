@@ -1,0 +1,8 @@
+[[File:Coppervein Tree.png|thumb|Coppervein Trees found in the Scarlet Orchard.]]
+{| class="wikitable"
+|+ Coppervein Trees
+|-
+|-
+! Biome !! Resources !! Gatherer Camp !! Charges !! Description
+|-
+| Scarlet Orchard || [[File:Wood.png|25px]] Wood (60%)<br>[[File:CopperOre.png|25px]] Copper Ore (10%)<br>[[File:Pigment.png|25px]] Pigment (5%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (5%) || [[File:Woodcutters_Camp_icon.png|25px]] Woodcutter Camp|| 2 || A scarlet tree covered in enormous thorns.

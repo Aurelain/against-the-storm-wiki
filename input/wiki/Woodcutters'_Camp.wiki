@@ -1,0 +1,11 @@
+[[File:Woodcutters Camp icon.png|thumb|Woodcutters' Camp]]
+{| class="wikitable
+|+ 
+==== Woodcutters' Camp ==== 
+|-
+|-
+|+
+! Cost to Build !! Gathers !! Specialisation !! Race !! Essential !! Upgrades 
+|-
+| 2  [[File:Parts.png|25px]]  Parts || Wood || [[File:Icon_Spec_Wood_64x64.png|25px]] Woodworking || [[File:Beaver_circle.png|25px]] Beavers || Yes || No
+|}

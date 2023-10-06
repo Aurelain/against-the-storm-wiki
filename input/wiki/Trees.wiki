@@ -1,0 +1,62 @@
+= Trees =
+
+''Main article: [[The Forest#Trees]]''
+
+Trees can be harvested by [[File:Woodcutters_Camp_icon.png|25px]] Woodcutters' Camp buildings to give [[File:Wood.png|25px]] Wood. They may also grant additional resources depending on the biome.
+{| class="wikitable sortable"
+! Tree !! Biome !! Additional resources !! Description !! Image
+|-
+| '''Abyssal Tree''' 
+| Sealed Forest 
+| [[File:Meat.png|25px]] Meat (10%)<br>[[File:SeaMarrow.png|25px]] Sea Marrow (10%)<br>[[File:Leather.png|25px]] Leather (5%)
+| A bizarre, writhing growth... is this even really a tree?
+| [[File:Abyssal Trees.png|150px|centre|thumb|Abyssal Trees]]
+|-
+| '''Coppervein Tree''' 
+| Scarlet Orchard 
+| [[File:Wood.png|25px]] Wood (60%)<br>[[File:CopperOre.png|25px]] Copper Ore (10%)<br>[[File:Pigment.png|25px]] Pigment (5%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (5%)
+| A scarlet tree covered in enormous thorns.
+| [[File:Coppervein Tree.png|150px|centre|thumb|Coppervein Trees]]
+|-
+| '''Crimsonreach Tree''' 
+| Coral Forest 
+| [[File:Wood.png|25px]] Wood <br>[[File:Stone.png|25px]] Stone (40%)<br>[[File:Incense.png|25px]] Incense (20%)
+| A mineralized coral tree.
+| [[File:Crimsonreach Tree.png|150px|centre|thumb|Crimsonreach Trees]]
+|-
+| '''Dying Tree'''
+| Cursed Royal Woodlands
+| [[File:Wood.png|25px]] Wood (60%)<br>[[File:Insects.png|25px]] Insects (10%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (10%)<br>[[File:Roots.png|25px]] Roots (10%)
+|A bare, rotting tree infested with grubs.
+| [[File:Dying Tree.png|150px|centre|thumb|Dying Trees]]
+|-
+| '''Lush Tree''' 
+| Royal Woodlands 
+| [[File:Wood.png|25px]] Wood (100%)<br>[[File:Resin.png|25px]] Resin (15%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (10%)<br>[[File:Eggs.png|25px]] Eggs (5%)
+| A perfect source of wood.
+| [[File:Lush Trees.png|150px|centre|thumb|Lush Trees]]
+|-
+| '''Mushwood Tree''' 
+| The Marshlands 
+| [[File:Wood.png|25px]] Wood <br>[[File:Mushrooms.png|25px]] Mushrooms (15%)<br>[[File:Leather.png|25px]] Leather (5%)
+| A giant fungal tree covered in a leathery bark.
+| [[File:Mushwood Tree.png|150px|centre|thumb|Mushwood Trees]]
+|-
+| '''Musselsprout Tree''' 
+| Coral Forest 
+| [[File:Wood.png|25px]] Wood <br>[[File:Meat.png|25px]] Meat (40%)<br>[[File:CrystalizedDew.png|25px]] Crystalized Dew (20%)
+| The unusually hard bark conceals soft, fleshy tissue.
+| [[File:Musselsprout Tree.png|150px|centre|thumb|Musselsprout Trees]]
+|-
+| '''Overgrown Abyssal Tree'''
+| Sealed Forest
+| [[File:Meat.png|25px]] Meat (10%)<br>[[File:SeaMarrow.png|25px]] Sea Marrow (10%)<br>[[File:Leather.png|25px]] Leather (10%)
+| A giant, bizarre growth... it's bigger than the other trees in the area.
+| [[File:Giant Abyssal Tree.png|150px|centre|thumb|Overgrown Abyssal Tree]]
+|-
+| '''Plateleaf Tree''' 
+| Coral Forest 
+| [[File:Wood.png|25px]] Wood <br>[[File:PlantFiber.png|25px]] Plant Fiber (30%)
+| A species of plant rarely seen above water.
+| [[File:Plateleaf Tree.png|150px|centre|thumb|Plateleaf Trees]]
+|}

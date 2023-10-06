@@ -1,0 +1,8 @@
+[[File:Musselsprout Tree.png|thumb|Musselsprout Tree]]
+{| class="wikitable"
+|+ Musselsprout Tree
+|-
+|-
+! Biome !! Resources !! Gatherer Camp !! Charges !! Description
+|-
+| Coral Forest || [[File:Wood.png|25px]] Wood <br>[[File:Meat.png|25px]] Meat (40%)<br>[[File:CrystalizedDew.png|25px]] Crystalized Dew (20%) || [[File:Woodcutters_Camp_icon.png|25px]] Woodcutter Camp|| 2 || The unusually hard bark conceals soft, fleshy tissue.

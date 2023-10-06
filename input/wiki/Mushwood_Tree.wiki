@@ -1,0 +1,8 @@
+[[File:Mushwood Tree.png|thumb|Mushwood Tree]]
+{| class="wikitable"
+|+ Mushwood Tree
+|-
+|-
+! Biome !! Resources !! Gatherer Camp !! Charges !! Description
+|-
+| Marshland || [[File:Mushrooms.png|25px]] Mushrooms (15%)<br>[[File:Leather.png|25px]] Leather (5%) || [[File:Woodcutters_Camp_icon.png|25px]] Woodcutter Camp|| 2 || A giant fungal tree covered in a leathery bark.

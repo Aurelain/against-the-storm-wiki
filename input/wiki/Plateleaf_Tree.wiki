@@ -1,0 +1,9 @@
+[[File:Plateleaf Tree.png|thumb|Plateleaf Tree found in the Coral Forest. A species of plant rarely seen above water.]]
+
+{| class="wikitable"
+|+ Plateleaf Tree
+|-
+|-
+! Biome !! Resources !! Gatherer Camp !! Charges !! Description
+|-
+| Coral Forest ||[[File:Wood.png|25px]] Wood <br> [[File:PlantFiber.png|25px]] Plant Fiber (30%) || [[File:Woodcutters_Camp_icon.png|25px]] Woodcutter Camp|| 2 || A species of plant rarely seen above water.

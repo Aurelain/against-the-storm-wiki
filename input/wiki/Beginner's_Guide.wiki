@@ -133,11 +133,17 @@ Resolve is affected by:
 
 == Standard Opening ==
 
-The writeup below aims to provide a skeleton of meta strategy for the first year of the game. While players are encouraged to develop their own strategies and adjust them to modifiers/cornerstones/available resources/etc, this is a good reference to learn what you should be doing at beginning of year. Last updated for version 0.37.3 <b>VERY OUT OF DATE (Nov 2022 Ver.)</B>
+The writeup below aims to provide a skeleton of meta strategy for the first year of the game. While players are encouraged to develop their own strategies and adjust them to modifiers/cornerstones/available resources/etc, this is a good reference to learn what you should be doing at beginning of year. Last Updated: Sealed Forest Update (Aug 31, 2023) <i>by a noob player, for all that's good and bad about that...</i>
 
 * Disable coal consumption (so that it is available to solve first event)
-** Disable food consumption. This is slightly more advanced strategy, but allowing your villagers to starve a bit during first year is a good way to save resources. Reenable consumption once the next hunger stack pushes you to negative resolve
-* Place a Harpy in the Hearth, a Lizard if there is no Harpy available 
+* Disable food consumption.
+** Specifically disable the raw foods that can easily be processed (e.g. meat/insects into Jerky)
+** This is slightly more advanced strategy, but allowing your villagers to starve a bit during first year is a good way to save resources. Reenable consumption once the next hunger stack pushes you to negative resolve
+* Make your Main Hearth Firekeeper selection
+** Harpy provides a very strong +5 carry global bonus (probably best overall choice)
+** Beaver saves on fuel burned at Hearth (can be good at start, when wood is premium, and before other fuels are available)
+** Human will slow down Impatience gain (good for mid/late game if you need to buy more time)
+** Lizard gives +1 Global resolve (really only good if that +1 keeps you above 0 or breaks a resolve threshold to blue)
 * Build two Woodcutters' Camps and start digging in direction of dangerous glade; do not open it yet 
 * Depending on the resources, orders and blueprints you see do all/some of the following. Note that as you become more experienced with the game, you might want to delay your blueprint/order picks, but don't worry about that for now 
 ** Build a basic road network
@@ -148,3 +154,39 @@ The writeup below aims to provide a skeleton of meta strategy for the first year
 * Build a [[Trading Post]] during the first storm
 **Don't build it too early, your goal is to be able to use first trader to solve first event 
 * At the beginning of Year 2 open the first dangerous glade
+
+== High Level Themes ==
+* Reputation/Impatience and Hostility/Resolve
+** Each pair is directly related to each other: 
+*** Reputation Wins Games; Impatience Loses Games, and gaining Reputation directly reduces Impatience.
+*** Hostility lowers Resolve, and the reduction is multiplied during the storm.
+** There are also secondary relationships among them:
+*** Impatience reduces Hostility
+*** High Resolve (blue) earns Reputation
+* Timing/Tempo and Expansion/Production
+** How this relates to game length and expansion:
+*** Time in game (years) increases Hostility
+*** Expanding into Glades also increases Hostility
+*** Expanding opens up more resource nodes (read: enables more production)
+*** Increasing Production allows for more complex food and services (read: provides Resolve boosts, which counters loss from Hostility)
+** The key is to strike this balance for each specific run.  Is there a fast win condition, where fast-expanding works?  Will the game be drawn out, in which case Hostility might become a problem later, so maybe safer to not expand too much? etc.
+
+== Basic Strategies ==
+# Secure Food (Complex Food Production)
+#* Raw Food is very inefficient.  To support your growing population, you'll want to process your raw food into some type of complex food.  Jerky is one of the easiest to make (just meat/insects and fuel).  Biscuits are also quite good, but has a more  complex production chain (you need to produce/procure flour first).  Check to make sure your species will eat whatever type of food you choose (can use Consumption Tab).
+# Secure Efficient Core Recipes
+#* The [[Crude Workstation]] is also inefficient.  Ideally, your first few building choices would include improvements to producing Planks, Fabric, and Bricks, as you need these to build the rest of your settlement.
+#* There's an art to choosing between a more efficient core producer (of say, Planks) compared to a new recipe (e.g. Jerky).  Usually having access to a new recipe (that is useable) has more value.
+# Secure Fuel
+#* Similarly, wood is very inefficient to burn at the Hearth, and critical for your building expansion, so try moving to Oil/Coal or Sea Marrow (if nodes found)
+# Determine Need for Services (Resolve Boosts)
+#* This is trickier, as you need both the service-related item (e.g. Ale) <b>and</b> the building to provide that service (e.g. Tavern)
+#** You can buy the material from traders, so you may choose to pick the service building before knowing you can produce the item.
+#** The service buildings also provide boosts (outside providing any services) simply when they are staffed.  Some boosts are worth having even without providing the service at all, so it's always worth checking the boosts to see if it matches your run.
+# Find Win Condition
+#* Don't rely only on Orders.  As the games get longer, you won't have enough Orders to clear, and often some Orders are going to be nearly impossible given your current run.
+#* Glade Events can be a good source of Reputation, but you need the right materials on-hand to solve them
+#* Caches in Glades can add up to a lot of Reputation (and Amber), but you need a source of Tools to open them
+#* Resolve grants a lot of Reputation, especially mid/late game where your population is higher (so the rate multiplier is higher).  You'll need Complex Foods and Services to boost resolve to this level.
+# Redeem Orders Selectively
+#* High Impatience is actually a good thing (as it reduces Hostility) right up until you lose from it.  Delaying the redemption of completed orders allows you to keep Impatience up while having an instant way to lower it when necessary.  Just check the rewards to make sure you're not missing critical resources or perks.

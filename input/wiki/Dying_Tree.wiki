@@ -1,0 +1,8 @@
+[[File:Dying Tree.png|thumb|Dying Tree]]
+{| class="wikitable"
+|+ Dying Tree
+|-
+|-
+! Biome !! Resources !! Gatherer Camp !! Charges !! Description
+|-
+| Cursed Royal Woodland || [[File:Wood.png|25px]] Wood (60%)<br>[[File:Insects.png|25px]] Insects (10%) <br> [[File:PlantFiber.png|25px]] Plant Fiber (10%)<br>[[File:Roots.png|25px]] Roots (10%)<br> || [[File:Woodcutters_Camp_icon.png|25px]] Woodcutter Camp|| 2 || A bare, rotting tree infested with grubs.

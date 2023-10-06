@@ -1,0 +1,8 @@
+[[File:Giant Abyssal Tree.png|thumb|Overgrown Abyssal Tree]]
+{| class="wikitable"
+|+ Giant Abyssal Tree
+|-
+|-
+! Biome !! Resources !! Gatherer Camp !! Charges !! Description
+|-
+| Sealed Forest|| [[File:Meat.png|25px]] Meat (10%)<br>[[File:SeaMarrow.png|25px]] Sea Marrow (10%)<br>[[File:Leather.png|25px]] Leather (10%) || [[File:Woodcutters_Camp_icon.png|25px]] Woodcutter Camp|| 2 || A giant, bizarre growth... it's bigger than the other trees in the area.

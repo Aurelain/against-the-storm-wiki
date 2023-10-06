@@ -1,0 +1,8 @@
+[[File:Lush Trees.png|thumb]]
+{| class="wikitable"
+|+ Lush Tree
+|-
+|-
+! Biome !! Resources !! Gatherer Camp !! Charges !! Description
+|-
+| Royal Woodlands || [[File:Wood.png|25px]] Wood (100%)<br>[[File:Resin.png|25px]] Resin (15%)<br>[[File:PlantFiber.png|25px]] Plant Fiber (10%)<br>[[File:Eggs.png|25px]] Eggs (5%) || [[File:Woodcutters_Camp_icon.png|25px]] Woodcutter Camp|| 2 || A perfect source of wood.
